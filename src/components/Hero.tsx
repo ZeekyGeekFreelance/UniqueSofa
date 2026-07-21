@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, useCallback } from "react";
 import { Link } from "wouter";
 import { useSiteContent } from "../cms/SiteContentProvider";
 import { useSwipe } from "../hooks/useSwipe";
@@ -40,10 +40,10 @@ function FitText({ text }: { text: string }) {
      read as one stroke-style text, not separate lines.               */
   if (isMobile) {
     const layers = [
-      { opacity: 0.90, blur: 0,   mt: "0"           },   // primary — crisp
-      { opacity: 0.45, blur: 0.8, mt: "-0.38em"     },   // echo 1
-      { opacity: 0.20, blur: 1.5, mt: "-0.38em"     },   // echo 2
-      { opacity: 0.08, blur: 2.5, mt: "-0.38em"     },   // ghost
+      { opacity: 0.90, blur: 0, mt: "0" },   // primary — crisp
+      { opacity: 0.45, blur: 0.8, mt: "-0.38em" },   // echo 1
+      { opacity: 0.20, blur: 1.5, mt: "-0.38em" },   // echo 2
+      { opacity: 0.08, blur: 2.5, mt: "-0.38em" },   // ghost
     ];
     return (
       <div style={{ width: "100%", overflow: "hidden", display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -51,20 +51,20 @@ function FitText({ text }: { text: string }) {
           <span
             key={i}
             style={{
-              display:         "block",
-              fontFamily:      "var(--font-display)",
-              fontWeight:      900,
-              fontSize:        "13vw",
-              lineHeight:      1,
-              letterSpacing:   "0.08em",
-              color:           `rgba(255,255,255,${l.opacity})`,
-              whiteSpace:      "nowrap",
+              display: "block",
+              fontFamily: "var(--font-display)",
+              fontWeight: 900,
+              fontSize: "13vw",
+              lineHeight: 1,
+              letterSpacing: "0.08em",
+              color: `rgba(255,255,255,${l.opacity})`,
+              whiteSpace: "nowrap",
               transformOrigin: "center center",
-              transform:       `scaleX(${scale})`,
-              filter:          l.blur > 0 ? `blur(${l.blur}px)` : "none",
-              marginTop:       l.mt,
-              animation:       `wm-in ${400 + i * 60}ms ease both`,
-              animationDelay:  `${i * 40}ms`,
+              transform: `scaleX(${scale})`,
+              filter: l.blur > 0 ? `blur(${l.blur}px)` : "none",
+              marginTop: l.mt,
+              animation: `wm-in ${400 + i * 60}ms ease both`,
+              animationDelay: `${i * 40}ms`,
             }}
           >
             {text}
@@ -80,18 +80,18 @@ function FitText({ text }: { text: string }) {
       <span
         ref={spanRef}
         style={{
-          display:         "inline-block",
-          fontFamily:      "var(--font-display)",
-          fontWeight:      900,
-          fontSize:        "13vw",
-          lineHeight:      1.15,
-          paddingBottom:   "0.18em",
-          letterSpacing:   "-0.03em",
-          color:           "rgba(255,255,255,0.88)",
-          whiteSpace:      "nowrap",
+          display: "inline-block",
+          fontFamily: "var(--font-display)",
+          fontWeight: 900,
+          fontSize: "13vw",
+          lineHeight: 1.15,
+          paddingBottom: "0.18em",
+          letterSpacing: "-0.03em",
+          color: "rgba(255,255,255,0.88)",
+          whiteSpace: "nowrap",
           transformOrigin: "center center",
-          transform:       `scaleX(${scale})`,
-          animation:       "wm-in 400ms ease both",
+          transform: `scaleX(${scale})`,
+          animation: "wm-in 400ms ease both",
         }}
       >
         {text}
@@ -106,20 +106,19 @@ export function Hero() {
 
   const happyCustomersCount = copy.home.heroHappyCustomersCount || "5M+";
   const happyCustomersLabel = copy.home.heroHappyCustomersLabel || "Happy Customers";
-  const newCollectionLabel  = copy.home.heroFloatingCardTitle   || "New Collection";
+  const newCollectionLabel = copy.home.heroFloatingCardTitle || "New Collection";
   // Always use the local asset — avoids flicker while Sanity URL loads
-  const newCollectionImage  = "/heroChair.png";
+  const newCollectionImage = "/heroChair.png";
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const [prevIndex,   setPrevIndex]   = useState<number | null>(null);
+  const [prevIndex, setPrevIndex] = useState<number | null>(null);
   const [transitioning, setTransitioning] = useState(false);
   const activeItem = heroMedia[activeIndex] ?? heroMedia[0];
 
   const cardRef = useRef<HTMLDivElement>(null);
-  const imgRef  = useRef<HTMLImageElement>(null);
-  const cur     = useRef({ rx: 0, ry: 0 });
-  const tgt     = useRef({ rx: 0, ry: 0 });
-  const raf     = useRef(0);
+  const cur = useRef({ rx: 0, ry: 0 });
+  const tgt = useRef({ rx: 0, ry: 0 });
+  const raf = useRef(0);
 
   // Native mouse events — don't conflict with swipe handlers
   useEffect(() => {
@@ -127,17 +126,17 @@ export function Hero() {
     if (!card) return;
 
     const onMove = (e: MouseEvent) => {
-      const r  = card.getBoundingClientRect();
-      const nx = (e.clientX - r.left) / r.width  * 2 - 1;
-      const ny = (e.clientY - r.top)  / r.height * 2 - 1;
+      const r = card.getBoundingClientRect();
+      const nx = (e.clientX - r.left) / r.width * 2 - 1;
+      const ny = (e.clientY - r.top) / r.height * 2 - 1;
       tgt.current = { rx: -ny * 9, ry: nx * 13 };
     };
     const onLeave = () => { tgt.current = { rx: 0, ry: 0 }; };
 
-    card.addEventListener("mousemove",  onMove,  { passive: true });
+    card.addEventListener("mousemove", onMove, { passive: true });
     card.addEventListener("mouseleave", onLeave, { passive: true });
     return () => {
-      card.removeEventListener("mousemove",  onMove);
+      card.removeEventListener("mousemove", onMove);
       card.removeEventListener("mouseleave", onLeave);
     };
   }, []);
@@ -148,9 +147,9 @@ export function Hero() {
     const tick = () => {
       cur.current.rx = lerp(cur.current.rx, tgt.current.rx, 0.08);
       cur.current.ry = lerp(cur.current.ry, tgt.current.ry, 0.08);
-      if (imgRef.current) {
-        imgRef.current.style.transform =
-          `perspective(1000px) rotateX(${cur.current.rx.toFixed(3)}deg) rotateY(${cur.current.ry.toFixed(3)}deg) scale3d(1.03,1.03,1.03)`;
+      if (cardRef.current) {
+        cardRef.current.style.setProperty('--tilt-x', `${cur.current.rx.toFixed(3)}deg`);
+        cardRef.current.style.setProperty('--tilt-y', `${cur.current.ry.toFixed(3)}deg`);
       }
       raf.current = requestAnimationFrame(tick);
     };
@@ -158,28 +157,28 @@ export function Hero() {
     return () => cancelAnimationFrame(raf.current);
   }, []);
 
+  const goTo = useCallback((i: number) => {
+    const next = (i + heroMedia.length) % heroMedia.length;
+    if (next === activeIndex || transitioning) return;
+    setPrevIndex(activeIndex);
+    setActiveIndex(next);
+    setTransitioning(true);
+    // After spin animation, cleanup prevIndex
+    window.setTimeout(() => {
+      setTransitioning(false);
+      setPrevIndex(null);
+    }, 600);
+  }, [activeIndex, transitioning, heroMedia.length]);
+
   // Slide auto-play
   useEffect(() => {
     if (heroMedia.length <= 1) return;
     const t = window.setInterval(
-      () => setActiveIndex((c) => (c + 1) % heroMedia.length),
+      () => goTo(activeIndex + 1),
       5000,
     );
     return () => window.clearInterval(t);
-  }, [heroMedia.length]);
-
-  const goTo = (i: number) => {
-    const next = (i + heroMedia.length) % heroMedia.length;
-    if (next === activeIndex || transitioning) return;
-    setPrevIndex(activeIndex);
-    setTransitioning(true);
-    // After sketch-out animation, swap the slide
-    window.setTimeout(() => {
-      setActiveIndex(next);
-      setTransitioning(false);
-      setPrevIndex(null);
-    }, 420); // matches hero-sketch-out duration
-  };
+  }, [heroMedia.length, activeIndex, goTo]);
   const swipeHandlers = useSwipe(
     () => goTo(activeIndex + 1),
     () => goTo(activeIndex - 1),
@@ -191,7 +190,7 @@ export function Hero() {
     <div
       className="w-full pb-5"
       style={{
-        paddingLeft:  "clamp(0.5rem, 1.5vw, 1.25rem)",
+        paddingLeft: "clamp(0.5rem, 1.5vw, 1.25rem)",
         paddingRight: "clamp(0.5rem, 1.5vw, 1.25rem)",
       }}
     >
@@ -199,10 +198,10 @@ export function Hero() {
         ref={cardRef}
         className="relative w-full rounded-b-[1.75rem] sm:rounded-b-[2.25rem]"
         style={{
-          backgroundColor:     "#0d2319",
-          height:              "clamp(580px, 92vh, 900px)",
-          overflow:            "hidden",
-          borderTopLeftRadius:  0,
+          backgroundColor: "#0d2319",
+          height: "clamp(580px, 92vh, 900px)",
+          overflow: "hidden",
+          borderTopLeftRadius: 0,
           borderTopRightRadius: 0,
         }}
         {...swipeHandlers}
@@ -234,44 +233,52 @@ export function Hero() {
               src={heroMedia[prevIndex].image}
               alt=""
               aria-hidden="true"
+              className={`max-[780px]:!object-center ${
+                (heroMedia[prevIndex].image.includes("bed") || heroMedia[prevIndex].image.includes("sofa"))
+                  ? "max-[780px]:!max-w-[160%]"
+                  : ""
+              }`}
               style={{
-                position:        "absolute",
-                height:          "clamp(320px, 72vh, 820px)",
-                width:           "auto",
-                maxWidth:        "min(90%, 680px)",
-                objectFit:       "contain",
-                objectPosition:  "bottom center",
-                filter:          "drop-shadow(0 32px 72px rgba(0,0,0,0.75))",
-                pointerEvents:   "none",
-                marginBottom:    "-4.5%",
-                animation:       "hero-sketch-out 420ms var(--ease-out-expo) both",
+                position: "absolute",
+                height: "clamp(320px, 72vh, 820px)",
+                width: "auto",
+                maxWidth: "min(90%, 680px)",
+                objectFit: "contain",
+                objectPosition: "bottom center",
+                filter: "drop-shadow(0 32px 72px rgba(0,0,0,0.75))",
+                pointerEvents: "none",
+                marginBottom: "-4.5%",
+                animation: "hero-sketch-out 600ms var(--ease-out-expo) both",
               }}
+              loading="eager"
+              decoding="async"
             />
           )}
 
           {/* Active image — plays sketch-in animation */}
           <img
-            ref={imgRef}
             key={`in-${activeIndex}`}
             src={activeItem.image}
             alt={activeItem.title}
-            className="hero-chair-img block"
+            className={`hero-chair-img block max-[780px]:!object-center ${
+              (activeItem.image.includes("bed") || activeItem.image.includes("sofa"))
+                ? "max-[780px]:!max-w-[160%]"
+                : ""
+            }`}
             style={{
-              height:          "clamp(320px, 72vh, 820px)",
-              width:           "auto",
-              maxWidth:        "min(90%, 680px)",
-              objectFit:       "contain",
-              objectPosition:  "bottom center",
-              filter:          "drop-shadow(0 32px 72px rgba(0,0,0,0.75))",
-              willChange:      "transform",
-              transformStyle:  "preserve-3d",
+              height: "clamp(320px, 72vh, 820px)",
+              width: "auto",
+              maxWidth: "min(90%, 680px)",
+              objectFit: "contain",
+              objectPosition: "bottom center",
+              filter: "drop-shadow(0 32px 72px rgba(0,0,0,0.75))",
+              willChange: "transform",
+              transformStyle: "preserve-3d",
               transformOrigin: "50% 100%",
-              transform:       "perspective(1000px) rotateX(0deg) rotateY(0deg)",
-              pointerEvents:   "none",
-              marginBottom:    "-4.5%",
-              animation:       transitioning
-                ? "none"
-                : "hero-sketch-in 500ms var(--ease-out-expo) both",
+              transform: "perspective(1000px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) scale3d(1.03,1.03,1.03)",
+              pointerEvents: "none",
+              marginBottom: "-4.5%",
+              animation: "hero-sketch-in 600ms var(--ease-out-expo) both",
             }}
             loading="eager"
             decoding="async"
@@ -327,8 +334,8 @@ export function Hero() {
               <button key={i} type="button" onClick={() => goTo(i)} aria-label={`Slide ${i + 1}`}
                 className="rounded-full border-0 cursor-pointer transition-all duration-300"
                 style={{
-                  width:           i === activeIndex ? "1.4rem" : "0.36rem",
-                  height:          "0.36rem",
+                  width: i === activeIndex ? "1.4rem" : "0.36rem",
+                  height: "0.36rem",
                   backgroundColor: i === activeIndex ? "var(--accent)" : "rgba(255,255,255,0.3)",
                 }} />
             ))}
