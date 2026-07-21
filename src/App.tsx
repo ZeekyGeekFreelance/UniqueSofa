@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Route, Switch, useLocation } from "wouter";
+import { Analytics } from "@vercel/analytics/react";
 import { SiteContentProvider } from "./cms/SiteContentProvider";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
@@ -61,6 +62,7 @@ export default function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </SiteContentProvider>
   );
 }
