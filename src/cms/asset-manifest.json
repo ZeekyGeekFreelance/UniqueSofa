@@ -159,5 +159,40 @@
     "sanityAssetId": "image-d198e222a42ecce6ac3754193f8c7af292b45422-1024x1024-jpg",
     "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/d198e222a42ecce6ac3754193f8c7af292b45422-1024x1024.jpg",
     "filename": "hero-sofa.png"
+  },
+  "/catalogue/hero-chair-front.png": {
+    "publicPath": "/catalogue/hero-chair-front.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/hero-chair-front.png",
+    "sanityAssetId": "image-dc27cbbec9530026453a548c9e827ef0a3790182-900x1145-png",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/dc27cbbec9530026453a548c9e827ef0a3790182-900x1145.png",
+    "filename": "hero-chair-front.png"
+  },
+  "/catalogue/hero-chair-orange.png": {
+    "publicPath": "/catalogue/hero-chair-orange.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/hero-chair-orange.png",
+    "sanityAssetId": "image-623d7a892f865bf7bbe493437d76eda892b75f9d-871x928-png",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/623d7a892f865bf7bbe493437d76eda892b75f9d-871x928.png",
+    "filename": "hero-chair-orange.png"
+  },
+  "/bed.png": {
+    "publicPath": "/bed.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/bed.png",
+    "sanityAssetId": "image-e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508-png",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508.png",
+    "filename": "bed.png"
+  },
+  "/heroChair.png": {
+    "publicPath": "/heroChair.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/heroChair.png",
+    "sanityAssetId": "image-7dee833edc893611403543272e98b9c5b75e64cd-1024x1536-png",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/7dee833edc893611403543272e98b9c5b75e64cd-1024x1536.png",
+    "filename": "heroChair.png"
+  },
+  "/sofa.png": {
+    "publicPath": "/sofa.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/sofa.png",
+    "sanityAssetId": "image-45ba52b9777dc9d323746e136fcaa7d40eb27072-1024x504-png",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/45ba52b9777dc9d323746e136fcaa7d40eb27072-1024x504.png",
+    "filename": "sofa.png"
   }
 }

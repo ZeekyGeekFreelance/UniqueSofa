@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-21T22:00:34.227Z",
+  "syncedAt": "2026-07-21T22:59:51.134Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -201,22 +201,22 @@ export const syncedSiteSettings = {
   "headerCtaLabel": "Get a quote",
   "heroMedia": [
     {
-      "description": "Mechanisms, frames, and powered accessories for modern seating builds.",
-      "eyebrow": "Live stock focus",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "title": "Sofas"
+      "description": "Discover our premium selection of modern seating designed for unparalleled comfort and style.",
+      "eyebrow": "New Collection",
+      "image": "https://cdn.sanity.io/images/nzfscoez/production/7dee833edc893611403543272e98b9c5b75e64cd-1024x1536.png",
+      "title": "Modern"
     },
     {
-      "description": "Fancy legs, premium sofa legs, and finish-led details for visible styling.",
-      "eyebrow": "Decorative range",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "title": "Beds"
+      "description": "Handcrafted sofas built to elevate your living spaces with premium fabrics and timeless design.",
+      "eyebrow": "Luxury Living",
+      "image": "https://cdn.sanity.io/images/nzfscoez/production/45ba52b9777dc9d323746e136fcaa7d40eb27072-1024x504.png",
+      "title": "Comfort"
     },
     {
-      "description": "Staplers, springs, trims, and materials used in daily upholstery production.",
-      "eyebrow": "Workshop supply",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "title": "Materials"
+      "description": "Elegant bed frames crafted for restful spaces — where quality meets lasting style.",
+      "eyebrow": "Premium Beds",
+      "image": "https://cdn.sanity.io/images/nzfscoez/production/0535738aa1e3829d20ec8641b4bfcf1d24e5900d-1024x619.png",
+      "title": "Serene"
     }
   ],
   "homeBrandsDescription": "Unique Sofa World Furniture serves walk-in buyers, workshop restocking, and project enquiries from our store location.",

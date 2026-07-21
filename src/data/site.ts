@@ -585,15 +585,15 @@ export const HERO_MEDIA = [
     image: "/heroChair.png",
   },
   {
-    eyebrow: "Luxury Living",
-    title: "Comfort",
-    description: "Handcrafted sofas built to elevate your living spaces with premium fabrics and timeless design.",
+    eyebrow: "Exclusive Range",
+    title: "Luxury",
+    description: "Handcrafted pieces built to elevate your living spaces with premium fabrics and timeless design.",
     image: "/sofa.png",
   },
   {
-    eyebrow: "Premium Beds",
-    title: "Serene",
-    description: "Elegant bed frames crafted for restful spaces — where quality meets lasting style.",
+    eyebrow: "Sleep Elegance",
+    title: "Comfort",
+    description: "Transform your bedroom into a sanctuary of peace with our artisan-crafted beds.",
     image: "/bed.png",
   },
 ];

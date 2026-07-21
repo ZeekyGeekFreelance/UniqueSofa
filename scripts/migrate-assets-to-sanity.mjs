@@ -75,6 +75,15 @@ async function collectAssets() {
     assets.push({ absolutePath, publicPath });
   }
 
+  // Root public images
+  const publicFiles = await fs.readdir(PUBLIC_DIR);
+  for (const file of publicFiles.sort()) {
+    if (!/\.(jpg|jpeg|png|webp)$/i.test(file)) continue;
+    const absolutePath = path.join(PUBLIC_DIR, file);
+    const publicPath   = `/${file}`;
+    assets.push({ absolutePath, publicPath });
+  }
+
   return assets;
 }
 
