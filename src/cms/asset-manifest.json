@@ -1,0 +1,163 @@
+{
+  "/catalogue/page-000.jpg": {
+    "publicPath": "/catalogue/page-000.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-000.jpg",
+    "sanityAssetId": "image-38420c19a7fdc2e2f4552f826a6049818445715d-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/38420c19a7fdc2e2f4552f826a6049818445715d-992x1403.jpg",
+    "filename": "page-000.jpg"
+  },
+  "/catalogue/page-001.jpg": {
+    "publicPath": "/catalogue/page-001.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-001.jpg",
+    "sanityAssetId": "image-09ac0cb53238317c7fd4c23689d640926e81253a-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+    "filename": "page-001.jpg"
+  },
+  "/catalogue/page-002.jpg": {
+    "publicPath": "/catalogue/page-002.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-002.jpg",
+    "sanityAssetId": "image-9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+    "filename": "page-002.jpg"
+  },
+  "/catalogue/page-003.jpg": {
+    "publicPath": "/catalogue/page-003.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-003.jpg",
+    "sanityAssetId": "image-e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+    "filename": "page-003.jpg"
+  },
+  "/catalogue/page-004.jpg": {
+    "publicPath": "/catalogue/page-004.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-004.jpg",
+    "sanityAssetId": "image-64016a12d4a271de2b307c3a2f269c862e32c197-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+    "filename": "page-004.jpg"
+  },
+  "/catalogue/page-005.jpg": {
+    "publicPath": "/catalogue/page-005.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-005.jpg",
+    "sanityAssetId": "image-cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+    "filename": "page-005.jpg"
+  },
+  "/catalogue/page-006.jpg": {
+    "publicPath": "/catalogue/page-006.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-006.jpg",
+    "sanityAssetId": "image-98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+    "filename": "page-006.jpg"
+  },
+  "/catalogue/page-007.jpg": {
+    "publicPath": "/catalogue/page-007.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-007.jpg",
+    "sanityAssetId": "image-b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+    "filename": "page-007.jpg"
+  },
+  "/catalogue/page-008.jpg": {
+    "publicPath": "/catalogue/page-008.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-008.jpg",
+    "sanityAssetId": "image-c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+    "filename": "page-008.jpg"
+  },
+  "/catalogue/page-009.jpg": {
+    "publicPath": "/catalogue/page-009.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-009.jpg",
+    "sanityAssetId": "image-e972f300de6cd29fb1fa7167d73434c757819a96-992x1364-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+    "filename": "page-009.jpg"
+  },
+  "/catalogue/page-010.jpg": {
+    "publicPath": "/catalogue/page-010.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-010.jpg",
+    "sanityAssetId": "image-7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+    "filename": "page-010.jpg"
+  },
+  "/catalogue/page-011.jpg": {
+    "publicPath": "/catalogue/page-011.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-011.jpg",
+    "sanityAssetId": "image-463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+    "filename": "page-011.jpg"
+  },
+  "/catalogue/page-012.jpg": {
+    "publicPath": "/catalogue/page-012.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-012.jpg",
+    "sanityAssetId": "image-7ba3b8f08be22894cde5c61159442b78759413a2-992x1364-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
+    "filename": "page-012.jpg"
+  },
+  "/catalogue/page-013.jpg": {
+    "publicPath": "/catalogue/page-013.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-013.jpg",
+    "sanityAssetId": "image-ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
+    "filename": "page-013.jpg"
+  },
+  "/catalogue/page-014.jpg": {
+    "publicPath": "/catalogue/page-014.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-014.jpg",
+    "sanityAssetId": "image-515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+    "filename": "page-014.jpg"
+  },
+  "/catalogue/page-015.jpg": {
+    "publicPath": "/catalogue/page-015.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-015.jpg",
+    "sanityAssetId": "image-8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
+    "filename": "page-015.jpg"
+  },
+  "/catalogue/page-016.jpg": {
+    "publicPath": "/catalogue/page-016.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-016.jpg",
+    "sanityAssetId": "image-b0acd4b39600a872d82f59d8b106191860017331-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
+    "filename": "page-016.jpg"
+  },
+  "/catalogue/page-017.jpg": {
+    "publicPath": "/catalogue/page-017.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-017.jpg",
+    "sanityAssetId": "image-5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
+    "filename": "page-017.jpg"
+  },
+  "/catalogue/page-018.jpg": {
+    "publicPath": "/catalogue/page-018.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-018.jpg",
+    "sanityAssetId": "image-dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
+    "filename": "page-018.jpg"
+  },
+  "/catalogue/page-019.jpg": {
+    "publicPath": "/catalogue/page-019.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/page-019.jpg",
+    "sanityAssetId": "image-64547298c76ff387763341204614b37deb0d4024-992x1403-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg",
+    "filename": "page-019.jpg"
+  },
+  "/catalogue/hero-chair.jpg": {
+    "publicPath": "/catalogue/hero-chair.jpg",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/hero-chair.jpg",
+    "sanityAssetId": "image-96b2613d98bfee363e75a873ebf64f860cb64ee6-1000x1250-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/96b2613d98bfee363e75a873ebf64f860cb64ee6-1000x1250.jpg",
+    "filename": "hero-chair.jpg"
+  },
+  "/catalogue/hero-chair.png": {
+    "publicPath": "/catalogue/hero-chair.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/hero-chair.png",
+    "sanityAssetId": "image-03981ad32373588a578f66d4c33d8d562867b501-1024x1024-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/03981ad32373588a578f66d4c33d8d562867b501-1024x1024.jpg",
+    "filename": "hero-chair.png"
+  },
+  "/catalogue/hero-sofa.png": {
+    "publicPath": "/catalogue/hero-sofa.png",
+    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/catalogue/hero-sofa.png",
+    "sanityAssetId": "image-d198e222a42ecce6ac3754193f8c7af292b45422-1024x1024-jpg",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/d198e222a42ecce6ac3754193f8c7af292b45422-1024x1024.jpg",
+    "filename": "hero-sofa.png"
+  }
+}

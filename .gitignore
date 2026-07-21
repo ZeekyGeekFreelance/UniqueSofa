@@ -1,0 +1,27 @@
+.# Dependencies
+node_modules/
+
+# Build output
+dist/
+.sanity/
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+*.log
+
+# Editor / tool artifacts
+.agents/
+.local/
+.codex-vite.err
+.codex-vite.log

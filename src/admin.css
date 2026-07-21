@@ -1,0 +1,23 @@
+/* Revert all app-level global styles inside the Sanity Studio container.
+   Without this, rules like img { max-width: 100% }, body { overflow-x: clip },
+   and font-family overrides break Studio's internal layout completely. */
+
+#sanity,
+#sanity * {
+  border-color: revert;
+  outline-color: revert;
+  text-wrap: revert;
+  box-sizing: revert;
+}
+
+#sanity img,
+#sanity video,
+#sanity canvas,
+#sanity svg {
+  display: revert;
+  max-width: revert;
+}
+
+#sanity button {
+  cursor: revert;
+}
