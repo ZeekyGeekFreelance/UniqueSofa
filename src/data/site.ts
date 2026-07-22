@@ -602,7 +602,7 @@ export const PRODUCT_PAGE_SUMMARY = {
   eyebrow: "Product catalogue",
   title: "Browse by range, brand, and application.",
   description:
-    "Explore recliner hardware, legs, trims, tools, springs, and workshop supplies from Dharamdas Trading Company with photo-led product detail views.",
+    "Explore recliner hardware, legs, trims, tools, springs, and workshop supplies from Unique Sofa World Furniture with photo-led product detail views.",
 };
 
 export const FAMILY_OVERVIEW = FAMILY_DESCRIPTIONS;

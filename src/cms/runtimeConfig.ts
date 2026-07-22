@@ -2,7 +2,7 @@ const DEFAULTS = Object.freeze({
   sanityDataset: "production",
   sanityApiVersion: "2025-01-01",
   sanityStudioPath: "/admin",
-  sanityStudioTitle: "Dharamdas Trading CMS",
+  sanityStudioTitle: "Unique Sofa World CMS",
 });
 
 function asTrimmedString(value: unknown) {

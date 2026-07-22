@@ -12,7 +12,7 @@ import { ui } from "./lib/ui";
 
 function NotFoundPage() {
   useEffect(() => {
-    document.title = "Page Not Found | Dharamdas Trading Company";
+    document.title = "Page Not Found | Unique Sofa World Furniture";
   }, []);
 
   return (

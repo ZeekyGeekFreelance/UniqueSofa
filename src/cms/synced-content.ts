@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-21T22:59:51.134Z",
+  "syncedAt": "2026-07-22T00:07:47.742Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -12,13 +12,13 @@ export const syncedContentMeta = {
 };
 
 export const syncedSiteSettings = {
-  "aboutBrandsDescription": "The Unique Sofa World Furniture range covers everyday upholstery materials alongside specialist hardware, fittings, and support products.",
+  "aboutBrandsDescription": "The Unique Sofa World Furniture range covers premium sofa materials, quality fabrics, and trusted hardware brands used in every piece we craft.",
   "aboutBrandsEyebrow": "Stocked brands",
   "aboutBrandsTitle": "Trusted names already familiar to furniture workshops.",
   "aboutHeroEyebrow": "About USW Furniture",
-  "aboutHeroSubtitle": "Unique Sofa World Furniture serves homes, offices, and repeat buyers with custom ranges, quality products, and direct support.",
+  "aboutHeroSubtitle": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
   "aboutHeroTitle": "Crafting Comfortable Living Spaces with Quality Furniture Since 2021.",
-  "aboutModelDescription": "These strengths define how Unique Sofa World Furniture manages working inventory, stocked brands, and day-to-day service for repeat buyers.",
+  "aboutModelDescription": "These strengths define how Unique Sofa World Furniture delivers custom sofas, furniture manufacturing, and upholstery services to homes and businesses across Bengaluru.",
   "aboutModelEyebrow": "Business model",
   "aboutModelTitle": "Three supply roles that shape the business.",
   "aboutPrimaryCtaLabel": "Explore products",
@@ -45,7 +45,7 @@ export const syncedSiteSettings = {
   "catalogueEmailLabel": "Email enquiry",
   "catalogueFile": "/catalogue/dtc-catalogue.pdf",
   "catalogueFocusEyebrow": "Focus spread",
-  "catalogueHeroDescription": "Review recliners, trims, tools, legs, and workshop supplies from the Unique Sofa World Furniture brochure.",
+  "catalogueHeroDescription": "Browse our full furniture and sofa range from the Unique Sofa World Furniture brochure before you download or enquire.",
   "catalogueHeroEyebrow": "Catalogue",
   "catalogueHeroTitle": "Browse the printed range from cover to contact details.",
   "cataloguePages": [
@@ -173,14 +173,14 @@ export const syncedSiteSettings = {
   "city": "Bengaluru, India",
   "contactBusinessHoursSunday": "Daily: 10:00 AM – 9:00 PM",
   "contactBusinessHoursWeekday": "Daily: 10:00 AM – 9:00 PM",
-  "contactEnquiryDescription": "Share the product range, quantity, and any sizing or finish notes.",
+  "contactEnquiryDescription": "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
   "contactEnquiryEyebrow": "WhatsApp enquiry",
   "contactEnquirySentDescription": "If WhatsApp did not open, you can still message the team directly.",
   "contactEnquirySentTitle": "WhatsApp message ready",
   "contactEnquirySubmitLabel": "Send WhatsApp enquiry",
   "contactEnquiryTitle": "Send an enquiry",
   "contactHeroEyebrow": "Contact Us",
-  "contactHeroSubtitle": "Reach Unique Sofa World Furniture by Phone, WhatsApp, Email, or an enquiry message with the product range you need.",
+  "contactHeroSubtitle": "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
   "contactHeroTitle": "Speak with the team for custom orders, product guidance, and store visits.",
   "contactQuickContactEyebrow": "Quick contact",
   "contactWhatsappDescription": "Quick checks for stock, brands, and product photos.",
@@ -194,7 +194,7 @@ export const syncedSiteSettings = {
     "materials": "Consumables and upholstery materials used in repeat workshop purchasing.",
     "structure": "Workshop essentials for frame support, fastening, and upholstery production."
   },
-  "footerBottomCaption": "Custom Sofas, Furniture Manufacturing & Upholstery Services | Bengaluru.",
+  "footerBottomCaption": "Premium Sofas, Custom Furniture & Upholstery Services | Bengaluru.",
   "footerContactTitle": "Contact",
   "footerNavigateTitle": "Navigate",
   "footerStoresTitle": "Stores",
@@ -215,22 +215,22 @@ export const syncedSiteSettings = {
     {
       "description": "Elegant bed frames crafted for restful spaces — where quality meets lasting style.",
       "eyebrow": "Premium Beds",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/0535738aa1e3829d20ec8641b4bfcf1d24e5900d-1024x619.png",
+      "image": "https://cdn.sanity.io/images/nzfscoez/production/e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508.png",
       "title": "Serene"
     }
   ],
-  "homeBrandsDescription": "Unique Sofa World Furniture serves walk-in buyers, workshop restocking, and project enquiries from our store location.",
+  "homeBrandsDescription": "Unique Sofa World Furniture serves walk-in customers, home and office projects, and custom furniture enquiries from our Bengaluru store.",
   "homeBrandsEyebrow": "Brands and locations",
   "homeBrandsTitle": "Trusted lines with our Bengaluru touchpoint.",
-  "homeFeaturedProductsDescription": "Open key items for photos, features, and contact-ready product details.",
+  "homeFeaturedProductsDescription": "Open key items for photos, features, and direct enquiry details.",
   "homeFeaturedProductsEyebrow": "Featured products",
   "homeFeaturedProductsTitle": "Selected stock highlights.",
-  "homeFeaturedRangesDescription": "Quick visual access to recliners, leg collections, trims, and workshop essentials.",
+  "homeFeaturedRangesDescription": "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
   "homeFeaturedRangesEyebrow": "Featured ranges",
   "homeFeaturedRangesTitle": "Core ranges buyers check first.",
-  "homeWhyDescription": "Unique Sofa World Furniture delivers custom-made sofas, furniture manufacturing, upholstery, and expert repair services with a commitment to quality craftsmanship, personalized designs, and customer satisfaction for homes, offices, and commercial spaces across Bengaluru.",
+  "homeWhyDescription": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
   "homeWhyEyebrow": "Why Unique Sofa World Furniture",
-  "homeWhyTitle": "A supply partner built around custom demand.",
+  "homeWhyTitle": "Crafted for comfort, built to last.",
   "intro": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
   "navItems": [
     {
@@ -262,13 +262,13 @@ export const syncedSiteSettings = {
   "productsFilterRangeLabel": "Range",
   "productsHeroEyebrow": "Product catalogue",
   "productsHeroSubtitle": "Explore premium sofas, custom furniture, sofa repair, and upholstery solutions from Unique Sofa World Furniture.",
-  "productsHeroTitle": "Browse by range, brand, and application.",
+  "productsHeroTitle": "Browse our range by category and style.",
   "productsNoResultDescription": "Try adjusting the family, range, or brand filter to find what you need.",
   "productsNoResultEyebrow": "No results",
   "productsNoResultResetLabel": "Clear filters",
   "productsNoResultTitle": "No products match your filters.",
-  "productsSummaryDescription": "Review the live Unique Sofa World Furniture range, narrow by application, and open any item for photos, features, and enquiry details.",
-  "productsSummaryTitle": "Browse stock by family, range, and brand.",
+  "productsSummaryDescription": "Review the full Unique Sofa World Furniture range, filter by type, and open any item for photos, features, and enquiry details.",
+  "productsSummaryTitle": "Browse our range by category and style.",
   "specializations": [
     {
       "items": [
@@ -395,13 +395,13 @@ export const syncedFeaturedRanges = {
       "id": "accessories"
     }
   ],
-  "description": "Quick visual access to recliners, leg collections, trims, and workshop essentials.",
+  "description": "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
   "eyebrow": "Featured ranges",
   "title": "Core ranges buyers check first."
 };
 
 export const syncedFeaturedProducts = {
-  "description": "Open key items for photos, features, and contact-ready product details.",
+  "description": "Open key items for photos, features, and direct enquiry details.",
   "eyebrow": "Featured products",
   "productIds": [
     {

@@ -37,7 +37,7 @@ export function ProductsPage() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  usePageTitle("Products | Dharamdas Trading Company");
+  usePageTitle("Products | Unique Sofa World Furniture");
   useReveal();
 
   useEffect(() => {
@@ -171,7 +171,7 @@ export function ProductsPage() {
                 Browse stock by family, range, and brand.
               </h2>
               <p className="m-0 mt-3 text-[0.92rem] leading-[1.8]" style={{ color: "#374151" }}>
-                Review the live Dharamdas Trading Company range, narrow by application, and open
+                Review the live Unique Sofa World Furniture range, narrow by application, and open
                 any item for photos, features, and enquiry details.
               </p>
             </div>

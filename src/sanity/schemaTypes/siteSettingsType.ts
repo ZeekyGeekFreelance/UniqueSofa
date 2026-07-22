@@ -97,7 +97,7 @@ export default defineType({
     { name: "contact",  title: "Contact & Links", options: { collapsible: true, collapsed: false } },
     { name: "hero",     title: "Hero Carousel",   options: { collapsible: true, collapsed: false } },
     { name: "featured", title: "Featured Sections", options: { collapsible: true, collapsed: true } },
-    { name: "why",      title: "Why DTC Cards",   options: { collapsible: true, collapsed: true } },
+    { name: "why",      title: "Why USW Cards",   options: { collapsible: true, collapsed: true } },
   ],
 
   fields: [
@@ -175,10 +175,10 @@ export default defineType({
       validation: (R) => R.unique(),
     }),
 
-    // ── Home — Why DTC ────────────────────────────────────────────────────
-    defineField({ name: "homeWhyEyebrow",     title: "Why DTC — Eyebrow",             type: "string", group: "home", fieldset: "why" }),
-    defineField({ name: "homeWhyTitle",       title: "Why DTC — Section Title",       type: "string", group: "home", fieldset: "why" }),
-    defineField({ name: "homeWhyDescription", title: "Why DTC — Section Description", type: "text", rows: 2, group: "home", fieldset: "why" }),
+    // ── Home — Why USW ────────────────────────────────────────────────────
+    defineField({ name: "homeWhyEyebrow",     title: "Why USW — Eyebrow",             type: "string", group: "home", fieldset: "why" }),
+    defineField({ name: "homeWhyTitle",       title: "Why USW — Section Title",       type: "string", group: "home", fieldset: "why" }),
+    defineField({ name: "homeWhyDescription", title: "Why USW — Section Description", type: "text", rows: 2, group: "home", fieldset: "why" }),
     defineField({ name: "homeFeaturedRangesEyebrow",     title: "Featured Ranges — Eyebrow",     type: "string", group: "home", fieldset: "featured" }),
     defineField({ name: "homeFeaturedRangesTitle",       title: "Featured Ranges — Title",       type: "string", group: "home", fieldset: "featured" }),
     defineField({ name: "homeFeaturedRangesDescription", title: "Featured Ranges — Description", type: "text", rows: 2, group: "home", fieldset: "featured" }),

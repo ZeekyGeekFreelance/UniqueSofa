@@ -32,28 +32,28 @@ const fallbackCopy: PageCopy = {
     featuredRangesEyebrow: "Featured ranges",
     featuredRangesTitle: "Core ranges buyers check first.",
     featuredRangesDescription:
-      "Quick visual access to recliners, leg collections, trims, and workshop essentials.",
+      "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
     featuredProductsEyebrow: "Featured products",
     featuredProductsTitle: "Selected stock highlights.",
     featuredProductsDescription:
-      "Open key items for photos, features, and contact-ready product details.",
+      "Open key items for photos, features, and direct enquiry details.",
     whyEyebrow: "Why Unique Sofa World Furniture",
-    whyTitle: "A supply partner built around custom demand.",
+    whyTitle: "Crafted for comfort, built to last.",
     whyDescription:
-      "Unique Sofa World Furniture delivers custom-made sofas, furniture manufacturing, upholstery, and expert repair services with a commitment to quality craftsmanship, personalized designs, and customer satisfaction for homes, offices, and commercial spaces across Bengaluru.",
+      "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
     brandsEyebrow: "Brands and locations",
     brandsTitle: "Trusted lines with our Bengaluru touchpoint.",
     brandsDescription:
-      "Unique Sofa World Furniture serves walk-in buyers, workshop restocking, and project enquiries from our store location.",
+      "Unique Sofa World Furniture serves walk-in customers, home and office projects, and custom furniture enquiries from our Bengaluru store.",
   },
   products: {
     heroEyebrow: "Product catalogue",
     heroTitle: "Browse by range, brand, and application.",
     heroDescription:
-      "Explore premium sofas, custom furniture, sofa repair, and upholstery solutions from Unique Sofa World Furniture with photo-led product detail views.",
-    summaryTitle: "Browse stock by family, range, and brand.",
+      "Explore premium sofas, custom furniture, sofa repair, and upholstery solutions from Unique Sofa World Furniture.",
+    summaryTitle: "Browse our range by category and style.",
     summaryDescription:
-      "Review the live Unique Sofa World Furniture range, narrow by application, and open any item for photos, features, and enquiry details.",
+      "Review the full Unique Sofa World Furniture range, filter by type, and open any item for photos, features, and enquiry details.",
     noResultEyebrow: "No matches",
     noResultTitle: "Try a broader selection.",
     noResultDescription:
@@ -67,7 +67,7 @@ const fallbackCopy: PageCopy = {
     heroEyebrow: "Catalogue",
     heroTitle: "Browse the printed range from cover to contact details.",
     heroDescription:
-      "Review recliners, trims, tools, legs, and workshop supplies from the Unique Sofa World Furniture brochure before you download or enquire.",
+      "Browse our full furniture and sofa range from the Unique Sofa World Furniture brochure before you download or enquire.",
     focusEyebrow: "Focus spread",
     browseEyebrow: "Browse spreads",
     downloadLabel: "Download brochure",
@@ -78,30 +78,30 @@ const fallbackCopy: PageCopy = {
     heroEyebrow: "About USW Furniture",
     heroTitle: "Crafting Comfortable Living Spaces with Quality Furniture Since 2021.",
     heroDescription:
-      "Unique Sofa World Furniture serves homes, offices, and repeat buyers with custom ranges, quality products, and direct support.",
+      "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
     primaryCtaLabel: "Explore products",
     secondaryCtaLabel: "Contact the team",
     modelEyebrow: "Business model",
     modelTitle: "Three supply roles that shape the business.",
     modelDescription:
-      "These strengths define how Unique Sofa World Furniture manages working inventory, stocked brands, and day-to-day service for repeat buyers.",
+      "These strengths define how Unique Sofa World Furniture delivers custom sofas, furniture manufacturing, and upholstery services to homes and businesses across Bengaluru.",
     brandsEyebrow: "Stocked brands",
     brandsTitle: "Trusted names already familiar to furniture workshops.",
     brandsDescription:
-      "The Unique Sofa World Furniture range covers everyday upholstery materials alongside specialist hardware, fittings, and support products.",
+      "The Unique Sofa World Furniture range covers premium sofa materials, quality fabrics, and trusted hardware brands used in every piece we craft.",
   },
   contact: {
     heroEyebrow: "Contact Us",
     heroTitle: "Speak with the team for custom orders, product guidance, and store visits.",
     heroDescription:
-      "Reach Unique Sofa World Furniture by Phone, WhatsApp, Email, or an enquiry message with the product range you need.",
+      "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
     quickContactEyebrow: "Quick contact",
     whatsappTitle: "WhatsApp enquiries",
     whatsappDescription: "Quick checks for stock, brands, and product photos.",
     enquiryEyebrow: "WhatsApp enquiry",
     enquiryTitle: "Send an enquiry",
     enquiryDescription:
-      "Share the product range, quantity, and any sizing or finish notes.",
+      "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
     enquirySentTitle: "WhatsApp message ready",
     enquirySentDescription:
       "If WhatsApp did not open, you can still message the team directly.",
@@ -113,7 +113,7 @@ const fallbackCopy: PageCopy = {
     navigateTitle: "Navigate",
     storesTitle: "Stores",
     contactTitle: "Contact",
-    bottomCaption: "Custom Sofas, Furniture Manufacturing & Upholstery Services | Bengaluru.",
+    bottomCaption: "Premium Sofas, Custom Furniture & Upholstery Services | Bengaluru.",
   },
 };
 

@@ -98,7 +98,7 @@ const structure: StructureResolver = (S) =>
 
 export default defineConfig({
   name: "default",
-  title: sanity.studioTitle || "Dharamdas Trading CMS",
+  title: sanity.studioTitle || "Unique Sofa World CMS",
   basePath: sanity.studioBasePath || "/admin",
   projectId: sanity.projectId,
   dataset: sanity.dataset || "production",
