@@ -158,9 +158,9 @@ export function mapSiteContent(queryResult?: SiteContentQueryResult | null): Sit
       city:         asString(raw.city,              fallback.brand.city),
       intro:        asString(raw.intro,             fallback.brand.intro),
     },
-    /* Always use fallback stats — they reflect current business values.
-       Sanity stats field may hold outdated data from the original seed. */
-    stats: fallback.stats,
+    stats: Array.isArray(raw.stats) && (raw.stats as Array<Record<string, unknown>>).length > 0
+      ? (raw.stats as Array<Record<string, unknown>>).map((s) => ({ value: asString(s.value), label: asString(s.label) })).filter((s) => s.value && s.label)
+      : fallback.stats,
     stores: Array.isArray(raw.stores)
       ? (raw.stores as Array<Record<string, unknown>>)
           .map((item) => ({

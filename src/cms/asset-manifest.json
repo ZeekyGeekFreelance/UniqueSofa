@@ -174,13 +174,6 @@
     "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/623d7a892f865bf7bbe493437d76eda892b75f9d-871x928.png",
     "filename": "hero-chair-orange.png"
   },
-  "/bed.png": {
-    "publicPath": "/bed.png",
-    "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/bed.png",
-    "sanityAssetId": "image-e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508-png",
-    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508.png",
-    "filename": "bed.png"
-  },
   "/heroChair.png": {
     "publicPath": "/heroChair.png",
     "absolutePath": "Z:/SHOP_CLI/UniqueSofa/public/heroChair.png",
@@ -194,5 +187,12 @@
     "sanityAssetId": "image-45ba52b9777dc9d323746e136fcaa7d40eb27072-1024x504-png",
     "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/45ba52b9777dc9d323746e136fcaa7d40eb27072-1024x504.png",
     "filename": "sofa.png"
+  },
+  "/bed.png": {
+    "publicPath": "/bed.png",
+    "absolutePath": "z:/SHOP_CLI/UniqueSofa/public/bed.png",
+    "sanityAssetId": "image-0535738aa1e3829d20ec8641b4bfcf1d24e5900d-1024x619-png",
+    "sanityAssetUrl": "https://cdn.sanity.io/images/nzfscoez/production/0535738aa1e3829d20ec8641b4bfcf1d24e5900d-1024x619.png",
+    "filename": "bed.png"
   }
 }
