@@ -16,6 +16,7 @@
     "@sanity/client": "^7.20.0",
     "@sanity/image-url": "^2.0.3",
     "@sanity/vision": "^5.25.1",
+    "@vercel/analytics": "^2.0.1",
     "lucide-react": "^0.545.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

@@ -9,6 +9,7 @@ import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
 import { ProductsPage } from "./pages/ProductsPage";
 import { ui } from "./lib/ui";
+import { Analytics } from "@vercel/analytics/react";
 
 function NotFoundPage() {
   useEffect(() => {
@@ -60,6 +61,7 @@ export default function App() {
           </Switch>
         </main>
         <Footer />
+        <Analytics />
       </div>
     </SiteContentProvider>
   );
