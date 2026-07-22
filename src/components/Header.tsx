@@ -14,7 +14,7 @@ export function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [closing, setClosing]   = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(!isHome);
   const menuPanelRef  = useRef<HTMLDivElement | null>(null);
   const menuButtonRef = useRef<HTMLButtonElement | null>(null);
   const [location] = useLocation();
@@ -22,9 +22,9 @@ export function Header() {
   const isHome = location === "/";
 
   useEffect(() => {
-    // On the home page: transparent until scrolled past the hero card.
-    // Hero height is clamp(560px, 90vh, 860px) — use 80vh as the threshold.
-    const threshold = isHome ? Math.min(window.innerHeight * 0.8, 800) : 0;
+    if (!isHome) { setScrolled(true); return; }
+    // Home: transparent until scrolled past the hero card.
+    const threshold = Math.min(window.innerHeight * 0.8, 800);
     const fn = () => setScrolled(window.scrollY > threshold);
     fn();
     window.addEventListener("scroll", fn, { passive: true });

@@ -72,7 +72,7 @@ export function ContactPage() {
                   <Mail size={18} />
                   <div className="flex flex-col gap-[0.15rem]">
                     <span className="text-[0.72rem] font-extrabold uppercase tracking-[0.14em] text-[color:var(--text-faint)]">Email</span>
-                    <strong>{brand.email}</strong>
+                    <strong className="break-all">{brand.email}</strong>
                   </div>
                 </a>
                 <div className="flex items-start gap-[0.8rem]">
@@ -100,7 +100,7 @@ export function ContactPage() {
             <div className="grid gap-[1.35rem]">
               {stores.map((store, index) => (
                 <article key={store.name}
-                  className="flex min-h-[15.5rem] flex-col gap-[0.72rem] overflow-hidden rounded-[1.6rem] border border-[color:var(--border)] bg-white/80 p-[1.55rem] px-[1.65rem] shadow-[0_24px_70px_rgba(39,24,12,0.08)] transition-[transform,box-shadow,border-color,background-color] duration-500 [transition-timing-function:cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.014] max-[780px]:min-h-0 max-[780px]:rounded-[1.5rem] max-[780px]:p-4 max-[560px]:rounded-[1.25rem] max-[560px]:p-[0.88rem]"
+                  className="flex flex-col gap-[0.72rem] overflow-hidden rounded-[1.6rem] border border-[color:var(--border)] bg-white/80 p-[1.55rem] px-[1.65rem] shadow-[0_24px_70px_rgba(39,24,12,0.08)] transition-[transform,box-shadow,border-color,background-color] duration-500 [transition-timing-function:cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.014] max-[780px]:rounded-[1.5rem] max-[780px]:p-4 max-[560px]:rounded-[1.25rem] max-[560px]:p-[0.88rem]"
                   data-reveal style={{ transitionDelay: `${index * 80}ms` }}>
                   <span className={ui.chip}>{store.type}</span>
                   <h2 className="m-0 mt-[0.15rem] font-display text-[clamp(1.5rem,2vw,1.9rem)] leading-[1.04]">{store.name}</h2>
