@@ -359,7 +359,7 @@ export const syncedSiteSettings = {
     },
     {
       "label": "Happy customers",
-      "value": "1000+"
+      "value": "5K+"
     }
   ],
   "stores": [

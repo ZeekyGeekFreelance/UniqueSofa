@@ -77,9 +77,9 @@ export const BRAND = {
 };
 
 export const STATS = [
-  { value: "50K+",  label: "Happy Clients" },
+  { value: "5K+",   label: "Happy Clients" },
   { value: "200+",  label: "Premium Brands" },
-  { value: "15+",   label: "Years Experience" },
+  { value: "6+",    label: "Years Experience" },
 ];
 
 export const STORES: Store[] = [

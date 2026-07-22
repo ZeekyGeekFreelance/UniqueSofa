@@ -77,7 +77,7 @@ const STATS = [
   { value: "2021", label: "Established" },
   { value: "500+", label: "Products & Services" },
   { value: "1", label: "Store location" },
-  { value: "1000+", label: "Happy customers" },
+  { value: "5K+", label: "Happy customers" },
 ];
 
 const STORES = [
