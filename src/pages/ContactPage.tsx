@@ -9,13 +9,24 @@ import { useReveal } from "../hooks/useReveal";
 import { ui } from "../lib/ui";
 
 type EnquiryFormState = { name: string; phone: string; email: string; category: string; message: string };
+type EnquiryFormErrors = Partial<Record<keyof EnquiryFormState, string>>;
 const initialFormState: EnquiryFormState = { name: "", phone: "", email: "", category: "", message: "" };
+
+function validateForm(form: EnquiryFormState): EnquiryFormErrors {
+  const errors: EnquiryFormErrors = {};
+  if (!form.name.trim() || form.name.trim().length < 2) errors.name = "Please enter your full name.";
+  if (form.phone.trim() && !/^(\+91\d{10}|\d{10})$/.test(form.phone.trim())) errors.phone = "Enter a valid 10-digit number or +91 followed by 10 digits.";
+  if (form.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) errors.email = "Enter a valid email address.";
+  if (!form.message.trim() || form.message.trim().length < 10) errors.message = "Please describe your requirement (min 10 characters).";
+  return errors;
+}
 
 export function ContactPage() {
   const { content } = useSiteContent();
   const { brand, stores, categories, copy } = content;
 
   const [form, setForm] = useState<EnquiryFormState>(initialFormState);
+  const [errors, setErrors] = useState<EnquiryFormErrors>({});
   const [sent, setSent] = useState(false);
 
   usePageTitle(`Contact | ${brand.name}`);
@@ -26,8 +37,16 @@ export function ContactPage() {
     [categories],
   );
 
+  const handleBlur = (field: keyof EnquiryFormState) => {
+    const fieldErrors = validateForm(form);
+    setErrors((c) => ({ ...c, [field]: fieldErrors[field] }));
+  };
+
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const nextErrors = validateForm(form);
+    if (Object.keys(nextErrors).length > 0) { setErrors(nextErrors); return; }
+    setErrors({});
     const msg = [
       `Hello, I want to enquire about ${form.category || "your products"}.`,
       "", `Name: ${form.name}`, `Phone: ${form.phone || "-"}`,
@@ -141,17 +160,20 @@ export function ContactPage() {
                 <div className="grid gap-5 md:grid-cols-2">
                   <label className="block">
                     <span className="mb-2 block text-sm font-semibold">Full name *</span>
-                    <input className={ui.field} value={form.name} onChange={(e) => setForm((c) => ({ ...c, name: e.target.value }))} placeholder="Your name" required />
+                    <input className={ui.field} value={form.name} onChange={(e) => { setForm((c) => ({ ...c, name: e.target.value })); setErrors((c) => ({ ...c, name: undefined })); }} onBlur={() => handleBlur("name")} placeholder="Your name" />
+                    {errors.name && <p className="mt-1 text-xs text-red-500">{errors.name}</p>}
                   </label>
                   <label className="block">
                     <span className="mb-2 block text-sm font-semibold">Phone</span>
-                    <input className={ui.field} value={form.phone} onChange={(e) => setForm((c) => ({ ...c, phone: e.target.value }))} placeholder="+91 XXXXX XXXXX" />
+                    <input className={ui.field} value={form.phone} onChange={(e) => { const raw = e.target.value; const hasPlus = raw.startsWith("+"); const digits = raw.replace(/\D/g, "").slice(0, hasPlus ? 12 : 10); const v = hasPlus ? "+" + digits : digits; setForm((c) => ({ ...c, phone: v })); setErrors((c) => ({ ...c, phone: undefined })); }} onBlur={() => handleBlur("phone")} placeholder="+91 XXXXX XXXXX" inputMode="tel" />
+                    {errors.phone && <p className="mt-1 text-xs text-red-500">{errors.phone}</p>}
                   </label>
                 </div>
                 <div className="grid gap-5 md:grid-cols-2">
                   <label className="block">
                     <span className="mb-2 block text-sm font-semibold">Email</span>
-                    <input className={ui.field} type="email" value={form.email} onChange={(e) => setForm((c) => ({ ...c, email: e.target.value }))} placeholder="name@example.com" />
+                    <input className={ui.field} value={form.email} onChange={(e) => { setForm((c) => ({ ...c, email: e.target.value })); setErrors((c) => ({ ...c, email: undefined })); }} onBlur={() => handleBlur("email")} placeholder="name@example.com" />
+                    {errors.email && <p className="mt-1 text-xs text-red-500">{errors.email}</p>}
                   </label>
                   <div>
                     <CustomSelect label="Category" options={categoryOptions} value={form.category} onChange={(v) => setForm((c) => ({ ...c, category: v }))} />
@@ -159,7 +181,8 @@ export function ContactPage() {
                 </div>
                 <label className="block">
                   <span className="mb-2 block text-sm font-semibold">Message *</span>
-                  <textarea className={ui.fieldArea} value={form.message} onChange={(e) => setForm((c) => ({ ...c, message: e.target.value }))} placeholder="Tell us the range, quantity, finish, delivery location, or any workshop requirement." required />
+                  <textarea className={ui.fieldArea} value={form.message} onChange={(e) => { setForm((c) => ({ ...c, message: e.target.value })); setErrors((c) => ({ ...c, message: undefined })); }} onBlur={() => handleBlur("message")} placeholder="Tell us the range, quantity, finish, delivery location, or any workshop requirement." />
+                  {errors.message && <p className="mt-1 text-xs text-red-500">{errors.message}</p>}
                 </label>
                 <button type="submit" className={`${ui.buttonBase} ${ui.buttonPrimary} w-full`}>
                   <Send size={16} /> {copy.contact.enquirySubmitLabel}
