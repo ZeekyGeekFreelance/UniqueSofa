@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-22T00:07:47.742Z",
+  "syncedAt": "2026-07-22T12:30:10.236Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",

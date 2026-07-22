@@ -417,6 +417,22 @@ button {
   transform: translateY(0) rotate(-45deg);
 }
 
+/* ─── HERO GRID NET ─────────────────────────────────────── */
+
+.hero-grid-net {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.055) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 60px 60px, 60px 60px, 15px 15px, 15px 15px;
+  mask-image: radial-gradient(ellipse 90% 80% at 50% 40%, black 30%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 80% at 50% 40%, black 30%, transparent 100%);
+  pointer-events: none;
+}
+
 /* ─── HERO WATERMARK POSITION ───────────────────────────── */
 
 /* Desktop: tight below navbar */
