@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-22T13:45:48.336Z",
+  "syncedAt": "2026-07-22T15:51:50.667Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -215,7 +215,7 @@ export const syncedSiteSettings = {
     {
       "description": "Elegant bed frames crafted for restful spaces - where quality meets lasting style.",
       "eyebrow": "Premium Beds",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508.png",
+      "image": "https://cdn.sanity.io/images/nzfscoez/production/0535738aa1e3829d20ec8641b4bfcf1d24e5900d-1024x619.png",
       "title": "Serene"
     }
   ],
