@@ -107,8 +107,7 @@ export function Hero() {
   const happyCustomersCount = copy.home.heroHappyCustomersCount || "5M+";
   const happyCustomersLabel = copy.home.heroHappyCustomersLabel || "Happy Customers";
   const newCollectionLabel = copy.home.heroFloatingCardTitle || "New Collection";
-  // Always use the local asset — avoids flicker while Sanity URL loads
-  const newCollectionImage = "/heroChair.png";
+  const newCollectionImage = copy.home.heroFloatingCardImage;
 
   const [activeIndex, setActiveIndex] = useState(0);
   const [prevIndex, setPrevIndex] = useState<number | null>(null);
@@ -206,6 +205,9 @@ export function Hero() {
         }}
         {...swipeHandlers}
       >
+
+        {/* ── 0. GRID NET ─────────────────────────────────────── */}
+        <div className="hero-grid-net" style={{ zIndex: 2 }} aria-hidden="true" />
 
         {/* ── 1. WATERMARK — stacked layers on mobile, single line desktop ── */}
         <div
