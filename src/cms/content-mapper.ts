@@ -1,4 +1,3 @@
-import { fallbackSiteContent } from "./fallback-data";
 import type {
   CataloguePage,
   Category,
@@ -33,42 +32,34 @@ function resolveCataloguePageMap(cataloguePages: CataloguePage[]) {
 
 function mapCategories(
   rawCategories: Array<Record<string, unknown>>,
-  fallbackCategories: Category[],
   pageImageMap: Map<string, string>,
-) {
-  if (!Array.isArray(rawCategories) || rawCategories.length === 0) return fallbackCategories;
-
-  return rawCategories.map((entry, index) => {
-    const fallback = fallbackCategories[index % fallbackCategories.length];
-    const family = asString(entry.family, fallback.family) as CategoryFamily;
-    const safeFamily = knownFamilies.includes(family) ? family : fallback.family;
-    const cataloguePageIds = asStringArray(entry.cataloguePageIds, fallback.cataloguePageIds);
-
+): Category[] {
+  return rawCategories.map((entry) => {
+    const family = asString(entry.family) as CategoryFamily;
+    const safeFamily = knownFamilies.includes(family) ? family : "hardware";
+    const cataloguePageIds = asStringArray(entry.cataloguePageIds);
     return {
-      id: asString(entry.id, fallback.id),
-      slug: asString(entry.slug, fallback.slug),
-      code: asString(entry.code, fallback.code),
-      title: asString(entry.title, fallback.title),
-      subtitle: asString(entry.subtitle, fallback.subtitle),
-      summary: asString(entry.summary, fallback.summary),
-      badge: asString(entry.badge, fallback.badge),
-      accent: asString(entry.accent, fallback.accent),
-      tone: asString(entry.tone, fallback.tone),
-      family: safeFamily,
-      items: asStringArray(entry.items, fallback.items),
+      id:               asString(entry.id),
+      slug:             asString(entry.slug),
+      code:             asString(entry.code),
+      title:            asString(entry.title),
+      subtitle:         asString(entry.subtitle),
+      summary:          asString(entry.summary),
+      badge:            asString(entry.badge),
+      accent:           asString(entry.accent, "#bf622c"),
+      tone:             asString(entry.tone,   "#f9ece3"),
+      family:           safeFamily,
+      items:            asStringArray(entry.items),
       cataloguePageIds,
-      images: cataloguePageIds.map((pageId) => pageImageMap.get(pageId) || fallback.images[0]),
+      images:           cataloguePageIds.map((id) => pageImageMap.get(id) ?? ""),
     } satisfies Category;
   });
 }
 
-function mapProducts(rawProducts: Array<Record<string, unknown>>, fallbackProducts: Product[]) {
-  if (!Array.isArray(rawProducts) || rawProducts.length === 0) return fallbackProducts;
-
-  return rawProducts.map((entry, index) => {
-    const fallback = fallbackProducts[index % fallbackProducts.length];
-    const family = asString(entry.family, fallback.family) as CategoryFamily;
-    const safeFamily = knownFamilies.includes(family) ? family : fallback.family;
+function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
+  return rawProducts.map((entry) => {
+    const family = asString(entry.family) as CategoryFamily;
+    const safeFamily = knownFamilies.includes(family) ? family : "hardware";
     const specs = Array.isArray(entry.specs)
       ? entry.specs
           .map((item) => {
@@ -76,91 +67,94 @@ function mapProducts(rawProducts: Array<Record<string, unknown>>, fallbackProduc
             return { label: asString(row.label), value: asString(row.value) };
           })
           .filter((item) => item.label && item.value)
-      : fallback.specs;
-
-    // images: GROQ returns string[] (asset->url), fall back to local paths
+      : [];
     const rawImages = Array.isArray(entry.images)
       ? (entry.images as unknown[]).map((img) => asString(img)).filter(Boolean)
       : [];
-
     return {
-      id: asString(entry.id, fallback.id),
-      slug: asString(entry.slug, fallback.slug),
-      name: asString(entry.name, fallback.name),
-      brand: asString(entry.brand, fallback.brand),
-      badge: asString(entry.badge, fallback.badge),
-      categoryId: asString(entry.categoryId, fallback.categoryId),
-      categoryTitle: asString(entry.categoryTitle, fallback.categoryTitle),
-      family: safeFamily,
-      type: asString(entry.type, fallback.type),
-      summary: asString(entry.summary, fallback.summary),
-      description: asString(entry.description, fallback.description),
-      features: asStringArray(entry.features, fallback.features),
+      id:               asString(entry.id),
+      slug:             asString(entry.slug),
+      name:             asString(entry.name),
+      brand:            asString(entry.brand),
+      badge:            asString(entry.badge),
+      categoryId:       asString(entry.categoryId),
+      categoryTitle:    asString(entry.categoryTitle),
+      family:           safeFamily,
+      type:             asString(entry.type),
+      summary:          asString(entry.summary),
+      description:      asString(entry.description),
+      features:         asStringArray(entry.features),
       specs,
-      tags: asStringArray(entry.tags, fallback.tags),
-      images: rawImages.length > 0 ? rawImages : fallback.images,
-      referencePageIds: asStringArray(entry.referencePageIds, fallback.referencePageIds),
+      tags:             asStringArray(entry.tags),
+      images:           rawImages,
+      referencePageIds: asStringArray(entry.referencePageIds),
     } satisfies Product;
   });
 }
 
 export function mapSiteContent(queryResult?: SiteContentQueryResult | null): SiteContent {
-  if (!queryResult) return fallbackSiteContent;
+  const raw = asRecord(queryResult?.siteSettings);
 
-  const raw = asRecord(queryResult.siteSettings);
-  const fallback = fallbackSiteContent;
-
-  // Catalogue pages
-  const cataloguePages = Array.isArray(raw.cataloguePages)
-    ? (raw.cataloguePages as Array<Record<string, unknown>>).map((item, index) => {
-        const rowFallback = fallback.cataloguePages[index % fallback.cataloguePages.length];
-        return {
-          id: asString(item.id, rowFallback.id),
-          title: asString(item.title, rowFallback.title),
-          section: asString(item.section, rowFallback.section),
-          image: asString(item.image, rowFallback.image),
-        } satisfies CataloguePage;
-      })
-    : fallback.cataloguePages;
+  const cataloguePages: CataloguePage[] = Array.isArray(raw.cataloguePages)
+    ? (raw.cataloguePages as Array<Record<string, unknown>>).map((item) => ({
+        id:      asString(item.id),
+        title:   asString(item.title),
+        section: asString(item.section),
+        image:   asString(item.image),
+      }))
+    : [];
 
   const pageImageMap = resolveCataloguePageMap(cataloguePages);
-  const categories = mapCategories(queryResult.categories || [], fallback.categories, pageImageMap);
-  const products = mapProducts(queryResult.products || [], fallback.products);
 
-  // Featured IDs — come as [{id: string}] from reference resolution
+  const categories = Array.isArray(queryResult?.categories) && queryResult!.categories!.length > 0
+    ? mapCategories(queryResult!.categories as Array<Record<string, unknown>>, pageImageMap)
+    : [];
+
+  const products = Array.isArray(queryResult?.products) && queryResult!.products!.length > 0
+    ? mapProducts(queryResult!.products as Array<Record<string, unknown>>)
+    : [];
+
   const featuredCategoryIds = Array.isArray(raw.featuredCategoryIds)
-    ? (raw.featuredCategoryIds as Array<Record<string, unknown>>)
-        .map((i) => asString(i.id))
-        .filter(Boolean)
-    : fallback.featuredCategoryIds;
+    ? (raw.featuredCategoryIds as Array<Record<string, unknown>>).map((i) => asString(i.id)).filter(Boolean)
+    : [];
 
   const featuredProductIds = Array.isArray(raw.featuredProductIds)
-    ? (raw.featuredProductIds as Array<Record<string, unknown>>)
-        .map((i) => asString(i.id))
-        .filter(Boolean)
-    : fallback.featuredProductIds;
+    ? (raw.featuredProductIds as Array<Record<string, unknown>>).map((i) => asString(i.id)).filter(Boolean)
+    : [];
 
-  const familyOverview = { ...fallback.familyOverview, ...asRecord(raw.familyOverview) };
+  const familyOverview = asRecord(raw.familyOverview) as Record<CategoryFamily, string>;
+
+  const stats = Array.isArray(raw.stats)
+    ? (raw.stats as Array<Record<string, unknown>>)
+        .map((s) => ({ value: asString(s.value), label: asString(s.label) }))
+        .filter((s) => s.value && s.label)
+    : [];
+
+  const heroMedia = Array.isArray(raw.heroMedia)
+    ? (raw.heroMedia as Array<Record<string, unknown>>).map((item) => ({
+        eyebrow:     asString(item.eyebrow),
+        title:       asString(item.title),
+        description: asString(item.description),
+        image:       asString(item.image),
+      }))
+    : [];
 
   return {
     brand: {
-      ...fallback.brand,
-      name:         asString(raw.brandName,         fallback.brand.name),
-      shortName:    asString(raw.brandShortName,    fallback.brand.shortName),
-      supportLabel: asString(raw.brandSupportLabel, fallback.brand.supportLabel),
-      logoUrl:      asString(raw.brandLogoUrl,      fallback.brand.logoUrl ?? "") || undefined,
-      phone:        asString(raw.phoneDisplay,      fallback.brand.phone),
-      phoneRaw:     asString(raw.phoneRaw,          fallback.brand.phoneRaw),
-      phoneHref:    asString(raw.phoneHref,         fallback.brand.phoneHref),
-      email:        asString(raw.email,             fallback.brand.email),
-      emailHref:    asString(raw.emailHref,         fallback.brand.emailHref),
-      whatsappHref: asString(raw.whatsappHref,      fallback.brand.whatsappHref),
-      city:         asString(raw.city,              fallback.brand.city),
-      intro:        asString(raw.intro,             fallback.brand.intro),
+      name:         asString(raw.brandName),
+      shortName:    asString(raw.brandShortName),
+      supportLabel: asString(raw.brandSupportLabel),
+      logoUrl:      asString(raw.brandLogoUrl) || undefined,
+      phone:        asString(raw.phoneDisplay),
+      phoneRaw:     asString(raw.phoneRaw),
+      phoneHref:    asString(raw.phoneHref),
+      email:        asString(raw.email),
+      emailHref:    asString(raw.emailHref),
+      whatsappHref: asString(raw.whatsappHref),
+      city:         asString(raw.city),
+      intro:        asString(raw.intro),
     },
-    stats: Array.isArray(raw.stats) && (raw.stats as Array<Record<string, unknown>>).length > 0
-      ? (raw.stats as Array<Record<string, unknown>>).map((s) => ({ value: asString(s.value), label: asString(s.label) })).filter((s) => s.value && s.label)
-      : fallback.stats,
+    stats,
     stores: Array.isArray(raw.stores)
       ? (raw.stores as Array<Record<string, unknown>>)
           .map((item) => ({
@@ -171,117 +165,106 @@ export function mapSiteContent(queryResult?: SiteContentQueryResult | null): Sit
             mapsUrl: asString(item.mapsUrl),
           }))
           .filter((item) => item.name && item.mapsUrl)
-      : fallback.stores,
-    brands: asStringArray(raw.brands, fallback.brands),
+      : [],
+    brands: asStringArray(raw.brands),
     specializations: Array.isArray(raw.specializations)
-      ? (raw.specializations as Array<Record<string, unknown>>).map((item, index) => {
-          const rowFallback = fallback.specializations[index % fallback.specializations.length];
-          return {
-            title:   asString(item.title,   rowFallback.title),
-            summary: asString(item.summary, rowFallback.summary),
-            items:   asStringArray(item.items, rowFallback.items),
-          };
-        })
-      : fallback.specializations,
-    heroMedia: Array.isArray(raw.heroMedia)
-      ? (raw.heroMedia as Array<Record<string, unknown>>).map((item, index) => {
-          const rowFallback = fallback.heroMedia[index % fallback.heroMedia.length];
-          return {
-            eyebrow:     asString(item.eyebrow,     rowFallback.eyebrow),
-            title:       asString(item.title,       rowFallback.title),
-            description: asString(item.description, rowFallback.description),
-            image:       asString(item.image,       rowFallback.image),
-          };
-        })
-      : fallback.heroMedia,
+      ? (raw.specializations as Array<Record<string, unknown>>).map((item) => ({
+          title:   asString(item.title),
+          summary: asString(item.summary),
+          items:   asStringArray(item.items),
+        }))
+      : [],
+    heroMedia,
     categories,
     products,
     cataloguePages,
-    catalogueFile:      asString(raw.catalogueFile, fallback.catalogueFile),
-    featuredCategoryIds: featuredCategoryIds.length > 0 ? featuredCategoryIds : fallback.featuredCategoryIds,
-    featuredProductIds:  featuredProductIds.length > 0  ? featuredProductIds  : fallback.featuredProductIds,
+    catalogueFile:       asString(raw.catalogueFile),
+    featuredCategoryIds,
+    featuredProductIds,
     familyOverview,
     copy: {
-      headerNavItems: Array.isArray(raw.navItems) && (raw.navItems as Array<Record<string, unknown>>).length > 0
-        ? (raw.navItems as Array<Record<string, unknown>>).map((i) => ({ href: asString(i.href), label: asString(i.label) })).filter((i) => i.href && i.label)
-        : fallback.copy.headerNavItems,
-      headerCtaLabel: asString(raw.headerCtaLabel, fallback.copy.headerCtaLabel),
+      headerNavItems: Array.isArray(raw.navItems)
+        ? (raw.navItems as Array<Record<string, unknown>>)
+            .map((i) => ({ href: asString(i.href), label: asString(i.label) }))
+            .filter((i) => i.href && i.label)
+        : [],
+      headerCtaLabel: asString(raw.headerCtaLabel),
       home: {
-        heroHappyCustomersCount:    asString(raw.heroHappyCustomersCount,           fallback.copy.home.heroHappyCustomersCount),
-        heroHappyCustomersLabel:    asString(raw.heroHappyCustomersLabel,           fallback.copy.home.heroHappyCustomersLabel),
-        heroFloatingCardTitle:      asString(raw.heroFloatingCardTitle,             fallback.copy.home.heroFloatingCardTitle),
-        heroFloatingCardImage:      asString(raw.heroFloatingCardImage,             fallback.copy.home.heroFloatingCardImage),
-        featuredRangesEyebrow:      asString(raw.homeFeaturedRangesEyebrow,        fallback.copy.home.featuredRangesEyebrow),
-        featuredRangesTitle:        asString(raw.homeFeaturedRangesTitle,          fallback.copy.home.featuredRangesTitle),
-        featuredRangesDescription:  asString(raw.homeFeaturedRangesDescription,    fallback.copy.home.featuredRangesDescription),
-        featuredProductsEyebrow:    asString(raw.homeFeaturedProductsEyebrow,      fallback.copy.home.featuredProductsEyebrow),
-        featuredProductsTitle:      asString(raw.homeFeaturedProductsTitle,        fallback.copy.home.featuredProductsTitle),
-        featuredProductsDescription:asString(raw.homeFeaturedProductsDescription,  fallback.copy.home.featuredProductsDescription),
-        whyEyebrow:                 asString(raw.homeWhyEyebrow,                   fallback.copy.home.whyEyebrow),
-        whyTitle:                   asString(raw.homeWhyTitle,                     fallback.copy.home.whyTitle),
-        whyDescription:             asString(raw.homeWhyDescription,               fallback.copy.home.whyDescription),
-        brandsEyebrow:              asString(raw.homeBrandsEyebrow,                fallback.copy.home.brandsEyebrow),
-        brandsTitle:                asString(raw.homeBrandsTitle,                  fallback.copy.home.brandsTitle),
-        brandsDescription:          asString(raw.homeBrandsDescription,            fallback.copy.home.brandsDescription),
+        heroHappyCustomersCount:     asString(raw.heroHappyCustomersCount),
+        heroHappyCustomersLabel:     asString(raw.heroHappyCustomersLabel),
+        heroFloatingCardTitle:       asString(raw.heroFloatingCardTitle),
+        heroFloatingCardImage:       asString(raw.heroFloatingCardImage),
+        featuredRangesEyebrow:       asString(raw.homeFeaturedRangesEyebrow),
+        featuredRangesTitle:         asString(raw.homeFeaturedRangesTitle),
+        featuredRangesDescription:   asString(raw.homeFeaturedRangesDescription),
+        featuredProductsEyebrow:     asString(raw.homeFeaturedProductsEyebrow),
+        featuredProductsTitle:       asString(raw.homeFeaturedProductsTitle),
+        featuredProductsDescription: asString(raw.homeFeaturedProductsDescription),
+        whyEyebrow:                  asString(raw.homeWhyEyebrow),
+        whyTitle:                    asString(raw.homeWhyTitle),
+        whyDescription:              asString(raw.homeWhyDescription),
+        brandsEyebrow:               asString(raw.homeBrandsEyebrow),
+        brandsTitle:                 asString(raw.homeBrandsTitle),
+        brandsDescription:           asString(raw.homeBrandsDescription),
       },
       products: {
-        heroEyebrow:         asString(raw.productsHeroEyebrow,          fallback.copy.products.heroEyebrow),
-        heroTitle:           asString(raw.productsHeroTitle,            fallback.copy.products.heroTitle),
-        heroDescription:     asString(raw.productsHeroSubtitle,         fallback.copy.products.heroDescription),
-        summaryTitle:        asString(raw.productsSummaryTitle,         fallback.copy.products.summaryTitle),
-        summaryDescription:  asString(raw.productsSummaryDescription,   fallback.copy.products.summaryDescription),
-        noResultEyebrow:     asString(raw.productsNoResultEyebrow,      fallback.copy.products.noResultEyebrow),
-        noResultTitle:       asString(raw.productsNoResultTitle,        fallback.copy.products.noResultTitle),
-        noResultDescription: asString(raw.productsNoResultDescription,  fallback.copy.products.noResultDescription),
-        noResultResetLabel:  asString(raw.productsNoResultResetLabel,   fallback.copy.products.noResultResetLabel),
-        filterFamilyLabel:   asString(raw.productsFilterFamilyLabel,    fallback.copy.products.filterFamilyLabel),
-        filterRangeLabel:    asString(raw.productsFilterRangeLabel,     fallback.copy.products.filterRangeLabel),
-        filterBrandLabel:    asString(raw.productsFilterBrandLabel,     fallback.copy.products.filterBrandLabel),
+        heroEyebrow:         asString(raw.productsHeroEyebrow),
+        heroTitle:           asString(raw.productsHeroTitle),
+        heroDescription:     asString(raw.productsHeroSubtitle),
+        summaryTitle:        asString(raw.productsSummaryTitle),
+        summaryDescription:  asString(raw.productsSummaryDescription),
+        noResultEyebrow:     asString(raw.productsNoResultEyebrow),
+        noResultTitle:       asString(raw.productsNoResultTitle),
+        noResultDescription: asString(raw.productsNoResultDescription),
+        noResultResetLabel:  asString(raw.productsNoResultResetLabel),
+        filterFamilyLabel:   asString(raw.productsFilterFamilyLabel),
+        filterRangeLabel:    asString(raw.productsFilterRangeLabel),
+        filterBrandLabel:    asString(raw.productsFilterBrandLabel),
       },
       catalogue: {
-        heroEyebrow:     asString(raw.catalogueHeroEyebrow,     fallback.copy.catalogue.heroEyebrow),
-        heroTitle:       asString(raw.catalogueHeroTitle,       fallback.copy.catalogue.heroTitle),
-        heroDescription: asString(raw.catalogueHeroDescription, fallback.copy.catalogue.heroDescription),
-        focusEyebrow:    asString(raw.catalogueFocusEyebrow,    fallback.copy.catalogue.focusEyebrow),
-        browseEyebrow:   asString(raw.catalogueBrowseEyebrow,   fallback.copy.catalogue.browseEyebrow),
-        downloadLabel:   asString(raw.catalogueDownloadLabel,   fallback.copy.catalogue.downloadLabel),
-        callLabel:       asString(raw.catalogueCallLabel,       fallback.copy.catalogue.callLabel),
-        emailLabel:      asString(raw.catalogueEmailLabel,      fallback.copy.catalogue.emailLabel),
+        heroEyebrow:     asString(raw.catalogueHeroEyebrow),
+        heroTitle:       asString(raw.catalogueHeroTitle),
+        heroDescription: asString(raw.catalogueHeroDescription),
+        focusEyebrow:    asString(raw.catalogueFocusEyebrow),
+        browseEyebrow:   asString(raw.catalogueBrowseEyebrow),
+        downloadLabel:   asString(raw.catalogueDownloadLabel),
+        callLabel:       asString(raw.catalogueCallLabel),
+        emailLabel:      asString(raw.catalogueEmailLabel),
       },
       about: {
-        heroEyebrow:          asString(raw.aboutHeroEyebrow,          fallback.copy.about.heroEyebrow),
-        heroTitle:            asString(raw.aboutHeroTitle,            fallback.copy.about.heroTitle),
-        heroDescription:      asString(raw.aboutHeroSubtitle,         fallback.copy.about.heroDescription),
-        primaryCtaLabel:      asString(raw.aboutPrimaryCtaLabel,      fallback.copy.about.primaryCtaLabel),
-        secondaryCtaLabel:    asString(raw.aboutSecondaryCtaLabel,    fallback.copy.about.secondaryCtaLabel),
-        modelEyebrow:         asString(raw.aboutModelEyebrow,         fallback.copy.about.modelEyebrow),
-        modelTitle:           asString(raw.aboutModelTitle,           fallback.copy.about.modelTitle),
-        modelDescription:     asString(raw.aboutModelDescription,     fallback.copy.about.modelDescription),
-        brandsEyebrow:        asString(raw.aboutBrandsEyebrow,        fallback.copy.about.brandsEyebrow),
-        brandsTitle:          asString(raw.aboutBrandsTitle,          fallback.copy.about.brandsTitle),
-        brandsDescription:    asString(raw.aboutBrandsDescription,    fallback.copy.about.brandsDescription),
+        heroEyebrow:       asString(raw.aboutHeroEyebrow),
+        heroTitle:         asString(raw.aboutHeroTitle),
+        heroDescription:   asString(raw.aboutHeroSubtitle),
+        primaryCtaLabel:   asString(raw.aboutPrimaryCtaLabel),
+        secondaryCtaLabel: asString(raw.aboutSecondaryCtaLabel),
+        modelEyebrow:      asString(raw.aboutModelEyebrow),
+        modelTitle:        asString(raw.aboutModelTitle),
+        modelDescription:  asString(raw.aboutModelDescription),
+        brandsEyebrow:     asString(raw.aboutBrandsEyebrow),
+        brandsTitle:       asString(raw.aboutBrandsTitle),
+        brandsDescription: asString(raw.aboutBrandsDescription),
       },
       contact: {
-        heroEyebrow:              asString(raw.contactHeroEyebrow,              fallback.copy.contact.heroEyebrow),
-        heroTitle:                asString(raw.contactHeroTitle,                fallback.copy.contact.heroTitle),
-        heroDescription:          asString(raw.contactHeroSubtitle,             fallback.copy.contact.heroDescription),
-        quickContactEyebrow:      asString(raw.contactQuickContactEyebrow,      fallback.copy.contact.quickContactEyebrow),
-        whatsappTitle:            asString(raw.contactWhatsappTitle,            fallback.copy.contact.whatsappTitle),
-        whatsappDescription:      asString(raw.contactWhatsappDescription,      fallback.copy.contact.whatsappDescription),
-        enquiryEyebrow:           asString(raw.contactEnquiryEyebrow,           fallback.copy.contact.enquiryEyebrow),
-        enquiryTitle:             asString(raw.contactEnquiryTitle,             fallback.copy.contact.enquiryTitle),
-        enquiryDescription:       asString(raw.contactEnquiryDescription,       fallback.copy.contact.enquiryDescription),
-        enquirySentTitle:         asString(raw.contactEnquirySentTitle,         fallback.copy.contact.enquirySentTitle),
-        enquirySentDescription:   asString(raw.contactEnquirySentDescription,   fallback.copy.contact.enquirySentDescription),
-        enquirySubmitLabel:       asString(raw.contactEnquirySubmitLabel,       fallback.copy.contact.enquirySubmitLabel),
-        businessHoursWeekday:     asString(raw.contactBusinessHoursWeekday,     fallback.copy.contact.businessHoursWeekday),
-        businessHoursSunday:      asString(raw.contactBusinessHoursSunday,      fallback.copy.contact.businessHoursSunday),
+        heroEyebrow:            asString(raw.contactHeroEyebrow),
+        heroTitle:              asString(raw.contactHeroTitle),
+        heroDescription:        asString(raw.contactHeroSubtitle),
+        quickContactEyebrow:    asString(raw.contactQuickContactEyebrow),
+        whatsappTitle:          asString(raw.contactWhatsappTitle),
+        whatsappDescription:    asString(raw.contactWhatsappDescription),
+        enquiryEyebrow:         asString(raw.contactEnquiryEyebrow),
+        enquiryTitle:           asString(raw.contactEnquiryTitle),
+        enquiryDescription:     asString(raw.contactEnquiryDescription),
+        enquirySentTitle:       asString(raw.contactEnquirySentTitle),
+        enquirySentDescription: asString(raw.contactEnquirySentDescription),
+        enquirySubmitLabel:     asString(raw.contactEnquirySubmitLabel),
+        businessHoursWeekday:   asString(raw.contactBusinessHoursWeekday),
+        businessHoursSunday:    asString(raw.contactBusinessHoursSunday),
       },
       footer: {
-        navigateTitle: asString(raw.footerNavigateTitle, fallback.copy.footer.navigateTitle),
-        storesTitle:   asString(raw.footerStoresTitle,   fallback.copy.footer.storesTitle),
-        contactTitle:  asString(raw.footerContactTitle,  fallback.copy.footer.contactTitle),
-        bottomCaption: asString(raw.footerBottomCaption, fallback.copy.footer.bottomCaption),
+        navigateTitle: asString(raw.footerNavigateTitle),
+        storesTitle:   asString(raw.footerStoresTitle),
+        contactTitle:  asString(raw.footerContactTitle),
+        bottomCaption: asString(raw.footerBottomCaption),
       },
     },
   };
