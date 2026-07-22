@@ -111,7 +111,7 @@ export function HomePage() {
         <BrandMarquee
           items={brands}
           durationSeconds={22}
-          itemClassName="inline-flex items-center gap-4 whitespace-nowrap font-display font-bold text-[0.95rem] uppercase tracking-[0.06em] px-6"
+          itemClassName="inline-flex items-center gap-4 whitespace-nowrap font-display font-bold text-[0.95rem] uppercase tracking-[0.06em] px-6 text-white"
           className=""
         />
       </div>
