@@ -80,7 +80,9 @@ export function ContactPage() {
                   <div className="flex flex-col gap-[0.3rem]">
                     <span className="text-[0.72rem] font-extrabold uppercase tracking-[0.14em] text-[color:var(--text-faint)]">Business hours</span>
                     <strong>{copy.contact.businessHoursWeekday}</strong>
-                    <strong>{copy.contact.businessHoursSunday}</strong>
+                    {copy.contact.businessHoursSunday && copy.contact.businessHoursSunday !== copy.contact.businessHoursWeekday && (
+                      <strong>{copy.contact.businessHoursSunday}</strong>
+                    )}
                   </div>
                 </div>
               </div>

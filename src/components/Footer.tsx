@@ -21,7 +21,7 @@ export function Footer() {
                 <img src={brand.logoUrl} alt={brand.name} className="h-10 w-auto max-w-[9rem] shrink-0 object-contain" />
               ) : (
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg font-display text-[1rem] font-bold text-white" style={{ backgroundColor: "var(--accent)" }}>
-                  DT
+                  {brand.shortName?.slice(0, 2).toUpperCase() || "US"}
                 </div>
               )}
               <p className="m-0 font-display text-[1.2rem]" style={{ color: "#ffffff" }}>{brand.name}</p>

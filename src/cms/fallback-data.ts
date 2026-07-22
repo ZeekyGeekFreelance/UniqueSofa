@@ -80,7 +80,7 @@ const fallbackCopy: PageCopy = {
     heroDescription:
       "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
     primaryCtaLabel: "Explore products",
-    secondaryCtaLabel: "Contact the team",
+    secondaryCtaLabel: "Contact us",
     modelEyebrow: "Business model",
     modelTitle: "Three supply roles that shape the business.",
     modelDescription:
@@ -92,7 +92,7 @@ const fallbackCopy: PageCopy = {
   },
   contact: {
     heroEyebrow: "Contact Us",
-    heroTitle: "Speak with the team for custom orders, product guidance, and store visits.",
+    heroTitle: "Speak with us for custom orders, product guidance, and store visits.",
     heroDescription:
       "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
     quickContactEyebrow: "Quick contact",
@@ -104,7 +104,7 @@ const fallbackCopy: PageCopy = {
       "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
     enquirySentTitle: "WhatsApp message ready",
     enquirySentDescription:
-      "If WhatsApp did not open, you can still message the team directly.",
+      "If WhatsApp did not open, you can still message us directly.",
     enquirySubmitLabel: "Send WhatsApp enquiry",
     businessHoursWeekday: "Daily: 10:00 AM – 9:00 PM",
     businessHoursSunday: "Daily: 10:00 AM – 9:00 PM",

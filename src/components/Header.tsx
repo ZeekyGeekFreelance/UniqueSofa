@@ -14,12 +14,12 @@ export function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [closing, setClosing]   = useState(false);
-  const [scrolled, setScrolled] = useState(!isHome);
   const menuPanelRef  = useRef<HTMLDivElement | null>(null);
   const menuButtonRef = useRef<HTMLButtonElement | null>(null);
   const [location] = useLocation();
 
   const isHome = location === "/";
+  const [scrolled, setScrolled] = useState(!isHome);
 
   useEffect(() => {
     if (!isHome) { setScrolled(true); return; }
