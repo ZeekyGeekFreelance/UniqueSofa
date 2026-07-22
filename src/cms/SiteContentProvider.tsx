@@ -23,7 +23,6 @@ export function SiteContentProvider({ children }: SiteContentProviderProps) {
     () => ({
       ttlMs: 60_000,
       refreshIntervalMs: 90_000,
-      listenTypes: ["siteSettings", "category", "product"] as string[],
     }),
     [],
   );
