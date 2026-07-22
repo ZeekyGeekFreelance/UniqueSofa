@@ -87,9 +87,9 @@ const STORES = [
 const BRANDS = ["Century Foam","Madura Coats","Vardhman A&E","KAYMO","Miles","Polygrip","Innfix","Groz-Beckert","Veer","Rapid"];
 
 const SPECIALIZATIONS = [
-  { title: "Manufacturer", summary: "Staple pins, hog rings, and zig-zag springs are part of the in-house supply backbone.", items: ["80 / 100 / 90 / 23-8 staple series", "C hog rings and C24 pins", "Black and gold zig-zag springs"] },
-  { title: "Stockist", summary: "Core materials and dependable brands are kept moving for repeat workshop demand.", items: ["Pocket springs", "Century Foam grades", "Madura Coats and Vardhman A&E threads"] },
-  { title: "Dealer", summary: "A broad working range for sofa makers, upholsterers, carpenters, and designers.", items: ["Professional upholstery tools", "Sofa hardware and accessories", "Thread, zipper, and trim supplies"] },
+  { title: "Premium Sofas", summary: "Handcrafted sofas built for comfort and longevity, available in a wide range of styles, fabrics, and custom configurations.", items: ["L-shape, sectional, and classic designs", "Custom fabric and leather upholstery", "Made-to-order sizing and finish"] },
+  { title: "Sofa Repair & Restoration", summary: "Bringing worn sofas back to life with professional repair, re-upholstery, and structural restoration services.", items: ["Frame and spring repair", "Fabric and leather re-upholstery", "Foam replacement and cushion refill"] },
+  { title: "Custom Furniture", summary: "Bespoke furniture crafted to your space, style, and budget — from concept to delivery across Bengaluru.", items: ["Home and office furniture", "Custom beds, chairs, and ottomans", "On-site measurement and consultation"] },
 ];
 
 const HERO_MEDIA = [
@@ -328,15 +328,15 @@ async function seedSiteSettings() {
     aboutHeroTitle: "Crafting Comfortable Living Spaces with Quality Furniture Since 2021.",
     aboutHeroSubtitle: "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
     aboutPrimaryCtaLabel: "Explore products",
-    aboutSecondaryCtaLabel: "Contact the team",
-    aboutModelEyebrow: "Business model",
-    aboutModelTitle: "Three supply roles that shape the business.",
-    aboutModelDescription: "These strengths define how Unique Sofa World Furniture delivers custom sofas, furniture manufacturing, and upholstery services to homes and businesses across Bengaluru.",
+    aboutSecondaryCtaLabel: "Contact us",
+    aboutModelEyebrow: "Our services",
+    aboutModelTitle: "Three services that define what we do.",
+    aboutModelDescription: "From crafting new sofas to restoring old ones and building custom furniture, Unique Sofa World Furniture covers every comfort need for homes and businesses across Bengaluru.",
     aboutBrandsEyebrow: "Stocked brands",
     aboutBrandsTitle: "Trusted names already familiar to furniture workshops.",
     aboutBrandsDescription: "The Unique Sofa World Furniture range covers premium sofa materials, quality fabrics, and trusted hardware brands used in every piece we craft.",
     contactHeroEyebrow: "Contact Us",
-    contactHeroTitle: "Speak with the team for custom orders, product guidance, and store visits.",
+    contactHeroTitle: "Speak with us for custom orders, product guidance, and store visits.",
     contactHeroSubtitle: "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
     contactQuickContactEyebrow: "Quick contact",
     contactWhatsappTitle: "WhatsApp enquiries",
@@ -345,7 +345,7 @@ async function seedSiteSettings() {
     contactEnquiryTitle: "Send an enquiry",
     contactEnquiryDescription: "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
     contactEnquirySentTitle: "WhatsApp message ready",
-    contactEnquirySentDescription: "If WhatsApp did not open, you can still message the team directly.",
+    contactEnquirySentDescription: "If WhatsApp did not open, you can still message us directly.",
     contactEnquirySubmitLabel: "Send WhatsApp enquiry",
     contactBusinessHoursWeekday: "Daily: 10:00 AM – 9:00 PM",
     contactBusinessHoursSunday: "Daily: 10:00 AM – 9:00 PM",

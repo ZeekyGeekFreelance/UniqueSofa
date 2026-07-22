@@ -38,7 +38,7 @@ export function BrandMarquee({
         {/* Two full sets so the scroll loops seamlessly */}
         {[...items, ...items].map((item, i) => (
           <span key={i} className="inline-flex items-center">
-            <span className={cls} style={{ color: "var(--forest)" }}>
+            <span className={cls} style={{ color: "rgba(255,255,255,0.7)" }}>
               {item}
             </span>
             {/* Orange diamond separator */}

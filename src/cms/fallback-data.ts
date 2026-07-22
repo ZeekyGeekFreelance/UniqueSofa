@@ -82,9 +82,9 @@ const fallbackCopy: PageCopy = {
     primaryCtaLabel: "Explore products",
     secondaryCtaLabel: "Contact us",
     modelEyebrow: "Business model",
-    modelTitle: "Three supply roles that shape the business.",
+    modelTitle: "Three services that define what we do.",
     modelDescription:
-      "These strengths define how Unique Sofa World Furniture delivers custom sofas, furniture manufacturing, and upholstery services to homes and businesses across Bengaluru.",
+      "From crafting new sofas to restoring old ones and building custom furniture, Unique Sofa World Furniture covers every comfort need for homes and businesses across Bengaluru.",
     brandsEyebrow: "Stocked brands",
     brandsTitle: "Trusted names already familiar to furniture workshops.",
     brandsDescription:

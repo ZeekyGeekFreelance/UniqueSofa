@@ -107,33 +107,33 @@ export const BRANDS = [
 
 export const SPECIALIZATIONS = [
   {
-    title: "Manufacturer",
+    title: "Premium Sofas",
     summary:
-      "Staple pins, hog rings, and zig-zag springs are part of the in-house supply backbone.",
+      "Handcrafted sofas built for comfort and longevity, available in a wide range of styles, fabrics, and custom configurations.",
     items: [
-      "80 / 100 / 90 / 23-8 staple series",
-      "C hog rings and C24 pins",
-      "Black and gold zig-zag springs",
+      "L-shape, sectional, and classic designs",
+      "Custom fabric and leather upholstery",
+      "Made-to-order sizing and finish",
     ],
   },
   {
-    title: "Stockist",
+    title: "Sofa Repair & Restoration",
     summary:
-      "Core materials and dependable brands are kept moving for repeat workshop demand.",
+      "Bringing worn sofas back to life with professional repair, re-upholstery, and structural restoration services.",
     items: [
-      "Pocket springs",
-      "Century Foam grades",
-      "Madura Coats and Vardhman A&E threads",
+      "Frame and spring repair",
+      "Fabric and leather re-upholstery",
+      "Foam replacement and cushion refill",
     ],
   },
   {
-    title: "Dealer",
+    title: "Custom Furniture",
     summary:
-      "A broad working range for sofa makers, upholsterers, carpenters, and designers.",
+      "Bespoke furniture crafted to your space, style, and budget — from concept to delivery across Bengaluru.",
     items: [
-      "Professional upholstery tools",
-      "Sofa hardware and accessories",
-      "Thread, zipper, and trim supplies",
+      "Home and office furniture",
+      "Custom beds, chairs, and ottomans",
+      "On-site measurement and consultation",
     ],
   },
 ];

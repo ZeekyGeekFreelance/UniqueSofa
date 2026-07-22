@@ -74,7 +74,7 @@ export function ProductCard({
         <div className="mt-auto grid grid-cols-2 gap-2 pt-4 max-[780px]:flex max-[780px]:flex-col-reverse max-[780px]:gap-2">
           <button
             type="button"
-            className={`${ui.buttonBase} ${ui.buttonPrimary} min-w-0`}
+            className={`${ui.buttonBase} min-w-0 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-dark)] text-white !shadow-none border-transparent hover:opacity-90`}
             onClick={() => onOpen(product)}
           >
             View details

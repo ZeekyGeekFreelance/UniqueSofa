@@ -105,8 +105,8 @@ export function HomePage() {
 
       {/* ── MARQUEE BELT ───────────────────────────────────────── */}
       <div
-        className="border-y overflow-hidden py-4"
-        style={{ borderColor: "var(--border)", backgroundColor: "var(--background)" }}
+        className="overflow-hidden py-5"
+        style={{ backgroundColor: "var(--forest-mid)", borderTop: "1px solid rgba(255,255,255,0.08)", marginTop: "2.5rem" }}
       >
         <BrandMarquee
           items={brands}
@@ -217,7 +217,7 @@ export function HomePage() {
               <div key={spec.title} className="flex flex-1 items-stretch">
                 {index > 0 && <div className="w-px shrink-0 self-stretch max-[780px]:hidden" style={{ backgroundColor: "rgba(255,255,255,0.15)" }} />}
                 <article className="flex flex-1 flex-col gap-4 p-7 max-[780px]:p-5" style={{ backgroundColor: "rgba(255,255,255,0.05)" }} data-reveal>
-                  <p className="m-0 text-[0.68rem] font-bold uppercase tracking-[0.16em]" style={{ color: "rgba(255,255,255,0.55)" }}>Supply role</p>
+                  <p className="m-0 text-[0.68rem] font-bold uppercase tracking-[0.16em]" style={{ color: "rgba(255,255,255,0.55)" }}>Our services</p>
                   <h3 className="m-0 font-display text-[clamp(1.45rem,1.8vw,1.75rem)] leading-[1.06]" style={{ color: "#ffffff" }}>{spec.title}</h3>
                   <p className="m-0 text-[0.9rem] leading-[1.7] max-[780px]:text-[0.88rem]" style={{ color: "rgba(255,255,255,0.75)" }}>{spec.summary}</p>
                   <ul className="mt-auto grid gap-2">
