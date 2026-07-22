@@ -7,13 +7,11 @@ import { ProductModal } from "../components/ProductModal";
 import { SectionHeading } from "../components/SectionHeading";
 import {
   BRAND,
-  BRAND_FILTERS,
   CATEGORIES,
   FAMILY_FILTERS,
   FAMILY_OVERVIEW,
   PRODUCT_PAGE_SUMMARY,
   PRODUCTS,
-  RANGE_FILTERS,
   type Product,
 } from "../data/site";
 import { usePageTitle } from "../hooks/usePageTitle";
@@ -54,7 +52,45 @@ export function ProductsPage() {
     }
   }, []);
 
+  // Cascade: reset child filters when parent changes and child is no longer valid
+  useEffect(() => {
+    if (family === "all") return;
+    const validRanges = new Set(PRODUCTS.filter((p) => p.family === family).map((p) => p.categoryId));
+    if (range !== "all" && !validRanges.has(range)) setRange("all");
+  }, [family]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    const base = PRODUCTS.filter((p) =>
+      (family === "all" || p.family === family) && (range === "all" || p.categoryId === range)
+    );
+    const validBrands = new Set(base.map((p) => p.brand));
+    if (brand !== "all" && !validBrands.has(brand)) setBrand("all");
+  }, [family, range]); // eslint-disable-line react-hooks/exhaustive-deps
+
   useEffect(() => { setPage(0); }, [search, family, range, brand]);
+
+  // Derived filter options — each level scoped to what the levels above allow
+  const rangeOptions = useMemo(() => {
+    const validIds = new Set(
+      family === "all" ? PRODUCTS.map((p) => p.categoryId) : PRODUCTS.filter((p) => p.family === family).map((p) => p.categoryId)
+    );
+    return [
+      { id: "all", label: "All ranges" },
+      ...CATEGORIES.filter((c) => validIds.has(c.id)).map((c) => ({ id: c.id, label: c.title })),
+    ];
+  }, [family]);
+
+  const brandOptions = useMemo(() => {
+    const base = PRODUCTS.filter((p) =>
+      (family === "all" || p.family === family) && (range === "all" || p.categoryId === range)
+    );
+    const seen = new Set<string>();
+    const brands: { id: string; label: string }[] = [{ id: "all", label: "All brands" }];
+    for (const p of base) {
+      if (!seen.has(p.brand)) { seen.add(p.brand); brands.push({ id: p.brand, label: p.brand }); }
+    }
+    return brands;
+  }, [family, range]);
 
   const filteredProducts = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -105,8 +141,8 @@ export function ProductsPage() {
 
   const activeFilterLabels = [
     family !== "all" ? FAMILY_FILTERS.find((o) => o.id === family)?.label : null,
-    range !== "all" ? RANGE_FILTERS.find((o) => o.id === range)?.label : null,
-    brand !== "all" ? BRAND_FILTERS.find((o) => o.id === brand)?.label : null,
+    range !== "all" ? rangeOptions.find((o) => o.id === range)?.label : null,
+    brand !== "all" ? brandOptions.find((o) => o.id === brand)?.label : null,
   ].filter(Boolean) as string[];
 
   const openProduct = (product: Product) => {
@@ -225,10 +261,10 @@ export function ProductsPage() {
                     <CustomSelect label="Family" options={FAMILY_FILTERS} value={family} onChange={(v) => setFamily(v as typeof family)} />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <CustomSelect label="Range" options={RANGE_FILTERS} value={range} onChange={setRange} />
+                    <CustomSelect label="Range" options={rangeOptions} value={range} onChange={setRange} />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <CustomSelect label="Brand" options={BRAND_FILTERS} value={brand} onChange={setBrand} />
+                    <CustomSelect label="Brand" options={brandOptions} value={brand} onChange={setBrand} />
                   </div>
                 </div>
 
@@ -295,8 +331,8 @@ export function ProductsPage() {
                 {filtersOpen && (
                   <div className="mt-4 grid gap-3 min-[561px]:grid-cols-3 max-[560px]:grid-cols-1">
                     <CustomSelect label="Family" options={FAMILY_FILTERS} value={family} onChange={(v) => setFamily(v as typeof family)} />
-                    <CustomSelect label="Range" options={RANGE_FILTERS} value={range} onChange={setRange} />
-                    <CustomSelect label="Brand" options={BRAND_FILTERS} value={brand} onChange={setBrand} />
+                    <CustomSelect label="Range" options={rangeOptions} value={range} onChange={setRange} />
+                    <CustomSelect label="Brand" options={brandOptions} value={brand} onChange={setBrand} />
                   </div>
                 )}
               </div>

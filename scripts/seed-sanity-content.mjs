@@ -89,13 +89,13 @@ const BRANDS = ["Century Foam","Madura Coats","Vardhman A&E","KAYMO","Miles","Po
 const SPECIALIZATIONS = [
   { title: "Premium Sofas", summary: "Handcrafted sofas built for comfort and longevity, available in a wide range of styles, fabrics, and custom configurations.", items: ["L-shape, sectional, and classic designs", "Custom fabric and leather upholstery", "Made-to-order sizing and finish"] },
   { title: "Sofa Repair & Restoration", summary: "Bringing worn sofas back to life with professional repair, re-upholstery, and structural restoration services.", items: ["Frame and spring repair", "Fabric and leather re-upholstery", "Foam replacement and cushion refill"] },
-  { title: "Custom Furniture", summary: "Bespoke furniture crafted to your space, style, and budget — from concept to delivery across Bengaluru.", items: ["Home and office furniture", "Custom beds, chairs, and ottomans", "On-site measurement and consultation"] },
+  { title: "Custom Furniture", summary: "Bespoke furniture crafted to your space, style, and budget - from concept to delivery across Bengaluru.", items: ["Home and office furniture", "Custom beds, chairs, and ottomans", "On-site measurement and consultation"] },
 ];
 
 const HERO_MEDIA = [
   { eyebrow: "New Collection",  title: "Modern",  description: "Discover our premium selection of modern seating designed for unparalleled comfort and style.",    image: "/heroChair.png" },
   { eyebrow: "Luxury Living",   title: "Comfort", description: "Handcrafted sofas built to elevate your living spaces with premium fabrics and timeless design.", image: "/sofa.png"      },
-  { eyebrow: "Premium Beds",    title: "Serene",  description: "Elegant bed frames crafted for restful spaces — where quality meets lasting style.",               image: "/bed.png"       },
+  { eyebrow: "Premium Beds",    title: "Serene",  description: "Elegant bed frames crafted for restful spaces - where quality meets lasting style.",               image: "/bed.png"       },
 ];
 
 const catalogueMeta = [

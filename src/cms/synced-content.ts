@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-22T13:06:20.274Z",
+  "syncedAt": "2026-07-22T13:45:48.336Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -18,11 +18,11 @@ export const syncedSiteSettings = {
   "aboutHeroEyebrow": "About USW Furniture",
   "aboutHeroSubtitle": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
   "aboutHeroTitle": "Crafting Comfortable Living Spaces with Quality Furniture Since 2021.",
-  "aboutModelDescription": "These strengths define how Unique Sofa World Furniture delivers custom sofas, furniture manufacturing, and upholstery services to homes and businesses across Bengaluru.",
-  "aboutModelEyebrow": "Business model",
-  "aboutModelTitle": "Three supply roles that shape the business.",
+  "aboutModelDescription": "From crafting new sofas to restoring old ones and building custom furniture, Unique Sofa World Furniture covers every comfort need for homes and businesses across Bengaluru.",
+  "aboutModelEyebrow": "Our services",
+  "aboutModelTitle": "Three services that define what we do.",
   "aboutPrimaryCtaLabel": "Explore products",
-  "aboutSecondaryCtaLabel": "Contact the team",
+  "aboutSecondaryCtaLabel": "Contact us",
   "brandLogoUrl": null,
   "brandName": "Unique Sofa World Furniture",
   "brandShortName": "Unique Sofa World",
@@ -175,13 +175,13 @@ export const syncedSiteSettings = {
   "contactBusinessHoursWeekday": "Daily: 10:00 AM – 9:00 PM",
   "contactEnquiryDescription": "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
   "contactEnquiryEyebrow": "WhatsApp enquiry",
-  "contactEnquirySentDescription": "If WhatsApp did not open, you can still message the team directly.",
+  "contactEnquirySentDescription": "If WhatsApp did not open, you can still message us directly.",
   "contactEnquirySentTitle": "WhatsApp message ready",
   "contactEnquirySubmitLabel": "Send WhatsApp enquiry",
   "contactEnquiryTitle": "Send an enquiry",
   "contactHeroEyebrow": "Contact Us",
   "contactHeroSubtitle": "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
-  "contactHeroTitle": "Speak with the team for custom orders, product guidance, and store visits.",
+  "contactHeroTitle": "Speak with us for custom orders, product guidance, and store visits.",
   "contactQuickContactEyebrow": "Quick contact",
   "contactWhatsappDescription": "Quick checks for stock, brands, and product photos.",
   "contactWhatsappTitle": "WhatsApp enquiries",
@@ -213,9 +213,9 @@ export const syncedSiteSettings = {
       "title": "Comfort"
     },
     {
-      "description": "Elegant bed frames crafted for restful spaces — where quality meets lasting style.",
+      "description": "Elegant bed frames crafted for restful spaces - where quality meets lasting style.",
       "eyebrow": "Premium Beds",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/0535738aa1e3829d20ec8641b4bfcf1d24e5900d-1024x619.png",
+      "image": "https://cdn.sanity.io/images/nzfscoez/production/e8a6e870f04969bd6933c5599e2eb9354062af66-1022x508.png",
       "title": "Serene"
     }
   ],
@@ -272,30 +272,30 @@ export const syncedSiteSettings = {
   "specializations": [
     {
       "items": [
-        "80 / 100 / 90 / 23-8 staple series",
-        "C hog rings and C24 pins",
-        "Black and gold zig-zag springs"
+        "L-shape, sectional, and classic designs",
+        "Custom fabric and leather upholstery",
+        "Made-to-order sizing and finish"
       ],
-      "summary": "Staple pins, hog rings, and zig-zag springs are part of the in-house supply backbone.",
-      "title": "Manufacturer"
+      "summary": "Handcrafted sofas built for comfort and longevity, available in a wide range of styles, fabrics, and custom configurations.",
+      "title": "Premium Sofas"
     },
     {
       "items": [
-        "Pocket springs",
-        "Century Foam grades",
-        "Madura Coats and Vardhman A&E threads"
+        "Frame and spring repair",
+        "Fabric and leather re-upholstery",
+        "Foam replacement and cushion refill"
       ],
-      "summary": "Core materials and dependable brands are kept moving for repeat workshop demand.",
-      "title": "Stockist"
+      "summary": "Bringing worn sofas back to life with professional repair, re-upholstery, and structural restoration services.",
+      "title": "Sofa Repair & Restoration"
     },
     {
       "items": [
-        "Professional upholstery tools",
-        "Sofa hardware and accessories",
-        "Thread, zipper, and trim supplies"
+        "Home and office furniture",
+        "Custom beds, chairs, and ottomans",
+        "On-site measurement and consultation"
       ],
-      "summary": "A broad working range for sofa makers, upholsterers, carpenters, and designers.",
-      "title": "Dealer"
+      "summary": "Bespoke furniture crafted to your space, style, and budget - from concept to delivery across Bengaluru.",
+      "title": "Custom Furniture"
     }
   ],
   "ssFeaturedCategories": [
@@ -434,7 +434,7 @@ export const syncedFeaturedProducts = {
 
 export const syncedContactDetails = {
   "addressArea": "Begur Road, Bangalore",
-  "businessHoursSunday": null,
+  "businessHoursSunday": "Daily: 10:00 AM – 9:00 PM",
   "businessHoursWeekday": "Daily: 10:00 AM – 9:00 PM",
   "email": "uniquesofaworldfurniture@gmail.com",
   "phone": "+91 95911 67804",

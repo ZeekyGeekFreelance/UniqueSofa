@@ -129,7 +129,7 @@ export const SPECIALIZATIONS = [
   {
     title: "Custom Furniture",
     summary:
-      "Bespoke furniture crafted to your space, style, and budget — from concept to delivery across Bengaluru.",
+      "Bespoke furniture crafted to your space, style, and budget - from concept to delivery across Bengaluru.",
     items: [
       "Home and office furniture",
       "Custom beds, chairs, and ottomans",
