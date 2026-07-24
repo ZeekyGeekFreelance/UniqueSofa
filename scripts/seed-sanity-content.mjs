@@ -102,44 +102,50 @@ const CATEGORIES = [
   {
     id: "sofas", code: "SF", title: "Sofas", subtitle: "Comfortable seating for every home",
     summary: "Premium handcrafted sofas in modern, luxury, sectional, and custom designs.",
-    badge: "Best Seller", accent: "#bf622c", tone: "#f9ece3", family: "sofas",
-    items: ["3-Seater", "L-Shape", "Sectional", "Chesterfield", "Modern", "Luxury", "Wooden"],
+    badge: "Best Seller", accent: "#bf622c", tone: "#f9ece3", family: "furniture",
+    items: ["Sofa", "Living Room", "Upholstered", "Custom"],
     images: ["/catalogue/page-001.jpg", "/catalogue/page-002.jpg", "/catalogue/page-003.jpg"],
+    products: ["3-Seater", "L-Shape", "Sectional", "Chesterfield", "Modern", "Luxury", "Wooden"],
   },
   {
     id: "beds", code: "BD", title: "Beds", subtitle: "Crafted for comfort and style",
     summary: "Custom wooden and upholstered beds designed for durability and elegant bedrooms.",
-    badge: "Popular", accent: "#2563eb", tone: "#e9f1ff", family: "beds",
-    items: ["King Size", "Queen Size", "Storage", "Upholstered", "Wooden"],
+    badge: "Popular", accent: "#2563eb", tone: "#e9f1ff", family: "furniture",
+    items: ["Bed", "Bedroom", "King Size", "Queen Size"],
     images: ["/catalogue/page-008.jpg", "/catalogue/page-009.jpg", "/catalogue/page-010.jpg"],
+    products: ["King Size", "Queen Size", "Storage", "Upholstered", "Wooden"],
   },
   {
     id: "recliners", code: "RC", title: "Recliners", subtitle: "Relax in premium comfort",
     summary: "Manual and premium recliners with ergonomic support and luxurious cushioning.",
-    badge: "Premium", accent: "#7c3aed", tone: "#f1eaff", family: "recliners",
-    items: ["Manual", "Rocker", "Swivel", "Premium"],
+    badge: "Premium", accent: "#7c3aed", tone: "#f1eaff", family: "furniture",
+    items: ["Recliner", "Lounge", "Comfort"],
     images: ["/catalogue/page-004.jpg", "/catalogue/page-005.jpg", "/catalogue/page-006.jpg"],
+    products: ["Manual", "Rocker", "Swivel", "Premium"],
   },
   {
     id: "chairs", code: "CH", title: "Chairs", subtitle: "Stylish seating solutions",
     summary: "Wooden, accent, dining, and sofa chairs handcrafted for homes and offices.",
-    badge: "", accent: "#1f8f56", tone: "#eaf7ef", family: "seating",
-    items: ["Sofa Chairs", "Wooden Chairs", "Accent Chairs", "Lounge Chairs"],
+    badge: "", accent: "#1f8f56", tone: "#eaf7ef", family: "furniture",
+    items: ["Chair", "Wooden Chair", "Accent Chair"],
     images: ["/catalogue/page-011.jpg", "/catalogue/page-012.jpg", "/catalogue/page-013.jpg"],
+    products: ["Sofa Chairs", "Wooden Chairs", "Accent Chairs", "Lounge Chairs"],
   },
   {
     id: "dining-tables", code: "DT", title: "Dining Tables", subtitle: "Elegant dining experiences",
     summary: "Modern and classic dining tables available in multiple sizes and finishes.",
-    badge: "New", accent: "#d62e63", tone: "#ffe8f0", family: "dining",
-    items: ["4-Seater", "6-Seater", "8-Seater", "Marble Top"],
+    badge: "New", accent: "#d62e63", tone: "#ffe8f0", family: "furniture",
+    items: ["Dining", "Table", "Family Dining"],
     images: ["/catalogue/page-014.jpg", "/catalogue/page-015.jpg", "/catalogue/page-016.jpg"],
+    products: ["4-Seater", "6-Seater", "8-Seater", "Marble Top"],
   },
   {
     id: "center-tables", code: "CT", title: "Center Tables", subtitle: "Complete your living space",
     summary: "Contemporary center and coffee tables crafted from premium materials.",
     badge: "", accent: "#1186a0", tone: "#e7f8fb", family: "furniture",
-    items: ["Center Tables", "Coffee Tables", "Side Tables", "Nesting Tables"],
+    items: ["Center Table", "Coffee Table"],
     images: ["/catalogue/page-017.jpg", "/catalogue/page-018.jpg", "/catalogue/page-019.jpg"],
+    products: ["Center Tables", "Coffee Tables", "Side Tables", "Nesting Tables"],
   },
 ];
 
@@ -165,7 +171,7 @@ const PRODUCT_SPECS = {
 };
 
 const PRODUCTS = CATEGORIES.flatMap((cat) =>
-  cat.items.map((item, idx) => {
+  cat.products.map((item, idx) => {
     const pool = CAT_IMAGES[cat.id];
     const imgs = [pool[idx % pool.length], pool[(idx + 1) % pool.length], pool[(idx + 2) % pool.length]];
     const spec = PRODUCT_SPECS[cat.id];

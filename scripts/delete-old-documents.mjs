@@ -42,7 +42,6 @@ const KEEP_PRODS = [
   "dining-tables-4-seater","dining-tables-6-seater","dining-tables-8-seater","dining-tables-marble-top",
   "center-tables-center-tables","center-tables-coffee-tables","center-tables-side-tables","center-tables-nesting-tables",
 ].map(id => `product-${id}`);
-
 const allCats  = await client.fetch('*[_type == "category"]{ _id }');
 const allProds = await client.fetch('*[_type == "product"]{ _id }');
 

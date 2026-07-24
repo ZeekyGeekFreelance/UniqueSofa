@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T20:42:32.784Z",
+  "syncedAt": "2026-07-24T20:46:59.791Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -239,7 +239,7 @@ export const syncedCategories = [
     "accent": "#bf622c",
     "badge": "Best Seller",
     "code": "SF",
-    "family": "sofas",
+    "family": "furniture",
     "id": "sofas",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
@@ -247,13 +247,10 @@ export const syncedCategories = [
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
     "items": [
-      "3-Seater",
-      "L-Shape",
-      "Sectional",
-      "Chesterfield",
-      "Modern",
-      "Luxury",
-      "Wooden"
+      "Sofa",
+      "Living Room",
+      "Upholstered",
+      "Custom"
     ],
     "slug": "sofas",
     "subtitle": "Comfortable seating for every home",
@@ -265,7 +262,7 @@ export const syncedCategories = [
     "accent": "#2563eb",
     "badge": "Popular",
     "code": "BD",
-    "family": "beds",
+    "family": "furniture",
     "id": "beds",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
@@ -273,11 +270,10 @@ export const syncedCategories = [
       "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
     "items": [
+      "Bed",
+      "Bedroom",
       "King Size",
-      "Queen Size",
-      "Storage",
-      "Upholstered",
-      "Wooden"
+      "Queen Size"
     ],
     "slug": "beds",
     "subtitle": "Crafted for comfort and style",
@@ -289,7 +285,7 @@ export const syncedCategories = [
     "accent": "#7c3aed",
     "badge": "Premium",
     "code": "RC",
-    "family": "recliners",
+    "family": "furniture",
     "id": "recliners",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
@@ -297,10 +293,9 @@ export const syncedCategories = [
       "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
     "items": [
-      "Manual",
-      "Rocker",
-      "Swivel",
-      "Premium"
+      "Recliner",
+      "Lounge",
+      "Comfort"
     ],
     "slug": "recliners",
     "subtitle": "Relax in premium comfort",
@@ -312,7 +307,7 @@ export const syncedCategories = [
     "accent": "#1f8f56",
     "badge": "",
     "code": "CH",
-    "family": "seating",
+    "family": "furniture",
     "id": "chairs",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
@@ -320,10 +315,9 @@ export const syncedCategories = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "items": [
-      "Sofa Chairs",
-      "Wooden Chairs",
-      "Accent Chairs",
-      "Lounge Chairs"
+      "Chair",
+      "Wooden Chair",
+      "Accent Chair"
     ],
     "slug": "chairs",
     "subtitle": "Stylish seating solutions",
@@ -335,7 +329,7 @@ export const syncedCategories = [
     "accent": "#d62e63",
     "badge": "New",
     "code": "DT",
-    "family": "dining",
+    "family": "furniture",
     "id": "dining-tables",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
@@ -343,10 +337,9 @@ export const syncedCategories = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "items": [
-      "4-Seater",
-      "6-Seater",
-      "8-Seater",
-      "Marble Top"
+      "Dining",
+      "Table",
+      "Family Dining"
     ],
     "slug": "dining-tables",
     "subtitle": "Elegant dining experiences",
@@ -366,10 +359,8 @@ export const syncedCategories = [
       "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg"
     ],
     "items": [
-      "Center Tables",
-      "Coffee Tables",
-      "Side Tables",
-      "Nesting Tables"
+      "Center Table",
+      "Coffee Table"
     ],
     "slug": "center-tables",
     "subtitle": "Complete your living space",
@@ -386,7 +377,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our 3-Seater is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted 3-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -436,7 +427,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our L-Shape is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted L-Shape built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -486,7 +477,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Sectional is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted Sectional built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -536,7 +527,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Chesterfield is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted Chesterfield built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -586,7 +577,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Modern is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted Modern built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -636,7 +627,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Luxury is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted Luxury built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -686,7 +677,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Wooden is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "sofas",
+    "family": "furniture",
     "features": [
       "Handcrafted Wooden built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -736,7 +727,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our King Size is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "beds",
+    "family": "furniture",
     "features": [
       "Handcrafted King Size built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -786,7 +777,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Queen Size is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "beds",
+    "family": "furniture",
     "features": [
       "Handcrafted Queen Size built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -836,7 +827,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Storage is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "beds",
+    "family": "furniture",
     "features": [
       "Handcrafted Storage built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -886,7 +877,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Upholstered is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "beds",
+    "family": "furniture",
     "features": [
       "Handcrafted Upholstered built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -936,7 +927,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Wooden is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "beds",
+    "family": "furniture",
     "features": [
       "Handcrafted Wooden built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -986,7 +977,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Manual is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "recliners",
+    "family": "furniture",
     "features": [
       "Handcrafted Manual built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1036,7 +1027,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Rocker is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "recliners",
+    "family": "furniture",
     "features": [
       "Handcrafted Rocker built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1086,7 +1077,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Swivel is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "recliners",
+    "family": "furniture",
     "features": [
       "Handcrafted Swivel built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1136,7 +1127,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Premium is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "recliners",
+    "family": "furniture",
     "features": [
       "Handcrafted Premium built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1186,7 +1177,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Sofa Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "seating",
+    "family": "furniture",
     "features": [
       "Handcrafted Sofa Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1236,7 +1227,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Wooden Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "seating",
+    "family": "furniture",
     "features": [
       "Handcrafted Wooden Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1286,7 +1277,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Accent Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "seating",
+    "family": "furniture",
     "features": [
       "Handcrafted Accent Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1336,7 +1327,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Lounge Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "seating",
+    "family": "furniture",
     "features": [
       "Handcrafted Lounge Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1386,7 +1377,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our 4-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "dining",
+    "family": "furniture",
     "features": [
       "Handcrafted 4-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1436,7 +1427,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our 6-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "dining",
+    "family": "furniture",
     "features": [
       "Handcrafted 6-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1486,7 +1477,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our 8-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "dining",
+    "family": "furniture",
     "features": [
       "Handcrafted 8-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1536,7 +1527,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our Marble Top is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "dining",
+    "family": "furniture",
     "features": [
       "Handcrafted Marble Top built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
