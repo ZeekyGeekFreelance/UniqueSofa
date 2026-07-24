@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T18:48:45.298Z",
+  "syncedAt": "2026-07-24T18:53:52.707Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -746,6 +746,55 @@ export const syncedCategories = [
 export const syncedProducts = [
   {
     "badge": "Best seller",
+    "brand": "Miles",
+    "categoryId": "recliners",
+    "categoryTitle": "Recliners",
+    "description": "Push-back frame from the Recliners range, supplied through Miles for mechanisms and frames work.",
+    "family": "hardware",
+    "features": [
+      "Push-back frame suited to mechanisms and frames work.",
+      "Available for walk-in purchase and bulk requirement planning."
+    ],
+    "id": "recliners-push-back-frame",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+    ],
+    "name": "Push-back frame",
+    "slug": "recliners-push-back-frame",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Recliners"
+      },
+      {
+        "label": "Family",
+        "value": "hardware"
+      },
+      {
+        "label": "Brand line",
+        "value": "Miles"
+      },
+      {
+        "label": "Application",
+        "value": "Mechanisms and frames"
+      },
+      {
+        "label": "Supply mode",
+        "value": "Retail, repeat orders, and project enquiries"
+      }
+    ],
+    "summary": "Push-back frame for recliners work, stocked for repeat workshop demand.",
+    "tags": [
+      "Miles",
+      "Recliners",
+      "frame"
+    ],
+    "type": "Mechanisms and frames"
+  },
+  {
+    "badge": "Best seller",
     "brand": "Unique Sofa World",
     "categoryId": "living-room",
     "categoryTitle": "Living Room Furniture",
@@ -799,24 +848,24 @@ export const syncedProducts = [
     "type": "Sofas, Chairs, and Tables"
   },
   {
-    "badge": "Best seller",
-    "brand": "Miles",
+    "badge": "",
+    "brand": "Veer",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
-    "description": "Push-back frame from the Recliners range, supplied through Miles for mechanisms and frames work.",
+    "description": "Manual recliner mechanism from the Recliners range, supplied through Veer for mechanisms and frames work.",
     "family": "hardware",
     "features": [
-      "Push-back frame suited to mechanisms and frames work.",
+      "Manual recliner mechanism suited to mechanisms and frames work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliners-push-back-frame",
+    "id": "recliners-manual-recliner-mechanism",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
     ],
-    "name": "Push-back frame",
-    "slug": "recliners-push-back-frame",
+    "name": "Manual recliner mechanism",
+    "slug": "recliners-manual-recliner-mechanism",
     "specs": [
       {
         "label": "Range",
@@ -828,7 +877,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Miles"
+        "value": "Veer"
       },
       {
         "label": "Application",
@@ -839,11 +888,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Push-back frame for recliners work, stocked for repeat workshop demand.",
+    "summary": "Manual recliner mechanism for recliners work, stocked for repeat workshop demand.",
     "tags": [
-      "Miles",
+      "Veer",
       "Recliners",
-      "frame"
+      "mechanism"
     ],
     "type": "Mechanisms and frames"
   },
@@ -903,23 +952,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Veer",
+    "brand": "Rapid",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
-    "description": "Manual recliner mechanism from the Recliners range, supplied through Veer for mechanisms and frames work.",
+    "description": "Wall hugger system from the Recliners range, supplied through Rapid for mechanisms and frames work.",
     "family": "hardware",
     "features": [
-      "Manual recliner mechanism suited to mechanisms and frames work.",
+      "Wall hugger system suited to mechanisms and frames work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliners-manual-recliner-mechanism",
+    "id": "recliners-wall-hugger-system",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
-    "name": "Manual recliner mechanism",
-    "slug": "recliners-manual-recliner-mechanism",
+    "name": "Wall hugger system",
+    "slug": "recliners-wall-hugger-system",
     "specs": [
       {
         "label": "Range",
@@ -931,7 +980,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Veer"
+        "value": "Rapid"
       },
       {
         "label": "Application",
@@ -942,11 +991,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Manual recliner mechanism for recliners work, stocked for repeat workshop demand.",
+    "summary": "Wall hugger system for recliners work, stocked for repeat workshop demand.",
     "tags": [
-      "Veer",
+      "Rapid",
       "Recliners",
-      "mechanism"
+      "system"
     ],
     "type": "Mechanisms and frames"
   },
@@ -1006,23 +1055,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Rapid",
+    "brand": "Miles",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
-    "description": "Wall hugger system from the Recliners range, supplied through Rapid for mechanisms and frames work.",
+    "description": "Cup holder insert from the Recliners range, supplied through Miles for mechanisms and frames work.",
     "family": "hardware",
     "features": [
-      "Wall hugger system suited to mechanisms and frames work.",
+      "Cup holder insert suited to mechanisms and frames work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliners-wall-hugger-system",
+    "id": "recliners-cup-holder-insert",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
-    "name": "Wall hugger system",
-    "slug": "recliners-wall-hugger-system",
+    "name": "Cup holder insert",
+    "slug": "recliners-cup-holder-insert",
     "specs": [
       {
         "label": "Range",
@@ -1034,7 +1083,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Rapid"
+        "value": "Miles"
       },
       {
         "label": "Application",
@@ -1045,11 +1094,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Wall hugger system for recliners work, stocked for repeat workshop demand.",
+    "summary": "Cup holder insert for recliners work, stocked for repeat workshop demand.",
     "tags": [
-      "Rapid",
+      "Miles",
       "Recliners",
-      "system"
+      "insert"
     ],
     "type": "Mechanisms and frames"
   },
@@ -1109,23 +1158,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Miles",
+    "brand": "Veer",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
-    "description": "Cup holder insert from the Recliners range, supplied through Miles for mechanisms and frames work.",
+    "description": "Headrest bracket from the Recliners range, supplied through Veer for mechanisms and frames work.",
     "family": "hardware",
     "features": [
-      "Cup holder insert suited to mechanisms and frames work.",
+      "Headrest bracket suited to mechanisms and frames work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliners-cup-holder-insert",
+    "id": "recliners-headrest-bracket",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
     ],
-    "name": "Cup holder insert",
-    "slug": "recliners-cup-holder-insert",
+    "name": "Headrest bracket",
+    "slug": "recliners-headrest-bracket",
     "specs": [
       {
         "label": "Range",
@@ -1137,7 +1186,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Miles"
+        "value": "Veer"
       },
       {
         "label": "Application",
@@ -1148,11 +1197,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Cup holder insert for recliners work, stocked for repeat workshop demand.",
+    "summary": "Headrest bracket for recliners work, stocked for repeat workshop demand.",
     "tags": [
-      "Miles",
+      "Veer",
       "Recliners",
-      "insert"
+      "bracket"
     ],
     "type": "Mechanisms and frames"
   },
@@ -1212,23 +1261,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Veer",
+    "brand": "Rapid",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
-    "description": "Headrest bracket from the Recliners range, supplied through Veer for mechanisms and frames work.",
+    "description": "Footrest assembly from the Recliners range, supplied through Rapid for mechanisms and frames work.",
     "family": "hardware",
     "features": [
-      "Headrest bracket suited to mechanisms and frames work.",
+      "Footrest assembly suited to mechanisms and frames work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliners-headrest-bracket",
+    "id": "recliners-footrest-assembly",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
-    "name": "Headrest bracket",
-    "slug": "recliners-headrest-bracket",
+    "name": "Footrest assembly",
+    "slug": "recliners-footrest-assembly",
     "specs": [
       {
         "label": "Range",
@@ -1240,7 +1289,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Veer"
+        "value": "Rapid"
       },
       {
         "label": "Application",
@@ -1251,11 +1300,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Headrest bracket for recliners work, stocked for repeat workshop demand.",
+    "summary": "Footrest assembly for recliners work, stocked for repeat workshop demand.",
     "tags": [
-      "Veer",
+      "Rapid",
       "Recliners",
-      "bracket"
+      "assembly"
     ],
     "type": "Mechanisms and frames"
   },
@@ -1315,52 +1364,52 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Rapid",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Footrest assembly from the Recliners range, supplied through Rapid for mechanisms and frames work.",
-    "family": "hardware",
+    "brand": "Miles",
+    "categoryId": "recliner-accessories",
+    "categoryTitle": "Recliner Accessories",
+    "description": "Dual motor set from the Recliner Accessories range, supplied through Miles for power and electronics work.",
+    "family": "electrical",
     "features": [
-      "Footrest assembly suited to mechanisms and frames work.",
+      "Dual motor set suited to power and electronics work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliners-footrest-assembly",
+    "id": "recliner-accessories-dual-motor-set",
     "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
     ],
-    "name": "Footrest assembly",
-    "slug": "recliners-footrest-assembly",
+    "name": "Dual motor set",
+    "slug": "recliner-accessories-dual-motor-set",
     "specs": [
       {
         "label": "Range",
-        "value": "Recliners"
+        "value": "Recliner Accessories"
       },
       {
         "label": "Family",
-        "value": "hardware"
+        "value": "electrical"
       },
       {
         "label": "Brand line",
-        "value": "Rapid"
+        "value": "Miles"
       },
       {
         "label": "Application",
-        "value": "Mechanisms and frames"
+        "value": "Power and electronics"
       },
       {
         "label": "Supply mode",
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Footrest assembly for recliners work, stocked for repeat workshop demand.",
+    "summary": "Dual motor set for recliner accessories work, stocked for repeat workshop demand.",
     "tags": [
-      "Rapid",
-      "Recliners",
-      "assembly"
+      "Miles",
+      "Recliner Accessories",
+      "set"
     ],
-    "type": "Mechanisms and frames"
+    "type": "Power and electronics"
   },
   {
     "badge": "",
@@ -1418,23 +1467,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Miles",
+    "brand": "Rapid",
     "categoryId": "recliner-accessories",
     "categoryTitle": "Recliner Accessories",
-    "description": "Dual motor set from the Recliner Accessories range, supplied through Miles for power and electronics work.",
+    "description": "Hand control keypad from the Recliner Accessories range, supplied through Rapid for power and electronics work.",
     "family": "electrical",
     "features": [
-      "Dual motor set suited to power and electronics work.",
+      "Hand control keypad suited to power and electronics work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliner-accessories-dual-motor-set",
+    "id": "recliner-accessories-hand-control-keypad",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
-    "name": "Dual motor set",
-    "slug": "recliner-accessories-dual-motor-set",
+    "name": "Hand control keypad",
+    "slug": "recliner-accessories-hand-control-keypad",
     "specs": [
       {
         "label": "Range",
@@ -1446,7 +1495,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Miles"
+        "value": "Rapid"
       },
       {
         "label": "Application",
@@ -1457,11 +1506,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Dual motor set for recliner accessories work, stocked for repeat workshop demand.",
+    "summary": "Hand control keypad for recliner accessories work, stocked for repeat workshop demand.",
     "tags": [
-      "Miles",
+      "Rapid",
       "Recliner Accessories",
-      "set"
+      "keypad"
     ],
     "type": "Power and electronics"
   },
@@ -1521,23 +1570,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Rapid",
+    "brand": "Veer",
     "categoryId": "recliner-accessories",
     "categoryTitle": "Recliner Accessories",
-    "description": "Hand control keypad from the Recliner Accessories range, supplied through Rapid for power and electronics work.",
+    "description": "USB charging port from the Recliner Accessories range, supplied through Veer for power and electronics work.",
     "family": "electrical",
     "features": [
-      "Hand control keypad suited to power and electronics work.",
+      "USB charging port suited to power and electronics work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliner-accessories-hand-control-keypad",
+    "id": "recliner-accessories-usb-charging-port",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
-    "name": "Hand control keypad",
-    "slug": "recliner-accessories-hand-control-keypad",
+    "name": "USB charging port",
+    "slug": "recliner-accessories-usb-charging-port",
     "specs": [
       {
         "label": "Range",
@@ -1549,7 +1598,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Rapid"
+        "value": "Veer"
       },
       {
         "label": "Application",
@@ -1560,11 +1609,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Hand control keypad for recliner accessories work, stocked for repeat workshop demand.",
+    "summary": "USB charging port for recliner accessories work, stocked for repeat workshop demand.",
     "tags": [
-      "Rapid",
+      "Veer",
       "Recliner Accessories",
-      "keypad"
+      "port"
     ],
     "type": "Power and electronics"
   },
@@ -1621,55 +1670,6 @@ export const syncedProducts = [
       "Sets"
     ],
     "type": "Dining Tables and Chairs"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "USB charging port from the Recliner Accessories range, supplied through Veer for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "USB charging port suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-usb-charging-port",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
-    ],
-    "name": "USB charging port",
-    "slug": "recliner-accessories-usb-charging-port",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "USB charging port for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Recliner Accessories",
-      "port"
-    ],
-    "type": "Power and electronics"
   },
   {
     "badge": "",
@@ -1879,6 +1879,55 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Veer",
+    "categoryId": "recliner-accessories",
+    "categoryTitle": "Recliner Accessories",
+    "description": "LED cup holder light from the Recliner Accessories range, supplied through Veer for power and electronics work.",
+    "family": "electrical",
+    "features": [
+      "LED cup holder light suited to power and electronics work.",
+      "Available for walk-in purchase and bulk requirement planning."
+    ],
+    "id": "recliner-accessories-led-cup-holder-light",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+    ],
+    "name": "LED cup holder light",
+    "slug": "recliner-accessories-led-cup-holder-light",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Recliner Accessories"
+      },
+      {
+        "label": "Family",
+        "value": "electrical"
+      },
+      {
+        "label": "Brand line",
+        "value": "Veer"
+      },
+      {
+        "label": "Application",
+        "value": "Power and electronics"
+      },
+      {
+        "label": "Supply mode",
+        "value": "Retail, repeat orders, and project enquiries"
+      }
+    ],
+    "summary": "LED cup holder light for recliner accessories work, stocked for repeat workshop demand.",
+    "tags": [
+      "Veer",
+      "Recliner Accessories",
+      "light"
+    ],
+    "type": "Power and electronics"
+  },
+  {
+    "badge": "",
     "brand": "Unique Sofa World",
     "categoryId": "office",
     "categoryTitle": "Office Furniture",
@@ -1933,52 +1982,52 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Veer",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "LED cup holder light from the Recliner Accessories range, supplied through Veer for power and electronics work.",
-    "family": "electrical",
+    "brand": "Miles",
+    "categoryId": "chairs-frames",
+    "categoryTitle": "Chairs and Frames",
+    "description": "Swivel base plate from the Chairs and Frames range, supplied through Miles for structural components work.",
+    "family": "structure",
     "features": [
-      "LED cup holder light suited to power and electronics work.",
+      "Swivel base plate suited to structural components work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "recliner-accessories-led-cup-holder-light",
+    "id": "chairs-frames-swivel-base-plate",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
-    "name": "LED cup holder light",
-    "slug": "recliner-accessories-led-cup-holder-light",
+    "name": "Swivel base plate",
+    "slug": "chairs-frames-swivel-base-plate",
     "specs": [
       {
         "label": "Range",
-        "value": "Recliner Accessories"
+        "value": "Chairs and Frames"
       },
       {
         "label": "Family",
-        "value": "electrical"
+        "value": "structure"
       },
       {
         "label": "Brand line",
-        "value": "Veer"
+        "value": "Miles"
       },
       {
         "label": "Application",
-        "value": "Power and electronics"
+        "value": "Structural components"
       },
       {
         "label": "Supply mode",
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "LED cup holder light for recliner accessories work, stocked for repeat workshop demand.",
+    "summary": "Swivel base plate for chairs and frames work, stocked for repeat workshop demand.",
     "tags": [
-      "Veer",
-      "Recliner Accessories",
-      "light"
+      "Miles",
+      "Chairs and Frames",
+      "plate"
     ],
-    "type": "Power and electronics"
+    "type": "Structural components"
   },
   {
     "badge": "Premium",
@@ -2036,23 +2085,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Miles",
+    "brand": "Veer",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
-    "description": "Swivel base plate from the Chairs and Frames range, supplied through Miles for structural components work.",
+    "description": "Chair shell frame from the Chairs and Frames range, supplied through Veer for structural components work.",
     "family": "structure",
     "features": [
-      "Swivel base plate suited to structural components work.",
+      "Chair shell frame suited to structural components work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "chairs-frames-swivel-base-plate",
+    "id": "chairs-frames-chair-shell-frame",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
-    "name": "Swivel base plate",
-    "slug": "chairs-frames-swivel-base-plate",
+    "name": "Chair shell frame",
+    "slug": "chairs-frames-chair-shell-frame",
     "specs": [
       {
         "label": "Range",
@@ -2064,7 +2113,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Miles"
+        "value": "Veer"
       },
       {
         "label": "Application",
@@ -2075,11 +2124,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Swivel base plate for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Chair shell frame for chairs and frames work, stocked for repeat workshop demand.",
     "tags": [
-      "Miles",
+      "Veer",
       "Chairs and Frames",
-      "plate"
+      "frame"
     ],
     "type": "Structural components"
   },
@@ -2139,23 +2188,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Veer",
+    "brand": "Rapid",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
-    "description": "Chair shell frame from the Chairs and Frames range, supplied through Veer for structural components work.",
+    "description": "Ottoman base frame from the Chairs and Frames range, supplied through Rapid for structural components work.",
     "family": "structure",
     "features": [
-      "Chair shell frame suited to structural components work.",
+      "Ottoman base frame suited to structural components work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "chairs-frames-chair-shell-frame",
+    "id": "chairs-frames-ottoman-base-frame",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
-    "name": "Chair shell frame",
-    "slug": "chairs-frames-chair-shell-frame",
+    "name": "Ottoman base frame",
+    "slug": "chairs-frames-ottoman-base-frame",
     "specs": [
       {
         "label": "Range",
@@ -2167,7 +2216,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Veer"
+        "value": "Rapid"
       },
       {
         "label": "Application",
@@ -2178,9 +2227,9 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Chair shell frame for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Ottoman base frame for chairs and frames work, stocked for repeat workshop demand.",
     "tags": [
-      "Veer",
+      "Rapid",
       "Chairs and Frames",
       "frame"
     ],
@@ -2242,23 +2291,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Rapid",
+    "brand": "Miles",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
-    "description": "Ottoman base frame from the Chairs and Frames range, supplied through Rapid for structural components work.",
+    "description": "Rotation disc from the Chairs and Frames range, supplied through Miles for structural components work.",
     "family": "structure",
     "features": [
-      "Ottoman base frame suited to structural components work.",
+      "Rotation disc suited to structural components work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "chairs-frames-ottoman-base-frame",
+    "id": "chairs-frames-rotation-disc",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
-    "name": "Ottoman base frame",
-    "slug": "chairs-frames-ottoman-base-frame",
+    "name": "Rotation disc",
+    "slug": "chairs-frames-rotation-disc",
     "specs": [
       {
         "label": "Range",
@@ -2270,7 +2319,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Rapid"
+        "value": "Miles"
       },
       {
         "label": "Application",
@@ -2281,11 +2330,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Ottoman base frame for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Rotation disc for chairs and frames work, stocked for repeat workshop demand.",
     "tags": [
-      "Rapid",
+      "Miles",
       "Chairs and Frames",
-      "frame"
+      "disc"
     ],
     "type": "Structural components"
   },
@@ -2345,23 +2394,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Miles",
+    "brand": "Veer",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
-    "description": "Rotation disc from the Chairs and Frames range, supplied through Miles for structural components work.",
+    "description": "Frame connector set from the Chairs and Frames range, supplied through Veer for structural components work.",
     "family": "structure",
     "features": [
-      "Rotation disc suited to structural components work.",
+      "Frame connector set suited to structural components work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "chairs-frames-rotation-disc",
+    "id": "chairs-frames-frame-connector-set",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
-    "name": "Rotation disc",
-    "slug": "chairs-frames-rotation-disc",
+    "name": "Frame connector set",
+    "slug": "chairs-frames-frame-connector-set",
     "specs": [
       {
         "label": "Range",
@@ -2373,7 +2422,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Miles"
+        "value": "Veer"
       },
       {
         "label": "Application",
@@ -2384,11 +2433,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Rotation disc for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Frame connector set for chairs and frames work, stocked for repeat workshop demand.",
     "tags": [
-      "Miles",
+      "Veer",
       "Chairs and Frames",
-      "disc"
+      "set"
     ],
     "type": "Structural components"
   },
@@ -2448,23 +2497,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Veer",
+    "brand": "Rapid",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
-    "description": "Frame connector set from the Chairs and Frames range, supplied through Veer for structural components work.",
+    "description": "Back support assembly from the Chairs and Frames range, supplied through Rapid for structural components work.",
     "family": "structure",
     "features": [
-      "Frame connector set suited to structural components work.",
+      "Back support assembly suited to structural components work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "chairs-frames-frame-connector-set",
+    "id": "chairs-frames-back-support-assembly",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
-    "name": "Frame connector set",
-    "slug": "chairs-frames-frame-connector-set",
+    "name": "Back support assembly",
+    "slug": "chairs-frames-back-support-assembly",
     "specs": [
       {
         "label": "Range",
@@ -2476,7 +2525,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Veer"
+        "value": "Rapid"
       },
       {
         "label": "Application",
@@ -2487,11 +2536,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Frame connector set for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Back support assembly for chairs and frames work, stocked for repeat workshop demand.",
     "tags": [
-      "Veer",
+      "Rapid",
       "Chairs and Frames",
-      "set"
+      "assembly"
     ],
     "type": "Structural components"
   },
@@ -2550,53 +2599,53 @@ export const syncedProducts = [
     "type": "Modern and Patio Furniture"
   },
   {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Back support assembly from the Chairs and Frames range, supplied through Rapid for structural components work.",
-    "family": "structure",
+    "badge": "New arrivals",
+    "brand": "Veer",
+    "categoryId": "fancy-legs",
+    "categoryTitle": "Fancy Legs",
+    "description": "Chrome leg set from the Fancy Legs range, supplied through Veer for decorative furniture legs work.",
+    "family": "hardware",
     "features": [
-      "Back support assembly suited to structural components work.",
+      "Chrome leg set suited to decorative furniture legs work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "chairs-frames-back-support-assembly",
+    "id": "fancy-legs-chrome-leg-set",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
-    "name": "Back support assembly",
-    "slug": "chairs-frames-back-support-assembly",
+    "name": "Chrome leg set",
+    "slug": "fancy-legs-chrome-leg-set",
     "specs": [
       {
         "label": "Range",
-        "value": "Chairs and Frames"
+        "value": "Fancy Legs"
       },
       {
         "label": "Family",
-        "value": "structure"
+        "value": "hardware"
       },
       {
         "label": "Brand line",
-        "value": "Rapid"
+        "value": "Veer"
       },
       {
         "label": "Application",
-        "value": "Structural components"
+        "value": "Decorative furniture legs"
       },
       {
         "label": "Supply mode",
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Back support assembly for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Chrome leg set for fancy legs work, stocked for repeat workshop demand.",
     "tags": [
-      "Rapid",
-      "Chairs and Frames",
-      "assembly"
+      "Veer",
+      "Fancy Legs",
+      "set"
     ],
-    "type": "Structural components"
+    "type": "Decorative furniture legs"
   },
   {
     "badge": "",
@@ -2653,24 +2702,24 @@ export const syncedProducts = [
     "type": "Wood, Steel, and Cane"
   },
   {
-    "badge": "New arrivals",
-    "brand": "Veer",
+    "badge": "",
+    "brand": "Rapid",
     "categoryId": "fancy-legs",
     "categoryTitle": "Fancy Legs",
-    "description": "Chrome leg set from the Fancy Legs range, supplied through Veer for decorative furniture legs work.",
+    "description": "Gold finish leg from the Fancy Legs range, supplied through Rapid for decorative furniture legs work.",
     "family": "hardware",
     "features": [
-      "Chrome leg set suited to decorative furniture legs work.",
+      "Gold finish leg suited to decorative furniture legs work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "fancy-legs-chrome-leg-set",
+    "id": "fancy-legs-gold-finish-leg",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
     ],
-    "name": "Chrome leg set",
-    "slug": "fancy-legs-chrome-leg-set",
+    "name": "Gold finish leg",
+    "slug": "fancy-legs-gold-finish-leg",
     "specs": [
       {
         "label": "Range",
@@ -2682,7 +2731,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Veer"
+        "value": "Rapid"
       },
       {
         "label": "Application",
@@ -2693,11 +2742,11 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Chrome leg set for fancy legs work, stocked for repeat workshop demand.",
+    "summary": "Gold finish leg for fancy legs work, stocked for repeat workshop demand.",
     "tags": [
-      "Veer",
+      "Rapid",
       "Fancy Legs",
-      "set"
+      "leg"
     ],
     "type": "Decorative furniture legs"
   },
@@ -2757,23 +2806,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Rapid",
+    "brand": "Miles",
     "categoryId": "fancy-legs",
     "categoryTitle": "Fancy Legs",
-    "description": "Gold finish leg from the Fancy Legs range, supplied through Rapid for decorative furniture legs work.",
+    "description": "Matte black leg from the Fancy Legs range, supplied through Miles for decorative furniture legs work.",
     "family": "hardware",
     "features": [
-      "Gold finish leg suited to decorative furniture legs work.",
+      "Matte black leg suited to decorative furniture legs work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "fancy-legs-gold-finish-leg",
+    "id": "fancy-legs-matte-black-leg",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
     ],
-    "name": "Gold finish leg",
-    "slug": "fancy-legs-gold-finish-leg",
+    "name": "Matte black leg",
+    "slug": "fancy-legs-matte-black-leg",
     "specs": [
       {
         "label": "Range",
@@ -2785,7 +2834,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Rapid"
+        "value": "Miles"
       },
       {
         "label": "Application",
@@ -2796,9 +2845,9 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Gold finish leg for fancy legs work, stocked for repeat workshop demand.",
+    "summary": "Matte black leg for fancy legs work, stocked for repeat workshop demand.",
     "tags": [
-      "Rapid",
+      "Miles",
       "Fancy Legs",
       "leg"
     ],
@@ -2860,23 +2909,23 @@ export const syncedProducts = [
   },
   {
     "badge": "",
-    "brand": "Miles",
+    "brand": "Veer",
     "categoryId": "fancy-legs",
     "categoryTitle": "Fancy Legs",
-    "description": "Matte black leg from the Fancy Legs range, supplied through Miles for decorative furniture legs work.",
+    "description": "Rose gold corner leg from the Fancy Legs range, supplied through Veer for decorative furniture legs work.",
     "family": "hardware",
     "features": [
-      "Matte black leg suited to decorative furniture legs work.",
+      "Rose gold corner leg suited to decorative furniture legs work.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
-    "id": "fancy-legs-matte-black-leg",
+    "id": "fancy-legs-rose-gold-corner-leg",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
-    "name": "Matte black leg",
-    "slug": "fancy-legs-matte-black-leg",
+    "name": "Rose gold corner leg",
+    "slug": "fancy-legs-rose-gold-corner-leg",
     "specs": [
       {
         "label": "Range",
@@ -2888,7 +2937,7 @@ export const syncedProducts = [
       },
       {
         "label": "Brand line",
-        "value": "Miles"
+        "value": "Veer"
       },
       {
         "label": "Application",
@@ -2899,9 +2948,9 @@ export const syncedProducts = [
         "value": "Retail, repeat orders, and project enquiries"
       }
     ],
-    "summary": "Matte black leg for fancy legs work, stocked for repeat workshop demand.",
+    "summary": "Rose gold corner leg for fancy legs work, stocked for repeat workshop demand.",
     "tags": [
-      "Miles",
+      "Veer",
       "Fancy Legs",
       "leg"
     ],
@@ -2960,55 +3009,6 @@ export const syncedProducts = [
       "Frames"
     ],
     "type": "Wood, Steel, and Cane"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Rose gold corner leg from the Fancy Legs range, supplied through Veer for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Rose gold corner leg suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-rose-gold-corner-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Rose gold corner leg",
-    "slug": "fancy-legs-rose-gold-corner-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Rose gold corner leg for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Fancy Legs",
-      "leg"
-    ],
-    "type": "Decorative furniture legs"
   },
   {
     "badge": "Core",

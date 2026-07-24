@@ -67,6 +67,9 @@ const SITE_SETTINGS_ORPHANS = [
   "catalogueEmailLabel",
 ];
 
+const CATEGORY_ORPHANS = ["id", "cataloguePageIds"];
+const PRODUCT_ORPHANS  = ["id", "slug", "referencePageIds"];
+
 console.log("  [1/4] siteSettings — unsetting catalogue fields");
 try {
   const doc = await client.fetch(
@@ -106,31 +109,35 @@ try {
   console.error("     ❌ Failed:", err.message);
 }
 
-// ── 3. category — remove cataloguePageIds ────────────────────────────────────
+// ── 3. category — remove id + cataloguePageIds ───────────────────────────────
 
-console.log("\n  [3/4] category — unsetting cataloguePageIds");
+console.log("\n  [3/4] category — unsetting id, cataloguePageIds");
 try {
   const categories = await client.fetch(
-    `*[_type == "category" && defined(cataloguePageIds)]{ _id, title }`
+    `*[_type == "category"]{ _id, title, ${CATEGORY_ORPHANS.join(", ")} }`
   );
-  if (categories.length === 0) {
+  const dirty = categories.filter((c) =>
+    CATEGORY_ORPHANS.some((f) => c[f] !== undefined && c[f] !== null)
+  );
+  if (dirty.length === 0) {
     console.log("     ✓ Already clean");
   } else {
-    console.log(`     Found ${categories.length} categories with cataloguePageIds`);
+    console.log(`     Found ${dirty.length} categories with orphaned fields`);
     const tx = client.transaction();
-    for (const cat of categories) {
-      tx.patch(cat._id, (p) => p.unset(["cataloguePageIds"]));
+    for (const cat of dirty) {
+      const fields = CATEGORY_ORPHANS.filter((f) => cat[f] !== undefined && cat[f] !== null);
+      tx.patch(cat._id, (p) => p.unset(fields));
     }
     await tx.commit({ returnDocuments: false });
-    console.log(`     ✓ Cleaned ${categories.length} category documents`);
+    console.log(`     ✓ Cleaned ${dirty.length} category documents`);
   }
 } catch (err) {
   console.error("     ❌ Failed:", err.message);
 }
 
-// ── 4. product — remove referencePageIds + clean stale features/specs ────────
+// ── 4. product — remove id, slug, referencePageIds + clean stale features/specs
 
-console.log("\n  [4/4] product — unsetting referencePageIds and cleaning stale content");
+console.log("\n  [4/4] product — unsetting id, slug, referencePageIds and cleaning stale content");
 
 // Patterns in features/specs that were auto-generated from catalogue data
 const STALE_FEATURE_PATTERNS = [
@@ -164,7 +171,7 @@ try {
     const batch = await client.fetch(
       `*[_type == "product"] | order(_id) [${offset}...${offset + BATCH}]{
         _id,
-        referencePageIds,
+        ${PRODUCT_ORPHANS.join(", ")},
         features,
         specs[]{ label, value, _key }
       }`
@@ -180,11 +187,13 @@ try {
       const setFields = {};
       let needsPatch = false;
 
-      // Remove referencePageIds if present
-      if (prod.referencePageIds !== undefined && prod.referencePageIds !== null) {
-        unsetFields.push("referencePageIds");
-        totalRefRemoved++;
-        needsPatch = true;
+      // Remove orphaned fields (id, slug, referencePageIds)
+      for (const f of PRODUCT_ORPHANS) {
+        if (prod[f] !== undefined && prod[f] !== null) {
+          unsetFields.push(f);
+          if (f === "referencePageIds") totalRefRemoved++;
+          needsPatch = true;
+        }
       }
 
       // Clean stale features
@@ -225,6 +234,8 @@ try {
   if (totalRefRemoved > 0) parts.push(`referencePageIds removed from ${totalRefRemoved} products`);
   if (totalPatched > 0) parts.push(`${totalPatched} products had stale features/specs cleaned`);
 
+  const idSlugRemoved = totalPatched - totalRefRemoved;
+  if (idSlugRemoved > 0) parts.unshift(`id/slug removed from products`);
   if (parts.length === 0) {
     console.log("     ✓ Already clean");
   } else {

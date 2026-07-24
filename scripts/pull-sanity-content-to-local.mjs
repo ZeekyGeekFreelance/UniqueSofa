@@ -76,24 +76,24 @@ const QUERY = `{
     contactEnquirySentTitle, contactEnquirySentDescription, contactEnquirySubmitLabel,
     contactBusinessHoursWeekday, contactBusinessHoursSunday,
     footerNavigateTitle, footerStoresTitle, footerContactTitle, footerBottomCaption,
-    "featuredCategoryIds": featuredCategories[]->{ "id": coalesce(id, slug.current) },
-    "featuredProductIds": featuredProducts[]->{ "id": coalesce(id, _id) }
+    "featuredCategoryIds": featuredCategories[]->{ "id": string::split(_id, "category-")[1] },
+    "featuredProductIds": featuredProducts[]->{ "id": string::split(_id, "product-")[1] }
   },
   "categories": *[_type == "category" && coalesce(isPublished, true) == true]
     | order(coalesce(sortOrder, 999) asc, title asc){
-      "id": coalesce(id, slug.current),
-      "slug": slug.current,
+      "id": string::split(_id, "category-")[1],
+      "slug": string::split(_id, "category-")[1],
       code, title, subtitle, summary, badge, accent, tone, family, items,
       "images": coalesce(images[].asset->url, [])
     },
   "products": *[_type == "product" && coalesce(isPublished, true) == true]
     | order(coalesce(sortOrder, 999) asc, _updatedAt desc){
-      "id": coalesce(id, _id),
-      "slug": coalesce(slug.current, _id),
+      "id": string::split(_id, "product-")[1],
+      "slug": string::split(_id, "product-")[1],
       name, brand, badge,
-      "categoryId": coalesce(category->id, category->slug.current),
+      "categoryId": string::split(category._ref, "category-")[1],
       "categoryTitle": coalesce(category->title, ""),
-      "family": coalesce(category->family, family),
+      "family": coalesce(category->family, ""),
       type, summary, description, features,
       specs[]{ label, value },
       tags,
