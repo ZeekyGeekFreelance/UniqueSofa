@@ -187,13 +187,6 @@ export const syncedSiteSettings = {
   "contactWhatsappTitle": "WhatsApp enquiries",
   "email": "uniquesofaworldfurniture@gmail.com",
   "emailHref": "mailto:uniquesofaworldfurniture@gmail.com",
-  "familyOverview": {
-    "accessories": "Decorative and finishing components for trims, closures, and visible detailing.",
-    "electrical": "Power-ready recliner controls and motion accessories for modern seating.",
-    "hardware": "Metal hardware for frames, legs, mechanisms, and daily assembly work.",
-    "materials": "Consumables and upholstery materials used in repeat workshop purchasing.",
-    "structure": "Workshop essentials for frame support, fastening, and upholstery production."
-  },
   "footerBottomCaption": "Premium Sofas, Custom Furniture & Upholstery Services | Bengaluru.",
   "footerContactTitle": "Contact",
   "footerNavigateTitle": "Navigate",
@@ -374,80 +367,6 @@ export const syncedSiteSettings = {
   "whatsappHref": "https://wa.me/919591167804?text=Hello%2C%20I%27m%20interested%20in%20your%20furniture%20and%20sofa%20services.%20Could%20you%20please%20assist%20me%3F"
 };
 
-export const syncedFeaturedRanges = {
-  "categoryIds": [
-    {
-      "id": "recliners"
-    },
-    {
-      "id": "fancy-legs"
-    },
-    {
-      "id": "sofa-legs"
-    },
-    {
-      "id": "springs-staples"
-    },
-    {
-      "id": "tools"
-    },
-    {
-      "id": "accessories"
-    }
-  ],
-  "description": "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
-  "eyebrow": "Featured ranges",
-  "title": "Core ranges buyers check first."
-};
-
-export const syncedFeaturedProducts = {
-  "description": "Open key items for photos, features, and direct enquiry details.",
-  "eyebrow": "Featured products",
-  "productIds": [
-    {
-      "id": "recliners-push-back-frame"
-    },
-    {
-      "id": "recliners-manual-recliner-mechanism"
-    },
-    {
-      "id": "recliners-wall-hugger-system"
-    },
-    {
-      "id": "recliners-cup-holder-insert"
-    },
-    {
-      "id": "recliners-headrest-bracket"
-    },
-    {
-      "id": "recliners-footrest-assembly"
-    },
-    {
-      "id": "fancy-legs-chrome-leg-set"
-    },
-    {
-      "id": "fancy-legs-gold-finish-leg"
-    }
-  ],
-  "title": "Selected stock highlights."
-};
-
-export const syncedContactDetails = {
-  "addressArea": "Begur Road, Bangalore",
-  "businessHoursSunday": "Daily: 10:00 AM – 9:00 PM",
-  "businessHoursWeekday": "Daily: 10:00 AM – 9:00 PM",
-  "email": "uniquesofaworldfurniture@gmail.com",
-  "phone": "+91 95911 67804",
-  "studioName": "Unique Sofa World Furniture",
-  "whatsappRaw": "919591167804",
-  "whatsappTemplate": "Hello, I'm interested in your furniture and sofa services. Could you please assist me?"
-};
-
-export const syncedMapLocation = {
-  "embedUrl": "https://www.google.com/maps?q=12.8711681,77.6163365&output=embed",
-  "googleMapsUrl": "https://maps.app.goo.gl/Lohwr2jbq6ZcmedM9",
-  "label": "Unique Sofa World Furniture, Begur Road, Bengaluru"
-};
 
 export const syncedCategories = [
   {

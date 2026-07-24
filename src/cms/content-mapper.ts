@@ -122,8 +122,6 @@ export function mapSiteContent(queryResult?: SiteContentQueryResult | null): Sit
     ? (raw.featuredProductIds as Array<Record<string, unknown>>).map((i) => asString(i.id)).filter(Boolean)
     : [];
 
-  const familyOverview = asRecord(raw.familyOverview) as Record<CategoryFamily, string>;
-
   const stats = Array.isArray(raw.stats)
     ? (raw.stats as Array<Record<string, unknown>>)
         .map((s) => ({ value: asString(s.value), label: asString(s.label) }))
@@ -181,7 +179,6 @@ export function mapSiteContent(queryResult?: SiteContentQueryResult | null): Sit
     catalogueFile:       asString(raw.catalogueFile),
     featuredCategoryIds,
     featuredProductIds,
-    familyOverview,
     copy: {
       headerNavItems: Array.isArray(raw.navItems)
         ? (raw.navItems as Array<Record<string, unknown>>)

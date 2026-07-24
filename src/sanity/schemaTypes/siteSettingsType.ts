@@ -211,16 +211,6 @@ export default defineType({
       group: "brand",
     }),
     defineField({ name: "headerCtaLabel", title: "Header CTA Label", type: "string", group: "brand" }),
-    defineField({ name: "familyOverview", title: "Family Overview (JSON object)", type: "object",
-      fields: [
-        defineField({ name: "hardware",    type: "text", rows: 2 }),
-        defineField({ name: "electrical",  type: "text", rows: 2 }),
-        defineField({ name: "structure",   type: "text", rows: 2 }),
-        defineField({ name: "materials",   type: "text", rows: 2 }),
-        defineField({ name: "accessories", type: "text", rows: 2 }),
-      ],
-      group: "brand",
-    }),
 
     // ── Footer ────────────────────────────────────────────────────────────
     defineField({ name: "footerNavigateTitle", title: "Footer — Navigate Title", type: "string", group: "brand" }),

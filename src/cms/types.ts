@@ -188,14 +188,11 @@ export type SiteContent = {
   catalogueFile: string;
   featuredCategoryIds: string[];
   featuredProductIds: string[];
-  familyOverview: Record<CategoryFamily, string>;
   copy: PageCopy;
 };
 
 export type SiteContentQueryResult = {
   siteSettings?: Record<string, unknown> | null;
-  featuredRanges?: Record<string, unknown> | null;
-  featuredProducts?: Record<string, unknown> | null;
   categories?: Array<Record<string, unknown>>;
   products?: Array<Record<string, unknown>>;
 };

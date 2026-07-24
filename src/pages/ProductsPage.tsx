@@ -9,8 +9,6 @@ import {
   BRAND,
   CATEGORIES,
   FAMILY_FILTERS,
-  FAMILY_OVERVIEW,
-  PRODUCT_PAGE_SUMMARY,
   PRODUCTS,
   type Product,
 } from "../data/site";
@@ -124,10 +122,7 @@ export function ProductsPage() {
   useEffect(() => { if (page !== safePage) setPage(safePage); }, [page, safePage]);
 
   const currentRange = CATEGORIES.find((c) => c.id === range);
-  const rangeDescription =
-    currentRange ? currentRange.summary
-    : family !== "all" ? FAMILY_OVERVIEW[family]
-    : PRODUCT_PAGE_SUMMARY.description;
+  const rangeDescription = currentRange?.summary ?? "";
 
   const paginatedProducts = filteredProducts.slice(safePage * pageSize, safePage * pageSize + pageSize);
 
@@ -191,8 +186,8 @@ export function ProductsPage() {
           <div className="grid gap-6 min-[1101px]:grid-cols-[minmax(0,1.08fr)_minmax(22rem,0.92fr)]">
             <div className="max-[1100px]:hidden">
               <SectionHeading
-                eyebrow={PRODUCT_PAGE_SUMMARY.eyebrow}
-                title={PRODUCT_PAGE_SUMMARY.title}
+                eyebrow="Product catalogue"
+                title="Browse by range, brand, and application."
                 description={rangeDescription}
               />
             </div>

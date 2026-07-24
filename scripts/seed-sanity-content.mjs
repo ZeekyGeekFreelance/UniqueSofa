@@ -280,13 +280,6 @@ async function seedSiteSettings() {
     featuredProducts: FEATURED_PRODUCT_IDS.map((id, i) => ({
       _key: `fp-${i}`, _type: "reference", _weak: true, _ref: `product-${id}`,
     })),
-    familyOverview: {
-      hardware: "Metal hardware for frames, legs, mechanisms, and daily assembly work.",
-      electrical: "Power-ready recliner controls and motion accessories for modern seating.",
-      structure: "Workshop essentials for frame support, fastening, and upholstery production.",
-      materials: "Consumables and upholstery materials used in repeat workshop purchasing.",
-      accessories: "Decorative and finishing components for trims, closures, and visible detailing.",
-    },
     headerCtaLabel: "Get a quote",
     heroHappyCustomersCount: "5M+",
     heroHappyCustomersLabel: "Happy Customers",

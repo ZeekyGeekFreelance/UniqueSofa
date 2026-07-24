@@ -467,14 +467,6 @@ const CATEGORY_BRANDS: Record<string, string[]> = {
   "zip-runners": ["Groz-Beckert", "Rapid", "Veer"],
 };
 
-const FAMILY_DESCRIPTIONS: Record<CategoryFamily, string> = {
-  hardware: "Metal hardware for frames, legs, mechanisms, and daily assembly work.",
-  electrical: "Power-ready recliner controls and motion accessories for modern seating.",
-  structure: "Workshop essentials for frame support, fastening, and upholstery production.",
-  materials: "Consumables and upholstery materials used in repeat workshop purchasing.",
-  accessories: "Decorative and finishing components for trims, closures, and visible detailing.",
-};
-
 function buildProductDescription(category: Category, item: string, brand: string) {
   return `${item} from the ${category.title} range, supplied through ${brand} for ${category.subtitle.toLowerCase()} work. Suitable for workshop restocking, custom builds, and ongoing furniture production.`;
 }
@@ -564,19 +556,6 @@ export const FAMILY_FILTERS: { id: CategoryFamily | "all"; label: string }[] = [
   { id: "accessories", label: "Accessories" },
 ];
 
-export const RANGE_FILTERS = [
-  { id: "all", label: "All ranges" },
-  ...CATEGORIES.map((category) => ({ id: category.id, label: category.title })),
-];
-
-export const BRAND_FILTERS = [
-  { id: "all", label: "All brands" },
-  ...Array.from(new Set(PRODUCTS.map((product) => product.brand))).map((brand) => ({
-    id: brand,
-    label: brand,
-  })),
-];
-
 export const HERO_MEDIA = [
   {
     eyebrow: "New Collection",
@@ -605,4 +584,4 @@ export const PRODUCT_PAGE_SUMMARY = {
     "Explore recliner hardware, legs, trims, tools, springs, and workshop supplies from Unique Sofa World Furniture with photo-led product detail views.",
 };
 
-export const FAMILY_OVERVIEW = FAMILY_DESCRIPTIONS;
+
