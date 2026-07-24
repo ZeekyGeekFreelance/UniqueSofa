@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T18:33:09.430Z",
+  "syncedAt": "2026-07-24T18:37:27.492Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -100,7 +100,7 @@ export const syncedSiteSettings = {
     },
     {
       "href": "/products",
-      "label": "Furniture"
+      "label": "Products"
     },
     {
       "href": "/about",
