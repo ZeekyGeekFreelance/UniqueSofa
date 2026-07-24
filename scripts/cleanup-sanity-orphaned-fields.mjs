@@ -67,7 +67,7 @@ const SITE_SETTINGS_ORPHANS = [
   "catalogueEmailLabel",
 ];
 
-const CATEGORY_ORPHANS = ["id", "cataloguePageIds"];
+const CATEGORY_ORPHANS = ["cataloguePageIds"];
 const PRODUCT_ORPHANS  = ["id", "slug", "referencePageIds"];
 
 console.log("  [1/4] siteSettings — unsetting catalogue fields");

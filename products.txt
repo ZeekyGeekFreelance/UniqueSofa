@@ -1,0 +1,67 @@
+Family
+├── Sofas
+├── Beds
+├── Recliners
+├── Chairs
+├── Dining
+└── Tables
+
+Sofas
+├── 3-Seater
+├── L-Shape
+├── Sectional
+├── Chesterfield
+├── Modern
+├── Luxury
+└── Wooden
+
+Beds
+├── King Size
+├── Queen Size
+├── Storage
+├── Upholstered
+└── Wooden
+
+Chairs
+├── Sofa Chairs
+├── Wooden Chairs
+├── Accent Chairs
+└── Lounge Chairs
+
+Recliners
+├── Manual
+├── Rocker
+├── Swivel
+└── Premium
+
+Dining
+├── 4-Seater
+├── 6-Seater
+├── 8-Seater
+└── Marble Top
+
+Tables
+├── Center Tables
+├── Coffee Tables
+├── Side Tables
+└── Nesting Tables
+
+
+| Category      | Stable ID     | Slug          | Code | Title         | Subtitle                           | Summary                                                                          | Badge       | Family    | Item Labels                            |
+| ------------- | ------------- | ------------- | ---- | ------------- | ---------------------------------- | -------------------------------------------------------------------------------- | ----------- | --------- | -------------------------------------- |
+| Sofas         | sofas         | sofas         | SF   | Sofas         | Comfortable seating for every home | Premium handcrafted sofas in modern, luxury, sectional, and custom designs.      | Best Seller | Furniture | Sofa, Living Room, Upholstered, Custom |
+| Beds          | beds          | beds          | BD   | Beds          | Crafted for comfort and style      | Custom wooden and upholstered beds designed for durability and elegant bedrooms. | Popular     | Furniture | Bed, Bedroom, King Size, Queen Size    |
+| Recliners     | recliners     | recliners     | RC   | Recliners     | Relax in premium comfort           | Manual and premium recliners with ergonomic support and luxurious cushioning.    | Premium     | Furniture | Recliner, Lounge, Comfort              |
+| Chairs        | chairs        | chairs        | CH   | Chairs        | Stylish seating solutions          | Wooden, accent, dining, and sofa chairs handcrafted for homes and offices.       | —           | Furniture | Chair, Wooden Chair, Accent Chair      |
+| Dining Tables | dining-tables | dining-tables | DT   | Dining Tables | Elegant dining experiences         | Modern and classic dining tables available in multiple sizes and finishes.       | New         | Furniture | Dining, Table, Family Dining           |
+| Center Tables | center-tables | center-tables | CT   | Center Tables | Complete your living space         | Contemporary center and coffee tables crafted from premium materials.            | —           | Furniture | Center Table, Coffee Table             |
+
+
+Furniture
+
+Furniture
+├── Living Room
+├── Bedroom
+├── Dining
+├── Office
+└── Outdoor

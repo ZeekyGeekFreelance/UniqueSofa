@@ -3,12 +3,12 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T18:53:52.707Z",
+  "syncedAt": "2026-07-24T20:42:32.784Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
-  "categoriesCount": 26,
-  "productsCount": 97
+  "categoriesCount": 6,
+  "productsCount": 28
 };
 
 export const syncedSiteSettings = {
@@ -53,48 +53,48 @@ export const syncedSiteSettings = {
   "emailHref": "mailto:uniquesofaworldfurniture@gmail.com",
   "featuredCategoryIds": [
     {
-      "id": "living-room"
+      "id": "sofas"
     },
     {
-      "id": "bedroom"
+      "id": "beds"
     },
     {
-      "id": "luxury-designer"
+      "id": "recliners"
     },
     {
-      "id": "services"
+      "id": "chairs"
     },
     {
-      "id": "office"
+      "id": "dining-tables"
     },
     {
-      "id": "dining"
+      "id": "center-tables"
     }
   ],
   "featuredProductIds": [
     {
-      "id": "living-room-sofas"
+      "id": "sofas-3-seater"
     },
     {
-      "id": "living-room-sofa-sets"
+      "id": "sofas-l-shape"
     },
     {
-      "id": "living-room-living-room-chairs"
+      "id": "sofas-luxury"
     },
     {
-      "id": "bedroom-custom-beds"
+      "id": "beds-king-size"
     },
     {
-      "id": "bedroom-kids-furniture"
+      "id": "beds-upholstered"
     },
     {
-      "id": "bedroom-bedroom-wardrobes"
+      "id": "recliners-premium"
     },
     {
-      "id": "luxury-designer-luxury-sofas"
+      "id": "chairs-lounge-chairs"
     },
     {
-      "id": "luxury-designer-designer-chairs"
+      "id": "dining-tables-6-seater"
     }
   ],
   "footerBottomCaption": "Unique Sofa World Furniture | Custom Sofas, Beds & Repair Services.",
@@ -237,593 +237,176 @@ export const syncedSiteSettings = {
 export const syncedCategories = [
   {
     "accent": "#bf622c",
-    "badge": "Best seller",
-    "code": "LR",
-    "family": "furniture",
-    "id": "living-room",
-    "images": [],
-    "items": [
-      "Sofas",
-      "Sofa Sets",
-      "Living Room Chairs"
+    "badge": "Best Seller",
+    "code": "SF",
+    "family": "sofas",
+    "id": "sofas",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
-    "slug": "living-room",
-    "subtitle": "Sofas, Chairs, and Tables",
-    "summary": "Premium living room furniture including single sofas, large sofa sets, and stylish chairs.",
-    "title": "Living Room Furniture",
+    "items": [
+      "3-Seater",
+      "L-Shape",
+      "Sectional",
+      "Chesterfield",
+      "Modern",
+      "Luxury",
+      "Wooden"
+    ],
+    "slug": "sofas",
+    "subtitle": "Comfortable seating for every home",
+    "summary": "Premium handcrafted sofas in modern, luxury, sectional, and custom designs.",
+    "title": "Sofas",
     "tone": "#f9ece3"
   },
   {
-    "accent": "#bf622c",
-    "badge": "Best seller",
-    "code": "RC",
-    "family": "hardware",
-    "id": "recliners",
-    "images": [],
+    "accent": "#2563eb",
+    "badge": "Popular",
+    "code": "BD",
+    "family": "beds",
+    "id": "beds",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
+    ],
     "items": [
-      "Push-back frame",
-      "Manual recliner mechanism",
-      "Wall hugger system",
-      "Cup holder insert",
-      "Headrest bracket",
-      "Footrest assembly"
+      "King Size",
+      "Queen Size",
+      "Storage",
+      "Upholstered",
+      "Wooden"
+    ],
+    "slug": "beds",
+    "subtitle": "Crafted for comfort and style",
+    "summary": "Custom wooden and upholstered beds designed for durability and elegant bedrooms.",
+    "title": "Beds",
+    "tone": "#e9f1ff"
+  },
+  {
+    "accent": "#7c3aed",
+    "badge": "Premium",
+    "code": "RC",
+    "family": "recliners",
+    "id": "recliners",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+    ],
+    "items": [
+      "Manual",
+      "Rocker",
+      "Swivel",
+      "Premium"
     ],
     "slug": "recliners",
-    "subtitle": "Mechanisms and frames",
-    "summary": "Complete recliner frames, push-back systems, wall-hugger mechanisms, and structural recliner hardware.",
+    "subtitle": "Relax in premium comfort",
+    "summary": "Manual and premium recliners with ergonomic support and luxurious cushioning.",
     "title": "Recliners",
-    "tone": "#f9ece3"
-  },
-  {
-    "accent": "#2563eb",
-    "badge": "Custom",
-    "code": "BR",
-    "family": "furniture",
-    "id": "bedroom",
-    "images": [],
-    "items": [
-      "Custom Beds",
-      "Kids Furniture",
-      "Bedroom Wardrobes"
-    ],
-    "slug": "bedroom",
-    "subtitle": "Beds and Kids Furniture",
-    "summary": "Comfortable and stylish bedroom furniture including custom beds and safe kids furniture.",
-    "title": "Bedroom Furniture",
-    "tone": "#e9f1ff"
-  },
-  {
-    "accent": "#2563eb",
-    "badge": "",
-    "code": "EL",
-    "family": "electrical",
-    "id": "recliner-accessories",
-    "images": [],
-    "items": [
-      "Dual motor set",
-      "Hand control keypad",
-      "USB charging port",
-      "Control box unit",
-      "Wireless remote receiver",
-      "LED cup holder light"
-    ],
-    "slug": "recliner-accessories",
-    "subtitle": "Power and electronics",
-    "summary": "Electric motors, hand controls, power units, chargers, wireless remotes, and control modules.",
-    "title": "Recliner Accessories",
-    "tone": "#e9f1ff"
-  },
-  {
-    "accent": "#7c3aed",
-    "badge": "",
-    "code": "FR",
-    "family": "structure",
-    "id": "chairs-frames",
-    "images": [],
-    "items": [
-      "Swivel base plate",
-      "Chair shell frame",
-      "Ottoman base frame",
-      "Rotation disc",
-      "Frame connector set",
-      "Back support assembly"
-    ],
-    "slug": "chairs-frames",
-    "subtitle": "Structural components",
-    "summary": "Swivel bases, chair frames, ottoman frames, back assemblies, and connector hardware.",
-    "title": "Chairs and Frames",
     "tone": "#f1eaff"
-  },
-  {
-    "accent": "#7c3aed",
-    "badge": "",
-    "code": "DN",
-    "family": "furniture",
-    "id": "dining",
-    "images": [],
-    "items": [
-      "Dining Tables",
-      "Dining Chairs",
-      "Dining Sets"
-    ],
-    "slug": "dining",
-    "subtitle": "Dining Tables and Chairs",
-    "summary": "Elegant dining tables and chairs for residential and commercial dining spaces.",
-    "title": "Dining Furniture",
-    "tone": "#f1eaff"
-  },
-  {
-    "accent": "#7c3aed",
-    "badge": "",
-    "code": "DN",
-    "family": "furniture",
-    "id": "dining",
-    "images": [],
-    "items": [
-      "Dining Tables",
-      "Dining Chairs",
-      "Dining Sets"
-    ],
-    "slug": "dining",
-    "subtitle": "Dining Tables and Chairs",
-    "summary": "Elegant dining tables and chairs for residential and commercial dining spaces.",
-    "title": "Dining Furniture",
-    "tone": "#f1eaff"
-  },
-  {
-    "accent": "#ce6a2c",
-    "badge": "New arrivals",
-    "code": "FL",
-    "family": "hardware",
-    "id": "fancy-legs",
-    "images": [],
-    "items": [
-      "Chrome leg set",
-      "Gold finish leg",
-      "Matte black leg",
-      "Rose gold corner leg",
-      "Hairpin leg",
-      "Sled base leg"
-    ],
-    "slug": "fancy-legs",
-    "subtitle": "Decorative furniture legs",
-    "summary": "Decorative sofa and furniture legs from 3 inch to 7 inch in chrome, gold, black, and brushed finishes.",
-    "title": "Fancy Legs",
-    "tone": "#fdf0e6"
   },
   {
     "accent": "#1f8f56",
     "badge": "",
-    "code": "OF",
-    "family": "furniture",
-    "id": "office",
-    "images": [],
-    "items": [
-      "Office Desks",
-      "Executive Chairs",
-      "Conference Tables"
+    "code": "CH",
+    "family": "seating",
+    "id": "chairs",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
-    "slug": "office",
-    "subtitle": "Workspaces and Desks",
-    "summary": "Professional office furniture including desks, ergonomic chairs, and modular setups.",
-    "title": "Office Furniture",
-    "tone": "#eaf7ef"
-  },
-  {
-    "accent": "#1f8f56",
-    "badge": "",
-    "code": "OF",
-    "family": "furniture",
-    "id": "office",
-    "images": [],
     "items": [
-      "Office Desks",
-      "Executive Chairs",
-      "Conference Tables"
+      "Sofa Chairs",
+      "Wooden Chairs",
+      "Accent Chairs",
+      "Lounge Chairs"
     ],
-    "slug": "office",
-    "subtitle": "Workspaces and Desks",
-    "summary": "Professional office furniture including desks, ergonomic chairs, and modular setups.",
-    "title": "Office Furniture",
+    "slug": "chairs",
+    "subtitle": "Stylish seating solutions",
+    "summary": "Wooden, accent, dining, and sofa chairs handcrafted for homes and offices.",
+    "title": "Chairs",
     "tone": "#eaf7ef"
   },
   {
     "accent": "#d62e63",
-    "badge": "Premium",
-    "code": "LD",
-    "family": "furniture",
-    "id": "luxury-designer",
-    "images": [],
-    "items": [
-      "Luxury Sofas",
-      "Designer Chairs",
-      "Statement Beds"
+    "badge": "New",
+    "code": "DT",
+    "family": "dining",
+    "id": "dining-tables",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
-    "slug": "luxury-designer",
-    "subtitle": "Premium bespoke pieces",
-    "summary": "Exclusive luxury and designer furniture customized to your exact requirements and premium aesthetic.",
-    "title": "Luxury & Designer",
+    "items": [
+      "4-Seater",
+      "6-Seater",
+      "8-Seater",
+      "Marble Top"
+    ],
+    "slug": "dining-tables",
+    "subtitle": "Elegant dining experiences",
+    "summary": "Modern and classic dining tables available in multiple sizes and finishes.",
+    "title": "Dining Tables",
     "tone": "#ffe8f0"
-  },
-  {
-    "accent": "#d62e63",
-    "badge": "Premium",
-    "code": "LD",
-    "family": "furniture",
-    "id": "luxury-designer",
-    "images": [],
-    "items": [
-      "Luxury Sofas",
-      "Designer Chairs",
-      "Statement Beds"
-    ],
-    "slug": "luxury-designer",
-    "subtitle": "Premium bespoke pieces",
-    "summary": "Exclusive luxury and designer furniture customized to your exact requirements and premium aesthetic.",
-    "title": "Luxury & Designer",
-    "tone": "#ffe8f0"
-  },
-  {
-    "accent": "#1f8f56",
-    "badge": "",
-    "code": "SL",
-    "family": "hardware",
-    "id": "sofa-legs",
-    "images": [],
-    "items": [
-      "Y-shape sofa leg",
-      "Cross base leg",
-      "Tapered metal leg",
-      "Trumpet leg",
-      "Adjustable glide leg",
-      "Brushed finish leg"
-    ],
-    "slug": "sofa-legs",
-    "subtitle": "Premium metal legs",
-    "summary": "Polished and brushed metal legs in multiple sizes, including Y-shape, tapered, and trumpet designs.",
-    "title": "Sofa Legs",
-    "tone": "#eaf7ef"
-  },
-  {
-    "accent": "#d62e63",
-    "badge": "",
-    "code": "AX",
-    "family": "accessories",
-    "id": "accessories",
-    "images": [],
-    "items": [
-      "Decorative handle",
-      "Metal rosette",
-      "Tufting button",
-      "Lion head knocker",
-      "Trim clip",
-      "Stud strip"
-    ],
-    "slug": "accessories",
-    "subtitle": "Decorative hardware",
-    "summary": "Handles, knobs, rosettes, knockers, tufting buttons, trim clips, and decorative details.",
-    "title": "Accessories",
-    "tone": "#ffe8f0"
-  },
-  {
-    "accent": "#ce6a2c",
-    "badge": "",
-    "code": "MO",
-    "family": "furniture",
-    "id": "modular-outdoor",
-    "images": [],
-    "items": [
-      "Modular Storage",
-      "Outdoor Seating",
-      "Patio Sets"
-    ],
-    "slug": "modular-outdoor",
-    "subtitle": "Modern and Patio Furniture",
-    "summary": "Durable outdoor furniture solutions and smart modular furniture for modern spaces.",
-    "title": "Modular & Outdoor",
-    "tone": "#fdf0e6"
-  },
-  {
-    "accent": "#ce6a2c",
-    "badge": "",
-    "code": "MO",
-    "family": "furniture",
-    "id": "modular-outdoor",
-    "images": [],
-    "items": [
-      "Modular Storage",
-      "Outdoor Seating",
-      "Patio Sets"
-    ],
-    "slug": "modular-outdoor",
-    "subtitle": "Modern and Patio Furniture",
-    "summary": "Durable outdoor furniture solutions and smart modular furniture for modern spaces.",
-    "title": "Modular & Outdoor",
-    "tone": "#fdf0e6"
   },
   {
     "accent": "#1186a0",
     "badge": "",
-    "code": "FI",
-    "family": "accessories",
-    "id": "fancy-items",
-    "images": [],
-    "items": [
-      "Decorative piping",
-      "Welt cord roll",
-      "Gimp braid trim",
-      "Metal trim strip",
-      "Corner angle piece",
-      "Decorative nail set"
+    "code": "CT",
+    "family": "furniture",
+    "id": "center-tables",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg"
     ],
-    "slug": "fancy-items",
-    "subtitle": "Trim and piping",
-    "summary": "Decorative piping, welt cord, corner pieces, metal trims, and finishing details for upholstery work.",
-    "title": "Fancy Items",
+    "items": [
+      "Center Tables",
+      "Coffee Tables",
+      "Side Tables",
+      "Nesting Tables"
+    ],
+    "slug": "center-tables",
+    "subtitle": "Complete your living space",
+    "summary": "Contemporary center and coffee tables crafted from premium materials.",
+    "title": "Center Tables",
     "tone": "#e7f8fb"
-  },
-  {
-    "accent": "#1186a0",
-    "badge": "",
-    "code": "MF",
-    "family": "materials",
-    "id": "materials-frames",
-    "images": [],
-    "items": [
-      "Premium Wood",
-      "Steel Components",
-      "Wooden Frames",
-      "Cane Frames"
-    ],
-    "slug": "materials-frames",
-    "subtitle": "Wood, Steel, and Cane",
-    "summary": "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.",
-    "title": "Materials & Frames",
-    "tone": "#e7f8fb"
-  },
-  {
-    "accent": "#1186a0",
-    "badge": "",
-    "code": "MF",
-    "family": "materials",
-    "id": "materials-frames",
-    "images": [],
-    "items": [
-      "Premium Wood",
-      "Steel Components",
-      "Wooden Frames",
-      "Cane Frames"
-    ],
-    "slug": "materials-frames",
-    "subtitle": "Wood, Steel, and Cane",
-    "summary": "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.",
-    "title": "Materials & Frames",
-    "tone": "#e7f8fb"
-  },
-  {
-    "accent": "#5b3fd1",
-    "badge": "Core",
-    "code": "SV",
-    "family": "services",
-    "id": "services",
-    "images": [],
-    "items": [
-      "Custom Furniture Manufacturing",
-      "Sofa & Sofa Set Repair",
-      "Delivery & Installation"
-    ],
-    "slug": "services",
-    "subtitle": "Manufacturing and Repair",
-    "summary": "Comprehensive services including custom manufacturing, sofa repair, delivery, and quick visits.",
-    "title": "Expert Services",
-    "tone": "#eee8ff"
-  },
-  {
-    "accent": "#5b3fd1",
-    "badge": "Core",
-    "code": "SV",
-    "family": "services",
-    "id": "services",
-    "images": [],
-    "items": [
-      "Custom Furniture Manufacturing",
-      "Sofa & Sofa Set Repair",
-      "Delivery & Installation"
-    ],
-    "slug": "services",
-    "subtitle": "Manufacturing and Repair",
-    "summary": "Comprehensive services including custom manufacturing, sofa repair, delivery, and quick visits.",
-    "title": "Expert Services",
-    "tone": "#eee8ff"
-  },
-  {
-    "accent": "#a65b24",
-    "badge": "Manufactured",
-    "code": "SS",
-    "family": "structure",
-    "id": "springs-staples",
-    "images": [],
-    "items": [
-      "80 series staples",
-      "100 series staples",
-      "Pocket spring unit",
-      "Zig-zag spring",
-      "C hog ring pack",
-      "C24 pin box"
-    ],
-    "slug": "springs-staples",
-    "subtitle": "Structural support",
-    "summary": "Staple pins, zig-zag springs, pocket springs, and hog rings for upholstery and furniture production.",
-    "title": "Springs and Staples",
-    "tone": "#f7e9de"
-  },
-  {
-    "accent": "#5b3fd1",
-    "badge": "",
-    "code": "TL",
-    "family": "structure",
-    "id": "tools",
-    "images": [],
-    "items": [
-      "Pneumatic stapler",
-      "Manual tacker",
-      "Upholstery scissors",
-      "Regulator tool",
-      "Tack puller",
-      "Web stretcher"
-    ],
-    "slug": "tools",
-    "subtitle": "Workshop equipment",
-    "summary": "Staplers, tackers, scissors, regulators, tack pullers, and upholstery workshop tools.",
-    "title": "Tools",
-    "tone": "#eee8ff"
-  },
-  {
-    "accent": "#2f9d60",
-    "badge": "",
-    "code": "EF",
-    "family": "materials",
-    "id": "elastic-fabric",
-    "images": [],
-    "items": [
-      "Elastic webbing roll",
-      "Seat ribbon",
-      "Polygrip adhesive",
-      "Innfix adhesive",
-      "Foam bonding glue",
-      "Cambric base cloth"
-    ],
-    "slug": "elastic-fabric",
-    "subtitle": "Upholstery materials",
-    "summary": "Elastic webbing, seat ribbons, adhesives, and supporting materials for professional upholstery.",
-    "title": "Elastic and Fabric",
-    "tone": "#ebf8f0"
-  },
-  {
-    "accent": "#c83660",
-    "badge": "",
-    "code": "TH",
-    "family": "materials",
-    "id": "threads",
-    "images": [],
-    "items": [
-      "Madura upholstery thread",
-      "Vardhman A&E thread",
-      "Nylon Tkt 20 cone",
-      "Nylon Tkt 40 cone",
-      "Upholstery needle pack",
-      "Industrial bobbin set"
-    ],
-    "slug": "threads",
-    "subtitle": "Sewing supplies",
-    "summary": "Madura Coats, Vardhman A&E, nylon thread counts, needles, bobbins, and sewing support items.",
-    "title": "Threads and Accessories",
-    "tone": "#ffeaf1"
-  },
-  {
-    "accent": "#137f99",
-    "badge": "",
-    "code": "ZR",
-    "family": "accessories",
-    "id": "zip-runners",
-    "images": [],
-    "items": [
-      "Industrial zipper roll",
-      "Zip runner set",
-      "Continuous zip tape",
-      "Hook-and-eye tape",
-      "Zip plier",
-      "End clip set"
-    ],
-    "slug": "zip-runners",
-    "subtitle": "Closures and fasteners",
-    "summary": "Industrial zippers, runners, hook-and-eye tape, zipper tools, and closure hardware for covers and cushions.",
-    "title": "Zip and Runners",
-    "tone": "#e6f8fb"
   }
 ];
 
 export const syncedProducts = [
   {
-    "badge": "Best seller",
-    "brand": "Miles",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Push-back frame from the Recliners range, supplied through Miles for mechanisms and frames work.",
-    "family": "hardware",
+    "badge": "Best Seller",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our 3-Seater is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
     "features": [
-      "Push-back frame suited to mechanisms and frames work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted 3-Seater built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "recliners-push-back-frame",
+    "id": "sofas-3-seater",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
-    "name": "Push-back frame",
-    "slug": "recliners-push-back-frame",
+    "name": "3-Seater",
+    "slug": "sofas-3-seater",
     "specs": [
       {
-        "label": "Range",
-        "value": "Recliners"
+        "label": "Category",
+        "value": "Sofas"
       },
       {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Mechanisms and frames"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Push-back frame for recliners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Recliners",
-      "frame"
-    ],
-    "type": "Mechanisms and frames"
-  },
-  {
-    "badge": "Best seller",
-    "brand": "Unique Sofa World",
-    "categoryId": "living-room",
-    "categoryTitle": "Living Room Furniture",
-    "description": "Sofas from our Living Room Furniture range. We provide top-quality sofas, chairs, and tables suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Sofas suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "living-room-sofas",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
-    ],
-    "name": "Sofas",
-    "slug": "living-room-sofas",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Living Room Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
+        "label": "Brand",
         "value": "Unique Sofa World"
       },
       {
@@ -832,102 +415,49 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Sofas, Chairs, and Tables"
+        "value": "Comfortable seating for every home"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Sofas crafted by Unique Sofa World for living room furniture requirements.",
+    "summary": "Premium 3-Seater by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Unique Sofa World",
-      "Living Room Furniture",
-      "Sofas"
+      "Sofas",
+      "3-Seater",
+      "Unique Sofa World"
     ],
-    "type": "Sofas, Chairs, and Tables"
+    "type": "Comfortable seating for every home"
   },
   {
     "badge": "",
-    "brand": "Veer",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Manual recliner mechanism from the Recliners range, supplied through Veer for mechanisms and frames work.",
-    "family": "hardware",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our L-Shape is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
     "features": [
-      "Manual recliner mechanism suited to mechanisms and frames work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted L-Shape built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "recliners-manual-recliner-mechanism",
+    "id": "sofas-l-shape",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
     ],
-    "name": "Manual recliner mechanism",
-    "slug": "recliners-manual-recliner-mechanism",
+    "name": "L-Shape",
+    "slug": "sofas-l-shape",
     "specs": [
       {
-        "label": "Range",
-        "value": "Recliners"
+        "label": "Category",
+        "value": "Sofas"
       },
       {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Mechanisms and frames"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Manual recliner mechanism for recliners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Recliners",
-      "mechanism"
-    ],
-    "type": "Mechanisms and frames"
-  },
-  {
-    "badge": "",
-    "brand": "Luxury Comfort",
-    "categoryId": "living-room",
-    "categoryTitle": "Living Room Furniture",
-    "description": "Sofa Sets from our Living Room Furniture range. We provide top-quality sofas, chairs, and tables suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Sofa Sets suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "living-room-sofa-sets",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
-    ],
-    "name": "Sofa Sets",
-    "slug": "living-room-sofa-sets",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Living Room Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Luxury Comfort"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
         "label": "Availability",
@@ -935,101 +465,98 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Sofas, Chairs, and Tables"
+        "value": "Comfortable seating for every home"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Sofa Sets crafted by Unique Sofa World for living room furniture requirements.",
+    "summary": "Premium L-Shape by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Luxury Comfort",
-      "Living Room Furniture",
-      "Sets"
+      "Sofas",
+      "L-Shape",
+      "Unique Sofa World"
     ],
-    "type": "Sofas, Chairs, and Tables"
+    "type": "Comfortable seating for every home"
   },
   {
     "badge": "",
-    "brand": "Rapid",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Wall hugger system from the Recliners range, supplied through Rapid for mechanisms and frames work.",
-    "family": "hardware",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our Sectional is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
     "features": [
-      "Wall hugger system suited to mechanisms and frames work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Sectional built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "recliners-wall-hugger-system",
+    "id": "sofas-sectional",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
+    ],
+    "name": "Sectional",
+    "slug": "sofas-sectional",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Sofas"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Comfortable seating for every home"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Sectional by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Sofas",
+      "Sectional",
+      "Unique Sofa World"
+    ],
+    "type": "Comfortable seating for every home"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our Chesterfield is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
+    "features": [
+      "Handcrafted Chesterfield built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "sofas-chesterfield",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
-    "name": "Wall hugger system",
-    "slug": "recliners-wall-hugger-system",
+    "name": "Chesterfield",
+    "slug": "sofas-chesterfield",
     "specs": [
       {
-        "label": "Range",
-        "value": "Recliners"
+        "label": "Category",
+        "value": "Sofas"
       },
       {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Mechanisms and frames"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Wall hugger system for recliners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Recliners",
-      "system"
-    ],
-    "type": "Mechanisms and frames"
-  },
-  {
-    "badge": "",
-    "brand": "Unique Sofa World",
-    "categoryId": "living-room",
-    "categoryTitle": "Living Room Furniture",
-    "description": "Living Room Chairs from our Living Room Furniture range. We provide top-quality sofas, chairs, and tables suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Living Room Chairs suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "living-room-living-room-chairs",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
-    ],
-    "name": "Living Room Chairs",
-    "slug": "living-room-living-room-chairs",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Living Room Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
+        "label": "Brand",
         "value": "Unique Sofa World"
       },
       {
@@ -1038,101 +565,48 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Sofas, Chairs, and Tables"
+        "value": "Comfortable seating for every home"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Living Room Chairs crafted by Unique Sofa World for living room furniture requirements.",
+    "summary": "Premium Chesterfield by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Unique Sofa World",
-      "Living Room Furniture",
-      "Chairs"
+      "Sofas",
+      "Chesterfield",
+      "Unique Sofa World"
     ],
-    "type": "Sofas, Chairs, and Tables"
+    "type": "Comfortable seating for every home"
   },
   {
     "badge": "",
-    "brand": "Miles",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Cup holder insert from the Recliners range, supplied through Miles for mechanisms and frames work.",
-    "family": "hardware",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our Modern is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
     "features": [
-      "Cup holder insert suited to mechanisms and frames work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Modern built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "recliners-cup-holder-insert",
+    "id": "sofas-modern",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
-    "name": "Cup holder insert",
-    "slug": "recliners-cup-holder-insert",
+    "name": "Modern",
+    "slug": "sofas-modern",
     "specs": [
       {
-        "label": "Range",
-        "value": "Recliners"
+        "label": "Category",
+        "value": "Sofas"
       },
       {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Mechanisms and frames"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Cup holder insert for recliners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Recliners",
-      "insert"
-    ],
-    "type": "Mechanisms and frames"
-  },
-  {
-    "badge": "Custom",
-    "brand": "Unique Sofa World",
-    "categoryId": "bedroom",
-    "categoryTitle": "Bedroom Furniture",
-    "description": "Custom Beds from our Bedroom Furniture range. We provide top-quality beds and kids furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Custom Beds suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "bedroom-custom-beds",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
-    ],
-    "name": "Custom Beds",
-    "slug": "bedroom-custom-beds",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Bedroom Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
+        "label": "Brand",
         "value": "Unique Sofa World"
       },
       {
@@ -1141,102 +615,249 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Beds and Kids Furniture"
+        "value": "Comfortable seating for every home"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Custom Beds crafted by Unique Sofa World for bedroom furniture requirements.",
+    "summary": "Premium Modern by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Unique Sofa World",
-      "Bedroom Furniture",
-      "Beds"
+      "Sofas",
+      "Modern",
+      "Unique Sofa World"
     ],
-    "type": "Beds and Kids Furniture"
+    "type": "Comfortable seating for every home"
   },
   {
     "badge": "",
-    "brand": "Veer",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Headrest bracket from the Recliners range, supplied through Veer for mechanisms and frames work.",
-    "family": "hardware",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our Luxury is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
     "features": [
-      "Headrest bracket suited to mechanisms and frames work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Luxury built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "recliners-headrest-bracket",
+    "id": "sofas-luxury",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
+    ],
+    "name": "Luxury",
+    "slug": "sofas-luxury",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Sofas"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Comfortable seating for every home"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Luxury by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Sofas",
+      "Luxury",
+      "Unique Sofa World"
+    ],
+    "type": "Comfortable seating for every home"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "sofas",
+    "categoryTitle": "Sofas",
+    "description": "Our Wooden is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "sofas",
+    "features": [
+      "Handcrafted Wooden built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "sofas-wooden",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
     ],
-    "name": "Headrest bracket",
-    "slug": "recliners-headrest-bracket",
+    "name": "Wooden",
+    "slug": "sofas-wooden",
     "specs": [
       {
-        "label": "Range",
-        "value": "Recliners"
+        "label": "Category",
+        "value": "Sofas"
       },
       {
-        "label": "Family",
-        "value": "hardware"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
-        "label": "Brand line",
-        "value": "Veer"
+        "label": "Availability",
+        "value": "Custom Made to Order"
       },
       {
         "label": "Application",
-        "value": "Mechanisms and frames"
+        "value": "Comfortable seating for every home"
       },
       {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Headrest bracket for recliners work, stocked for repeat workshop demand.",
+    "summary": "Premium Wooden by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Veer",
-      "Recliners",
-      "bracket"
+      "Sofas",
+      "Wooden",
+      "Unique Sofa World"
     ],
-    "type": "Mechanisms and frames"
+    "type": "Comfortable seating for every home"
+  },
+  {
+    "badge": "Popular",
+    "brand": "Unique Sofa World",
+    "categoryId": "beds",
+    "categoryTitle": "Beds",
+    "description": "Our King Size is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "beds",
+    "features": [
+      "Handcrafted King Size built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "beds-king-size",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
+    ],
+    "name": "King Size",
+    "slug": "beds-king-size",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Beds"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Crafted for comfort and style"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium King Size by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Beds",
+      "King Size",
+      "Unique Sofa World"
+    ],
+    "type": "Crafted for comfort and style"
   },
   {
     "badge": "",
-    "brand": "Custom Craft",
-    "categoryId": "bedroom",
-    "categoryTitle": "Bedroom Furniture",
-    "description": "Kids Furniture from our Bedroom Furniture range. We provide top-quality beds and kids furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
+    "brand": "Unique Sofa World",
+    "categoryId": "beds",
+    "categoryTitle": "Beds",
+    "description": "Our Queen Size is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "beds",
     "features": [
-      "High-quality Kids Furniture suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
+      "Handcrafted Queen Size built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "bedroom-kids-furniture",
+    "id": "beds-queen-size",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
+    ],
+    "name": "Queen Size",
+    "slug": "beds-queen-size",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Beds"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Crafted for comfort and style"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Queen Size by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Beds",
+      "Queen Size",
+      "Unique Sofa World"
+    ],
+    "type": "Crafted for comfort and style"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "beds",
+    "categoryTitle": "Beds",
+    "description": "Our Storage is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "beds",
+    "features": [
+      "Handcrafted Storage built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "beds-storage",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
     ],
-    "name": "Kids Furniture",
-    "slug": "bedroom-kids-furniture",
+    "name": "Storage",
+    "slug": "beds-storage",
     "specs": [
       {
-        "label": "Range",
-        "value": "Bedroom Furniture"
+        "label": "Category",
+        "value": "Beds"
       },
       {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Custom Craft"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
         "label": "Availability",
@@ -1244,101 +865,48 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Beds and Kids Furniture"
+        "value": "Crafted for comfort and style"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Kids Furniture crafted by Unique Sofa World for bedroom furniture requirements.",
+    "summary": "Premium Storage by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Custom Craft",
-      "Bedroom Furniture",
-      "Furniture"
+      "Beds",
+      "Storage",
+      "Unique Sofa World"
     ],
-    "type": "Beds and Kids Furniture"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "recliners",
-    "categoryTitle": "Recliners",
-    "description": "Footrest assembly from the Recliners range, supplied through Rapid for mechanisms and frames work.",
-    "family": "hardware",
-    "features": [
-      "Footrest assembly suited to mechanisms and frames work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliners-footrest-assembly",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
-    ],
-    "name": "Footrest assembly",
-    "slug": "recliners-footrest-assembly",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliners"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Mechanisms and frames"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Footrest assembly for recliners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Recliners",
-      "assembly"
-    ],
-    "type": "Mechanisms and frames"
+    "type": "Crafted for comfort and style"
   },
   {
     "badge": "",
     "brand": "Unique Sofa World",
-    "categoryId": "bedroom",
-    "categoryTitle": "Bedroom Furniture",
-    "description": "Bedroom Wardrobes from our Bedroom Furniture range. We provide top-quality beds and kids furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
+    "categoryId": "beds",
+    "categoryTitle": "Beds",
+    "description": "Our Upholstered is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "beds",
     "features": [
-      "High-quality Bedroom Wardrobes suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
+      "Handcrafted Upholstered built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "bedroom-bedroom-wardrobes",
+    "id": "beds-upholstered",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
     ],
-    "name": "Bedroom Wardrobes",
-    "slug": "bedroom-bedroom-wardrobes",
+    "name": "Upholstered",
+    "slug": "beds-upholstered",
     "specs": [
       {
-        "label": "Range",
-        "value": "Bedroom Furniture"
+        "label": "Category",
+        "value": "Beds"
       },
       {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
+        "label": "Brand",
         "value": "Unique Sofa World"
       },
       {
@@ -1347,101 +915,48 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Beds and Kids Furniture"
+        "value": "Crafted for comfort and style"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Bedroom Wardrobes crafted by Unique Sofa World for bedroom furniture requirements.",
+    "summary": "Premium Upholstered by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Unique Sofa World",
-      "Bedroom Furniture",
-      "Wardrobes"
+      "Beds",
+      "Upholstered",
+      "Unique Sofa World"
     ],
-    "type": "Beds and Kids Furniture"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "Dual motor set from the Recliner Accessories range, supplied through Miles for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "Dual motor set suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-dual-motor-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
-    ],
-    "name": "Dual motor set",
-    "slug": "recliner-accessories-dual-motor-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Dual motor set for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Recliner Accessories",
-      "set"
-    ],
-    "type": "Power and electronics"
+    "type": "Crafted for comfort and style"
   },
   {
     "badge": "",
     "brand": "Unique Sofa World",
-    "categoryId": "dining",
-    "categoryTitle": "Dining Furniture",
-    "description": "Dining Tables from our Dining Furniture range. We provide top-quality dining tables and chairs suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
+    "categoryId": "beds",
+    "categoryTitle": "Beds",
+    "description": "Our Wooden is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "beds",
     "features": [
-      "High-quality Dining Tables suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
+      "Handcrafted Wooden built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "dining-dining-tables",
+    "id": "beds-wooden",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
-    "name": "Dining Tables",
-    "slug": "dining-dining-tables",
+    "name": "Wooden",
+    "slug": "beds-wooden",
     "specs": [
       {
-        "label": "Range",
-        "value": "Dining Furniture"
+        "label": "Category",
+        "value": "Beds"
       },
       {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
+        "label": "Brand",
         "value": "Unique Sofa World"
       },
       {
@@ -1450,925 +965,248 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Dining Tables and Chairs"
+        "value": "Crafted for comfort and style"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Dining Tables crafted by Unique Sofa World for dining furniture requirements.",
+    "summary": "Premium Wooden by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Unique Sofa World",
-      "Dining Furniture",
-      "Tables"
+      "Beds",
+      "Wooden",
+      "Unique Sofa World"
     ],
-    "type": "Dining Tables and Chairs"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "Hand control keypad from the Recliner Accessories range, supplied through Rapid for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "Hand control keypad suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-hand-control-keypad",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
-    ],
-    "name": "Hand control keypad",
-    "slug": "recliner-accessories-hand-control-keypad",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Hand control keypad for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Recliner Accessories",
-      "keypad"
-    ],
-    "type": "Power and electronics"
-  },
-  {
-    "badge": "",
-    "brand": "Premium Wood",
-    "categoryId": "dining",
-    "categoryTitle": "Dining Furniture",
-    "description": "Dining Chairs from our Dining Furniture range. We provide top-quality dining tables and chairs suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Dining Chairs suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "dining-dining-chairs",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
-    ],
-    "name": "Dining Chairs",
-    "slug": "dining-dining-chairs",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Dining Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Premium Wood"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Dining Tables and Chairs"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Dining Chairs crafted by Unique Sofa World for dining furniture requirements.",
-    "tags": [
-      "Premium Wood",
-      "Dining Furniture",
-      "Chairs"
-    ],
-    "type": "Dining Tables and Chairs"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "USB charging port from the Recliner Accessories range, supplied through Veer for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "USB charging port suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-usb-charging-port",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
-    ],
-    "name": "USB charging port",
-    "slug": "recliner-accessories-usb-charging-port",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "USB charging port for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Recliner Accessories",
-      "port"
-    ],
-    "type": "Power and electronics"
-  },
-  {
-    "badge": "",
-    "brand": "Unique Sofa World",
-    "categoryId": "dining",
-    "categoryTitle": "Dining Furniture",
-    "description": "Dining Sets from our Dining Furniture range. We provide top-quality dining tables and chairs suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Dining Sets suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "dining-dining-sets",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
-    ],
-    "name": "Dining Sets",
-    "slug": "dining-dining-sets",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Dining Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Dining Tables and Chairs"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Dining Sets crafted by Unique Sofa World for dining furniture requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Dining Furniture",
-      "Sets"
-    ],
-    "type": "Dining Tables and Chairs"
-  },
-  {
-    "badge": "",
-    "brand": "Unique Sofa World",
-    "categoryId": "office",
-    "categoryTitle": "Office Furniture",
-    "description": "Office Desks from our Office Furniture range. We provide top-quality workspaces and desks suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Office Desks suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "office-office-desks",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "Office Desks",
-    "slug": "office-office-desks",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Office Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Workspaces and Desks"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Office Desks crafted by Unique Sofa World for office furniture requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Office Furniture",
-      "Desks"
-    ],
-    "type": "Workspaces and Desks"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "Control box unit from the Recliner Accessories range, supplied through Miles for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "Control box unit suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-control-box-unit",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
-    ],
-    "name": "Control box unit",
-    "slug": "recliner-accessories-control-box-unit",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Control box unit for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Recliner Accessories",
-      "unit"
-    ],
-    "type": "Power and electronics"
-  },
-  {
-    "badge": "",
-    "brand": "Steel Masters",
-    "categoryId": "office",
-    "categoryTitle": "Office Furniture",
-    "description": "Executive Chairs from our Office Furniture range. We provide top-quality workspaces and desks suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Executive Chairs suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "office-executive-chairs",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
-    ],
-    "name": "Executive Chairs",
-    "slug": "office-executive-chairs",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Office Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Steel Masters"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Workspaces and Desks"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Executive Chairs crafted by Unique Sofa World for office furniture requirements.",
-    "tags": [
-      "Steel Masters",
-      "Office Furniture",
-      "Chairs"
-    ],
-    "type": "Workspaces and Desks"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "Wireless remote receiver from the Recliner Accessories range, supplied through Rapid for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "Wireless remote receiver suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-wireless-remote-receiver",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
-    ],
-    "name": "Wireless remote receiver",
-    "slug": "recliner-accessories-wireless-remote-receiver",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Wireless remote receiver for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Recliner Accessories",
-      "receiver"
-    ],
-    "type": "Power and electronics"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "recliner-accessories",
-    "categoryTitle": "Recliner Accessories",
-    "description": "LED cup holder light from the Recliner Accessories range, supplied through Veer for power and electronics work.",
-    "family": "electrical",
-    "features": [
-      "LED cup holder light suited to power and electronics work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "recliner-accessories-led-cup-holder-light",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
-    ],
-    "name": "LED cup holder light",
-    "slug": "recliner-accessories-led-cup-holder-light",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Recliner Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "electrical"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Power and electronics"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "LED cup holder light for recliner accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Recliner Accessories",
-      "light"
-    ],
-    "type": "Power and electronics"
-  },
-  {
-    "badge": "",
-    "brand": "Unique Sofa World",
-    "categoryId": "office",
-    "categoryTitle": "Office Furniture",
-    "description": "Conference Tables from our Office Furniture range. We provide top-quality workspaces and desks suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Conference Tables suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "office-conference-tables",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "Conference Tables",
-    "slug": "office-conference-tables",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Office Furniture"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Workspaces and Desks"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Conference Tables crafted by Unique Sofa World for office furniture requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Office Furniture",
-      "Tables"
-    ],
-    "type": "Workspaces and Desks"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Swivel base plate from the Chairs and Frames range, supplied through Miles for structural components work.",
-    "family": "structure",
-    "features": [
-      "Swivel base plate suited to structural components work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "chairs-frames-swivel-base-plate",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
-    ],
-    "name": "Swivel base plate",
-    "slug": "chairs-frames-swivel-base-plate",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Chairs and Frames"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Structural components"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Swivel base plate for chairs and frames work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Chairs and Frames",
-      "plate"
-    ],
-    "type": "Structural components"
+    "type": "Crafted for comfort and style"
   },
   {
     "badge": "Premium",
-    "brand": "Custom Craft",
-    "categoryId": "luxury-designer",
-    "categoryTitle": "Luxury & Designer",
-    "description": "Luxury Sofas from our Luxury & Designer range. We provide top-quality premium bespoke pieces suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
+    "brand": "Unique Sofa World",
+    "categoryId": "recliners",
+    "categoryTitle": "Recliners",
+    "description": "Our Manual is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "recliners",
     "features": [
-      "High-quality Luxury Sofas suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
+      "Handcrafted Manual built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "luxury-designer-luxury-sofas",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
-    ],
-    "name": "Luxury Sofas",
-    "slug": "luxury-designer-luxury-sofas",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Luxury & Designer"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Custom Craft"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Premium bespoke pieces"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Luxury Sofas crafted by Unique Sofa World for luxury & designer requirements.",
-    "tags": [
-      "Custom Craft",
-      "Luxury & Designer",
-      "Sofas"
-    ],
-    "type": "Premium bespoke pieces"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Chair shell frame from the Chairs and Frames range, supplied through Veer for structural components work.",
-    "family": "structure",
-    "features": [
-      "Chair shell frame suited to structural components work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "chairs-frames-chair-shell-frame",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
-    ],
-    "name": "Chair shell frame",
-    "slug": "chairs-frames-chair-shell-frame",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Chairs and Frames"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Structural components"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Chair shell frame for chairs and frames work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Chairs and Frames",
-      "frame"
-    ],
-    "type": "Structural components"
-  },
-  {
-    "badge": "",
-    "brand": "Luxury Comfort",
-    "categoryId": "luxury-designer",
-    "categoryTitle": "Luxury & Designer",
-    "description": "Designer Chairs from our Luxury & Designer range. We provide top-quality premium bespoke pieces suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Designer Chairs suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "luxury-designer-designer-chairs",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
-    ],
-    "name": "Designer Chairs",
-    "slug": "luxury-designer-designer-chairs",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Luxury & Designer"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Luxury Comfort"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Premium bespoke pieces"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Designer Chairs crafted by Unique Sofa World for luxury & designer requirements.",
-    "tags": [
-      "Luxury Comfort",
-      "Luxury & Designer",
-      "Chairs"
-    ],
-    "type": "Premium bespoke pieces"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Ottoman base frame from the Chairs and Frames range, supplied through Rapid for structural components work.",
-    "family": "structure",
-    "features": [
-      "Ottoman base frame suited to structural components work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "chairs-frames-ottoman-base-frame",
+    "id": "recliners-manual",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+    ],
+    "name": "Manual",
+    "slug": "recliners-manual",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Recliners"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "In Stock & Custom"
+      },
+      {
+        "label": "Application",
+        "value": "Relax in premium comfort"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium Manual by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Recliners",
+      "Manual",
+      "Unique Sofa World"
+    ],
+    "type": "Relax in premium comfort"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "recliners",
+    "categoryTitle": "Recliners",
+    "description": "Our Rocker is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "recliners",
+    "features": [
+      "Handcrafted Rocker built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "recliners-rocker",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
+    ],
+    "name": "Rocker",
+    "slug": "recliners-rocker",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Recliners"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "In Stock & Custom"
+      },
+      {
+        "label": "Application",
+        "value": "Relax in premium comfort"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium Rocker by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Recliners",
+      "Rocker",
+      "Unique Sofa World"
+    ],
+    "type": "Relax in premium comfort"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "recliners",
+    "categoryTitle": "Recliners",
+    "description": "Our Swivel is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "recliners",
+    "features": [
+      "Handcrafted Swivel built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "recliners-swivel",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
-    "name": "Ottoman base frame",
-    "slug": "chairs-frames-ottoman-base-frame",
+    "name": "Swivel",
+    "slug": "recliners-swivel",
     "specs": [
       {
-        "label": "Range",
-        "value": "Chairs and Frames"
+        "label": "Category",
+        "value": "Recliners"
       },
       {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Structural components"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Ottoman base frame for chairs and frames work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Chairs and Frames",
-      "frame"
-    ],
-    "type": "Structural components"
-  },
-  {
-    "badge": "",
-    "brand": "Custom Craft",
-    "categoryId": "luxury-designer",
-    "categoryTitle": "Luxury & Designer",
-    "description": "Statement Beds from our Luxury & Designer range. We provide top-quality premium bespoke pieces suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Statement Beds suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "luxury-designer-statement-beds",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
-    ],
-    "name": "Statement Beds",
-    "slug": "luxury-designer-statement-beds",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Luxury & Designer"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Custom Craft"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
         "label": "Availability",
-        "value": "Custom Made to Order"
+        "value": "In Stock & Custom"
       },
       {
         "label": "Application",
-        "value": "Premium bespoke pieces"
+        "value": "Relax in premium comfort"
       },
       {
         "label": "Services",
-        "value": "Delivery, Setup, Repair"
+        "value": "Delivery, Setup"
       }
     ],
-    "summary": "Premium Statement Beds crafted by Unique Sofa World for luxury & designer requirements.",
+    "summary": "Premium Swivel by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Custom Craft",
-      "Luxury & Designer",
-      "Beds"
+      "Recliners",
+      "Swivel",
+      "Unique Sofa World"
     ],
-    "type": "Premium bespoke pieces"
+    "type": "Relax in premium comfort"
   },
   {
     "badge": "",
-    "brand": "Miles",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Rotation disc from the Chairs and Frames range, supplied through Miles for structural components work.",
-    "family": "structure",
+    "brand": "Unique Sofa World",
+    "categoryId": "recliners",
+    "categoryTitle": "Recliners",
+    "description": "Our Premium is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "recliners",
     "features": [
-      "Rotation disc suited to structural components work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Premium built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "chairs-frames-rotation-disc",
+    "id": "recliners-premium",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
-    "name": "Rotation disc",
-    "slug": "chairs-frames-rotation-disc",
+    "name": "Premium",
+    "slug": "recliners-premium",
     "specs": [
       {
-        "label": "Range",
-        "value": "Chairs and Frames"
+        "label": "Category",
+        "value": "Recliners"
       },
       {
-        "label": "Family",
-        "value": "structure"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
-        "label": "Brand line",
-        "value": "Miles"
+        "label": "Availability",
+        "value": "In Stock & Custom"
       },
       {
         "label": "Application",
-        "value": "Structural components"
+        "value": "Relax in premium comfort"
       },
       {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
+        "label": "Services",
+        "value": "Delivery, Setup"
       }
     ],
-    "summary": "Rotation disc for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Premium Premium by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Miles",
-      "Chairs and Frames",
-      "disc"
+      "Recliners",
+      "Premium",
+      "Unique Sofa World"
     ],
-    "type": "Structural components"
+    "type": "Relax in premium comfort"
   },
   {
     "badge": "",
     "brand": "Unique Sofa World",
-    "categoryId": "modular-outdoor",
-    "categoryTitle": "Modular & Outdoor",
-    "description": "Modular Storage from our Modular & Outdoor range. We provide top-quality modern and patio furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
+    "categoryId": "chairs",
+    "categoryTitle": "Chairs",
+    "description": "Our Sofa Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "seating",
     "features": [
-      "High-quality Modular Storage suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
+      "Handcrafted Sofa Chairs built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "modular-outdoor-modular-storage",
+    "id": "chairs-sofa-chairs",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
-    "name": "Modular Storage",
-    "slug": "modular-outdoor-modular-storage",
+    "name": "Sofa Chairs",
+    "slug": "chairs-sofa-chairs",
     "specs": [
       {
-        "label": "Range",
-        "value": "Modular & Outdoor"
+        "label": "Category",
+        "value": "Chairs"
       },
       {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
+        "label": "Brand",
         "value": "Unique Sofa World"
       },
       {
@@ -2377,102 +1215,49 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Modern and Patio Furniture"
+        "value": "Stylish seating solutions"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Modular Storage crafted by Unique Sofa World for modular & outdoor requirements.",
+    "summary": "Premium Sofa Chairs by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Unique Sofa World",
-      "Modular & Outdoor",
-      "Storage"
+      "Chairs",
+      "Sofa Chairs",
+      "Unique Sofa World"
     ],
-    "type": "Modern and Patio Furniture"
+    "type": "Stylish seating solutions"
   },
   {
     "badge": "",
-    "brand": "Veer",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Frame connector set from the Chairs and Frames range, supplied through Veer for structural components work.",
-    "family": "structure",
+    "brand": "Unique Sofa World",
+    "categoryId": "chairs",
+    "categoryTitle": "Chairs",
+    "description": "Our Wooden Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "seating",
     "features": [
-      "Frame connector set suited to structural components work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Wooden Chairs built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "chairs-frames-frame-connector-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
-    ],
-    "name": "Frame connector set",
-    "slug": "chairs-frames-frame-connector-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Chairs and Frames"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Structural components"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Frame connector set for chairs and frames work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Chairs and Frames",
-      "set"
-    ],
-    "type": "Structural components"
-  },
-  {
-    "badge": "",
-    "brand": "Steel Masters",
-    "categoryId": "modular-outdoor",
-    "categoryTitle": "Modular & Outdoor",
-    "description": "Outdoor Seating from our Modular & Outdoor range. We provide top-quality modern and patio furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "furniture",
-    "features": [
-      "High-quality Outdoor Seating suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "modular-outdoor-outdoor-seating",
+    "id": "chairs-wooden-chairs",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
-    "name": "Outdoor Seating",
-    "slug": "modular-outdoor-outdoor-seating",
+    "name": "Wooden Chairs",
+    "slug": "chairs-wooden-chairs",
     "specs": [
       {
-        "label": "Range",
-        "value": "Modular & Outdoor"
+        "label": "Category",
+        "value": "Chairs"
       },
       {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Steel Masters"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
         "label": "Availability",
@@ -2480,3146 +1265,519 @@ export const syncedProducts = [
       },
       {
         "label": "Application",
-        "value": "Modern and Patio Furniture"
+        "value": "Stylish seating solutions"
       },
       {
         "label": "Services",
         "value": "Delivery, Setup, Repair"
       }
     ],
-    "summary": "Premium Outdoor Seating crafted by Unique Sofa World for modular & outdoor requirements.",
+    "summary": "Premium Wooden Chairs by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Steel Masters",
-      "Modular & Outdoor",
-      "Seating"
+      "Chairs",
+      "Wooden Chairs",
+      "Unique Sofa World"
     ],
-    "type": "Modern and Patio Furniture"
+    "type": "Stylish seating solutions"
   },
   {
     "badge": "",
-    "brand": "Rapid",
-    "categoryId": "chairs-frames",
-    "categoryTitle": "Chairs and Frames",
-    "description": "Back support assembly from the Chairs and Frames range, supplied through Rapid for structural components work.",
-    "family": "structure",
+    "brand": "Unique Sofa World",
+    "categoryId": "chairs",
+    "categoryTitle": "Chairs",
+    "description": "Our Accent Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "seating",
     "features": [
-      "Back support assembly suited to structural components work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Accent Chairs built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "chairs-frames-back-support-assembly",
+    "id": "chairs-accent-chairs",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
+    ],
+    "name": "Accent Chairs",
+    "slug": "chairs-accent-chairs",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Chairs"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Stylish seating solutions"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Accent Chairs by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Chairs",
+      "Accent Chairs",
+      "Unique Sofa World"
+    ],
+    "type": "Stylish seating solutions"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "chairs",
+    "categoryTitle": "Chairs",
+    "description": "Our Lounge Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "seating",
+    "features": [
+      "Handcrafted Lounge Chairs built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "chairs-lounge-chairs",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
+    ],
+    "name": "Lounge Chairs",
+    "slug": "chairs-lounge-chairs",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Chairs"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Stylish seating solutions"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Lounge Chairs by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Chairs",
+      "Lounge Chairs",
+      "Unique Sofa World"
+    ],
+    "type": "Stylish seating solutions"
+  },
+  {
+    "badge": "New",
+    "brand": "Unique Sofa World",
+    "categoryId": "dining-tables",
+    "categoryTitle": "Dining Tables",
+    "description": "Our 4-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "dining",
+    "features": [
+      "Handcrafted 4-Seater built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "dining-tables-4-seater",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
+    ],
+    "name": "4-Seater",
+    "slug": "dining-tables-4-seater",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Dining Tables"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Elegant dining experiences"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium 4-Seater by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Dining Tables",
+      "4-Seater",
+      "Unique Sofa World"
+    ],
+    "type": "Elegant dining experiences"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "dining-tables",
+    "categoryTitle": "Dining Tables",
+    "description": "Our 6-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "dining",
+    "features": [
+      "Handcrafted 6-Seater built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "dining-tables-6-seater",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
-    "name": "Back support assembly",
-    "slug": "chairs-frames-back-support-assembly",
+    "name": "6-Seater",
+    "slug": "dining-tables-6-seater",
     "specs": [
       {
-        "label": "Range",
-        "value": "Chairs and Frames"
+        "label": "Category",
+        "value": "Dining Tables"
       },
       {
-        "label": "Family",
-        "value": "structure"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
-        "label": "Brand line",
-        "value": "Rapid"
+        "label": "Availability",
+        "value": "Custom Made to Order"
       },
       {
         "label": "Application",
-        "value": "Structural components"
+        "value": "Elegant dining experiences"
       },
       {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
+        "label": "Services",
+        "value": "Delivery, Setup"
       }
     ],
-    "summary": "Back support assembly for chairs and frames work, stocked for repeat workshop demand.",
+    "summary": "Premium 6-Seater by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Rapid",
-      "Chairs and Frames",
-      "assembly"
+      "Dining Tables",
+      "6-Seater",
+      "Unique Sofa World"
     ],
-    "type": "Structural components"
+    "type": "Elegant dining experiences"
   },
   {
     "badge": "",
     "brand": "Unique Sofa World",
-    "categoryId": "modular-outdoor",
-    "categoryTitle": "Modular & Outdoor",
-    "description": "Patio Sets from our Modular & Outdoor range. We provide top-quality modern and patio furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "categoryId": "dining-tables",
+    "categoryTitle": "Dining Tables",
+    "description": "Our 8-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "dining",
+    "features": [
+      "Handcrafted 8-Seater built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "dining-tables-8-seater",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
+    ],
+    "name": "8-Seater",
+    "slug": "dining-tables-8-seater",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Dining Tables"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Elegant dining experiences"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium 8-Seater by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Dining Tables",
+      "8-Seater",
+      "Unique Sofa World"
+    ],
+    "type": "Elegant dining experiences"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "dining-tables",
+    "categoryTitle": "Dining Tables",
+    "description": "Our Marble Top is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "dining",
+    "features": [
+      "Handcrafted Marble Top built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "dining-tables-marble-top",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
+    ],
+    "name": "Marble Top",
+    "slug": "dining-tables-marble-top",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Dining Tables"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Elegant dining experiences"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium Marble Top by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Dining Tables",
+      "Marble Top",
+      "Unique Sofa World"
+    ],
+    "type": "Elegant dining experiences"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "center-tables",
+    "categoryTitle": "Center Tables",
+    "description": "Our Center Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
     "family": "furniture",
     "features": [
-      "High-quality Patio Sets suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
+      "Handcrafted Center Tables built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "modular-outdoor-patio-sets",
+    "id": "center-tables-center-tables",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg"
+    ],
+    "name": "Center Tables",
+    "slug": "center-tables-center-tables",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Center Tables"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Complete your living space"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium Center Tables by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Center Tables",
+      "Center Tables",
+      "Unique Sofa World"
+    ],
+    "type": "Complete your living space"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "center-tables",
+    "categoryTitle": "Center Tables",
+    "description": "Our Coffee Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "furniture",
+    "features": [
+      "Handcrafted Coffee Tables built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "center-tables-coffee-tables",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
+    ],
+    "name": "Coffee Tables",
+    "slug": "center-tables-coffee-tables",
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Center Tables"
+      },
+      {
+        "label": "Brand",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Complete your living space"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup"
+      }
+    ],
+    "summary": "Premium Coffee Tables by Unique Sofa World — handcrafted for quality and lasting comfort.",
+    "tags": [
+      "Center Tables",
+      "Coffee Tables",
+      "Unique Sofa World"
+    ],
+    "type": "Complete your living space"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "center-tables",
+    "categoryTitle": "Center Tables",
+    "description": "Our Side Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "furniture",
+    "features": [
+      "Handcrafted Side Tables built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
+    ],
+    "id": "center-tables-side-tables",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
-    ],
-    "name": "Patio Sets",
-    "slug": "modular-outdoor-patio-sets",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Modular & Outdoor"
-      },
-      {
-        "label": "Family",
-        "value": "furniture"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Modern and Patio Furniture"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Patio Sets crafted by Unique Sofa World for modular & outdoor requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Modular & Outdoor",
-      "Sets"
-    ],
-    "type": "Modern and Patio Furniture"
-  },
-  {
-    "badge": "New arrivals",
-    "brand": "Veer",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Chrome leg set from the Fancy Legs range, supplied through Veer for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Chrome leg set suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-chrome-leg-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Chrome leg set",
-    "slug": "fancy-legs-chrome-leg-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Chrome leg set for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Fancy Legs",
-      "set"
-    ],
-    "type": "Decorative furniture legs"
-  },
-  {
-    "badge": "",
-    "brand": "Premium Wood",
-    "categoryId": "materials-frames",
-    "categoryTitle": "Materials & Frames",
-    "description": "Premium Wood from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "materials",
-    "features": [
-      "High-quality Premium Wood suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "materials-frames-premium-wood",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
-    ],
-    "name": "Premium Wood",
-    "slug": "materials-frames-premium-wood",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Materials & Frames"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Premium Wood"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Wood, Steel, and Cane"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Premium Wood crafted by Unique Sofa World for materials & frames requirements.",
-    "tags": [
-      "Premium Wood",
-      "Materials & Frames",
-      "Wood"
-    ],
-    "type": "Wood, Steel, and Cane"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Gold finish leg from the Fancy Legs range, supplied through Rapid for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Gold finish leg suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-gold-finish-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
-    ],
-    "name": "Gold finish leg",
-    "slug": "fancy-legs-gold-finish-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Gold finish leg for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Fancy Legs",
-      "leg"
-    ],
-    "type": "Decorative furniture legs"
-  },
-  {
-    "badge": "",
-    "brand": "Steel Masters",
-    "categoryId": "materials-frames",
-    "categoryTitle": "Materials & Frames",
-    "description": "Steel Components from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "materials",
-    "features": [
-      "High-quality Steel Components suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "materials-frames-steel-components",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Steel Components",
-    "slug": "materials-frames-steel-components",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Materials & Frames"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Steel Masters"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Wood, Steel, and Cane"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Steel Components crafted by Unique Sofa World for materials & frames requirements.",
-    "tags": [
-      "Steel Masters",
-      "Materials & Frames",
-      "Components"
-    ],
-    "type": "Wood, Steel, and Cane"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Matte black leg from the Fancy Legs range, supplied through Miles for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Matte black leg suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-matte-black-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
-    ],
-    "name": "Matte black leg",
-    "slug": "fancy-legs-matte-black-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Matte black leg for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Fancy Legs",
-      "leg"
-    ],
-    "type": "Decorative furniture legs"
-  },
-  {
-    "badge": "",
-    "brand": "Premium Wood",
-    "categoryId": "materials-frames",
-    "categoryTitle": "Materials & Frames",
-    "description": "Wooden Frames from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "materials",
-    "features": [
-      "High-quality Wooden Frames suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "materials-frames-wooden-frames",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
-    ],
-    "name": "Wooden Frames",
-    "slug": "materials-frames-wooden-frames",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Materials & Frames"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Premium Wood"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Wood, Steel, and Cane"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Wooden Frames crafted by Unique Sofa World for materials & frames requirements.",
-    "tags": [
-      "Premium Wood",
-      "Materials & Frames",
-      "Frames"
-    ],
-    "type": "Wood, Steel, and Cane"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Rose gold corner leg from the Fancy Legs range, supplied through Veer for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Rose gold corner leg suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-rose-gold-corner-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Rose gold corner leg",
-    "slug": "fancy-legs-rose-gold-corner-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Rose gold corner leg for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Fancy Legs",
-      "leg"
-    ],
-    "type": "Decorative furniture legs"
-  },
-  {
-    "badge": "",
-    "brand": "Steel Masters",
-    "categoryId": "materials-frames",
-    "categoryTitle": "Materials & Frames",
-    "description": "Cane Frames from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "materials",
-    "features": [
-      "High-quality Cane Frames suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "materials-frames-cane-frames",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Cane Frames",
-    "slug": "materials-frames-cane-frames",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Materials & Frames"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Steel Masters"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Wood, Steel, and Cane"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Cane Frames crafted by Unique Sofa World for materials & frames requirements.",
-    "tags": [
-      "Steel Masters",
-      "Materials & Frames",
-      "Frames"
-    ],
-    "type": "Wood, Steel, and Cane"
-  },
-  {
-    "badge": "Core",
-    "brand": "Unique Sofa World",
-    "categoryId": "services",
-    "categoryTitle": "Expert Services",
-    "description": "Custom Furniture Manufacturing from our Expert Services range. We provide top-quality manufacturing and repair suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "services",
-    "features": [
-      "High-quality Custom Furniture Manufacturing suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "services-custom-furniture-manufacturing",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "Custom Furniture Manufacturing",
-    "slug": "services-custom-furniture-manufacturing",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Expert Services"
-      },
-      {
-        "label": "Family",
-        "value": "services"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Manufacturing and Repair"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Custom Furniture Manufacturing crafted by Unique Sofa World for expert services requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Expert Services",
-      "Manufacturing"
-    ],
-    "type": "Manufacturing and Repair"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Hairpin leg from the Fancy Legs range, supplied through Rapid for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Hairpin leg suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-hairpin-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
-    ],
-    "name": "Hairpin leg",
-    "slug": "fancy-legs-hairpin-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Hairpin leg for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Fancy Legs",
-      "leg"
-    ],
-    "type": "Decorative furniture legs"
-  },
-  {
-    "badge": "",
-    "brand": "Unique Sofa World",
-    "categoryId": "services",
-    "categoryTitle": "Expert Services",
-    "description": "Sofa & Sofa Set Repair from our Expert Services range. We provide top-quality manufacturing and repair suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "services",
-    "features": [
-      "High-quality Sofa & Sofa Set Repair suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "services-sofa-sofa-set-repair",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
-    ],
-    "name": "Sofa & Sofa Set Repair",
-    "slug": "services-sofa-sofa-set-repair",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Expert Services"
-      },
-      {
-        "label": "Family",
-        "value": "services"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Manufacturing and Repair"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Sofa & Sofa Set Repair crafted by Unique Sofa World for expert services requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Expert Services",
-      "Repair"
-    ],
-    "type": "Manufacturing and Repair"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "fancy-legs",
-    "categoryTitle": "Fancy Legs",
-    "description": "Sled base leg from the Fancy Legs range, supplied through Miles for decorative furniture legs work.",
-    "family": "hardware",
-    "features": [
-      "Sled base leg suited to decorative furniture legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-legs-sled-base-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
-    ],
-    "name": "Sled base leg",
-    "slug": "fancy-legs-sled-base-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative furniture legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Sled base leg for fancy legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Fancy Legs",
-      "leg"
-    ],
-    "type": "Decorative furniture legs"
-  },
-  {
-    "badge": "",
-    "brand": "Unique Sofa World",
-    "categoryId": "services",
-    "categoryTitle": "Expert Services",
-    "description": "Delivery & Installation from our Expert Services range. We provide top-quality manufacturing and repair suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
-    "family": "services",
-    "features": [
-      "High-quality Delivery & Installation suited for modern spaces.",
-      "Suitable for: Residential, Commercial, and Corporate use.",
-      "Available for custom sizing, quick visits, and delivery."
-    ],
-    "id": "services-delivery-installation",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "Delivery & Installation",
-    "slug": "services-delivery-installation",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Expert Services"
-      },
-      {
-        "label": "Family",
-        "value": "services"
-      },
-      {
-        "label": "Manufacturer",
-        "value": "Unique Sofa World"
-      },
-      {
-        "label": "Availability",
-        "value": "Custom Made to Order"
-      },
-      {
-        "label": "Application",
-        "value": "Manufacturing and Repair"
-      },
-      {
-        "label": "Services",
-        "value": "Delivery, Setup, Repair"
-      }
-    ],
-    "summary": "Premium Delivery & Installation crafted by Unique Sofa World for expert services requirements.",
-    "tags": [
-      "Unique Sofa World",
-      "Expert Services",
-      "Installation"
-    ],
-    "type": "Manufacturing and Repair"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "sofa-legs",
-    "categoryTitle": "Sofa Legs",
-    "description": "Y-shape sofa leg from the Sofa Legs range, supplied through Veer for premium metal legs work.",
-    "family": "hardware",
-    "features": [
-      "Y-shape sofa leg suited to premium metal legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "sofa-legs-y-shape-sofa-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Y-shape sofa leg",
-    "slug": "sofa-legs-y-shape-sofa-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Sofa Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Premium metal legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Y-shape sofa leg for sofa legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Sofa Legs",
-      "leg"
-    ],
-    "type": "Premium metal legs"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "sofa-legs",
-    "categoryTitle": "Sofa Legs",
-    "description": "Cross base leg from the Sofa Legs range, supplied through Rapid for premium metal legs work.",
-    "family": "hardware",
-    "features": [
-      "Cross base leg suited to premium metal legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "sofa-legs-cross-base-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg"
-    ],
-    "name": "Cross base leg",
-    "slug": "sofa-legs-cross-base-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Sofa Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Premium metal legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Cross base leg for sofa legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Sofa Legs",
-      "leg"
-    ],
-    "type": "Premium metal legs"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "sofa-legs",
-    "categoryTitle": "Sofa Legs",
-    "description": "Tapered metal leg from the Sofa Legs range, supplied through Miles for premium metal legs work.",
-    "family": "hardware",
-    "features": [
-      "Tapered metal leg suited to premium metal legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "sofa-legs-tapered-metal-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
-    ],
-    "name": "Tapered metal leg",
-    "slug": "sofa-legs-tapered-metal-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Sofa Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Premium metal legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Tapered metal leg for sofa legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Sofa Legs",
-      "leg"
-    ],
-    "type": "Premium metal legs"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "sofa-legs",
-    "categoryTitle": "Sofa Legs",
-    "description": "Trumpet leg from the Sofa Legs range, supplied through Veer for premium metal legs work.",
-    "family": "hardware",
-    "features": [
-      "Trumpet leg suited to premium metal legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "sofa-legs-trumpet-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
-    ],
-    "name": "Trumpet leg",
-    "slug": "sofa-legs-trumpet-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Sofa Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Premium metal legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Trumpet leg for sofa legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Sofa Legs",
-      "leg"
-    ],
-    "type": "Premium metal legs"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "sofa-legs",
-    "categoryTitle": "Sofa Legs",
-    "description": "Adjustable glide leg from the Sofa Legs range, supplied through Rapid for premium metal legs work.",
-    "family": "hardware",
-    "features": [
-      "Adjustable glide leg suited to premium metal legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "sofa-legs-adjustable-glide-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg"
-    ],
-    "name": "Adjustable glide leg",
-    "slug": "sofa-legs-adjustable-glide-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Sofa Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Premium metal legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Adjustable glide leg for sofa legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Sofa Legs",
-      "leg"
-    ],
-    "type": "Premium metal legs"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "sofa-legs",
-    "categoryTitle": "Sofa Legs",
-    "description": "Brushed finish leg from the Sofa Legs range, supplied through Miles for premium metal legs work.",
-    "family": "hardware",
-    "features": [
-      "Brushed finish leg suited to premium metal legs work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "sofa-legs-brushed-finish-leg",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
-    ],
-    "name": "Brushed finish leg",
-    "slug": "sofa-legs-brushed-finish-leg",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Sofa Legs"
-      },
-      {
-        "label": "Family",
-        "value": "hardware"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Premium metal legs"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Brushed finish leg for sofa legs work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Sofa Legs",
-      "leg"
-    ],
-    "type": "Premium metal legs"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "accessories",
-    "categoryTitle": "Accessories",
-    "description": "Decorative handle from the Accessories range, supplied through Rapid for decorative hardware work.",
-    "family": "accessories",
-    "features": [
-      "Decorative handle suited to decorative hardware work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "accessories-decorative-handle",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
     ],
-    "name": "Decorative handle",
-    "slug": "accessories-decorative-handle",
+    "name": "Side Tables",
+    "slug": "center-tables-side-tables",
     "specs": [
       {
-        "label": "Range",
-        "value": "Accessories"
+        "label": "Category",
+        "value": "Center Tables"
       },
       {
-        "label": "Family",
-        "value": "accessories"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
-        "label": "Brand line",
-        "value": "Rapid"
+        "label": "Availability",
+        "value": "Custom Made to Order"
       },
       {
         "label": "Application",
-        "value": "Decorative hardware"
+        "value": "Complete your living space"
       },
       {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
+        "label": "Services",
+        "value": "Delivery, Setup"
       }
     ],
-    "summary": "Decorative handle for accessories work, stocked for repeat workshop demand.",
+    "summary": "Premium Side Tables by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Rapid",
-      "Accessories",
-      "handle"
+      "Center Tables",
+      "Side Tables",
+      "Unique Sofa World"
     ],
-    "type": "Decorative hardware"
+    "type": "Complete your living space"
   },
   {
     "badge": "",
-    "brand": "Miles",
-    "categoryId": "accessories",
-    "categoryTitle": "Accessories",
-    "description": "Metal rosette from the Accessories range, supplied through Miles for decorative hardware work.",
-    "family": "accessories",
+    "brand": "Unique Sofa World",
+    "categoryId": "center-tables",
+    "categoryTitle": "Center Tables",
+    "description": "Our Nesting Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
+    "family": "furniture",
     "features": [
-      "Metal rosette suited to decorative hardware work.",
-      "Available for walk-in purchase and bulk requirement planning."
+      "Handcrafted Nesting Tables built to your exact size and fabric preference.",
+      "Suitable for residential homes, offices, hotels, and commercial spaces.",
+      "Available for custom orders, quick visits, and doorstep delivery."
     ],
-    "id": "accessories-metal-rosette",
+    "id": "center-tables-nesting-tables",
     "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+      "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg"
     ],
-    "name": "Metal rosette",
-    "slug": "accessories-metal-rosette",
+    "name": "Nesting Tables",
+    "slug": "center-tables-nesting-tables",
     "specs": [
       {
-        "label": "Range",
-        "value": "Accessories"
+        "label": "Category",
+        "value": "Center Tables"
       },
       {
-        "label": "Family",
-        "value": "accessories"
+        "label": "Brand",
+        "value": "Unique Sofa World"
       },
       {
-        "label": "Brand line",
-        "value": "Miles"
+        "label": "Availability",
+        "value": "Custom Made to Order"
       },
       {
         "label": "Application",
-        "value": "Decorative hardware"
+        "value": "Complete your living space"
       },
       {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
+        "label": "Services",
+        "value": "Delivery, Setup"
       }
     ],
-    "summary": "Metal rosette for accessories work, stocked for repeat workshop demand.",
+    "summary": "Premium Nesting Tables by Unique Sofa World — handcrafted for quality and lasting comfort.",
     "tags": [
-      "Miles",
-      "Accessories",
-      "rosette"
-    ],
-    "type": "Decorative hardware"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "accessories",
-    "categoryTitle": "Accessories",
-    "description": "Tufting button from the Accessories range, supplied through Veer for decorative hardware work.",
-    "family": "accessories",
-    "features": [
-      "Tufting button suited to decorative hardware work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "accessories-tufting-button",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "Tufting button",
-    "slug": "accessories-tufting-button",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative hardware"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Tufting button for accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Accessories",
-      "button"
-    ],
-    "type": "Decorative hardware"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "accessories",
-    "categoryTitle": "Accessories",
-    "description": "Lion head knocker from the Accessories range, supplied through Rapid for decorative hardware work.",
-    "family": "accessories",
-    "features": [
-      "Lion head knocker suited to decorative hardware work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "accessories-lion-head-knocker",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
-    ],
-    "name": "Lion head knocker",
-    "slug": "accessories-lion-head-knocker",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative hardware"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Lion head knocker for accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Accessories",
-      "knocker"
-    ],
-    "type": "Decorative hardware"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "accessories",
-    "categoryTitle": "Accessories",
-    "description": "Trim clip from the Accessories range, supplied through Miles for decorative hardware work.",
-    "family": "accessories",
-    "features": [
-      "Trim clip suited to decorative hardware work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "accessories-trim-clip",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
-    ],
-    "name": "Trim clip",
-    "slug": "accessories-trim-clip",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative hardware"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Trim clip for accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Accessories",
-      "clip"
-    ],
-    "type": "Decorative hardware"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "accessories",
-    "categoryTitle": "Accessories",
-    "description": "Stud strip from the Accessories range, supplied through Veer for decorative hardware work.",
-    "family": "accessories",
-    "features": [
-      "Stud strip suited to decorative hardware work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "accessories-stud-strip",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "Stud strip",
-    "slug": "accessories-stud-strip",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Decorative hardware"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Stud strip for accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Accessories",
-      "strip"
-    ],
-    "type": "Decorative hardware"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "fancy-items",
-    "categoryTitle": "Fancy Items",
-    "description": "Decorative piping from the Fancy Items range, supplied through Rapid for trim and piping work.",
-    "family": "accessories",
-    "features": [
-      "Decorative piping suited to trim and piping work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-items-decorative-piping",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
-    ],
-    "name": "Decorative piping",
-    "slug": "fancy-items-decorative-piping",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Items"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Trim and piping"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Decorative piping for fancy items work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Fancy Items",
-      "piping"
-    ],
-    "type": "Trim and piping"
-  },
-  {
-    "badge": "",
-    "brand": "Innfix",
-    "categoryId": "fancy-items",
-    "categoryTitle": "Fancy Items",
-    "description": "Welt cord roll from the Fancy Items range, supplied through Innfix for trim and piping work.",
-    "family": "accessories",
-    "features": [
-      "Welt cord roll suited to trim and piping work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-items-welt-cord-roll",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
-    ],
-    "name": "Welt cord roll",
-    "slug": "fancy-items-welt-cord-roll",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Items"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Innfix"
-      },
-      {
-        "label": "Application",
-        "value": "Trim and piping"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Welt cord roll for fancy items work, stocked for repeat workshop demand.",
-    "tags": [
-      "Innfix",
-      "Fancy Items",
-      "roll"
-    ],
-    "type": "Trim and piping"
-  },
-  {
-    "badge": "",
-    "brand": "Polygrip",
-    "categoryId": "fancy-items",
-    "categoryTitle": "Fancy Items",
-    "description": "Gimp braid trim from the Fancy Items range, supplied through Polygrip for trim and piping work.",
-    "family": "accessories",
-    "features": [
-      "Gimp braid trim suited to trim and piping work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-items-gimp-braid-trim",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
-    ],
-    "name": "Gimp braid trim",
-    "slug": "fancy-items-gimp-braid-trim",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Items"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Polygrip"
-      },
-      {
-        "label": "Application",
-        "value": "Trim and piping"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Gimp braid trim for fancy items work, stocked for repeat workshop demand.",
-    "tags": [
-      "Polygrip",
-      "Fancy Items",
-      "trim"
-    ],
-    "type": "Trim and piping"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "fancy-items",
-    "categoryTitle": "Fancy Items",
-    "description": "Metal trim strip from the Fancy Items range, supplied through Rapid for trim and piping work.",
-    "family": "accessories",
-    "features": [
-      "Metal trim strip suited to trim and piping work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-items-metal-trim-strip",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
-    ],
-    "name": "Metal trim strip",
-    "slug": "fancy-items-metal-trim-strip",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Items"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Trim and piping"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Metal trim strip for fancy items work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Fancy Items",
-      "strip"
-    ],
-    "type": "Trim and piping"
-  },
-  {
-    "badge": "",
-    "brand": "Innfix",
-    "categoryId": "fancy-items",
-    "categoryTitle": "Fancy Items",
-    "description": "Corner angle piece from the Fancy Items range, supplied through Innfix for trim and piping work.",
-    "family": "accessories",
-    "features": [
-      "Corner angle piece suited to trim and piping work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-items-corner-angle-piece",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
-    ],
-    "name": "Corner angle piece",
-    "slug": "fancy-items-corner-angle-piece",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Items"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Innfix"
-      },
-      {
-        "label": "Application",
-        "value": "Trim and piping"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Corner angle piece for fancy items work, stocked for repeat workshop demand.",
-    "tags": [
-      "Innfix",
-      "Fancy Items",
-      "piece"
-    ],
-    "type": "Trim and piping"
-  },
-  {
-    "badge": "",
-    "brand": "Polygrip",
-    "categoryId": "fancy-items",
-    "categoryTitle": "Fancy Items",
-    "description": "Decorative nail set from the Fancy Items range, supplied through Polygrip for trim and piping work.",
-    "family": "accessories",
-    "features": [
-      "Decorative nail set suited to trim and piping work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "fancy-items-decorative-nail-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
-    ],
-    "name": "Decorative nail set",
-    "slug": "fancy-items-decorative-nail-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Fancy Items"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Polygrip"
-      },
-      {
-        "label": "Application",
-        "value": "Trim and piping"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Decorative nail set for fancy items work, stocked for repeat workshop demand.",
-    "tags": [
-      "Polygrip",
-      "Fancy Items",
-      "set"
-    ],
-    "type": "Trim and piping"
-  },
-  {
-    "badge": "Manufactured",
-    "brand": "Rapid",
-    "categoryId": "springs-staples",
-    "categoryTitle": "Springs and Staples",
-    "description": "80 series staples from the Springs and Staples range, supplied through Rapid for structural support work.",
-    "family": "structure",
-    "features": [
-      "80 series staples suited to structural support work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "springs-staples-80-series-staples",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "80 series staples",
-    "slug": "springs-staples-80-series-staples",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Springs and Staples"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Structural support"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "80 series staples for springs and staples work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Springs and Staples",
-      "staples"
-    ],
-    "type": "Structural support"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "springs-staples",
-    "categoryTitle": "Springs and Staples",
-    "description": "100 series staples from the Springs and Staples range, supplied through Veer for structural support work.",
-    "family": "structure",
-    "features": [
-      "100 series staples suited to structural support work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "springs-staples-100-series-staples",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "100 series staples",
-    "slug": "springs-staples-100-series-staples",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Springs and Staples"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Structural support"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "100 series staples for springs and staples work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Springs and Staples",
-      "staples"
-    ],
-    "type": "Structural support"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "springs-staples",
-    "categoryTitle": "Springs and Staples",
-    "description": "Pocket spring unit from the Springs and Staples range, supplied through Miles for structural support work.",
-    "family": "structure",
-    "features": [
-      "Pocket spring unit suited to structural support work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "springs-staples-pocket-spring-unit",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "Pocket spring unit",
-    "slug": "springs-staples-pocket-spring-unit",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Springs and Staples"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Structural support"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Pocket spring unit for springs and staples work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Springs and Staples",
-      "unit"
-    ],
-    "type": "Structural support"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "springs-staples",
-    "categoryTitle": "Springs and Staples",
-    "description": "Zig-zag spring from the Springs and Staples range, supplied through Rapid for structural support work.",
-    "family": "structure",
-    "features": [
-      "Zig-zag spring suited to structural support work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "springs-staples-zig-zag-spring",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "Zig-zag spring",
-    "slug": "springs-staples-zig-zag-spring",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Springs and Staples"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Structural support"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Zig-zag spring for springs and staples work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Springs and Staples",
-      "spring"
-    ],
-    "type": "Structural support"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "springs-staples",
-    "categoryTitle": "Springs and Staples",
-    "description": "C hog ring pack from the Springs and Staples range, supplied through Veer for structural support work.",
-    "family": "structure",
-    "features": [
-      "C hog ring pack suited to structural support work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "springs-staples-c-hog-ring-pack",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
-    ],
-    "name": "C hog ring pack",
-    "slug": "springs-staples-c-hog-ring-pack",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Springs and Staples"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Structural support"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "C hog ring pack for springs and staples work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Springs and Staples",
-      "pack"
-    ],
-    "type": "Structural support"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "springs-staples",
-    "categoryTitle": "Springs and Staples",
-    "description": "C24 pin box from the Springs and Staples range, supplied through Miles for structural support work.",
-    "family": "structure",
-    "features": [
-      "C24 pin box suited to structural support work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "springs-staples-c24-pin-box",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "C24 pin box",
-    "slug": "springs-staples-c24-pin-box",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Springs and Staples"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Structural support"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "C24 pin box for springs and staples work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Springs and Staples",
-      "box"
-    ],
-    "type": "Structural support"
-  },
-  {
-    "badge": "",
-    "brand": "KAYMO",
-    "categoryId": "tools",
-    "categoryTitle": "Tools",
-    "description": "Pneumatic stapler from the Tools range, supplied through KAYMO for workshop equipment work.",
-    "family": "structure",
-    "features": [
-      "Pneumatic stapler suited to workshop equipment work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "tools-pneumatic-stapler",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
-    ],
-    "name": "Pneumatic stapler",
-    "slug": "tools-pneumatic-stapler",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Tools"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "KAYMO"
-      },
-      {
-        "label": "Application",
-        "value": "Workshop equipment"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Pneumatic stapler for tools work, stocked for repeat workshop demand.",
-    "tags": [
-      "KAYMO",
-      "Tools",
-      "stapler"
-    ],
-    "type": "Workshop equipment"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "tools",
-    "categoryTitle": "Tools",
-    "description": "Manual tacker from the Tools range, supplied through Miles for workshop equipment work.",
-    "family": "structure",
-    "features": [
-      "Manual tacker suited to workshop equipment work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "tools-manual-tacker",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "Manual tacker",
-    "slug": "tools-manual-tacker",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Tools"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Workshop equipment"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Manual tacker for tools work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Tools",
-      "tacker"
-    ],
-    "type": "Workshop equipment"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "tools",
-    "categoryTitle": "Tools",
-    "description": "Upholstery scissors from the Tools range, supplied through Rapid for workshop equipment work.",
-    "family": "structure",
-    "features": [
-      "Upholstery scissors suited to workshop equipment work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "tools-upholstery-scissors",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
-    ],
-    "name": "Upholstery scissors",
-    "slug": "tools-upholstery-scissors",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Tools"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Workshop equipment"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Upholstery scissors for tools work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Tools",
-      "scissors"
-    ],
-    "type": "Workshop equipment"
-  },
-  {
-    "badge": "",
-    "brand": "KAYMO",
-    "categoryId": "tools",
-    "categoryTitle": "Tools",
-    "description": "Regulator tool from the Tools range, supplied through KAYMO for workshop equipment work.",
-    "family": "structure",
-    "features": [
-      "Regulator tool suited to workshop equipment work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "tools-regulator-tool",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "Regulator tool",
-    "slug": "tools-regulator-tool",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Tools"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "KAYMO"
-      },
-      {
-        "label": "Application",
-        "value": "Workshop equipment"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Regulator tool for tools work, stocked for repeat workshop demand.",
-    "tags": [
-      "KAYMO",
-      "Tools",
-      "tool"
-    ],
-    "type": "Workshop equipment"
-  },
-  {
-    "badge": "",
-    "brand": "Miles",
-    "categoryId": "tools",
-    "categoryTitle": "Tools",
-    "description": "Tack puller from the Tools range, supplied through Miles for workshop equipment work.",
-    "family": "structure",
-    "features": [
-      "Tack puller suited to workshop equipment work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "tools-tack-puller",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
-    ],
-    "name": "Tack puller",
-    "slug": "tools-tack-puller",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Tools"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Miles"
-      },
-      {
-        "label": "Application",
-        "value": "Workshop equipment"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Tack puller for tools work, stocked for repeat workshop demand.",
-    "tags": [
-      "Miles",
-      "Tools",
-      "puller"
-    ],
-    "type": "Workshop equipment"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "tools",
-    "categoryTitle": "Tools",
-    "description": "Web stretcher from the Tools range, supplied through Rapid for workshop equipment work.",
-    "family": "structure",
-    "features": [
-      "Web stretcher suited to workshop equipment work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "tools-web-stretcher",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
-    ],
-    "name": "Web stretcher",
-    "slug": "tools-web-stretcher",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Tools"
-      },
-      {
-        "label": "Family",
-        "value": "structure"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Workshop equipment"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Web stretcher for tools work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Tools",
-      "stretcher"
-    ],
-    "type": "Workshop equipment"
-  },
-  {
-    "badge": "",
-    "brand": "Polygrip",
-    "categoryId": "elastic-fabric",
-    "categoryTitle": "Elastic and Fabric",
-    "description": "Elastic webbing roll from the Elastic and Fabric range, supplied through Polygrip for upholstery materials work.",
-    "family": "materials",
-    "features": [
-      "Elastic webbing roll suited to upholstery materials work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "elastic-fabric-elastic-webbing-roll",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
-    ],
-    "name": "Elastic webbing roll",
-    "slug": "elastic-fabric-elastic-webbing-roll",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Elastic and Fabric"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Polygrip"
-      },
-      {
-        "label": "Application",
-        "value": "Upholstery materials"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Elastic webbing roll for elastic and fabric work, stocked for repeat workshop demand.",
-    "tags": [
-      "Polygrip",
-      "Elastic and Fabric",
-      "roll"
-    ],
-    "type": "Upholstery materials"
-  },
-  {
-    "badge": "",
-    "brand": "Innfix",
-    "categoryId": "elastic-fabric",
-    "categoryTitle": "Elastic and Fabric",
-    "description": "Seat ribbon from the Elastic and Fabric range, supplied through Innfix for upholstery materials work.",
-    "family": "materials",
-    "features": [
-      "Seat ribbon suited to upholstery materials work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "elastic-fabric-seat-ribbon",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Seat ribbon",
-    "slug": "elastic-fabric-seat-ribbon",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Elastic and Fabric"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Innfix"
-      },
-      {
-        "label": "Application",
-        "value": "Upholstery materials"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Seat ribbon for elastic and fabric work, stocked for repeat workshop demand.",
-    "tags": [
-      "Innfix",
-      "Elastic and Fabric",
-      "ribbon"
-    ],
-    "type": "Upholstery materials"
-  },
-  {
-    "badge": "",
-    "brand": "Century Foam",
-    "categoryId": "elastic-fabric",
-    "categoryTitle": "Elastic and Fabric",
-    "description": "Polygrip adhesive from the Elastic and Fabric range, supplied through Century Foam for upholstery materials work.",
-    "family": "materials",
-    "features": [
-      "Polygrip adhesive suited to upholstery materials work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "elastic-fabric-polygrip-adhesive",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
-    ],
-    "name": "Polygrip adhesive",
-    "slug": "elastic-fabric-polygrip-adhesive",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Elastic and Fabric"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Century Foam"
-      },
-      {
-        "label": "Application",
-        "value": "Upholstery materials"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Polygrip adhesive for elastic and fabric work, stocked for repeat workshop demand.",
-    "tags": [
-      "Century Foam",
-      "Elastic and Fabric",
-      "adhesive"
-    ],
-    "type": "Upholstery materials"
-  },
-  {
-    "badge": "",
-    "brand": "Polygrip",
-    "categoryId": "elastic-fabric",
-    "categoryTitle": "Elastic and Fabric",
-    "description": "Innfix adhesive from the Elastic and Fabric range, supplied through Polygrip for upholstery materials work.",
-    "family": "materials",
-    "features": [
-      "Innfix adhesive suited to upholstery materials work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "elastic-fabric-innfix-adhesive",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Innfix adhesive",
-    "slug": "elastic-fabric-innfix-adhesive",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Elastic and Fabric"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Polygrip"
-      },
-      {
-        "label": "Application",
-        "value": "Upholstery materials"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Innfix adhesive for elastic and fabric work, stocked for repeat workshop demand.",
-    "tags": [
-      "Polygrip",
-      "Elastic and Fabric",
-      "adhesive"
-    ],
-    "type": "Upholstery materials"
-  },
-  {
-    "badge": "",
-    "brand": "Innfix",
-    "categoryId": "elastic-fabric",
-    "categoryTitle": "Elastic and Fabric",
-    "description": "Foam bonding glue from the Elastic and Fabric range, supplied through Innfix for upholstery materials work.",
-    "family": "materials",
-    "features": [
-      "Foam bonding glue suited to upholstery materials work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "elastic-fabric-foam-bonding-glue",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
-    ],
-    "name": "Foam bonding glue",
-    "slug": "elastic-fabric-foam-bonding-glue",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Elastic and Fabric"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Innfix"
-      },
-      {
-        "label": "Application",
-        "value": "Upholstery materials"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Foam bonding glue for elastic and fabric work, stocked for repeat workshop demand.",
-    "tags": [
-      "Innfix",
-      "Elastic and Fabric",
-      "glue"
-    ],
-    "type": "Upholstery materials"
-  },
-  {
-    "badge": "",
-    "brand": "Century Foam",
-    "categoryId": "elastic-fabric",
-    "categoryTitle": "Elastic and Fabric",
-    "description": "Cambric base cloth from the Elastic and Fabric range, supplied through Century Foam for upholstery materials work.",
-    "family": "materials",
-    "features": [
-      "Cambric base cloth suited to upholstery materials work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "elastic-fabric-cambric-base-cloth",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Cambric base cloth",
-    "slug": "elastic-fabric-cambric-base-cloth",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Elastic and Fabric"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Century Foam"
-      },
-      {
-        "label": "Application",
-        "value": "Upholstery materials"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Cambric base cloth for elastic and fabric work, stocked for repeat workshop demand.",
-    "tags": [
-      "Century Foam",
-      "Elastic and Fabric",
-      "cloth"
-    ],
-    "type": "Upholstery materials"
-  },
-  {
-    "badge": "",
-    "brand": "Madura Coats",
-    "categoryId": "threads",
-    "categoryTitle": "Threads and Accessories",
-    "description": "Madura upholstery thread from the Threads and Accessories range, supplied through Madura Coats for sewing supplies work.",
-    "family": "materials",
-    "features": [
-      "Madura upholstery thread suited to sewing supplies work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "threads-madura-upholstery-thread",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Madura upholstery thread",
-    "slug": "threads-madura-upholstery-thread",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Threads and Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Madura Coats"
-      },
-      {
-        "label": "Application",
-        "value": "Sewing supplies"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Madura upholstery thread for threads and accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Madura Coats",
-      "Threads and Accessories",
-      "thread"
-    ],
-    "type": "Sewing supplies"
-  },
-  {
-    "badge": "",
-    "brand": "Vardhman A&E",
-    "categoryId": "threads",
-    "categoryTitle": "Threads and Accessories",
-    "description": "Vardhman A&E thread from the Threads and Accessories range, supplied through Vardhman A&E for sewing supplies work.",
-    "family": "materials",
-    "features": [
-      "Vardhman A&E thread suited to sewing supplies work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "threads-vardhman-a-e-thread",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
-    ],
-    "name": "Vardhman A&E thread",
-    "slug": "threads-vardhman-a-e-thread",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Threads and Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Vardhman A&E"
-      },
-      {
-        "label": "Application",
-        "value": "Sewing supplies"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Vardhman A&E thread for threads and accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Vardhman A&E",
-      "Threads and Accessories",
-      "thread"
-    ],
-    "type": "Sewing supplies"
-  },
-  {
-    "badge": "",
-    "brand": "Groz-Beckert",
-    "categoryId": "threads",
-    "categoryTitle": "Threads and Accessories",
-    "description": "Nylon Tkt 20 cone from the Threads and Accessories range, supplied through Groz-Beckert for sewing supplies work.",
-    "family": "materials",
-    "features": [
-      "Nylon Tkt 20 cone suited to sewing supplies work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "threads-nylon-tkt-20-cone",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Nylon Tkt 20 cone",
-    "slug": "threads-nylon-tkt-20-cone",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Threads and Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Groz-Beckert"
-      },
-      {
-        "label": "Application",
-        "value": "Sewing supplies"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Nylon Tkt 20 cone for threads and accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Groz-Beckert",
-      "Threads and Accessories",
-      "cone"
-    ],
-    "type": "Sewing supplies"
-  },
-  {
-    "badge": "",
-    "brand": "Madura Coats",
-    "categoryId": "threads",
-    "categoryTitle": "Threads and Accessories",
-    "description": "Nylon Tkt 40 cone from the Threads and Accessories range, supplied through Madura Coats for sewing supplies work.",
-    "family": "materials",
-    "features": [
-      "Nylon Tkt 40 cone suited to sewing supplies work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "threads-nylon-tkt-40-cone",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
-    ],
-    "name": "Nylon Tkt 40 cone",
-    "slug": "threads-nylon-tkt-40-cone",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Threads and Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Madura Coats"
-      },
-      {
-        "label": "Application",
-        "value": "Sewing supplies"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Nylon Tkt 40 cone for threads and accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Madura Coats",
-      "Threads and Accessories",
-      "cone"
-    ],
-    "type": "Sewing supplies"
-  },
-  {
-    "badge": "",
-    "brand": "Vardhman A&E",
-    "categoryId": "threads",
-    "categoryTitle": "Threads and Accessories",
-    "description": "Upholstery needle pack from the Threads and Accessories range, supplied through Vardhman A&E for sewing supplies work.",
-    "family": "materials",
-    "features": [
-      "Upholstery needle pack suited to sewing supplies work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "threads-upholstery-needle-pack",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Upholstery needle pack",
-    "slug": "threads-upholstery-needle-pack",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Threads and Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Vardhman A&E"
-      },
-      {
-        "label": "Application",
-        "value": "Sewing supplies"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Upholstery needle pack for threads and accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Vardhman A&E",
-      "Threads and Accessories",
-      "pack"
-    ],
-    "type": "Sewing supplies"
-  },
-  {
-    "badge": "",
-    "brand": "Groz-Beckert",
-    "categoryId": "threads",
-    "categoryTitle": "Threads and Accessories",
-    "description": "Industrial bobbin set from the Threads and Accessories range, supplied through Groz-Beckert for sewing supplies work.",
-    "family": "materials",
-    "features": [
-      "Industrial bobbin set suited to sewing supplies work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "threads-industrial-bobbin-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
-    ],
-    "name": "Industrial bobbin set",
-    "slug": "threads-industrial-bobbin-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Threads and Accessories"
-      },
-      {
-        "label": "Family",
-        "value": "materials"
-      },
-      {
-        "label": "Brand line",
-        "value": "Groz-Beckert"
-      },
-      {
-        "label": "Application",
-        "value": "Sewing supplies"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Industrial bobbin set for threads and accessories work, stocked for repeat workshop demand.",
-    "tags": [
-      "Groz-Beckert",
-      "Threads and Accessories",
-      "set"
-    ],
-    "type": "Sewing supplies"
-  },
-  {
-    "badge": "",
-    "brand": "Groz-Beckert",
-    "categoryId": "zip-runners",
-    "categoryTitle": "Zip and Runners",
-    "description": "Industrial zipper roll from the Zip and Runners range, supplied through Groz-Beckert for closures and fasteners work.",
-    "family": "accessories",
-    "features": [
-      "Industrial zipper roll suited to closures and fasteners work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "zip-runners-industrial-zipper-roll",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
-    ],
-    "name": "Industrial zipper roll",
-    "slug": "zip-runners-industrial-zipper-roll",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Zip and Runners"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Groz-Beckert"
-      },
-      {
-        "label": "Application",
-        "value": "Closures and fasteners"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Industrial zipper roll for zip and runners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Groz-Beckert",
-      "Zip and Runners",
-      "roll"
-    ],
-    "type": "Closures and fasteners"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "zip-runners",
-    "categoryTitle": "Zip and Runners",
-    "description": "Zip runner set from the Zip and Runners range, supplied through Rapid for closures and fasteners work.",
-    "family": "accessories",
-    "features": [
-      "Zip runner set suited to closures and fasteners work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "zip-runners-zip-runner-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Zip runner set",
-    "slug": "zip-runners-zip-runner-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Zip and Runners"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Closures and fasteners"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Zip runner set for zip and runners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Zip and Runners",
-      "set"
-    ],
-    "type": "Closures and fasteners"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "zip-runners",
-    "categoryTitle": "Zip and Runners",
-    "description": "Continuous zip tape from the Zip and Runners range, supplied through Veer for closures and fasteners work.",
-    "family": "accessories",
-    "features": [
-      "Continuous zip tape suited to closures and fasteners work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "zip-runners-continuous-zip-tape",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
-    ],
-    "name": "Continuous zip tape",
-    "slug": "zip-runners-continuous-zip-tape",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Zip and Runners"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Closures and fasteners"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Continuous zip tape for zip and runners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Zip and Runners",
-      "tape"
-    ],
-    "type": "Closures and fasteners"
-  },
-  {
-    "badge": "",
-    "brand": "Groz-Beckert",
-    "categoryId": "zip-runners",
-    "categoryTitle": "Zip and Runners",
-    "description": "Hook-and-eye tape from the Zip and Runners range, supplied through Groz-Beckert for closures and fasteners work.",
-    "family": "accessories",
-    "features": [
-      "Hook-and-eye tape suited to closures and fasteners work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "zip-runners-hook-and-eye-tape",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "Hook-and-eye tape",
-    "slug": "zip-runners-hook-and-eye-tape",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Zip and Runners"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Groz-Beckert"
-      },
-      {
-        "label": "Application",
-        "value": "Closures and fasteners"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Hook-and-eye tape for zip and runners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Groz-Beckert",
-      "Zip and Runners",
-      "tape"
-    ],
-    "type": "Closures and fasteners"
-  },
-  {
-    "badge": "",
-    "brand": "Rapid",
-    "categoryId": "zip-runners",
-    "categoryTitle": "Zip and Runners",
-    "description": "Zip plier from the Zip and Runners range, supplied through Rapid for closures and fasteners work.",
-    "family": "accessories",
-    "features": [
-      "Zip plier suited to closures and fasteners work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "zip-runners-zip-plier",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
-    ],
-    "name": "Zip plier",
-    "slug": "zip-runners-zip-plier",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Zip and Runners"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Rapid"
-      },
-      {
-        "label": "Application",
-        "value": "Closures and fasteners"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "Zip plier for zip and runners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Rapid",
-      "Zip and Runners",
-      "plier"
-    ],
-    "type": "Closures and fasteners"
-  },
-  {
-    "badge": "",
-    "brand": "Veer",
-    "categoryId": "zip-runners",
-    "categoryTitle": "Zip and Runners",
-    "description": "End clip set from the Zip and Runners range, supplied through Veer for closures and fasteners work.",
-    "family": "accessories",
-    "features": [
-      "End clip set suited to closures and fasteners work.",
-      "Available for walk-in purchase and bulk requirement planning."
-    ],
-    "id": "zip-runners-end-clip-set",
-    "images": [
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
-    ],
-    "name": "End clip set",
-    "slug": "zip-runners-end-clip-set",
-    "specs": [
-      {
-        "label": "Range",
-        "value": "Zip and Runners"
-      },
-      {
-        "label": "Family",
-        "value": "accessories"
-      },
-      {
-        "label": "Brand line",
-        "value": "Veer"
-      },
-      {
-        "label": "Application",
-        "value": "Closures and fasteners"
-      },
-      {
-        "label": "Supply mode",
-        "value": "Retail, repeat orders, and project enquiries"
-      }
-    ],
-    "summary": "End clip set for zip and runners work, stocked for repeat workshop demand.",
-    "tags": [
-      "Veer",
-      "Zip and Runners",
-      "set"
-    ],
-    "type": "Closures and fasteners"
+      "Center Tables",
+      "Nesting Tables",
+      "Unique Sofa World"
+    ],
+    "type": "Complete your living space"
   }
 ];

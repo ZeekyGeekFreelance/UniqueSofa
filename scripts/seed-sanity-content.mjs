@@ -98,121 +98,117 @@ const HERO_MEDIA = [
   { eyebrow: "Premium Beds",    title: "Serene",  description: "Elegant bed frames crafted for restful spaces - where quality meets lasting style.",               image: "/bed.png"       },
 ];
 
-const catalogueMeta = [
-  { id: "01", title: "Cover", section: "Brand identity" },
-  { id: "02", title: "Sofas", section: "Living Room" },
-  { id: "03", title: "Sofa Sets", section: "Living Room" },
-  { id: "04", title: "Beds", section: "Bedroom" },
-  { id: "05", title: "Dining Tables", section: "Dining Room" },
-  { id: "06", title: "Chairs", section: "Seating" },
-  { id: "07", title: "Modular Furniture", section: "Modern Living" },
-  { id: "08", title: "Designer Furniture", section: "Luxury" },
-  { id: "09", title: "Kids Furniture", section: "Bedroom" },
-  { id: "10", title: "Wood & Steel Materials", section: "Materials" },
-  { id: "11", title: "Wooden & Cane Frames", section: "Frames" },
-  { id: "12", title: "Office Furniture", section: "Commercial" },
-  { id: "13", title: "Outdoor Furniture", section: "Exterior" },
-  { id: "14", title: "Sofa Repair Services", section: "Services" },
-  { id: "15", title: "Custom Manufacturing", section: "Services" },
-  { id: "16", title: "Contact and Info", section: "Company details" },
-];
-
-const CATALOGUE_PAGES = catalogueMeta.map((p, i) => ({
-  ...p,
-  image: `/catalogue/page-${String(i).padStart(3, "0")}.jpg`,
-}));
-
 const CATEGORIES = [
-  { id: "living-room", code: "LR", title: "Living Room Furniture", subtitle: "Sofas, Chairs, and Tables", summary: "Premium living room furniture including single sofas, large sofa sets, and stylish chairs.", badge: "Best seller", accent: "#bf622c", tone: "#f9ece3", family: "furniture", cataloguePageIds: ["02","03","06"], items: ["Sofas", "Sofa Sets", "Living Room Chairs"] },
-  { id: "bedroom", code: "BR", title: "Bedroom Furniture", subtitle: "Beds and Kids Furniture", summary: "Comfortable and stylish bedroom furniture including custom beds and safe kids furniture.", badge: "Custom", accent: "#2563eb", tone: "#e9f1ff", family: "furniture", cataloguePageIds: ["04","09"], items: ["Custom Beds", "Kids Furniture", "Bedroom Wardrobes"] },
-  { id: "dining", code: "DN", title: "Dining Furniture", subtitle: "Dining Tables and Chairs", summary: "Elegant dining tables and chairs for residential and commercial dining spaces.", badge: "", accent: "#7c3aed", tone: "#f1eaff", family: "furniture", cataloguePageIds: ["05","06"], items: ["Dining Tables", "Dining Chairs", "Dining Sets"] },
-  { id: "office", code: "OF", title: "Office Furniture", subtitle: "Workspaces and Desks", summary: "Professional office furniture including desks, ergonomic chairs, and modular setups.", badge: "", accent: "#1f8f56", tone: "#eaf7ef", family: "furniture", cataloguePageIds: ["12","07"], items: ["Office Desks", "Executive Chairs", "Conference Tables"] },
-  { id: "luxury-designer", code: "LD", title: "Luxury & Designer", subtitle: "Premium bespoke pieces", summary: "Exclusive luxury and designer furniture customized to your exact requirements and premium aesthetic.", badge: "Premium", accent: "#d62e63", tone: "#ffe8f0", family: "furniture", cataloguePageIds: ["08"], items: ["Luxury Sofas", "Designer Chairs", "Statement Beds"] },
-  { id: "modular-outdoor", code: "MO", title: "Modular & Outdoor", subtitle: "Modern and Patio Furniture", summary: "Durable outdoor furniture solutions and smart modular furniture for modern spaces.", badge: "", accent: "#ce6a2c", tone: "#fdf0e6", family: "furniture", cataloguePageIds: ["07","13"], items: ["Modular Storage", "Outdoor Seating", "Patio Sets"] },
-  { id: "materials-frames", code: "MF", title: "Materials & Frames", subtitle: "Wood, Steel, and Cane", summary: "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.", badge: "", accent: "#1186a0", tone: "#e7f8fb", family: "materials", cataloguePageIds: ["10","11"], items: ["Premium Wood", "Steel Components", "Wooden Frames", "Cane Frames"] },
-  { id: "services", code: "SV", title: "Expert Services", subtitle: "Manufacturing and Repair", summary: "Comprehensive services including custom manufacturing, sofa repair, delivery, and quick visits.", badge: "Core", accent: "#5b3fd1", tone: "#eee8ff", family: "services", cataloguePageIds: ["14","15"], items: ["Custom Furniture Manufacturing", "Sofa & Sofa Set Repair", "Delivery & Installation"] },
+  {
+    id: "sofas", code: "SF", title: "Sofas", subtitle: "Comfortable seating for every home",
+    summary: "Premium handcrafted sofas in modern, luxury, sectional, and custom designs.",
+    badge: "Best Seller", accent: "#bf622c", tone: "#f9ece3", family: "sofas",
+    items: ["3-Seater", "L-Shape", "Sectional", "Chesterfield", "Modern", "Luxury", "Wooden"],
+    images: ["/catalogue/page-001.jpg", "/catalogue/page-002.jpg", "/catalogue/page-003.jpg"],
+  },
+  {
+    id: "beds", code: "BD", title: "Beds", subtitle: "Crafted for comfort and style",
+    summary: "Custom wooden and upholstered beds designed for durability and elegant bedrooms.",
+    badge: "Popular", accent: "#2563eb", tone: "#e9f1ff", family: "beds",
+    items: ["King Size", "Queen Size", "Storage", "Upholstered", "Wooden"],
+    images: ["/catalogue/page-008.jpg", "/catalogue/page-009.jpg", "/catalogue/page-010.jpg"],
+  },
+  {
+    id: "recliners", code: "RC", title: "Recliners", subtitle: "Relax in premium comfort",
+    summary: "Manual and premium recliners with ergonomic support and luxurious cushioning.",
+    badge: "Premium", accent: "#7c3aed", tone: "#f1eaff", family: "recliners",
+    items: ["Manual", "Rocker", "Swivel", "Premium"],
+    images: ["/catalogue/page-004.jpg", "/catalogue/page-005.jpg", "/catalogue/page-006.jpg"],
+  },
+  {
+    id: "chairs", code: "CH", title: "Chairs", subtitle: "Stylish seating solutions",
+    summary: "Wooden, accent, dining, and sofa chairs handcrafted for homes and offices.",
+    badge: "", accent: "#1f8f56", tone: "#eaf7ef", family: "seating",
+    items: ["Sofa Chairs", "Wooden Chairs", "Accent Chairs", "Lounge Chairs"],
+    images: ["/catalogue/page-011.jpg", "/catalogue/page-012.jpg", "/catalogue/page-013.jpg"],
+  },
+  {
+    id: "dining-tables", code: "DT", title: "Dining Tables", subtitle: "Elegant dining experiences",
+    summary: "Modern and classic dining tables available in multiple sizes and finishes.",
+    badge: "New", accent: "#d62e63", tone: "#ffe8f0", family: "dining",
+    items: ["4-Seater", "6-Seater", "8-Seater", "Marble Top"],
+    images: ["/catalogue/page-014.jpg", "/catalogue/page-015.jpg", "/catalogue/page-016.jpg"],
+  },
+  {
+    id: "center-tables", code: "CT", title: "Center Tables", subtitle: "Complete your living space",
+    summary: "Contemporary center and coffee tables crafted from premium materials.",
+    badge: "", accent: "#1186a0", tone: "#e7f8fb", family: "furniture",
+    items: ["Center Tables", "Coffee Tables", "Side Tables", "Nesting Tables"],
+    images: ["/catalogue/page-017.jpg", "/catalogue/page-018.jpg", "/catalogue/page-019.jpg"],
+  },
 ];
 
-const FEATURED_CATEGORY_IDS = ["living-room", "bedroom", "luxury-designer", "services", "office", "dining"];
+const FEATURED_CATEGORY_IDS = ["sofas", "beds", "recliners", "chairs", "dining-tables", "center-tables"];
 
-const CATEGORY_BRANDS = {
-  "living-room": ["Unique Sofa World", "Luxury Comfort"],
-  "bedroom": ["Unique Sofa World", "Custom Craft"],
-  "dining": ["Unique Sofa World", "Premium Wood"],
-  "office": ["Unique Sofa World", "Steel Masters"],
-  "luxury-designer": ["Custom Craft", "Luxury Comfort"],
-  "modular-outdoor": ["Unique Sofa World", "Steel Masters"],
-  "materials-frames": ["Premium Wood", "Steel Masters"],
-  "services": ["Unique Sofa World"],
+// image pool per category — cycles through available catalogue pages
+const CAT_IMAGES = {
+  "sofas":         ["/catalogue/page-001.jpg","/catalogue/page-002.jpg","/catalogue/page-003.jpg","/catalogue/page-007.jpg"],
+  "beds":          ["/catalogue/page-008.jpg","/catalogue/page-009.jpg","/catalogue/page-010.jpg","/catalogue/page-015.jpg"],
+  "recliners":     ["/catalogue/page-004.jpg","/catalogue/page-005.jpg","/catalogue/page-006.jpg","/catalogue/page-011.jpg"],
+  "chairs":        ["/catalogue/page-011.jpg","/catalogue/page-012.jpg","/catalogue/page-013.jpg","/catalogue/page-006.jpg"],
+  "dining-tables": ["/catalogue/page-014.jpg","/catalogue/page-015.jpg","/catalogue/page-016.jpg","/catalogue/page-005.jpg"],
+  "center-tables": ["/catalogue/page-017.jpg","/catalogue/page-018.jpg","/catalogue/page-019.jpg","/catalogue/page-012.jpg"],
 };
 
-function slugify(v) { return v.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); }
-function imageForPage(pageId) {
-  const i = catalogueMeta.findIndex((p) => p.id === pageId);
-  return `/catalogue/page-${String(i < 0 ? 0 : i).padStart(3, "0")}.jpg`;
-}
+const PRODUCT_SPECS = {
+  "sofas":         { brand: "Unique Sofa World", availability: "Custom Made to Order", services: "Delivery, Setup, Repair" },
+  "beds":          { brand: "Unique Sofa World", availability: "Custom Made to Order", services: "Delivery, Setup, Repair" },
+  "recliners":     { brand: "Unique Sofa World", availability: "In Stock & Custom",    services: "Delivery, Setup" },
+  "chairs":        { brand: "Unique Sofa World", availability: "Custom Made to Order", services: "Delivery, Setup, Repair" },
+  "dining-tables": { brand: "Unique Sofa World", availability: "Custom Made to Order", services: "Delivery, Setup" },
+  "center-tables": { brand: "Unique Sofa World", availability: "Custom Made to Order", services: "Delivery, Setup" },
+};
 
-const PRODUCTS = CATEGORIES.flatMap((cat) => {
-  const brands = CATEGORY_BRANDS[cat.id] || [BRANDS[0]];
-  return cat.items.map((item, idx) => {
-    const brand = brands[idx % brands.length];
-    const pageIds = cat.cataloguePageIds.length > 2
-      ? [cat.cataloguePageIds[idx % cat.cataloguePageIds.length], cat.cataloguePageIds[(idx+1) % cat.cataloguePageIds.length], cat.cataloguePageIds[(idx+2) % cat.cataloguePageIds.length]]
-      : [cat.cataloguePageIds[idx % cat.cataloguePageIds.length], cat.cataloguePageIds[(idx+1) % cat.cataloguePageIds.length], cat.cataloguePageIds[idx % cat.cataloguePageIds.length]];
+const PRODUCTS = CATEGORIES.flatMap((cat) =>
+  cat.items.map((item, idx) => {
+    const pool = CAT_IMAGES[cat.id];
+    const imgs = [pool[idx % pool.length], pool[(idx + 1) % pool.length], pool[(idx + 2) % pool.length]];
+    const spec = PRODUCT_SPECS[cat.id];
     return {
-      id: `${cat.id}-${slugify(item)}`,
-      slug: slugify(`${cat.id}-${item}`),
-      name: item, brand,
+      id: `${cat.id}-${item.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`,
+      name: item,
+      brand: spec.brand,
       badge: idx === 0 ? (cat.badge || "") : "",
-      categoryId: cat.id, categoryTitle: cat.title, family: cat.family, type: cat.subtitle,
-      summary: `Premium ${item} crafted by Unique Sofa World for ${cat.title.toLowerCase()} requirements.`,
-      description: `${item} from our ${cat.title} range. We provide top-quality ${cat.subtitle.toLowerCase()} suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.`,
-      features: [`High-quality ${item} suited for modern spaces.`, `Suitable for: Residential, Commercial, and Corporate use.`, `Available for custom sizing, quick visits, and delivery.`],
-      specs: [{ label: "Range", value: cat.title }, { label: "Family", value: cat.family }, { label: "Manufacturer", value: brand }, { label: "Availability", value: "Custom Made to Order" }, { label: "Application", value: cat.subtitle }, { label: "Services", value: "Delivery, Setup, Repair" }],
-      tags: [brand, cat.title, item.split(" ").slice(-1)[0] || cat.code],
-      images: pageIds.map(imageForPage),
-      referencePageIds: pageIds,
+      categoryId: cat.id,
+      categoryTitle: cat.title,
+      family: cat.family,
+      type: cat.subtitle,
+      summary: `Premium ${item} by Unique Sofa World — handcrafted for quality and lasting comfort.`,
+      description: `Our ${item} is part of the ${cat.title} collection. Designed for ${cat.subtitle.toLowerCase()}, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.`,
+      features: [
+        `Handcrafted ${item} built to your exact size and fabric preference.`,
+        `Suitable for residential homes, offices, hotels, and commercial spaces.`,
+        `Available for custom orders, quick visits, and doorstep delivery.`,
+      ],
+      specs: [
+        { label: "Category",     value: cat.title },
+        { label: "Brand",        value: spec.brand },
+        { label: "Availability", value: spec.availability },
+        { label: "Application",  value: cat.subtitle },
+        { label: "Services",     value: spec.services },
+      ],
+      tags: [cat.title, item, spec.brand],
+      images: imgs,
     };
-  });
-});
+  })
+);
 
-const FEATURED_PRODUCT_IDS = PRODUCTS
-  .filter((p) => p.badge || ["living-room", "luxury-designer", "services", "bedroom"].includes(p.categoryId))
-  .slice(0, 8).map((p) => p.id);
+const FEATURED_PRODUCT_IDS = [
+  "sofas-3-seater", "sofas-l-shape", "sofas-luxury",
+  "beds-king-size", "beds-upholstered",
+  "recliners-premium",
+  "chairs-lounge-chairs",
+  "dining-tables-6-seater",
+].slice(0, 8);
 
 // ── Seed ──────────────────────────────────────────────────────────────────────
 
 async function upsert(doc) { return client.createOrReplace(doc); }
-
-async function seedHomepageCurators() {
-  console.log("  Seeding homepage curators...");
-  await upsert({
-    _id: "homepage-featured-ranges-v1", _type: "homepageFeaturedRanges",
-    eyebrow: "Featured categories",
-    title: "Discover our core furniture collections.",
-    description: "Explore our premium living room sofas, custom bedroom setups, and luxury designer pieces crafted just for you.",
-    categories: FEATURED_CATEGORY_IDS.map((id) => ({
-      _key: `cat-ref-${id}`,
-      _type: "reference",
-      _weak: true,
-      _ref: `category-${id}`,
-    })),
-  });
-  
-  await upsert({
-    _id: "homepage-featured-products-v1", _type: "homepageFeaturedProducts",
-    eyebrow: "Featured furniture & services",
-    title: "Selected highlights and popular items.",
-    description: "Browse our most requested furniture sets and specialized services including sofa repair and custom manufacturing.",
-    products: FEATURED_PRODUCT_IDS.map((id) => ({
-      _key: `prod-ref-${id}`,
-      _type: "reference",
-      _weak: true,
-      _ref: `product-${id}`,
-    })),
-  });
-  console.log("  ✓ homepage curators");
-}
 
 async function seedSiteSettings() {
   console.log("  Seeding siteSettings...");
@@ -222,12 +218,10 @@ async function seedSiteSettings() {
     phoneDisplay: BRAND.phone, phoneRaw: BRAND.phoneRaw, phoneHref: BRAND.phoneHref,
     email: BRAND.email, emailHref: BRAND.emailHref, whatsappHref: BRAND.whatsappHref,
     city: BRAND.city, intro: BRAND.intro,
-    catalogueFile: "/catalogue/dtc-catalogue.pdf",
     brands: BRANDS,
     navItems: [
       { _key: "nav-0", href: "/", label: "Home" },
       { _key: "nav-1", href: "/products", label: "Products" },
-      { _key: "nav-2", href: "/catalogue", label: "Catalogue" },
       { _key: "nav-3", href: "/about", label: "About" },
       { _key: "nav-4", href: "/contact", label: "Contact" },
     ],
@@ -253,13 +247,6 @@ async function seedSiteSettings() {
       description: h.description,
       image: sanityImageRef(h.image),
     })).filter((h) => h.image !== null),
-    cataloguePages: CATALOGUE_PAGES.map((p, i) => ({
-      _key: `catpage-${i}`,
-      id: p.id,
-      title: p.title,
-      section: p.section,
-      image: sanityImageRef(p.image),
-    })).filter((p) => p.image !== null),
     featuredCategories: FEATURED_CATEGORY_IDS.map((id, i) => ({
       _key: `fc-${i}`, _type: "reference", _weak: true, _ref: `category-${id}`,
     })),
@@ -295,14 +282,6 @@ async function seedSiteSettings() {
     productsFilterFamilyLabel: "Family",
     productsFilterRangeLabel: "Range",
     productsFilterBrandLabel: "Collection",
-    catalogueHeroEyebrow: "Catalogue",
-    catalogueHeroTitle: "Explore our full range of offerings.",
-    catalogueHeroDescription: "Browse through our collection of premium sofas, custom beds, materials, and comprehensive repair services.",
-    catalogueFocusEyebrow: "Focus view",
-    catalogueBrowseEyebrow: "Browse pages",
-    catalogueDownloadLabel: "Download brochure",
-    catalogueCallLabel: "Call for consultation",
-    catalogueEmailLabel: "Email your requirements",
     aboutHeroEyebrow: "About Unique Sofa World",
     aboutHeroTitle: "Your Trusted Custom Furniture Manufacturer & Dealer.",
     aboutHeroSubtitle: "We specialize in custom furniture, sofa manufacturing, bed manufacturing, and expert repair services across Bengaluru.",
@@ -345,7 +324,8 @@ async function seedCategories() {
       slug: { _type: "slug", current: cat.id },
       code: cat.code, title: cat.title, subtitle: cat.subtitle, summary: cat.summary,
       badge: cat.badge || "", accent: cat.accent, tone: cat.tone, family: cat.family,
-      items: cat.items, cataloguePageIds: cat.cataloguePageIds,
+      items: cat.items,
+      images: cat.images.map((img, ii) => sanityImageRef(img, `img-${ii}`)).filter(Boolean),
       sortOrder: (i + 1) * 10, isPublished: true,
     });
     process.stdout.write(`    ${i + 1}/${CATEGORIES.length} ${cat.title}          \r`);
@@ -358,8 +338,6 @@ async function seedProducts() {
   for (const [i, p] of PRODUCTS.entries()) {
     await upsert({
       _id: `product-${p.id}`, _type: "product",
-      id: p.id,
-      slug: { _type: "slug", current: p.slug },
       name: p.name, brand: p.brand, badge: p.badge || "",
       category: { _type: "reference", _weak: true, _ref: `category-${p.categoryId}` },
       type: p.type, summary: p.summary, description: p.description,
@@ -367,7 +345,6 @@ async function seedProducts() {
       specs: p.specs.map((s, si) => ({ _key: `spec-${si}`, label: s.label, value: s.value })),
       tags: p.tags,
       images: p.images.map((img, ii) => sanityImageRef(img, `img-${ii}`)).filter(Boolean),
-      referencePageIds: p.referencePageIds,
       sortOrder: (i + 1) * 10, isPublished: true,
     });
     process.stdout.write(`    ${i + 1}/${PRODUCTS.length} ${p.name}          \r`);
@@ -409,7 +386,6 @@ try {
   await seedMapLocation();
   await seedCategories();
   await seedProducts();
-  await seedHomepageCurators();
   console.log("\n✅  Seed complete. Open /admin to verify the content.\n");
 } catch (err) {
   console.error("\n❌  Seed failed:", err.message);

@@ -76,13 +76,13 @@ const QUERY = `{
     contactEnquirySentTitle, contactEnquirySentDescription, contactEnquirySubmitLabel,
     contactBusinessHoursWeekday, contactBusinessHoursSunday,
     footerNavigateTitle, footerStoresTitle, footerContactTitle, footerBottomCaption,
-    "featuredCategoryIds": featuredCategories[]->{ "id": string::split(_id, "category-")[1] },
+    "featuredCategoryIds": featuredCategories[]->{ "id": coalesce(id, string::split(_id, "category-")[1]) },
     "featuredProductIds": featuredProducts[]->{ "id": string::split(_id, "product-")[1] }
   },
   "categories": *[_type == "category" && coalesce(isPublished, true) == true]
     | order(coalesce(sortOrder, 999) asc, title asc){
-      "id": string::split(_id, "category-")[1],
-      "slug": string::split(_id, "category-")[1],
+      "id": coalesce(id, string::split(_id, "category-")[1]),
+      "slug": coalesce(slug.current, string::split(_id, "category-")[1]),
       code, title, subtitle, summary, badge, accent, tone, family, items,
       "images": coalesce(images[].asset->url, [])
     },
@@ -91,7 +91,7 @@ const QUERY = `{
       "id": string::split(_id, "product-")[1],
       "slug": string::split(_id, "product-")[1],
       name, brand, badge,
-      "categoryId": string::split(category._ref, "category-")[1],
+      "categoryId": category->id,
       "categoryTitle": coalesce(category->title, ""),
       "family": coalesce(category->family, ""),
       type, summary, description, features,
