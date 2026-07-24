@@ -5,11 +5,9 @@
 // lives here — it maps to the CategoryFamily type values.
 
 export type CategoryFamily =
-  | "hardware"
-  | "electrical"
-  | "structure"
+  | "furniture"
   | "materials"
-  | "accessories";
+  | "services";
 
 export type ProductSpec = {
   label: string;
@@ -61,10 +59,8 @@ export type Store = {
 // and are intentionally hardcoded since the family taxonomy is
 // defined in the Sanity schema, not user-editable content.
 export const FAMILY_FILTERS: { id: CategoryFamily | "all"; label: string }[] = [
-  { id: "all",         label: "All families" },
-  { id: "hardware",    label: "Hardware" },
-  { id: "electrical",  label: "Electrical" },
-  { id: "structure",   label: "Structure" },
-  { id: "materials",   label: "Materials" },
-  { id: "accessories", label: "Accessories" },
+  { id: "all",        label: "All categories" },
+  { id: "furniture",  label: "Furniture" },
+  { id: "materials",  label: "Materials & Frames" },
+  { id: "services",   label: "Services" },
 ];

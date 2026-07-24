@@ -3,67 +3,62 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T16:35:35.832Z",
+  "syncedAt": "2026-07-24T18:33:09.430Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
-  "categoriesCount": 12,
-  "productsCount": 72
+  "categoriesCount": 20,
+  "productsCount": 97
 };
 
 export const syncedSiteSettings = {
-  "aboutBrandsDescription": "The Unique Sofa World Furniture range covers premium sofa materials, quality fabrics, and trusted hardware brands used in every piece we craft.",
-  "aboutBrandsEyebrow": "Stocked brands",
-  "aboutBrandsTitle": "Trusted names already familiar to furniture workshops.",
-  "aboutHeroEyebrow": "About USW Furniture",
-  "aboutHeroSubtitle": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
-  "aboutHeroTitle": "Crafting Comfortable Living Spaces with Quality Furniture Since 2021.",
-  "aboutModelDescription": "From crafting new sofas to restoring old ones and building custom furniture, Unique Sofa World Furniture covers every comfort need for homes and businesses across Bengaluru.",
-  "aboutModelEyebrow": "Our services",
-  "aboutModelTitle": "Three services that define what we do.",
-  "aboutPrimaryCtaLabel": "Explore products",
+  "aboutBrandsDescription": "Our furniture features premium wooden frames and cane frames, crafted to ensure durability for residential, corporate, and commercial use.",
+  "aboutBrandsEyebrow": "Materials & Quality",
+  "aboutBrandsTitle": "Built with the best Wood, Steel, and Frame Materials.",
+  "aboutHeroEyebrow": "About Unique Sofa World",
+  "aboutHeroSubtitle": "We specialize in custom furniture, sofa manufacturing, bed manufacturing, and expert repair services across Bengaluru.",
+  "aboutHeroTitle": "Your Trusted Custom Furniture Manufacturer & Dealer.",
+  "aboutModelDescription": "We don't just sell furniture. We are a custom furniture manufacturer, a reliable office furniture supplier, and specialists in sofa repair and restoration.",
+  "aboutModelEyebrow": "Our core services",
+  "aboutModelTitle": "Manufacturing, Supply, and Restoration.",
+  "aboutPrimaryCtaLabel": "View our work",
   "aboutSecondaryCtaLabel": "Contact us",
   "brandLogoUrl": null,
   "brandName": "Unique Sofa World Furniture",
   "brandShortName": "Unique Sofa World",
-  "brandSupportLabel": "Crafted your realm",
+  "brandSupportLabel": "Crafting Comfortable Living Spaces",
   "brands": [
-    "Century Foam",
-    "Madura Coats",
-    "Vardhman A&E",
-    "KAYMO",
-    "Miles",
-    "Polygrip",
-    "Innfix",
-    "Groz-Beckert",
-    "Veer",
-    "Rapid"
+    "Unique Sofa World",
+    "Custom Craft",
+    "Premium Wood",
+    "Steel Masters",
+    "Luxury Comfort"
   ],
   "city": "Bengaluru, India",
   "contactBusinessHoursSunday": "Daily: 10:00 AM – 9:00 PM",
   "contactBusinessHoursWeekday": "Daily: 10:00 AM – 9:00 PM",
-  "contactEnquiryDescription": "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
-  "contactEnquiryEyebrow": "WhatsApp enquiry",
-  "contactEnquirySentDescription": "If WhatsApp did not open, you can still message us directly.",
-  "contactEnquirySentTitle": "WhatsApp message ready",
-  "contactEnquirySubmitLabel": "Send WhatsApp enquiry",
-  "contactEnquiryTitle": "Send an enquiry",
+  "contactEnquiryDescription": "Tell us about your home or commercial furniture requirements, or share pictures of the sofa you need repaired.",
+  "contactEnquiryEyebrow": "Send an enquiry",
+  "contactEnquirySentDescription": "If WhatsApp didn't launch, please message us directly.",
+  "contactEnquirySentTitle": "WhatsApp ready",
+  "contactEnquirySubmitLabel": "Send via WhatsApp",
+  "contactEnquiryTitle": "Discuss your project",
   "contactHeroEyebrow": "Contact Us",
-  "contactHeroSubtitle": "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
-  "contactHeroTitle": "Speak with us for custom orders, product guidance, and store visits.",
-  "contactQuickContactEyebrow": "Quick contact",
-  "contactWhatsappDescription": "Quick checks for stock, brands, and product photos.",
-  "contactWhatsappTitle": "WhatsApp enquiries",
+  "contactHeroSubtitle": "Reach out to Unique Sofa World for your furniture needs. We offer a shop-in-store experience and reliable delivery services.",
+  "contactHeroTitle": "Get in touch for custom orders, repairs, or a quick visit.",
+  "contactQuickContactEyebrow": "Quick connect",
+  "contactWhatsappDescription": "Fast replies for custom quotes, repair queries, and site visits.",
+  "contactWhatsappTitle": "WhatsApp us",
   "email": "uniquesofaworldfurniture@gmail.com",
   "emailHref": "mailto:uniquesofaworldfurniture@gmail.com",
-  "footerBottomCaption": "Premium Sofas, Custom Furniture & Upholstery Services | Bengaluru.",
-  "footerContactTitle": "Contact",
+  "footerBottomCaption": "Unique Sofa World Furniture | Custom Sofas, Beds & Repair Services.",
+  "footerContactTitle": "Get in Touch",
   "footerNavigateTitle": "Navigate",
-  "footerStoresTitle": "Store",
-  "headerCtaLabel": "Get a quote",
+  "footerStoresTitle": "Visit Us",
+  "headerCtaLabel": "Request a Visit",
   "heroFloatingCardImage": "https://cdn.sanity.io/images/nzfscoez/production/d198e222a42ecce6ac3754193f8c7af292b45422-1024x1024.jpg",
-  "heroFloatingCardTitle": "New Collection",
-  "heroHappyCustomersCount": "5M+",
+  "heroFloatingCardTitle": "Custom Sofas",
+  "heroHappyCustomersCount": "5K+",
   "heroHappyCustomersLabel": "Happy Customers",
   "heroMedia": [
     {
@@ -85,19 +80,19 @@ export const syncedSiteSettings = {
       "title": "Serene"
     }
   ],
-  "homeBrandsDescription": "Unique Sofa World Furniture serves walk-in customers, home and office projects, and custom furniture enquiries from our Bengaluru store.",
-  "homeBrandsEyebrow": "Brands and locations",
-  "homeBrandsTitle": "Trusted lines with our Bengaluru touchpoint.",
-  "homeFeaturedProductsDescription": "Open key items for photos, features, and direct enquiry details.",
-  "homeFeaturedProductsEyebrow": "Featured products",
-  "homeFeaturedProductsTitle": "Selected stock highlights.",
-  "homeFeaturedRangesDescription": "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
-  "homeFeaturedRangesEyebrow": "Featured ranges",
-  "homeFeaturedRangesTitle": "Core ranges buyers check first.",
-  "homeWhyDescription": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
-  "homeWhyEyebrow": "Why Unique Sofa World Furniture",
-  "homeWhyTitle": "Crafted for comfort, built to last.",
-  "intro": "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
+  "homeBrandsDescription": "We provide furniture solutions for Residential Homes, Hotels, Restaurants, Offices, Hospitals, and Industrial Facilities with guaranteed service and delivery.",
+  "homeBrandsEyebrow": "Our Clients & Reach",
+  "homeBrandsTitle": "Serving homes, offices, and commercial spaces.",
+  "homeFeaturedProductsDescription": "View our custom manufactured pieces and learn about our dedicated sofa and furniture repair services.",
+  "homeFeaturedProductsEyebrow": "Our specialties",
+  "homeFeaturedProductsTitle": "Premium products and expert repair.",
+  "homeFeaturedRangesDescription": "From residential homes to hotels and corporate spaces, explore our carefully categorized furniture solutions.",
+  "homeFeaturedRangesEyebrow": "Furniture categories",
+  "homeFeaturedRangesTitle": "Designed for every space in your life.",
+  "homeWhyDescription": "As a premier furniture dealer and custom manufacturer, we offer exceptional sofa manufacturing, bed manufacturing, and comprehensive repair & restoration services.",
+  "homeWhyEyebrow": "Why Unique Sofa World",
+  "homeWhyTitle": "Custom built. Expertly repaired. Beautifully designed.",
+  "intro": "Unique Sofa World Furniture is a trusted custom furniture manufacturer and dealer in Bengaluru. We specialize in premium sofas, beds, dining tables, modular furniture, and offer expert sofa repair and upholstery services for residential, commercial, and industrial spaces.",
   "navItems": [
     {
       "href": "/",
@@ -105,7 +100,7 @@ export const syncedSiteSettings = {
     },
     {
       "href": "/products",
-      "label": "Products"
+      "label": "Furniture"
     },
     {
       "href": "/about",
@@ -119,91 +114,94 @@ export const syncedSiteSettings = {
   "phoneDisplay": "+91 95911 67804",
   "phoneHref": "tel:+919591167804",
   "phoneRaw": "919591167804",
-  "productsFilterBrandLabel": "Brand",
+  "productsFilterBrandLabel": "Collection",
   "productsFilterFamilyLabel": "Family",
   "productsFilterRangeLabel": "Range",
-  "productsHeroEyebrow": "Product catalogue",
-  "productsHeroSubtitle": "Explore premium sofas, custom furniture, sofa repair, and upholstery solutions from Unique Sofa World Furniture.",
-  "productsHeroTitle": "Browse our range by category and style.",
+  "productsHeroEyebrow": "Furniture collection",
+  "productsHeroSubtitle": "Discover sofas, beds, dining sets, modular units, and designer pieces crafted to perfection.",
+  "productsHeroTitle": "Browse our extensive furniture range.",
   "productsNoResultDescription": "Try adjusting the family, range, or brand filter to find what you need.",
   "productsNoResultEyebrow": "No results",
   "productsNoResultResetLabel": "Clear filters",
   "productsNoResultTitle": "No products match your filters.",
-  "productsSummaryDescription": "Review the full Unique Sofa World Furniture range, filter by type, and open any item for photos, features, and enquiry details.",
-  "productsSummaryTitle": "Browse our range by category and style.",
+  "productsSummaryDescription": "Browse all Unique Sofa World products, from luxury designer pieces to sturdy office setups and custom outdoor furniture.",
+  "productsSummaryTitle": "Filter by category and style.",
   "specializations": [
     {
       "items": [
-        "L-shape, sectional, and classic designs",
-        "Custom fabric and leather upholstery",
-        "Made-to-order sizing and finish"
+        "Custom Sofas & Sofa Sets",
+        "Bed Manufacturing",
+        "Wooden & Steel Furniture",
+        "Modular Furniture"
       ],
-      "summary": "Handcrafted sofas built for comfort and longevity, available in a wide range of styles, fabrics, and custom configurations.",
-      "title": "Premium Sofas"
+      "summary": "Bespoke furniture crafted to your exact specifications. We build sofas, beds, dining tables, and office furniture tailored to your space.",
+      "title": "Custom Furniture Manufacturing"
     },
     {
       "items": [
-        "Frame and spring repair",
-        "Fabric and leather re-upholstery",
-        "Foam replacement and cushion refill"
+        "Sofa & Sofa Set Repair",
+        "Fabric & Leather Re-upholstery",
+        "Frame Structural Repair",
+        "Cushion Refill"
       ],
-      "summary": "Bringing worn sofas back to life with professional repair, re-upholstery, and structural restoration services.",
+      "summary": "Expert repair and re-upholstery services to bring your worn-out sofas and furniture back to life with premium materials.",
       "title": "Sofa Repair & Restoration"
     },
     {
       "items": [
-        "Home and office furniture",
-        "Custom beds, chairs, and ottomans",
-        "On-site measurement and consultation"
+        "Living & Bedroom Furniture",
+        "Office & Corporate Desks",
+        "Outdoor Furniture Solutions",
+        "Hotel & Restaurant Seating"
       ],
-      "summary": "Bespoke furniture crafted to your space, style, and budget - from concept to delivery across Bengaluru.",
-      "title": "Custom Furniture"
+      "summary": "Providing complete furniture solutions for homes, hotels, restaurants, offices, hospitals, and corporate spaces.",
+      "title": "Residential & Commercial Furniture"
     }
   ],
   "ssFeaturedCategories": [
     {
-      "id": "recliners"
+      "id": "living-room"
     },
     {
-      "id": "fancy-legs"
+      "id": "bedroom"
     },
     {
-      "id": "sofa-legs"
+      "id": "luxury-designer"
     },
     {
-      "id": "springs-staples"
+      "id": "services"
     },
     {
-      "id": "tools"
+      "id": "office"
     },
     {
-      "id": "accessories"
+      "id": "dining"
     }
   ],
   "ssFeaturedProducts": [
     {
-      "id": "recliners-push-back-frame"
+      "id": "living-room-sofas"
     },
     {
-      "id": "recliners-manual-recliner-mechanism"
+      "id": "living-room-sofa-sets"
     },
     {
-      "id": "recliners-wall-hugger-system"
+      "id": "living-room-living-room-chairs"
     },
     {
-      "id": "recliners-cup-holder-insert"
+      "id": "bedroom-custom-beds"
     },
     {
-      "id": "recliners-headrest-bracket"
+      "id": "bedroom-kids-furniture"
     },
     {
-      "id": "recliners-footrest-assembly"
+      "id": "bedroom-bedroom-wardrobes"
     },
     {
-      "id": "fancy-legs-chrome-leg-set"
+      "id": "luxury-designer-luxury-sofas"
     },
     {
-      "id": "fancy-legs-gold-finish-leg"
+      "id": "luxury-designer-designer-chairs"
     }
   ],
   "stats": [
@@ -212,7 +210,7 @@ export const syncedSiteSettings = {
       "value": "2021"
     },
     {
-      "label": "Products & Services",
+      "label": "Products & Projects",
       "value": "500+"
     },
     {
@@ -230,13 +228,31 @@ export const syncedSiteSettings = {
       "city": "Bengaluru 560114",
       "mapsUrl": "https://maps.app.goo.gl/Lohwr2jbq6ZcmedM9",
       "name": "Unique Sofa World Furniture",
-      "type": "Main Store"
+      "type": "Main Store & Workshop"
     }
   ],
   "whatsappHref": "https://wa.me/919591167804?text=Hello%2C%20I%27m%20interested%20in%20your%20furniture%20and%20sofa%20services.%20Could%20you%20please%20assist%20me%3F"
 };
 
 export const syncedCategories = [
+  {
+    "accent": "#bf622c",
+    "badge": "Best seller",
+    "code": "LR",
+    "family": "furniture",
+    "id": "living-room",
+    "images": [],
+    "items": [
+      "Sofas",
+      "Sofa Sets",
+      "Living Room Chairs"
+    ],
+    "slug": "living-room",
+    "subtitle": "Sofas, Chairs, and Tables",
+    "summary": "Premium living room furniture including single sofas, large sofa sets, and stylish chairs.",
+    "title": "Living Room Furniture",
+    "tone": "#f9ece3"
+  },
   {
     "accent": "#bf622c",
     "badge": "Best seller",
@@ -257,6 +273,24 @@ export const syncedCategories = [
     "summary": "Complete recliner frames, push-back systems, wall-hugger mechanisms, and structural recliner hardware.",
     "title": "Recliners",
     "tone": "#f9ece3"
+  },
+  {
+    "accent": "#2563eb",
+    "badge": "Custom",
+    "code": "BR",
+    "family": "furniture",
+    "id": "bedroom",
+    "images": [],
+    "items": [
+      "Custom Beds",
+      "Kids Furniture",
+      "Bedroom Wardrobes"
+    ],
+    "slug": "bedroom",
+    "subtitle": "Beds and Kids Furniture",
+    "summary": "Comfortable and stylish bedroom furniture including custom beds and safe kids furniture.",
+    "title": "Bedroom Furniture",
+    "tone": "#e9f1ff"
   },
   {
     "accent": "#2563eb",
@@ -301,6 +335,24 @@ export const syncedCategories = [
     "tone": "#f1eaff"
   },
   {
+    "accent": "#7c3aed",
+    "badge": "",
+    "code": "DN",
+    "family": "furniture",
+    "id": "dining",
+    "images": [],
+    "items": [
+      "Dining Tables",
+      "Dining Chairs",
+      "Dining Sets"
+    ],
+    "slug": "dining",
+    "subtitle": "Dining Tables and Chairs",
+    "summary": "Elegant dining tables and chairs for residential and commercial dining spaces.",
+    "title": "Dining Furniture",
+    "tone": "#f1eaff"
+  },
+  {
     "accent": "#ce6a2c",
     "badge": "New arrivals",
     "code": "FL",
@@ -320,6 +372,42 @@ export const syncedCategories = [
     "summary": "Decorative sofa and furniture legs from 3 inch to 7 inch in chrome, gold, black, and brushed finishes.",
     "title": "Fancy Legs",
     "tone": "#fdf0e6"
+  },
+  {
+    "accent": "#1f8f56",
+    "badge": "",
+    "code": "OF",
+    "family": "furniture",
+    "id": "office",
+    "images": [],
+    "items": [
+      "Office Desks",
+      "Executive Chairs",
+      "Conference Tables"
+    ],
+    "slug": "office",
+    "subtitle": "Workspaces and Desks",
+    "summary": "Professional office furniture including desks, ergonomic chairs, and modular setups.",
+    "title": "Office Furniture",
+    "tone": "#eaf7ef"
+  },
+  {
+    "accent": "#d62e63",
+    "badge": "Premium",
+    "code": "LD",
+    "family": "furniture",
+    "id": "luxury-designer",
+    "images": [],
+    "items": [
+      "Luxury Sofas",
+      "Designer Chairs",
+      "Statement Beds"
+    ],
+    "slug": "luxury-designer",
+    "subtitle": "Premium bespoke pieces",
+    "summary": "Exclusive luxury and designer furniture customized to your exact requirements and premium aesthetic.",
+    "title": "Luxury & Designer",
+    "tone": "#ffe8f0"
   },
   {
     "accent": "#1f8f56",
@@ -364,6 +452,24 @@ export const syncedCategories = [
     "tone": "#ffe8f0"
   },
   {
+    "accent": "#ce6a2c",
+    "badge": "",
+    "code": "MO",
+    "family": "furniture",
+    "id": "modular-outdoor",
+    "images": [],
+    "items": [
+      "Modular Storage",
+      "Outdoor Seating",
+      "Patio Sets"
+    ],
+    "slug": "modular-outdoor",
+    "subtitle": "Modern and Patio Furniture",
+    "summary": "Durable outdoor furniture solutions and smart modular furniture for modern spaces.",
+    "title": "Modular & Outdoor",
+    "tone": "#fdf0e6"
+  },
+  {
     "accent": "#1186a0",
     "badge": "",
     "code": "FI",
@@ -383,6 +489,43 @@ export const syncedCategories = [
     "summary": "Decorative piping, welt cord, corner pieces, metal trims, and finishing details for upholstery work.",
     "title": "Fancy Items",
     "tone": "#e7f8fb"
+  },
+  {
+    "accent": "#1186a0",
+    "badge": "",
+    "code": "MF",
+    "family": "materials",
+    "id": "materials-frames",
+    "images": [],
+    "items": [
+      "Premium Wood",
+      "Steel Components",
+      "Wooden Frames",
+      "Cane Frames"
+    ],
+    "slug": "materials-frames",
+    "subtitle": "Wood, Steel, and Cane",
+    "summary": "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.",
+    "title": "Materials & Frames",
+    "tone": "#e7f8fb"
+  },
+  {
+    "accent": "#5b3fd1",
+    "badge": "Core",
+    "code": "SV",
+    "family": "services",
+    "id": "services",
+    "images": [],
+    "items": [
+      "Custom Furniture Manufacturing",
+      "Sofa & Sofa Set Repair",
+      "Delivery & Installation"
+    ],
+    "slug": "services",
+    "subtitle": "Manufacturing and Repair",
+    "summary": "Comprehensive services including custom manufacturing, sofa repair, delivery, and quick visits.",
+    "title": "Expert Services",
+    "tone": "#eee8ff"
   },
   {
     "accent": "#a65b24",
@@ -494,6 +637,60 @@ export const syncedCategories = [
 export const syncedProducts = [
   {
     "badge": "Best seller",
+    "brand": "Unique Sofa World",
+    "categoryId": "living-room",
+    "categoryTitle": "Living Room Furniture",
+    "description": "Sofas from our Living Room Furniture range. We provide top-quality sofas, chairs, and tables suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Sofas suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "living-room-sofas",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
+    ],
+    "name": "Sofas",
+    "slug": "living-room-sofas",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Living Room Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Sofas, Chairs, and Tables"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Sofas crafted by Unique Sofa World for living room furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Living Room Furniture",
+      "Sofas"
+    ],
+    "type": "Sofas, Chairs, and Tables"
+  },
+  {
+    "badge": "Best seller",
     "brand": "Miles",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
@@ -540,6 +737,60 @@ export const syncedProducts = [
       "frame"
     ],
     "type": "Mechanisms and frames"
+  },
+  {
+    "badge": "",
+    "brand": "Luxury Comfort",
+    "categoryId": "living-room",
+    "categoryTitle": "Living Room Furniture",
+    "description": "Sofa Sets from our Living Room Furniture range. We provide top-quality sofas, chairs, and tables suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Sofa Sets suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "living-room-sofa-sets",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
+    ],
+    "name": "Sofa Sets",
+    "slug": "living-room-sofa-sets",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Living Room Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Luxury Comfort"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Sofas, Chairs, and Tables"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Sofa Sets crafted by Unique Sofa World for living room furniture requirements.",
+    "tags": [
+      "Luxury Comfort",
+      "Living Room Furniture",
+      "Sets"
+    ],
+    "type": "Sofas, Chairs, and Tables"
   },
   {
     "badge": "",
@@ -592,6 +843,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "living-room",
+    "categoryTitle": "Living Room Furniture",
+    "description": "Living Room Chairs from our Living Room Furniture range. We provide top-quality sofas, chairs, and tables suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Living Room Chairs suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "living-room-living-room-chairs",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
+    ],
+    "name": "Living Room Chairs",
+    "slug": "living-room-living-room-chairs",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Living Room Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Sofas, Chairs, and Tables"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Living Room Chairs crafted by Unique Sofa World for living room furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Living Room Furniture",
+      "Chairs"
+    ],
+    "type": "Sofas, Chairs, and Tables"
+  },
+  {
+    "badge": "",
     "brand": "Rapid",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
@@ -638,6 +943,60 @@ export const syncedProducts = [
       "system"
     ],
     "type": "Mechanisms and frames"
+  },
+  {
+    "badge": "Custom",
+    "brand": "Unique Sofa World",
+    "categoryId": "bedroom",
+    "categoryTitle": "Bedroom Furniture",
+    "description": "Custom Beds from our Bedroom Furniture range. We provide top-quality beds and kids furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Custom Beds suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "bedroom-custom-beds",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+    ],
+    "name": "Custom Beds",
+    "slug": "bedroom-custom-beds",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Bedroom Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Beds and Kids Furniture"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Custom Beds crafted by Unique Sofa World for bedroom furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Bedroom Furniture",
+      "Beds"
+    ],
+    "type": "Beds and Kids Furniture"
   },
   {
     "badge": "",
@@ -690,6 +1049,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Custom Craft",
+    "categoryId": "bedroom",
+    "categoryTitle": "Bedroom Furniture",
+    "description": "Kids Furniture from our Bedroom Furniture range. We provide top-quality beds and kids furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Kids Furniture suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "bedroom-kids-furniture",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
+    ],
+    "name": "Kids Furniture",
+    "slug": "bedroom-kids-furniture",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Bedroom Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Custom Craft"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Beds and Kids Furniture"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Kids Furniture crafted by Unique Sofa World for bedroom furniture requirements.",
+    "tags": [
+      "Custom Craft",
+      "Bedroom Furniture",
+      "Furniture"
+    ],
+    "type": "Beds and Kids Furniture"
+  },
+  {
+    "badge": "",
     "brand": "Veer",
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
@@ -736,6 +1149,60 @@ export const syncedProducts = [
       "bracket"
     ],
     "type": "Mechanisms and frames"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "bedroom",
+    "categoryTitle": "Bedroom Furniture",
+    "description": "Bedroom Wardrobes from our Bedroom Furniture range. We provide top-quality beds and kids furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Bedroom Wardrobes suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "bedroom-bedroom-wardrobes",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
+    ],
+    "name": "Bedroom Wardrobes",
+    "slug": "bedroom-bedroom-wardrobes",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Bedroom Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Beds and Kids Furniture"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Bedroom Wardrobes crafted by Unique Sofa World for bedroom furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Bedroom Furniture",
+      "Wardrobes"
+    ],
+    "type": "Beds and Kids Furniture"
   },
   {
     "badge": "",
@@ -788,6 +1255,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "dining",
+    "categoryTitle": "Dining Furniture",
+    "description": "Dining Tables from our Dining Furniture range. We provide top-quality dining tables and chairs suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Dining Tables suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "dining-dining-tables",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
+    ],
+    "name": "Dining Tables",
+    "slug": "dining-dining-tables",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Dining Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Dining Tables and Chairs"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Dining Tables crafted by Unique Sofa World for dining furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Dining Furniture",
+      "Tables"
+    ],
+    "type": "Dining Tables and Chairs"
+  },
+  {
+    "badge": "",
     "brand": "Miles",
     "categoryId": "recliner-accessories",
     "categoryTitle": "Recliner Accessories",
@@ -834,6 +1355,60 @@ export const syncedProducts = [
       "set"
     ],
     "type": "Power and electronics"
+  },
+  {
+    "badge": "",
+    "brand": "Premium Wood",
+    "categoryId": "dining",
+    "categoryTitle": "Dining Furniture",
+    "description": "Dining Chairs from our Dining Furniture range. We provide top-quality dining tables and chairs suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Dining Chairs suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "dining-dining-chairs",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
+    ],
+    "name": "Dining Chairs",
+    "slug": "dining-dining-chairs",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Dining Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Premium Wood"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Dining Tables and Chairs"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Dining Chairs crafted by Unique Sofa World for dining furniture requirements.",
+    "tags": [
+      "Premium Wood",
+      "Dining Furniture",
+      "Chairs"
+    ],
+    "type": "Dining Tables and Chairs"
   },
   {
     "badge": "",
@@ -886,6 +1461,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "dining",
+    "categoryTitle": "Dining Furniture",
+    "description": "Dining Sets from our Dining Furniture range. We provide top-quality dining tables and chairs suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Dining Sets suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "dining-dining-sets",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
+    ],
+    "name": "Dining Sets",
+    "slug": "dining-dining-sets",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Dining Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Dining Tables and Chairs"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Dining Sets crafted by Unique Sofa World for dining furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Dining Furniture",
+      "Sets"
+    ],
+    "type": "Dining Tables and Chairs"
+  },
+  {
+    "badge": "",
     "brand": "Veer",
     "categoryId": "recliner-accessories",
     "categoryTitle": "Recliner Accessories",
@@ -932,6 +1561,60 @@ export const syncedProducts = [
       "port"
     ],
     "type": "Power and electronics"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "office",
+    "categoryTitle": "Office Furniture",
+    "description": "Office Desks from our Office Furniture range. We provide top-quality workspaces and desks suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Office Desks suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "office-office-desks",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
+    ],
+    "name": "Office Desks",
+    "slug": "office-office-desks",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Office Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Workspaces and Desks"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Office Desks crafted by Unique Sofa World for office furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Office Furniture",
+      "Desks"
+    ],
+    "type": "Workspaces and Desks"
   },
   {
     "badge": "",
@@ -984,6 +1667,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Steel Masters",
+    "categoryId": "office",
+    "categoryTitle": "Office Furniture",
+    "description": "Executive Chairs from our Office Furniture range. We provide top-quality workspaces and desks suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Executive Chairs suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "office-executive-chairs",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+    ],
+    "name": "Executive Chairs",
+    "slug": "office-executive-chairs",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Office Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Steel Masters"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Workspaces and Desks"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Executive Chairs crafted by Unique Sofa World for office furniture requirements.",
+    "tags": [
+      "Steel Masters",
+      "Office Furniture",
+      "Chairs"
+    ],
+    "type": "Workspaces and Desks"
+  },
+  {
+    "badge": "",
     "brand": "Rapid",
     "categoryId": "recliner-accessories",
     "categoryTitle": "Recliner Accessories",
@@ -1033,6 +1770,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "office",
+    "categoryTitle": "Office Furniture",
+    "description": "Conference Tables from our Office Furniture range. We provide top-quality workspaces and desks suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Conference Tables suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "office-conference-tables",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
+    ],
+    "name": "Conference Tables",
+    "slug": "office-conference-tables",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Office Furniture"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Workspaces and Desks"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Conference Tables crafted by Unique Sofa World for office furniture requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Office Furniture",
+      "Tables"
+    ],
+    "type": "Workspaces and Desks"
+  },
+  {
+    "badge": "",
     "brand": "Veer",
     "categoryId": "recliner-accessories",
     "categoryTitle": "Recliner Accessories",
@@ -1079,6 +1870,60 @@ export const syncedProducts = [
       "light"
     ],
     "type": "Power and electronics"
+  },
+  {
+    "badge": "Premium",
+    "brand": "Custom Craft",
+    "categoryId": "luxury-designer",
+    "categoryTitle": "Luxury & Designer",
+    "description": "Luxury Sofas from our Luxury & Designer range. We provide top-quality premium bespoke pieces suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Luxury Sofas suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "luxury-designer-luxury-sofas",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
+    ],
+    "name": "Luxury Sofas",
+    "slug": "luxury-designer-luxury-sofas",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Luxury & Designer"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Custom Craft"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Premium bespoke pieces"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Luxury Sofas crafted by Unique Sofa World for luxury & designer requirements.",
+    "tags": [
+      "Custom Craft",
+      "Luxury & Designer",
+      "Sofas"
+    ],
+    "type": "Premium bespoke pieces"
   },
   {
     "badge": "",
@@ -1131,6 +1976,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Luxury Comfort",
+    "categoryId": "luxury-designer",
+    "categoryTitle": "Luxury & Designer",
+    "description": "Designer Chairs from our Luxury & Designer range. We provide top-quality premium bespoke pieces suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Designer Chairs suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "luxury-designer-designer-chairs",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
+    ],
+    "name": "Designer Chairs",
+    "slug": "luxury-designer-designer-chairs",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Luxury & Designer"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Luxury Comfort"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Premium bespoke pieces"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Designer Chairs crafted by Unique Sofa World for luxury & designer requirements.",
+    "tags": [
+      "Luxury Comfort",
+      "Luxury & Designer",
+      "Chairs"
+    ],
+    "type": "Premium bespoke pieces"
+  },
+  {
+    "badge": "",
     "brand": "Veer",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
@@ -1177,6 +2076,60 @@ export const syncedProducts = [
       "frame"
     ],
     "type": "Structural components"
+  },
+  {
+    "badge": "",
+    "brand": "Custom Craft",
+    "categoryId": "luxury-designer",
+    "categoryTitle": "Luxury & Designer",
+    "description": "Statement Beds from our Luxury & Designer range. We provide top-quality premium bespoke pieces suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Statement Beds suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "luxury-designer-statement-beds",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
+    ],
+    "name": "Statement Beds",
+    "slug": "luxury-designer-statement-beds",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Luxury & Designer"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Custom Craft"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Premium bespoke pieces"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Statement Beds crafted by Unique Sofa World for luxury & designer requirements.",
+    "tags": [
+      "Custom Craft",
+      "Luxury & Designer",
+      "Beds"
+    ],
+    "type": "Premium bespoke pieces"
   },
   {
     "badge": "",
@@ -1229,6 +2182,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "modular-outdoor",
+    "categoryTitle": "Modular & Outdoor",
+    "description": "Modular Storage from our Modular & Outdoor range. We provide top-quality modern and patio furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Modular Storage suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "modular-outdoor-modular-storage",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+    ],
+    "name": "Modular Storage",
+    "slug": "modular-outdoor-modular-storage",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Modular & Outdoor"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Modern and Patio Furniture"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Modular Storage crafted by Unique Sofa World for modular & outdoor requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Modular & Outdoor",
+      "Storage"
+    ],
+    "type": "Modern and Patio Furniture"
+  },
+  {
+    "badge": "",
     "brand": "Miles",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
@@ -1275,6 +2282,60 @@ export const syncedProducts = [
       "disc"
     ],
     "type": "Structural components"
+  },
+  {
+    "badge": "",
+    "brand": "Steel Masters",
+    "categoryId": "modular-outdoor",
+    "categoryTitle": "Modular & Outdoor",
+    "description": "Outdoor Seating from our Modular & Outdoor range. We provide top-quality modern and patio furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Outdoor Seating suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "modular-outdoor-outdoor-seating",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
+    ],
+    "name": "Outdoor Seating",
+    "slug": "modular-outdoor-outdoor-seating",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Modular & Outdoor"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Steel Masters"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Modern and Patio Furniture"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Outdoor Seating crafted by Unique Sofa World for modular & outdoor requirements.",
+    "tags": [
+      "Steel Masters",
+      "Modular & Outdoor",
+      "Seating"
+    ],
+    "type": "Modern and Patio Furniture"
   },
   {
     "badge": "",
@@ -1327,6 +2388,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "modular-outdoor",
+    "categoryTitle": "Modular & Outdoor",
+    "description": "Patio Sets from our Modular & Outdoor range. We provide top-quality modern and patio furniture suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "furniture",
+    "features": [
+      "High-quality Patio Sets suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "modular-outdoor-patio-sets",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
+    ],
+    "name": "Patio Sets",
+    "slug": "modular-outdoor-patio-sets",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Modular & Outdoor"
+      },
+      {
+        "label": "Family",
+        "value": "furniture"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Modern and Patio Furniture"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Patio Sets crafted by Unique Sofa World for modular & outdoor requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Modular & Outdoor",
+      "Sets"
+    ],
+    "type": "Modern and Patio Furniture"
+  },
+  {
+    "badge": "",
     "brand": "Rapid",
     "categoryId": "chairs-frames",
     "categoryTitle": "Chairs and Frames",
@@ -1373,6 +2488,60 @@ export const syncedProducts = [
       "assembly"
     ],
     "type": "Structural components"
+  },
+  {
+    "badge": "",
+    "brand": "Premium Wood",
+    "categoryId": "materials-frames",
+    "categoryTitle": "Materials & Frames",
+    "description": "Premium Wood from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "materials",
+    "features": [
+      "High-quality Premium Wood suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "materials-frames-premium-wood",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
+    ],
+    "name": "Premium Wood",
+    "slug": "materials-frames-premium-wood",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Materials & Frames"
+      },
+      {
+        "label": "Family",
+        "value": "materials"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Premium Wood"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Wood, Steel, and Cane"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Premium Wood crafted by Unique Sofa World for materials & frames requirements.",
+    "tags": [
+      "Premium Wood",
+      "Materials & Frames",
+      "Wood"
+    ],
+    "type": "Wood, Steel, and Cane"
   },
   {
     "badge": "New arrivals",
@@ -1425,6 +2594,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Steel Masters",
+    "categoryId": "materials-frames",
+    "categoryTitle": "Materials & Frames",
+    "description": "Steel Components from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "materials",
+    "features": [
+      "High-quality Steel Components suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "materials-frames-steel-components",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
+    ],
+    "name": "Steel Components",
+    "slug": "materials-frames-steel-components",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Materials & Frames"
+      },
+      {
+        "label": "Family",
+        "value": "materials"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Steel Masters"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Wood, Steel, and Cane"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Steel Components crafted by Unique Sofa World for materials & frames requirements.",
+    "tags": [
+      "Steel Masters",
+      "Materials & Frames",
+      "Components"
+    ],
+    "type": "Wood, Steel, and Cane"
+  },
+  {
+    "badge": "",
     "brand": "Rapid",
     "categoryId": "fancy-legs",
     "categoryTitle": "Fancy Legs",
@@ -1471,6 +2694,60 @@ export const syncedProducts = [
       "leg"
     ],
     "type": "Decorative furniture legs"
+  },
+  {
+    "badge": "",
+    "brand": "Premium Wood",
+    "categoryId": "materials-frames",
+    "categoryTitle": "Materials & Frames",
+    "description": "Wooden Frames from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "materials",
+    "features": [
+      "High-quality Wooden Frames suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "materials-frames-wooden-frames",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
+    ],
+    "name": "Wooden Frames",
+    "slug": "materials-frames-wooden-frames",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Materials & Frames"
+      },
+      {
+        "label": "Family",
+        "value": "materials"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Premium Wood"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Wood, Steel, and Cane"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Wooden Frames crafted by Unique Sofa World for materials & frames requirements.",
+    "tags": [
+      "Premium Wood",
+      "Materials & Frames",
+      "Frames"
+    ],
+    "type": "Wood, Steel, and Cane"
   },
   {
     "badge": "",
@@ -1523,6 +2800,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Steel Masters",
+    "categoryId": "materials-frames",
+    "categoryTitle": "Materials & Frames",
+    "description": "Cane Frames from our Materials & Frames range. We provide top-quality wood, steel, and cane suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "materials",
+    "features": [
+      "High-quality Cane Frames suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "materials-frames-cane-frames",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
+    ],
+    "name": "Cane Frames",
+    "slug": "materials-frames-cane-frames",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Materials & Frames"
+      },
+      {
+        "label": "Family",
+        "value": "materials"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Steel Masters"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Wood, Steel, and Cane"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Cane Frames crafted by Unique Sofa World for materials & frames requirements.",
+    "tags": [
+      "Steel Masters",
+      "Materials & Frames",
+      "Frames"
+    ],
+    "type": "Wood, Steel, and Cane"
+  },
+  {
+    "badge": "",
     "brand": "Veer",
     "categoryId": "fancy-legs",
     "categoryTitle": "Fancy Legs",
@@ -1569,6 +2900,60 @@ export const syncedProducts = [
       "leg"
     ],
     "type": "Decorative furniture legs"
+  },
+  {
+    "badge": "Core",
+    "brand": "Unique Sofa World",
+    "categoryId": "services",
+    "categoryTitle": "Expert Services",
+    "description": "Custom Furniture Manufacturing from our Expert Services range. We provide top-quality manufacturing and repair suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "services",
+    "features": [
+      "High-quality Custom Furniture Manufacturing suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "services-custom-furniture-manufacturing",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
+    ],
+    "name": "Custom Furniture Manufacturing",
+    "slug": "services-custom-furniture-manufacturing",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Expert Services"
+      },
+      {
+        "label": "Family",
+        "value": "services"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Manufacturing and Repair"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Custom Furniture Manufacturing crafted by Unique Sofa World for expert services requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Expert Services",
+      "Manufacturing"
+    ],
+    "type": "Manufacturing and Repair"
   },
   {
     "badge": "",
@@ -1621,6 +3006,60 @@ export const syncedProducts = [
   },
   {
     "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "services",
+    "categoryTitle": "Expert Services",
+    "description": "Sofa & Sofa Set Repair from our Expert Services range. We provide top-quality manufacturing and repair suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "services",
+    "features": [
+      "High-quality Sofa & Sofa Set Repair suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "services-sofa-sofa-set-repair",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
+    ],
+    "name": "Sofa & Sofa Set Repair",
+    "slug": "services-sofa-sofa-set-repair",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Expert Services"
+      },
+      {
+        "label": "Family",
+        "value": "services"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Manufacturing and Repair"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Sofa & Sofa Set Repair crafted by Unique Sofa World for expert services requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Expert Services",
+      "Repair"
+    ],
+    "type": "Manufacturing and Repair"
+  },
+  {
+    "badge": "",
     "brand": "Miles",
     "categoryId": "fancy-legs",
     "categoryTitle": "Fancy Legs",
@@ -1667,6 +3106,60 @@ export const syncedProducts = [
       "leg"
     ],
     "type": "Decorative furniture legs"
+  },
+  {
+    "badge": "",
+    "brand": "Unique Sofa World",
+    "categoryId": "services",
+    "categoryTitle": "Expert Services",
+    "description": "Delivery & Installation from our Expert Services range. We provide top-quality manufacturing and repair suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.",
+    "family": "services",
+    "features": [
+      "High-quality Delivery & Installation suited for modern spaces.",
+      "Suitable for: Residential, Commercial, and Corporate use.",
+      "Available for custom sizing, quick visits, and delivery."
+    ],
+    "id": "services-delivery-installation",
+    "images": [
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
+      "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
+    ],
+    "name": "Delivery & Installation",
+    "slug": "services-delivery-installation",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "Expert Services"
+      },
+      {
+        "label": "Family",
+        "value": "services"
+      },
+      {
+        "label": "Manufacturer",
+        "value": "Unique Sofa World"
+      },
+      {
+        "label": "Availability",
+        "value": "Custom Made to Order"
+      },
+      {
+        "label": "Application",
+        "value": "Manufacturing and Repair"
+      },
+      {
+        "label": "Services",
+        "value": "Delivery, Setup, Repair"
+      }
+    ],
+    "summary": "Premium Delivery & Installation crafted by Unique Sofa World for expert services requirements.",
+    "tags": [
+      "Unique Sofa World",
+      "Expert Services",
+      "Installation"
+    ],
+    "type": "Manufacturing and Repair"
   },
   {
     "badge": "",

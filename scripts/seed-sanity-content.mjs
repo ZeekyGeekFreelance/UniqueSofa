@@ -57,12 +57,12 @@ if (!token)     { console.error("❌  Missing SANITY_API_TOKEN in .env\n    Add 
 
 const client = createClient({ projectId, dataset, apiVersion, token, useCdn: false });
 
-// ── Site data (mirrors src/data/site.ts) ──────────────────────────────────────
+// ── Site data ─────────────────────────────────────────────────────────────────
 
 const BRAND = {
   name: "Unique Sofa World Furniture",
   shortName: "Unique Sofa World",
-  supportLabel: "Crafted your realm",
+  supportLabel: "Crafting Comfortable Living Spaces",
   phone: "+91 95911 67804",
   phoneHref: "tel:+919591167804",
   phoneRaw: "919591167804",
@@ -70,26 +70,26 @@ const BRAND = {
   emailHref: "mailto:uniquesofaworldfurniture@gmail.com",
   whatsappHref: "https://wa.me/919591167804?text=Hello%2C%20I%27m%20interested%20in%20your%20furniture%20and%20sofa%20services.%20Could%20you%20please%20assist%20me%3F",
   city: "Bengaluru, India",
-  intro: "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
+  intro: "Unique Sofa World Furniture is a trusted custom furniture manufacturer and dealer in Bengaluru. We specialize in premium sofas, beds, dining tables, modular furniture, and offer expert sofa repair and upholstery services for residential, commercial, and industrial spaces.",
 };
 
 const STATS = [
   { value: "2021", label: "Established" },
-  { value: "500+", label: "Products & Services" },
+  { value: "500+", label: "Products & Projects" },
   { value: "1", label: "Store location" },
   { value: "5K+", label: "Happy customers" },
 ];
 
 const STORES = [
-  { name: "Unique Sofa World Furniture", type: "Main Store", address: "Sri Sai Himaja Apartment, 307/2, Nyanappana Halli Main Rd, 11th Cross Rd, Devarachikkana Halli", city: "Bengaluru 560114", mapsUrl: "https://maps.app.goo.gl/Lohwr2jbq6ZcmedM9" },
+  { name: "Unique Sofa World Furniture", type: "Main Store & Workshop", address: "Sri Sai Himaja Apartment, 307/2, Nyanappana Halli Main Rd, 11th Cross Rd, Devarachikkana Halli", city: "Bengaluru 560114", mapsUrl: "https://maps.app.goo.gl/Lohwr2jbq6ZcmedM9" },
 ];
 
-const BRANDS = ["Century Foam","Madura Coats","Vardhman A&E","KAYMO","Miles","Polygrip","Innfix","Groz-Beckert","Veer","Rapid"];
+const BRANDS = ["Unique Sofa World", "Custom Craft", "Premium Wood", "Steel Masters", "Luxury Comfort"];
 
 const SPECIALIZATIONS = [
-  { title: "Premium Sofas", summary: "Handcrafted sofas built for comfort and longevity, available in a wide range of styles, fabrics, and custom configurations.", items: ["L-shape, sectional, and classic designs", "Custom fabric and leather upholstery", "Made-to-order sizing and finish"] },
-  { title: "Sofa Repair & Restoration", summary: "Bringing worn sofas back to life with professional repair, re-upholstery, and structural restoration services.", items: ["Frame and spring repair", "Fabric and leather re-upholstery", "Foam replacement and cushion refill"] },
-  { title: "Custom Furniture", summary: "Bespoke furniture crafted to your space, style, and budget - from concept to delivery across Bengaluru.", items: ["Home and office furniture", "Custom beds, chairs, and ottomans", "On-site measurement and consultation"] },
+  { title: "Custom Furniture Manufacturing", summary: "Bespoke furniture crafted to your exact specifications. We build sofas, beds, dining tables, and office furniture tailored to your space.", items: ["Custom Sofas & Sofa Sets", "Bed Manufacturing", "Wooden & Steel Furniture", "Modular Furniture"] },
+  { title: "Sofa Repair & Restoration", summary: "Expert repair and re-upholstery services to bring your worn-out sofas and furniture back to life with premium materials.", items: ["Sofa & Sofa Set Repair", "Fabric & Leather Re-upholstery", "Frame Structural Repair", "Cushion Refill"] },
+  { title: "Residential & Commercial Furniture", summary: "Providing complete furniture solutions for homes, hotels, restaurants, offices, hospitals, and corporate spaces.", items: ["Living & Bedroom Furniture", "Office & Corporate Desks", "Outdoor Furniture Solutions", "Hotel & Restaurant Seating"] },
 ];
 
 const HERO_MEDIA = [
@@ -100,25 +100,21 @@ const HERO_MEDIA = [
 
 const catalogueMeta = [
   { id: "01", title: "Cover", section: "Brand identity" },
-  { id: "02", title: "Recliners", section: "Mechanisms" },
-  { id: "03", title: "Recliners and Accessories", section: "Components" },
-  { id: "04", title: "Recliner Accessories", section: "Power and controls" },
-  { id: "05", title: "Chairs and Frames", section: "Structural components" },
-  { id: "06", title: "Chairs and Frames", section: "Bases and swivels" },
-  { id: "07", title: "Accessories", section: "Decorative hardware" },
-  { id: "08", title: "Fancy Items", section: "Trim and piping" },
-  { id: "09", title: "Fancy Legs", section: "Leg collection one" },
-  { id: "10", title: "Fancy Legs", section: "Leg collection two" },
-  { id: "11", title: "Fancy Legs", section: "Corner legs" },
-  { id: "12", title: "Accessories", section: "Springs and rings" },
-  { id: "13", title: "Tools", section: "Workshop tools" },
-  { id: "14", title: "Staple Pins and Springs", section: "Fasteners" },
-  { id: "15", title: "Zip and Runners", section: "Closures" },
-  { id: "16", title: "Elastic and Fabric", section: "Materials" },
-  { id: "17", title: "Threads and Accessories", section: "Sewing supplies" },
-  { id: "18", title: "Accessories", section: "Electronics" },
-  { id: "19", title: "Sofa Legs", section: "Premium metal legs" },
-  { id: "20", title: "Contact and Info", section: "Company details" },
+  { id: "02", title: "Sofas", section: "Living Room" },
+  { id: "03", title: "Sofa Sets", section: "Living Room" },
+  { id: "04", title: "Beds", section: "Bedroom" },
+  { id: "05", title: "Dining Tables", section: "Dining Room" },
+  { id: "06", title: "Chairs", section: "Seating" },
+  { id: "07", title: "Modular Furniture", section: "Modern Living" },
+  { id: "08", title: "Designer Furniture", section: "Luxury" },
+  { id: "09", title: "Kids Furniture", section: "Bedroom" },
+  { id: "10", title: "Wood & Steel Materials", section: "Materials" },
+  { id: "11", title: "Wooden & Cane Frames", section: "Frames" },
+  { id: "12", title: "Office Furniture", section: "Commercial" },
+  { id: "13", title: "Outdoor Furniture", section: "Exterior" },
+  { id: "14", title: "Sofa Repair Services", section: "Services" },
+  { id: "15", title: "Custom Manufacturing", section: "Services" },
+  { id: "16", title: "Contact and Info", section: "Company details" },
 ];
 
 const CATALOGUE_PAGES = catalogueMeta.map((p, i) => ({
@@ -127,35 +123,27 @@ const CATALOGUE_PAGES = catalogueMeta.map((p, i) => ({
 }));
 
 const CATEGORIES = [
-  { id: "recliners", code: "RC", title: "Recliners", subtitle: "Mechanisms and frames", summary: "Complete recliner frames, push-back systems, wall-hugger mechanisms, and structural recliner hardware.", badge: "Best seller", accent: "#bf622c", tone: "#f9ece3", family: "hardware", cataloguePageIds: ["02","03","04"], items: ["Push-back frame","Manual recliner mechanism","Wall hugger system","Cup holder insert","Headrest bracket","Footrest assembly"] },
-  { id: "recliner-accessories", code: "EL", title: "Recliner Accessories", subtitle: "Power and electronics", summary: "Electric motors, hand controls, power units, chargers, wireless remotes, and control modules.", badge: "", accent: "#2563eb", tone: "#e9f1ff", family: "electrical", cataloguePageIds: ["03","04","18"], items: ["Dual motor set","Hand control keypad","USB charging port","Control box unit","Wireless remote receiver","LED cup holder light"] },
-  { id: "chairs-frames", code: "FR", title: "Chairs and Frames", subtitle: "Structural components", summary: "Swivel bases, chair frames, ottoman frames, back assemblies, and connector hardware.", badge: "", accent: "#7c3aed", tone: "#f1eaff", family: "structure", cataloguePageIds: ["05","06"], items: ["Swivel base plate","Chair shell frame","Ottoman base frame","Rotation disc","Frame connector set","Back support assembly"] },
-  { id: "fancy-legs", code: "FL", title: "Fancy Legs", subtitle: "Decorative furniture legs", summary: "Decorative sofa and furniture legs from 3 inch to 7 inch in chrome, gold, black, and brushed finishes.", badge: "New arrivals", accent: "#ce6a2c", tone: "#fdf0e6", family: "hardware", cataloguePageIds: ["09","10","11"], items: ["Chrome leg set","Gold finish leg","Matte black leg","Rose gold corner leg","Hairpin leg","Sled base leg"] },
-  { id: "sofa-legs", code: "SL", title: "Sofa Legs", subtitle: "Premium metal legs", summary: "Polished and brushed metal legs in multiple sizes, including Y-shape, tapered, and trumpet designs.", badge: "", accent: "#1f8f56", tone: "#eaf7ef", family: "hardware", cataloguePageIds: ["19","10","11"], items: ["Y-shape sofa leg","Cross base leg","Tapered metal leg","Trumpet leg","Adjustable glide leg","Brushed finish leg"] },
-  { id: "accessories", code: "AX", title: "Accessories", subtitle: "Decorative hardware", summary: "Handles, knobs, rosettes, knockers, tufting buttons, trim clips, and decorative details.", badge: "", accent: "#d62e63", tone: "#ffe8f0", family: "accessories", cataloguePageIds: ["07","12","18"], items: ["Decorative handle","Metal rosette","Tufting button","Lion head knocker","Trim clip","Stud strip"] },
-  { id: "fancy-items", code: "FI", title: "Fancy Items", subtitle: "Trim and piping", summary: "Decorative piping, welt cord, corner pieces, metal trims, and finishing details for upholstery work.", badge: "", accent: "#1186a0", tone: "#e7f8fb", family: "accessories", cataloguePageIds: ["08","07"], items: ["Decorative piping","Welt cord roll","Gimp braid trim","Metal trim strip","Corner angle piece","Decorative nail set"] },
-  { id: "springs-staples", code: "SS", title: "Springs and Staples", subtitle: "Structural support", summary: "Staple pins, zig-zag springs, pocket springs, and hog rings for upholstery and furniture production.", badge: "Manufactured", accent: "#a65b24", tone: "#f7e9de", family: "structure", cataloguePageIds: ["12","14"], items: ["80 series staples","100 series staples","Pocket spring unit","Zig-zag spring","C hog ring pack","C24 pin box"] },
-  { id: "tools", code: "TL", title: "Tools", subtitle: "Workshop equipment", summary: "Staplers, tackers, scissors, regulators, tack pullers, and upholstery workshop tools.", badge: "", accent: "#5b3fd1", tone: "#eee8ff", family: "structure", cataloguePageIds: ["13","14"], items: ["Pneumatic stapler","Manual tacker","Upholstery scissors","Regulator tool","Tack puller","Web stretcher"] },
-  { id: "elastic-fabric", code: "EF", title: "Elastic and Fabric", subtitle: "Upholstery materials", summary: "Elastic webbing, seat ribbons, adhesives, and supporting materials for professional upholstery.", badge: "", accent: "#2f9d60", tone: "#ebf8f0", family: "materials", cataloguePageIds: ["16","17"], items: ["Elastic webbing roll","Seat ribbon","Polygrip adhesive","Innfix adhesive","Foam bonding glue","Cambric base cloth"] },
-  { id: "threads", code: "TH", title: "Threads and Accessories", subtitle: "Sewing supplies", summary: "Madura Coats, Vardhman A&E, nylon thread counts, needles, bobbins, and sewing support items.", badge: "", accent: "#c83660", tone: "#ffeaf1", family: "materials", cataloguePageIds: ["17","16"], items: ["Madura upholstery thread","Vardhman A&E thread","Nylon Tkt 20 cone","Nylon Tkt 40 cone","Upholstery needle pack","Industrial bobbin set"] },
-  { id: "zip-runners", code: "ZR", title: "Zip and Runners", subtitle: "Closures and fasteners", summary: "Industrial zippers, runners, hook-and-eye tape, zipper tools, and closure hardware for covers and cushions.", badge: "", accent: "#137f99", tone: "#e6f8fb", family: "accessories", cataloguePageIds: ["15","17"], items: ["Industrial zipper roll","Zip runner set","Continuous zip tape","Hook-and-eye tape","Zip plier","End clip set"] },
+  { id: "living-room", code: "LR", title: "Living Room Furniture", subtitle: "Sofas, Chairs, and Tables", summary: "Premium living room furniture including single sofas, large sofa sets, and stylish chairs.", badge: "Best seller", accent: "#bf622c", tone: "#f9ece3", family: "furniture", cataloguePageIds: ["02","03","06"], items: ["Sofas", "Sofa Sets", "Living Room Chairs"] },
+  { id: "bedroom", code: "BR", title: "Bedroom Furniture", subtitle: "Beds and Kids Furniture", summary: "Comfortable and stylish bedroom furniture including custom beds and safe kids furniture.", badge: "Custom", accent: "#2563eb", tone: "#e9f1ff", family: "furniture", cataloguePageIds: ["04","09"], items: ["Custom Beds", "Kids Furniture", "Bedroom Wardrobes"] },
+  { id: "dining", code: "DN", title: "Dining Furniture", subtitle: "Dining Tables and Chairs", summary: "Elegant dining tables and chairs for residential and commercial dining spaces.", badge: "", accent: "#7c3aed", tone: "#f1eaff", family: "furniture", cataloguePageIds: ["05","06"], items: ["Dining Tables", "Dining Chairs", "Dining Sets"] },
+  { id: "office", code: "OF", title: "Office Furniture", subtitle: "Workspaces and Desks", summary: "Professional office furniture including desks, ergonomic chairs, and modular setups.", badge: "", accent: "#1f8f56", tone: "#eaf7ef", family: "furniture", cataloguePageIds: ["12","07"], items: ["Office Desks", "Executive Chairs", "Conference Tables"] },
+  { id: "luxury-designer", code: "LD", title: "Luxury & Designer", subtitle: "Premium bespoke pieces", summary: "Exclusive luxury and designer furniture customized to your exact requirements and premium aesthetic.", badge: "Premium", accent: "#d62e63", tone: "#ffe8f0", family: "furniture", cataloguePageIds: ["08"], items: ["Luxury Sofas", "Designer Chairs", "Statement Beds"] },
+  { id: "modular-outdoor", code: "MO", title: "Modular & Outdoor", subtitle: "Modern and Patio Furniture", summary: "Durable outdoor furniture solutions and smart modular furniture for modern spaces.", badge: "", accent: "#ce6a2c", tone: "#fdf0e6", family: "furniture", cataloguePageIds: ["07","13"], items: ["Modular Storage", "Outdoor Seating", "Patio Sets"] },
+  { id: "materials-frames", code: "MF", title: "Materials & Frames", subtitle: "Wood, Steel, and Cane", summary: "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.", badge: "", accent: "#1186a0", tone: "#e7f8fb", family: "materials", cataloguePageIds: ["10","11"], items: ["Premium Wood", "Steel Components", "Wooden Frames", "Cane Frames"] },
+  { id: "services", code: "SV", title: "Expert Services", subtitle: "Manufacturing and Repair", summary: "Comprehensive services including custom manufacturing, sofa repair, delivery, and quick visits.", badge: "Core", accent: "#5b3fd1", tone: "#eee8ff", family: "services", cataloguePageIds: ["14","15"], items: ["Custom Furniture Manufacturing", "Sofa & Sofa Set Repair", "Delivery & Installation"] },
 ];
 
-const FEATURED_CATEGORY_IDS = ["recliners","fancy-legs","sofa-legs","springs-staples","tools","accessories"];
+const FEATURED_CATEGORY_IDS = ["living-room", "bedroom", "luxury-designer", "services", "office", "dining"];
 
 const CATEGORY_BRANDS = {
-  "recliners": ["Miles","Veer","Rapid"],
-  "recliner-accessories": ["Miles","Rapid","Veer"],
-  "chairs-frames": ["Miles","Veer","Rapid"],
-  "fancy-legs": ["Veer","Rapid","Miles"],
-  "sofa-legs": ["Veer","Rapid","Miles"],
-  "accessories": ["Rapid","Miles","Veer"],
-  "fancy-items": ["Rapid","Innfix","Polygrip"],
-  "springs-staples": ["Rapid","Veer","Miles"],
-  "tools": ["KAYMO","Miles","Rapid"],
-  "elastic-fabric": ["Polygrip","Innfix","Century Foam"],
-  "threads": ["Madura Coats","Vardhman A&E","Groz-Beckert"],
-  "zip-runners": ["Groz-Beckert","Rapid","Veer"],
+  "living-room": ["Unique Sofa World", "Luxury Comfort"],
+  "bedroom": ["Unique Sofa World", "Custom Craft"],
+  "dining": ["Unique Sofa World", "Premium Wood"],
+  "office": ["Unique Sofa World", "Steel Masters"],
+  "luxury-designer": ["Custom Craft", "Luxury Comfort"],
+  "modular-outdoor": ["Unique Sofa World", "Steel Masters"],
+  "materials-frames": ["Premium Wood", "Steel Masters"],
+  "services": ["Unique Sofa World"],
 };
 
 function slugify(v) { return v.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); }
@@ -177,10 +165,10 @@ const PRODUCTS = CATEGORIES.flatMap((cat) => {
       name: item, brand,
       badge: idx === 0 ? (cat.badge || "") : "",
       categoryId: cat.id, categoryTitle: cat.title, family: cat.family, type: cat.subtitle,
-      summary: `${item} for ${cat.title.toLowerCase()} work, stocked for repeat workshop demand.`,
-      description: `${item} from the ${cat.title} range, supplied through ${brand} for ${cat.subtitle.toLowerCase()} work.`,
-      features: [`${item} suited to ${cat.subtitle.toLowerCase()} work.`, `Referenced across catalogue pages ${pageIds.join(", ")}.`, `Available for walk-in purchase and bulk requirement planning.`],
-      specs: [{ label: "Range", value: cat.title }, { label: "Family", value: cat.family }, { label: "Brand line", value: brand }, { label: "Catalogue ref", value: pageIds.join(", ") }, { label: "Application", value: cat.subtitle }, { label: "Supply mode", value: "Retail, repeat orders, and project enquiries" }],
+      summary: `Premium ${item} crafted by Unique Sofa World for ${cat.title.toLowerCase()} requirements.`,
+      description: `${item} from our ${cat.title} range. We provide top-quality ${cat.subtitle.toLowerCase()} suitable for Residential Homes, Hotels, Restaurants, Offices, Hospitals, Corporate Spaces, and Commercial Properties.`,
+      features: [`High-quality ${item} suited for modern spaces.`, `Suitable for: Residential, Commercial, and Corporate use.`, `Available for custom sizing, quick visits, and delivery.`],
+      specs: [{ label: "Range", value: cat.title }, { label: "Family", value: cat.family }, { label: "Manufacturer", value: brand }, { label: "Availability", value: "Custom Made to Order" }, { label: "Application", value: cat.subtitle }, { label: "Services", value: "Delivery, Setup, Repair" }],
       tags: [brand, cat.title, item.split(" ").slice(-1)[0] || cat.code],
       images: pageIds.map(imageForPage),
       referencePageIds: pageIds,
@@ -189,7 +177,7 @@ const PRODUCTS = CATEGORIES.flatMap((cat) => {
 });
 
 const FEATURED_PRODUCT_IDS = PRODUCTS
-  .filter((p) => p.badge || ["recliners","fancy-legs","tools","sofa-legs"].includes(p.categoryId))
+  .filter((p) => p.badge || ["living-room", "luxury-designer", "services", "bedroom"].includes(p.categoryId))
   .slice(0, 8).map((p) => p.id);
 
 // ── Seed ──────────────────────────────────────────────────────────────────────
@@ -200,25 +188,23 @@ async function seedHomepageCurators() {
   console.log("  Seeding homepage curators...");
   await upsert({
     _id: "homepage-featured-ranges-v1", _type: "homepageFeaturedRanges",
-    eyebrow: "Featured ranges",
-    title: "Core ranges buyers check first.",
-    description: "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
-    categories: ["recliners","fancy-legs","sofa-legs","springs-staples","tools","accessories"].map((id) => ({
+    eyebrow: "Featured categories",
+    title: "Discover our core furniture collections.",
+    description: "Explore our premium living room sofas, custom bedroom setups, and luxury designer pieces crafted just for you.",
+    categories: FEATURED_CATEGORY_IDS.map((id) => ({
       _key: `cat-ref-${id}`,
       _type: "reference",
       _weak: true,
       _ref: `category-${id}`,
     })),
   });
-  const featuredProductIds = PRODUCTS
-    .filter((p) => p.badge || ["recliners","fancy-legs","tools","sofa-legs"].includes(p.categoryId))
-    .slice(0, 8).map((p) => p.id);
+  
   await upsert({
     _id: "homepage-featured-products-v1", _type: "homepageFeaturedProducts",
-    eyebrow: "Featured products",
-    title: "Selected stock highlights.",
-    description: "Open key items for photos, features, and direct enquiry details.",
-    products: featuredProductIds.map((id) => ({
+    eyebrow: "Featured furniture & services",
+    title: "Selected highlights and popular items.",
+    description: "Browse our most requested furniture sets and specialized services including sofa repair and custom manufacturing.",
+    products: FEATURED_PRODUCT_IDS.map((id) => ({
       _key: `prod-ref-${id}`,
       _type: "reference",
       _weak: true,
@@ -258,7 +244,7 @@ async function seedSiteSettings() {
       _key: `spec-${i}`,
       title: s.title,
       summary: s.summary,
-      items: s.items, // plain string array — no _key needed for primitive arrays
+      items: s.items,
     })),
     heroMedia: HERO_MEDIA.map((h, i) => ({
       _key: `hero-${i}`,
@@ -274,78 +260,78 @@ async function seedSiteSettings() {
       section: p.section,
       image: sanityImageRef(p.image),
     })).filter((p) => p.image !== null),
-    featuredCategories: ["recliners","fancy-legs","sofa-legs","springs-staples","tools","accessories"].map((id, i) => ({
+    featuredCategories: FEATURED_CATEGORY_IDS.map((id, i) => ({
       _key: `fc-${i}`, _type: "reference", _weak: true, _ref: `category-${id}`,
     })),
     featuredProducts: FEATURED_PRODUCT_IDS.map((id, i) => ({
       _key: `fp-${i}`, _type: "reference", _weak: true, _ref: `product-${id}`,
     })),
-    headerCtaLabel: "Get a quote",
-    heroHappyCustomersCount: "5M+",
+    headerCtaLabel: "Request a Visit",
+    heroHappyCustomersCount: "5K+",
     heroHappyCustomersLabel: "Happy Customers",
-    heroFloatingCardTitle: "New Collection",
+    heroFloatingCardTitle: "Custom Sofas",
     heroFloatingCardImage: sanityImageRef("/catalogue/hero-sofa.png"),
-    homeFeaturedRangesEyebrow: "Featured ranges",
-    homeFeaturedRangesTitle: "Core ranges buyers check first.",
-    homeFeaturedRangesDescription: "Quick visual access to sofas, recliners, custom furniture, and upholstery essentials.",
-    homeFeaturedProductsEyebrow: "Featured products",
-    homeFeaturedProductsTitle: "Selected stock highlights.",
-    homeFeaturedProductsDescription: "Open key items for photos, features, and direct enquiry details.",
-    homeWhyEyebrow: "Why Unique Sofa World Furniture",
-    homeWhyTitle: "Crafted for comfort, built to last.",
-    homeWhyDescription: "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
-    homeBrandsEyebrow: "Brands and locations",
-    homeBrandsTitle: "Trusted lines with our Bengaluru touchpoint.",
-    homeBrandsDescription: "Unique Sofa World Furniture serves walk-in customers, home and office projects, and custom furniture enquiries from our Bengaluru store.",
-    productsHeroEyebrow: "Product catalogue",
-    productsHeroTitle: "Browse our range by category and style.",
-    productsHeroSubtitle: "Explore premium sofas, custom furniture, sofa repair, and upholstery solutions from Unique Sofa World Furniture.",
-    productsSummaryTitle: "Browse our range by category and style.",
-    productsSummaryDescription: "Review the full Unique Sofa World Furniture range, filter by type, and open any item for photos, features, and enquiry details.",
+    homeFeaturedRangesEyebrow: "Furniture categories",
+    homeFeaturedRangesTitle: "Designed for every space in your life.",
+    homeFeaturedRangesDescription: "From residential homes to hotels and corporate spaces, explore our carefully categorized furniture solutions.",
+    homeFeaturedProductsEyebrow: "Our specialties",
+    homeFeaturedProductsTitle: "Premium products and expert repair.",
+    homeFeaturedProductsDescription: "View our custom manufactured pieces and learn about our dedicated sofa and furniture repair services.",
+    homeWhyEyebrow: "Why Unique Sofa World",
+    homeWhyTitle: "Custom built. Expertly repaired. Beautifully designed.",
+    homeWhyDescription: "As a premier furniture dealer and custom manufacturer, we offer exceptional sofa manufacturing, bed manufacturing, and comprehensive repair & restoration services.",
+    homeBrandsEyebrow: "Our Clients & Reach",
+    homeBrandsTitle: "Serving homes, offices, and commercial spaces.",
+    homeBrandsDescription: "We provide furniture solutions for Residential Homes, Hotels, Restaurants, Offices, Hospitals, and Industrial Facilities with guaranteed service and delivery.",
+    productsHeroEyebrow: "Furniture collection",
+    productsHeroTitle: "Browse our extensive furniture range.",
+    productsHeroSubtitle: "Discover sofas, beds, dining sets, modular units, and designer pieces crafted to perfection.",
+    productsSummaryTitle: "Filter by category and style.",
+    productsSummaryDescription: "Browse all Unique Sofa World products, from luxury designer pieces to sturdy office setups and custom outdoor furniture.",
     productsNoResultEyebrow: "No results",
     productsNoResultTitle: "No products match your filters.",
     productsNoResultDescription: "Try adjusting the family, range, or brand filter to find what you need.",
     productsNoResultResetLabel: "Clear filters",
     productsFilterFamilyLabel: "Family",
     productsFilterRangeLabel: "Range",
-    productsFilterBrandLabel: "Brand",
+    productsFilterBrandLabel: "Collection",
     catalogueHeroEyebrow: "Catalogue",
-    catalogueHeroTitle: "Browse the printed range from cover to contact details.",
-    catalogueHeroDescription: "Browse our full furniture and sofa range from the Unique Sofa World Furniture brochure before you download or enquire.",
-    catalogueFocusEyebrow: "Focus spread",
-    catalogueBrowseEyebrow: "Browse spreads",
+    catalogueHeroTitle: "Explore our full range of offerings.",
+    catalogueHeroDescription: "Browse through our collection of premium sofas, custom beds, materials, and comprehensive repair services.",
+    catalogueFocusEyebrow: "Focus view",
+    catalogueBrowseEyebrow: "Browse pages",
     catalogueDownloadLabel: "Download brochure",
-    catalogueCallLabel: "Call for stock check",
-    catalogueEmailLabel: "Email enquiry",
-    aboutHeroEyebrow: "About USW Furniture",
-    aboutHeroTitle: "Crafting Comfortable Living Spaces with Quality Furniture Since 2021.",
-    aboutHeroSubtitle: "Unique Sofa World Furniture is a trusted destination in Bengaluru for premium sofas, custom furniture, sofa repair, upholstery solutions, and handcrafted furniture designed to combine comfort, quality, and lasting style.",
-    aboutPrimaryCtaLabel: "Explore products",
+    catalogueCallLabel: "Call for consultation",
+    catalogueEmailLabel: "Email your requirements",
+    aboutHeroEyebrow: "About Unique Sofa World",
+    aboutHeroTitle: "Your Trusted Custom Furniture Manufacturer & Dealer.",
+    aboutHeroSubtitle: "We specialize in custom furniture, sofa manufacturing, bed manufacturing, and expert repair services across Bengaluru.",
+    aboutPrimaryCtaLabel: "View our work",
     aboutSecondaryCtaLabel: "Contact us",
-    aboutModelEyebrow: "Our services",
-    aboutModelTitle: "Three services that define what we do.",
-    aboutModelDescription: "From crafting new sofas to restoring old ones and building custom furniture, Unique Sofa World Furniture covers every comfort need for homes and businesses across Bengaluru.",
-    aboutBrandsEyebrow: "Stocked brands",
-    aboutBrandsTitle: "Trusted names already familiar to furniture workshops.",
-    aboutBrandsDescription: "The Unique Sofa World Furniture range covers premium sofa materials, quality fabrics, and trusted hardware brands used in every piece we craft.",
+    aboutModelEyebrow: "Our core services",
+    aboutModelTitle: "Manufacturing, Supply, and Restoration.",
+    aboutModelDescription: "We don't just sell furniture. We are a custom furniture manufacturer, a reliable office furniture supplier, and specialists in sofa repair and restoration.",
+    aboutBrandsEyebrow: "Materials & Quality",
+    aboutBrandsTitle: "Built with the best Wood, Steel, and Frame Materials.",
+    aboutBrandsDescription: "Our furniture features premium wooden frames and cane frames, crafted to ensure durability for residential, corporate, and commercial use.",
     contactHeroEyebrow: "Contact Us",
-    contactHeroTitle: "Speak with us for custom orders, product guidance, and store visits.",
-    contactHeroSubtitle: "Reach Unique Sofa World Furniture by Phone, WhatsApp, or Email for custom orders, sofa repair, upholstery enquiries, and store visits.",
-    contactQuickContactEyebrow: "Quick contact",
-    contactWhatsappTitle: "WhatsApp enquiries",
-    contactWhatsappDescription: "Quick checks for stock, brands, and product photos.",
-    contactEnquiryEyebrow: "WhatsApp enquiry",
-    contactEnquiryTitle: "Send an enquiry",
-    contactEnquiryDescription: "Share your sofa or furniture requirement, preferred style, size, and any custom finish notes.",
-    contactEnquirySentTitle: "WhatsApp message ready",
-    contactEnquirySentDescription: "If WhatsApp did not open, you can still message us directly.",
-    contactEnquirySubmitLabel: "Send WhatsApp enquiry",
+    contactHeroTitle: "Get in touch for custom orders, repairs, or a quick visit.",
+    contactHeroSubtitle: "Reach out to Unique Sofa World for your furniture needs. We offer a shop-in-store experience and reliable delivery services.",
+    contactQuickContactEyebrow: "Quick connect",
+    contactWhatsappTitle: "WhatsApp us",
+    contactWhatsappDescription: "Fast replies for custom quotes, repair queries, and site visits.",
+    contactEnquiryEyebrow: "Send an enquiry",
+    contactEnquiryTitle: "Discuss your project",
+    contactEnquiryDescription: "Tell us about your home or commercial furniture requirements, or share pictures of the sofa you need repaired.",
+    contactEnquirySentTitle: "WhatsApp ready",
+    contactEnquirySentDescription: "If WhatsApp didn't launch, please message us directly.",
+    contactEnquirySubmitLabel: "Send via WhatsApp",
     contactBusinessHoursWeekday: "Daily: 10:00 AM – 9:00 PM",
     contactBusinessHoursSunday: "Daily: 10:00 AM – 9:00 PM",
     footerNavigateTitle: "Navigate",
-    footerStoresTitle: "Stores",
-    footerContactTitle: "Contact",
-    footerBottomCaption: "Premium Sofas, Custom Furniture & Upholstery Services | Bengaluru.",
+    footerStoresTitle: "Visit Us",
+    footerContactTitle: "Get in Touch",
+    footerBottomCaption: "Unique Sofa World Furniture | Custom Sofas, Beds & Repair Services.",
   });
   console.log("  ✓ siteSettings");
 }
@@ -397,8 +383,8 @@ async function seedContactDetails() {
     phone: BRAND.phone,
     email: BRAND.email,
     whatsappRaw: BRAND.phoneRaw,
-    whatsappTemplate: "Hello, I'm interested in your furniture and sofa services. Could you please assist me?",
-    addressArea: "Begur Road, Bangalore",
+    whatsappTemplate: BRAND.whatsappHref.split("text=")[1] || "Hello, I'm interested in your furniture and sofa services.",
+    addressArea: "Devarachikkana Halli, Bengaluru",
     businessHoursWeekday: "Daily: 10:00 AM – 9:00 PM",
     businessHoursSunday: "Daily: 10:00 AM – 9:00 PM",
   });
@@ -409,9 +395,9 @@ async function seedMapLocation() {
   console.log("  Seeding mapLocation...");
   await upsert({
     _id: "map-location-v1", _type: "mapLocation",
-    label: "Unique Sofa World Furniture, Begur Road, Bengaluru",
+    label: "Unique Sofa World Furniture, Devarachikkana Halli, Bengaluru",
     googleMapsUrl: "https://maps.app.goo.gl/Lohwr2jbq6ZcmedM9",
-    embedUrl: "https://www.google.com/maps?q=12.8711681,77.6163365&output=embed", // Approximate coordinates for embed if standard url isn't direct
+    embedUrl: "https://www.google.com/maps?q=12.8711681,77.6163365&output=embed",
   });
   console.log("  ✓ mapLocation");
 }

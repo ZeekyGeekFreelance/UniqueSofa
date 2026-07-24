@@ -1,9 +1,7 @@
 export type CategoryFamily =
-  | "hardware"
-  | "electrical"
-  | "structure"
+  | "furniture"
   | "materials"
-  | "accessories";
+  | "services";
 
 export type ProductSpec = {
   label: string;

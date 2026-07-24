@@ -1,11 +1,16 @@
 import { defineArrayMember, defineField, defineType } from "sanity";
 
 const familyOptions = [
+  { title: "Sofas",       value: "sofas" },
+  { title: "Recliners",   value: "recliners" },
+  { title: "Beds",        value: "beds" },
+  { title: "Dining",      value: "dining" },
+  { title: "Seating",     value: "seating" },
   { title: "Hardware",    value: "hardware" },
   { title: "Electrical",  value: "electrical" },
   { title: "Structure",   value: "structure" },
-  { title: "Materials",   value: "materials" },
   { title: "Accessories", value: "accessories" },
+  { title: "Materials",   value: "materials" },
 ];
 
 export default defineType({
