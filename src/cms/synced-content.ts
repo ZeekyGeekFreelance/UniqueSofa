@@ -3,11 +3,11 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T18:37:27.492Z",
+  "syncedAt": "2026-07-24T18:48:45.298Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
-  "categoriesCount": 20,
+  "categoriesCount": 26,
   "productsCount": 97
 };
 
@@ -51,6 +51,52 @@ export const syncedSiteSettings = {
   "contactWhatsappTitle": "WhatsApp us",
   "email": "uniquesofaworldfurniture@gmail.com",
   "emailHref": "mailto:uniquesofaworldfurniture@gmail.com",
+  "featuredCategoryIds": [
+    {
+      "id": "living-room"
+    },
+    {
+      "id": "bedroom"
+    },
+    {
+      "id": "luxury-designer"
+    },
+    {
+      "id": "services"
+    },
+    {
+      "id": "office"
+    },
+    {
+      "id": "dining"
+    }
+  ],
+  "featuredProductIds": [
+    {
+      "id": "living-room-sofas"
+    },
+    {
+      "id": "living-room-sofa-sets"
+    },
+    {
+      "id": "living-room-living-room-chairs"
+    },
+    {
+      "id": "bedroom-custom-beds"
+    },
+    {
+      "id": "bedroom-kids-furniture"
+    },
+    {
+      "id": "bedroom-bedroom-wardrobes"
+    },
+    {
+      "id": "luxury-designer-luxury-sofas"
+    },
+    {
+      "id": "luxury-designer-designer-chairs"
+    }
+  ],
   "footerBottomCaption": "Unique Sofa World Furniture | Custom Sofas, Beds & Repair Services.",
   "footerContactTitle": "Get in Touch",
   "footerNavigateTitle": "Navigate",
@@ -156,52 +202,6 @@ export const syncedSiteSettings = {
       ],
       "summary": "Providing complete furniture solutions for homes, hotels, restaurants, offices, hospitals, and corporate spaces.",
       "title": "Residential & Commercial Furniture"
-    }
-  ],
-  "ssFeaturedCategories": [
-    {
-      "id": "living-room"
-    },
-    {
-      "id": "bedroom"
-    },
-    {
-      "id": "luxury-designer"
-    },
-    {
-      "id": "services"
-    },
-    {
-      "id": "office"
-    },
-    {
-      "id": "dining"
-    }
-  ],
-  "ssFeaturedProducts": [
-    {
-      "id": "living-room-sofas"
-    },
-    {
-      "id": "living-room-sofa-sets"
-    },
-    {
-      "id": "living-room-living-room-chairs"
-    },
-    {
-      "id": "bedroom-custom-beds"
-    },
-    {
-      "id": "bedroom-kids-furniture"
-    },
-    {
-      "id": "bedroom-bedroom-wardrobes"
-    },
-    {
-      "id": "luxury-designer-luxury-sofas"
-    },
-    {
-      "id": "luxury-designer-designer-chairs"
     }
   ],
   "stats": [
@@ -353,6 +353,24 @@ export const syncedCategories = [
     "tone": "#f1eaff"
   },
   {
+    "accent": "#7c3aed",
+    "badge": "",
+    "code": "DN",
+    "family": "furniture",
+    "id": "dining",
+    "images": [],
+    "items": [
+      "Dining Tables",
+      "Dining Chairs",
+      "Dining Sets"
+    ],
+    "slug": "dining",
+    "subtitle": "Dining Tables and Chairs",
+    "summary": "Elegant dining tables and chairs for residential and commercial dining spaces.",
+    "title": "Dining Furniture",
+    "tone": "#f1eaff"
+  },
+  {
     "accent": "#ce6a2c",
     "badge": "New arrivals",
     "code": "FL",
@@ -390,6 +408,42 @@ export const syncedCategories = [
     "summary": "Professional office furniture including desks, ergonomic chairs, and modular setups.",
     "title": "Office Furniture",
     "tone": "#eaf7ef"
+  },
+  {
+    "accent": "#1f8f56",
+    "badge": "",
+    "code": "OF",
+    "family": "furniture",
+    "id": "office",
+    "images": [],
+    "items": [
+      "Office Desks",
+      "Executive Chairs",
+      "Conference Tables"
+    ],
+    "slug": "office",
+    "subtitle": "Workspaces and Desks",
+    "summary": "Professional office furniture including desks, ergonomic chairs, and modular setups.",
+    "title": "Office Furniture",
+    "tone": "#eaf7ef"
+  },
+  {
+    "accent": "#d62e63",
+    "badge": "Premium",
+    "code": "LD",
+    "family": "furniture",
+    "id": "luxury-designer",
+    "images": [],
+    "items": [
+      "Luxury Sofas",
+      "Designer Chairs",
+      "Statement Beds"
+    ],
+    "slug": "luxury-designer",
+    "subtitle": "Premium bespoke pieces",
+    "summary": "Exclusive luxury and designer furniture customized to your exact requirements and premium aesthetic.",
+    "title": "Luxury & Designer",
+    "tone": "#ffe8f0"
   },
   {
     "accent": "#d62e63",
@@ -470,6 +524,24 @@ export const syncedCategories = [
     "tone": "#fdf0e6"
   },
   {
+    "accent": "#ce6a2c",
+    "badge": "",
+    "code": "MO",
+    "family": "furniture",
+    "id": "modular-outdoor",
+    "images": [],
+    "items": [
+      "Modular Storage",
+      "Outdoor Seating",
+      "Patio Sets"
+    ],
+    "slug": "modular-outdoor",
+    "subtitle": "Modern and Patio Furniture",
+    "summary": "Durable outdoor furniture solutions and smart modular furniture for modern spaces.",
+    "title": "Modular & Outdoor",
+    "tone": "#fdf0e6"
+  },
+  {
     "accent": "#1186a0",
     "badge": "",
     "code": "FI",
@@ -508,6 +580,43 @@ export const syncedCategories = [
     "summary": "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.",
     "title": "Materials & Frames",
     "tone": "#e7f8fb"
+  },
+  {
+    "accent": "#1186a0",
+    "badge": "",
+    "code": "MF",
+    "family": "materials",
+    "id": "materials-frames",
+    "images": [],
+    "items": [
+      "Premium Wood",
+      "Steel Components",
+      "Wooden Frames",
+      "Cane Frames"
+    ],
+    "slug": "materials-frames",
+    "subtitle": "Wood, Steel, and Cane",
+    "summary": "High-quality raw materials and sturdy frames ensuring longevity and structural integrity.",
+    "title": "Materials & Frames",
+    "tone": "#e7f8fb"
+  },
+  {
+    "accent": "#5b3fd1",
+    "badge": "Core",
+    "code": "SV",
+    "family": "services",
+    "id": "services",
+    "images": [],
+    "items": [
+      "Custom Furniture Manufacturing",
+      "Sofa & Sofa Set Repair",
+      "Delivery & Installation"
+    ],
+    "slug": "services",
+    "subtitle": "Manufacturing and Repair",
+    "summary": "Comprehensive services including custom manufacturing, sofa repair, delivery, and quick visits.",
+    "title": "Expert Services",
+    "tone": "#eee8ff"
   },
   {
     "accent": "#5b3fd1",

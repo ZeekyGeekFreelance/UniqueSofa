@@ -76,8 +76,8 @@ const QUERY = `{
     contactEnquirySentTitle, contactEnquirySentDescription, contactEnquirySubmitLabel,
     contactBusinessHoursWeekday, contactBusinessHoursSunday,
     footerNavigateTitle, footerStoresTitle, footerContactTitle, footerBottomCaption,
-    "ssFeaturedCategories": featuredCategories[]->{ "id": coalesce(id, slug.current) },
-    "ssFeaturedProducts": featuredProducts[]->{ "id": coalesce(id, _id) }
+    "featuredCategoryIds": featuredCategories[]->{ "id": coalesce(id, slug.current) },
+    "featuredProductIds": featuredProducts[]->{ "id": coalesce(id, _id) }
   },
   "categories": *[_type == "category" && coalesce(isPublished, true) == true]
     | order(coalesce(sortOrder, 999) asc, title asc){
