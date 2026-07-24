@@ -18,17 +18,15 @@ export function ProductsPage() {
   const { categories, products, brand, copy } = content;
   const pc = copy.products;
 
-  const familyFilters = useMemo(() => {
-    const seen = new Set<string>();
-    const opts: { id: string; label: string }[] = [{ id: "all", label: "All families" }];
-    for (const cat of categories) {
-      if (!seen.has(cat.family)) {
-        seen.add(cat.family);
-        opts.push({ id: cat.family, label: cat.family.charAt(0).toUpperCase() + cat.family.slice(1) });
-      }
-    }
-    return opts;
-  }, [categories]);
+  const familyFilters = useMemo(() => [
+    { id: "all", label: "All" },
+    { id: "sofas",     label: "Sofas" },
+    { id: "beds",      label: "Beds" },
+    { id: "recliners", label: "Recliners" },
+    { id: "chairs",    label: "Chairs" },
+    { id: "dining",    label: "Dining" },
+    { id: "tables",    label: "Tables" },
+  ], []);
 
   const resultsTopRef = useRef<HTMLDivElement | null>(null);
   const [search, setSearch] = useState("");
@@ -59,13 +57,13 @@ export function ProductsPage() {
   // Cascade: reset child filters when parent changes and child is no longer valid
   useEffect(() => {
     if (family === "all") return;
-    const validRanges = new Set(products.filter((p) => p.family === family).map((p) => p.categoryId));
+    const validRanges = new Set(products.filter((p) => p.family === family).map((p) => p.name));
     if (range !== "all" && !validRanges.has(range)) setRange("all");
   }, [family]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const base = products.filter((p) =>
-      (family === "all" || p.family === family) && (range === "all" || p.categoryId === range)
+      (family === "all" || p.family === family) && (range === "all" || p.name === range)
     );
     const validBrands = new Set(base.map((p) => p.brand));
     if (brandFilter !== "all" && !validBrands.has(brandFilter)) setBrandFilter("all");
@@ -74,18 +72,18 @@ export function ProductsPage() {
   useEffect(() => { setPage(0); }, [search, family, range, brandFilter]);
 
   const rangeOptions = useMemo(() => {
-    const validIds = new Set(
-      family === "all" ? products.map((p) => p.categoryId) : products.filter((p) => p.family === family).map((p) => p.categoryId)
-    );
-    return [
-      { id: "all", label: "All ranges" },
-      ...categories.filter((c) => validIds.has(c.id)).map((c) => ({ id: c.id, label: c.title })),
-    ];
-  }, [family, categories, products]);
+    const base = family === "all" ? products : products.filter((p) => p.family === family);
+    const seen = new Set<string>();
+    const opts: { id: string; label: string }[] = [{ id: "all", label: "All" }];
+    for (const p of base) {
+      if (!seen.has(p.name)) { seen.add(p.name); opts.push({ id: p.name, label: p.name }); }
+    }
+    return opts;
+  }, [family, products]);
 
   const brandOptions = useMemo(() => {
     const base = products.filter((p) =>
-      (family === "all" || p.family === family) && (range === "all" || p.categoryId === range)
+      (family === "all" || p.family === family) && (range === "all" || p.name === range)
     );
     const seen = new Set<string>();
     const opts: { id: string; label: string }[] = [{ id: "all", label: "All brands" }];
@@ -99,7 +97,7 @@ export function ProductsPage() {
     const query = search.trim().toLowerCase();
     return products.filter((product) => {
       const matchesFamily = family === "all" || product.family === family;
-      const matchesRange = range === "all" || product.categoryId === range;
+      const matchesRange = range === "all" || product.name === range;
       const matchesBrand = brandFilter === "all" || product.brand === brandFilter;
       const matchesQuery =
         !query ||

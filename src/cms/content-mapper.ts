@@ -7,7 +7,7 @@ import type {
 } from "./types";
 
 const knownFamilies: CategoryFamily[] = [
-  "furniture", "materials", "services",
+  "sofas", "beds", "recliners", "chairs", "dining", "tables",
 ];
 
 function asString(value: unknown, fallback = "") {
@@ -30,9 +30,7 @@ function mapCategories(
 ): Category[] {
   return rawCategories.map((entry) => {
     const family = asString(entry.family) as CategoryFamily;
-    const safeFamily = knownFamilies.includes(family) ? family : "furniture";
-    return {
-      id:       asString(entry.id),
+    const safeFamily = knownFamilies.includes(family) ? family : "sofas";
       slug:     asString(entry.slug),
       code:     asString(entry.code),
       title:    asString(entry.title),
@@ -50,8 +48,7 @@ function mapCategories(
 function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
   return rawProducts.map((entry) => {
     const family = asString(entry.family) as CategoryFamily;
-    const safeFamily = knownFamilies.includes(family) ? family : "furniture";
-    const specs = Array.isArray(entry.specs)
+    const safeFamily = knownFamilies.includes(family) ? family : "sofas";
       ? entry.specs
           .map((item) => {
             const row = asRecord(item);

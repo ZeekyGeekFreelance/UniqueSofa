@@ -1,7 +1,10 @@
 export type CategoryFamily =
-  | "furniture"
-  | "materials"
-  | "services";
+  | "sofas"
+  | "beds"
+  | "recliners"
+  | "chairs"
+  | "dining"
+  | "tables";
 
 export type ProductSpec = {
   label: string;

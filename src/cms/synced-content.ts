@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-24T20:46:59.791Z",
+  "syncedAt": "2026-07-24T20:55:19.995Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -160,9 +160,9 @@ export const syncedSiteSettings = {
   "phoneDisplay": "+91 95911 67804",
   "phoneHref": "tel:+919591167804",
   "phoneRaw": "919591167804",
-  "productsFilterBrandLabel": "Collection",
-  "productsFilterFamilyLabel": "Family",
-  "productsFilterRangeLabel": "Range",
+  "productsFilterBrandLabel": "Brand",
+  "productsFilterFamilyLabel": "Category",
+  "productsFilterRangeLabel": "Style",
   "productsHeroEyebrow": "Furniture collection",
   "productsHeroSubtitle": "Discover sofas, beds, dining sets, modular units, and designer pieces crafted to perfection.",
   "productsHeroTitle": "Browse our extensive furniture range.",
@@ -239,7 +239,7 @@ export const syncedCategories = [
     "accent": "#bf622c",
     "badge": "Best Seller",
     "code": "SF",
-    "family": "furniture",
+    "family": "sofas",
     "id": "sofas",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
@@ -262,7 +262,7 @@ export const syncedCategories = [
     "accent": "#2563eb",
     "badge": "Popular",
     "code": "BD",
-    "family": "furniture",
+    "family": "beds",
     "id": "beds",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
@@ -285,7 +285,7 @@ export const syncedCategories = [
     "accent": "#7c3aed",
     "badge": "Premium",
     "code": "RC",
-    "family": "furniture",
+    "family": "recliners",
     "id": "recliners",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
@@ -307,7 +307,7 @@ export const syncedCategories = [
     "accent": "#1f8f56",
     "badge": "",
     "code": "CH",
-    "family": "furniture",
+    "family": "chairs",
     "id": "chairs",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
@@ -329,7 +329,7 @@ export const syncedCategories = [
     "accent": "#d62e63",
     "badge": "New",
     "code": "DT",
-    "family": "furniture",
+    "family": "dining",
     "id": "dining-tables",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
@@ -351,7 +351,7 @@ export const syncedCategories = [
     "accent": "#1186a0",
     "badge": "",
     "code": "CT",
-    "family": "furniture",
+    "family": "tables",
     "id": "center-tables",
     "images": [
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
@@ -377,7 +377,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our 3-Seater is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted 3-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -405,8 +405,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "3-Seater"
       },
       {
         "label": "Services",
@@ -419,7 +419,7 @@ export const syncedProducts = [
       "3-Seater",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "3-Seater"
   },
   {
     "badge": "",
@@ -427,7 +427,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our L-Shape is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted L-Shape built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -455,8 +455,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "L-Shape"
       },
       {
         "label": "Services",
@@ -469,7 +469,7 @@ export const syncedProducts = [
       "L-Shape",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "L-Shape"
   },
   {
     "badge": "",
@@ -477,7 +477,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Sectional is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted Sectional built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -505,8 +505,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "Sectional"
       },
       {
         "label": "Services",
@@ -519,7 +519,7 @@ export const syncedProducts = [
       "Sectional",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "Sectional"
   },
   {
     "badge": "",
@@ -527,7 +527,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Chesterfield is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted Chesterfield built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -555,8 +555,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "Chesterfield"
       },
       {
         "label": "Services",
@@ -569,7 +569,7 @@ export const syncedProducts = [
       "Chesterfield",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "Chesterfield"
   },
   {
     "badge": "",
@@ -577,7 +577,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Modern is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted Modern built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -605,8 +605,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "Modern"
       },
       {
         "label": "Services",
@@ -619,7 +619,7 @@ export const syncedProducts = [
       "Modern",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "Modern"
   },
   {
     "badge": "",
@@ -627,7 +627,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Luxury is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted Luxury built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -655,8 +655,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "Luxury"
       },
       {
         "label": "Services",
@@ -669,7 +669,7 @@ export const syncedProducts = [
       "Luxury",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "Luxury"
   },
   {
     "badge": "",
@@ -677,7 +677,7 @@ export const syncedProducts = [
     "categoryId": "sofas",
     "categoryTitle": "Sofas",
     "description": "Our Wooden is part of the Sofas collection. Designed for comfortable seating for every home, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "sofas",
     "features": [
       "Handcrafted Wooden built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -705,8 +705,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Comfortable seating for every home"
+        "label": "Style",
+        "value": "Wooden"
       },
       {
         "label": "Services",
@@ -719,7 +719,7 @@ export const syncedProducts = [
       "Wooden",
       "Unique Sofa World"
     ],
-    "type": "Comfortable seating for every home"
+    "type": "Wooden"
   },
   {
     "badge": "Popular",
@@ -727,7 +727,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our King Size is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "beds",
     "features": [
       "Handcrafted King Size built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -755,8 +755,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Crafted for comfort and style"
+        "label": "Style",
+        "value": "King Size"
       },
       {
         "label": "Services",
@@ -769,7 +769,7 @@ export const syncedProducts = [
       "King Size",
       "Unique Sofa World"
     ],
-    "type": "Crafted for comfort and style"
+    "type": "King Size"
   },
   {
     "badge": "",
@@ -777,7 +777,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Queen Size is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "beds",
     "features": [
       "Handcrafted Queen Size built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -805,8 +805,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Crafted for comfort and style"
+        "label": "Style",
+        "value": "Queen Size"
       },
       {
         "label": "Services",
@@ -819,7 +819,7 @@ export const syncedProducts = [
       "Queen Size",
       "Unique Sofa World"
     ],
-    "type": "Crafted for comfort and style"
+    "type": "Queen Size"
   },
   {
     "badge": "",
@@ -827,7 +827,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Storage is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "beds",
     "features": [
       "Handcrafted Storage built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -855,8 +855,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Crafted for comfort and style"
+        "label": "Style",
+        "value": "Storage"
       },
       {
         "label": "Services",
@@ -869,7 +869,7 @@ export const syncedProducts = [
       "Storage",
       "Unique Sofa World"
     ],
-    "type": "Crafted for comfort and style"
+    "type": "Storage"
   },
   {
     "badge": "",
@@ -877,7 +877,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Upholstered is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "beds",
     "features": [
       "Handcrafted Upholstered built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -905,8 +905,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Crafted for comfort and style"
+        "label": "Style",
+        "value": "Upholstered"
       },
       {
         "label": "Services",
@@ -919,7 +919,7 @@ export const syncedProducts = [
       "Upholstered",
       "Unique Sofa World"
     ],
-    "type": "Crafted for comfort and style"
+    "type": "Upholstered"
   },
   {
     "badge": "",
@@ -927,7 +927,7 @@ export const syncedProducts = [
     "categoryId": "beds",
     "categoryTitle": "Beds",
     "description": "Our Wooden is part of the Beds collection. Designed for crafted for comfort and style, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "beds",
     "features": [
       "Handcrafted Wooden built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -955,8 +955,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Crafted for comfort and style"
+        "label": "Style",
+        "value": "Wooden"
       },
       {
         "label": "Services",
@@ -969,7 +969,7 @@ export const syncedProducts = [
       "Wooden",
       "Unique Sofa World"
     ],
-    "type": "Crafted for comfort and style"
+    "type": "Wooden"
   },
   {
     "badge": "Premium",
@@ -977,7 +977,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Manual is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "recliners",
     "features": [
       "Handcrafted Manual built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1005,8 +1005,8 @@ export const syncedProducts = [
         "value": "In Stock & Custom"
       },
       {
-        "label": "Application",
-        "value": "Relax in premium comfort"
+        "label": "Style",
+        "value": "Manual"
       },
       {
         "label": "Services",
@@ -1019,7 +1019,7 @@ export const syncedProducts = [
       "Manual",
       "Unique Sofa World"
     ],
-    "type": "Relax in premium comfort"
+    "type": "Manual"
   },
   {
     "badge": "",
@@ -1027,7 +1027,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Rocker is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "recliners",
     "features": [
       "Handcrafted Rocker built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1055,8 +1055,8 @@ export const syncedProducts = [
         "value": "In Stock & Custom"
       },
       {
-        "label": "Application",
-        "value": "Relax in premium comfort"
+        "label": "Style",
+        "value": "Rocker"
       },
       {
         "label": "Services",
@@ -1069,7 +1069,7 @@ export const syncedProducts = [
       "Rocker",
       "Unique Sofa World"
     ],
-    "type": "Relax in premium comfort"
+    "type": "Rocker"
   },
   {
     "badge": "",
@@ -1077,7 +1077,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Swivel is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "recliners",
     "features": [
       "Handcrafted Swivel built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1105,8 +1105,8 @@ export const syncedProducts = [
         "value": "In Stock & Custom"
       },
       {
-        "label": "Application",
-        "value": "Relax in premium comfort"
+        "label": "Style",
+        "value": "Swivel"
       },
       {
         "label": "Services",
@@ -1119,7 +1119,7 @@ export const syncedProducts = [
       "Swivel",
       "Unique Sofa World"
     ],
-    "type": "Relax in premium comfort"
+    "type": "Swivel"
   },
   {
     "badge": "",
@@ -1127,7 +1127,7 @@ export const syncedProducts = [
     "categoryId": "recliners",
     "categoryTitle": "Recliners",
     "description": "Our Premium is part of the Recliners collection. Designed for relax in premium comfort, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "recliners",
     "features": [
       "Handcrafted Premium built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1155,8 +1155,8 @@ export const syncedProducts = [
         "value": "In Stock & Custom"
       },
       {
-        "label": "Application",
-        "value": "Relax in premium comfort"
+        "label": "Style",
+        "value": "Premium"
       },
       {
         "label": "Services",
@@ -1169,7 +1169,7 @@ export const syncedProducts = [
       "Premium",
       "Unique Sofa World"
     ],
-    "type": "Relax in premium comfort"
+    "type": "Premium"
   },
   {
     "badge": "",
@@ -1177,7 +1177,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Sofa Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "chairs",
     "features": [
       "Handcrafted Sofa Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1205,8 +1205,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Stylish seating solutions"
+        "label": "Style",
+        "value": "Sofa Chairs"
       },
       {
         "label": "Services",
@@ -1219,7 +1219,7 @@ export const syncedProducts = [
       "Sofa Chairs",
       "Unique Sofa World"
     ],
-    "type": "Stylish seating solutions"
+    "type": "Sofa Chairs"
   },
   {
     "badge": "",
@@ -1227,7 +1227,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Wooden Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "chairs",
     "features": [
       "Handcrafted Wooden Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1255,8 +1255,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Stylish seating solutions"
+        "label": "Style",
+        "value": "Wooden Chairs"
       },
       {
         "label": "Services",
@@ -1269,7 +1269,7 @@ export const syncedProducts = [
       "Wooden Chairs",
       "Unique Sofa World"
     ],
-    "type": "Stylish seating solutions"
+    "type": "Wooden Chairs"
   },
   {
     "badge": "",
@@ -1277,7 +1277,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Accent Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "chairs",
     "features": [
       "Handcrafted Accent Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1305,8 +1305,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Stylish seating solutions"
+        "label": "Style",
+        "value": "Accent Chairs"
       },
       {
         "label": "Services",
@@ -1319,7 +1319,7 @@ export const syncedProducts = [
       "Accent Chairs",
       "Unique Sofa World"
     ],
-    "type": "Stylish seating solutions"
+    "type": "Accent Chairs"
   },
   {
     "badge": "",
@@ -1327,7 +1327,7 @@ export const syncedProducts = [
     "categoryId": "chairs",
     "categoryTitle": "Chairs",
     "description": "Our Lounge Chairs is part of the Chairs collection. Designed for stylish seating solutions, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "chairs",
     "features": [
       "Handcrafted Lounge Chairs built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1355,8 +1355,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Stylish seating solutions"
+        "label": "Style",
+        "value": "Lounge Chairs"
       },
       {
         "label": "Services",
@@ -1369,7 +1369,7 @@ export const syncedProducts = [
       "Lounge Chairs",
       "Unique Sofa World"
     ],
-    "type": "Stylish seating solutions"
+    "type": "Lounge Chairs"
   },
   {
     "badge": "New",
@@ -1377,7 +1377,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our 4-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "dining",
     "features": [
       "Handcrafted 4-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1405,8 +1405,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Elegant dining experiences"
+        "label": "Style",
+        "value": "4-Seater"
       },
       {
         "label": "Services",
@@ -1419,7 +1419,7 @@ export const syncedProducts = [
       "4-Seater",
       "Unique Sofa World"
     ],
-    "type": "Elegant dining experiences"
+    "type": "4-Seater"
   },
   {
     "badge": "",
@@ -1427,7 +1427,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our 6-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "dining",
     "features": [
       "Handcrafted 6-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1455,8 +1455,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Elegant dining experiences"
+        "label": "Style",
+        "value": "6-Seater"
       },
       {
         "label": "Services",
@@ -1469,7 +1469,7 @@ export const syncedProducts = [
       "6-Seater",
       "Unique Sofa World"
     ],
-    "type": "Elegant dining experiences"
+    "type": "6-Seater"
   },
   {
     "badge": "",
@@ -1477,7 +1477,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our 8-Seater is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "dining",
     "features": [
       "Handcrafted 8-Seater built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1505,8 +1505,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Elegant dining experiences"
+        "label": "Style",
+        "value": "8-Seater"
       },
       {
         "label": "Services",
@@ -1519,7 +1519,7 @@ export const syncedProducts = [
       "8-Seater",
       "Unique Sofa World"
     ],
-    "type": "Elegant dining experiences"
+    "type": "8-Seater"
   },
   {
     "badge": "",
@@ -1527,7 +1527,7 @@ export const syncedProducts = [
     "categoryId": "dining-tables",
     "categoryTitle": "Dining Tables",
     "description": "Our Marble Top is part of the Dining Tables collection. Designed for elegant dining experiences, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "dining",
     "features": [
       "Handcrafted Marble Top built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1555,8 +1555,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Elegant dining experiences"
+        "label": "Style",
+        "value": "Marble Top"
       },
       {
         "label": "Services",
@@ -1569,7 +1569,7 @@ export const syncedProducts = [
       "Marble Top",
       "Unique Sofa World"
     ],
-    "type": "Elegant dining experiences"
+    "type": "Marble Top"
   },
   {
     "badge": "",
@@ -1577,7 +1577,7 @@ export const syncedProducts = [
     "categoryId": "center-tables",
     "categoryTitle": "Center Tables",
     "description": "Our Center Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "tables",
     "features": [
       "Handcrafted Center Tables built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1605,8 +1605,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Complete your living space"
+        "label": "Style",
+        "value": "Center Tables"
       },
       {
         "label": "Services",
@@ -1619,7 +1619,7 @@ export const syncedProducts = [
       "Center Tables",
       "Unique Sofa World"
     ],
-    "type": "Complete your living space"
+    "type": "Center Tables"
   },
   {
     "badge": "",
@@ -1627,7 +1627,7 @@ export const syncedProducts = [
     "categoryId": "center-tables",
     "categoryTitle": "Center Tables",
     "description": "Our Coffee Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "tables",
     "features": [
       "Handcrafted Coffee Tables built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1655,8 +1655,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Complete your living space"
+        "label": "Style",
+        "value": "Coffee Tables"
       },
       {
         "label": "Services",
@@ -1669,7 +1669,7 @@ export const syncedProducts = [
       "Coffee Tables",
       "Unique Sofa World"
     ],
-    "type": "Complete your living space"
+    "type": "Coffee Tables"
   },
   {
     "badge": "",
@@ -1677,7 +1677,7 @@ export const syncedProducts = [
     "categoryId": "center-tables",
     "categoryTitle": "Center Tables",
     "description": "Our Side Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "tables",
     "features": [
       "Handcrafted Side Tables built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1705,8 +1705,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Complete your living space"
+        "label": "Style",
+        "value": "Side Tables"
       },
       {
         "label": "Services",
@@ -1719,7 +1719,7 @@ export const syncedProducts = [
       "Side Tables",
       "Unique Sofa World"
     ],
-    "type": "Complete your living space"
+    "type": "Side Tables"
   },
   {
     "badge": "",
@@ -1727,7 +1727,7 @@ export const syncedProducts = [
     "categoryId": "center-tables",
     "categoryTitle": "Center Tables",
     "description": "Our Nesting Tables is part of the Center Tables collection. Designed for complete your living space, each piece is built to order using premium materials suited for residential and commercial spaces across Bengaluru.",
-    "family": "furniture",
+    "family": "tables",
     "features": [
       "Handcrafted Nesting Tables built to your exact size and fabric preference.",
       "Suitable for residential homes, offices, hotels, and commercial spaces.",
@@ -1755,8 +1755,8 @@ export const syncedProducts = [
         "value": "Custom Made to Order"
       },
       {
-        "label": "Application",
-        "value": "Complete your living space"
+        "label": "Style",
+        "value": "Nesting Tables"
       },
       {
         "label": "Services",
@@ -1769,6 +1769,6 @@ export const syncedProducts = [
       "Nesting Tables",
       "Unique Sofa World"
     ],
-    "type": "Complete your living space"
+    "type": "Nesting Tables"
   }
 ];
