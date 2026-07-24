@@ -32,6 +32,7 @@ function mapCategories(
     const family = asString(entry.family) as CategoryFamily;
     const safeFamily = knownFamilies.includes(family) ? family : "sofas";
     return {
+      id:       asString(entry.id),
       slug:     asString(entry.slug),
       code:     asString(entry.code),
       title:    asString(entry.title),
@@ -43,7 +44,8 @@ function mapCategories(
       family:   safeFamily,
       items:    asStringArray(entry.items),
       images:   asStringArray(entry.images),
-    } satisfies Category;  });
+    } satisfies Category;
+  });
 }
 
 function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
