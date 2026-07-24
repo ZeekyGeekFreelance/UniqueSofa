@@ -26,7 +26,6 @@ export type Product = {
   specs: ProductSpec[];
   tags: string[];
   images: string[];
-  referencePageIds: string[];
 };
 
 export type Category = {
@@ -41,7 +40,6 @@ export type Category = {
   tone: string;
   family: CategoryFamily;
   items: string[];
-  cataloguePageIds: string[];
   images: string[];
 };
 
@@ -51,13 +49,6 @@ export type Store = {
   address: string;
   city: string;
   mapsUrl: string;
-};
-
-export type CataloguePage = {
-  id: string;
-  title: string;
-  section: string;
-  image: string;
 };
 
 export type BrandConfig = {
@@ -128,16 +119,6 @@ export type PageCopy = {
     filterRangeLabel: string;
     filterBrandLabel: string;
   };
-  catalogue: {
-    heroEyebrow: string;
-    heroTitle: string;
-    heroDescription: string;
-    focusEyebrow: string;
-    browseEyebrow: string;
-    downloadLabel: string;
-    callLabel: string;
-    emailLabel: string;
-  };
   about: {
     heroEyebrow: string;
     heroTitle: string;
@@ -184,8 +165,6 @@ export type SiteContent = {
   heroMedia: HeroMediaItem[];
   categories: Category[];
   products: Product[];
-  cataloguePages: CataloguePage[];
-  catalogueFile: string;
   featuredCategoryIds: string[];
   featuredProductIds: string[];
   copy: PageCopy;
@@ -196,4 +175,3 @@ export type SiteContentQueryResult = {
   categories?: Array<Record<string, unknown>>;
   products?: Array<Record<string, unknown>>;
 };
-

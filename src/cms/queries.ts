@@ -5,7 +5,7 @@ export const SITE_CONTENT_QUERY = `
     "brandLogoUrl": brandLogo.asset->url,
     phoneDisplay, phoneRaw, phoneHref,
     email, emailHref, whatsappHref, city, intro,
-    catalogueFile, brands,
+    brands,
     stats[]{ value, label },
     stores[]{ name, type, address, city, mapsUrl },
     specializations[]{ title, summary, items },
@@ -22,13 +22,6 @@ export const SITE_CONTENT_QUERY = `
       eyebrow, title, description,
       "image": image.asset->url
     },
-    "cataloguePages": cataloguePages[]{
-      id, title, section,
-      "image": image.asset->url
-    },
-    catalogueHeroEyebrow, catalogueHeroTitle, catalogueHeroDescription,
-    catalogueFocusEyebrow, catalogueBrowseEyebrow,
-    catalogueDownloadLabel, catalogueCallLabel, catalogueEmailLabel,
     productsHeroEyebrow, productsHeroTitle, productsHeroSubtitle,
     productsSummaryTitle, productsSummaryDescription,
     productsNoResultEyebrow, productsNoResultTitle, productsNoResultDescription, productsNoResultResetLabel,
@@ -55,7 +48,8 @@ export const SITE_CONTENT_QUERY = `
     | order(coalesce(sortOrder, 999) asc, title asc){
       "id": coalesce(id, slug.current),
       "slug": slug.current,
-      code, title, subtitle, summary, badge, accent, tone, family, items, cataloguePageIds
+      code, title, subtitle, summary, badge, accent, tone, family, items,
+      "images": coalesce(images[].asset->url, [])
     },
   "products": *[_type == "product" && coalesce(isPublished, true) == true]
     | order(coalesce(sortOrder, 999) asc, _updatedAt desc){
@@ -68,8 +62,7 @@ export const SITE_CONTENT_QUERY = `
       type, summary, description, features,
       specs[]{ label, value },
       tags,
-      "images": images[].asset->url,
-      referencePageIds
+      "images": images[].asset->url
     }
 }
 `;

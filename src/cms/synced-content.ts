@@ -3,7 +3,7 @@
 // Do not edit manually. Re-run `npm run cms:pull` after CMS changes.
 
 export const syncedContentMeta = {
-  "syncedAt": "2026-07-22T17:00:35.841Z",
+  "syncedAt": "2026-07-24T16:35:35.832Z",
   "source": "sanity",
   "projectId": "nzfscoez",
   "dataset": "production",
@@ -39,137 +39,6 @@ export const syncedSiteSettings = {
     "Veer",
     "Rapid"
   ],
-  "catalogueBrowseEyebrow": "Browse spreads",
-  "catalogueCallLabel": "Call for stock check",
-  "catalogueDownloadLabel": "Download brochure",
-  "catalogueEmailLabel": "Email enquiry",
-  "catalogueFile": "/catalogue/dtc-catalogue.pdf",
-  "catalogueFocusEyebrow": "Focus spread",
-  "catalogueHeroDescription": "Browse our full furniture and sofa range from the Unique Sofa World Furniture brochure before you download or enquire.",
-  "catalogueHeroEyebrow": "Catalogue",
-  "catalogueHeroTitle": "Browse the printed range from cover to contact details.",
-  "cataloguePages": [
-    {
-      "id": "01",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/38420c19a7fdc2e2f4552f826a6049818445715d-992x1403.jpg",
-      "section": "Brand identity",
-      "title": "Cover"
-    },
-    {
-      "id": "02",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg",
-      "section": "Mechanisms",
-      "title": "Recliners"
-    },
-    {
-      "id": "03",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg",
-      "section": "Components",
-      "title": "Recliners and Accessories"
-    },
-    {
-      "id": "04",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg",
-      "section": "Power and controls",
-      "title": "Recliner Accessories"
-    },
-    {
-      "id": "05",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg",
-      "section": "Structural components",
-      "title": "Chairs and Frames"
-    },
-    {
-      "id": "06",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg",
-      "section": "Bases and swivels",
-      "title": "Chairs and Frames"
-    },
-    {
-      "id": "07",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg",
-      "section": "Decorative hardware",
-      "title": "Accessories"
-    },
-    {
-      "id": "08",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg",
-      "section": "Trim and piping",
-      "title": "Fancy Items"
-    },
-    {
-      "id": "09",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg",
-      "section": "Leg collection one",
-      "title": "Fancy Legs"
-    },
-    {
-      "id": "10",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg",
-      "section": "Leg collection two",
-      "title": "Fancy Legs"
-    },
-    {
-      "id": "11",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg",
-      "section": "Corner legs",
-      "title": "Fancy Legs"
-    },
-    {
-      "id": "12",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg",
-      "section": "Springs and rings",
-      "title": "Accessories"
-    },
-    {
-      "id": "13",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg",
-      "section": "Workshop tools",
-      "title": "Tools"
-    },
-    {
-      "id": "14",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg",
-      "section": "Fasteners",
-      "title": "Staple Pins and Springs"
-    },
-    {
-      "id": "15",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg",
-      "section": "Closures",
-      "title": "Zip and Runners"
-    },
-    {
-      "id": "16",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg",
-      "section": "Materials",
-      "title": "Elastic and Fabric"
-    },
-    {
-      "id": "17",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg",
-      "section": "Sewing supplies",
-      "title": "Threads and Accessories"
-    },
-    {
-      "id": "18",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg",
-      "section": "Electronics",
-      "title": "Accessories"
-    },
-    {
-      "id": "19",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg",
-      "section": "Premium metal legs",
-      "title": "Sofa Legs"
-    },
-    {
-      "id": "20",
-      "image": "https://cdn.sanity.io/images/nzfscoez/production/64547298c76ff387763341204614b37deb0d4024-992x1403.jpg",
-      "section": "Company details",
-      "title": "Contact and Info"
-    }
-  ],
   "city": "Bengaluru, India",
   "contactBusinessHoursSunday": "Daily: 10:00 AM – 9:00 PM",
   "contactBusinessHoursWeekday": "Daily: 10:00 AM – 9:00 PM",
@@ -190,8 +59,12 @@ export const syncedSiteSettings = {
   "footerBottomCaption": "Premium Sofas, Custom Furniture & Upholstery Services | Bengaluru.",
   "footerContactTitle": "Contact",
   "footerNavigateTitle": "Navigate",
-  "footerStoresTitle": "Stores",
+  "footerStoresTitle": "Store",
   "headerCtaLabel": "Get a quote",
+  "heroFloatingCardImage": "https://cdn.sanity.io/images/nzfscoez/production/d198e222a42ecce6ac3754193f8c7af292b45422-1024x1024.jpg",
+  "heroFloatingCardTitle": "New Collection",
+  "heroHappyCustomersCount": "5M+",
+  "heroHappyCustomersLabel": "Happy Customers",
   "heroMedia": [
     {
       "description": "Discover our premium selection of modern seating designed for unparalleled comfort and style.",
@@ -233,10 +106,6 @@ export const syncedSiteSettings = {
     {
       "href": "/products",
       "label": "Products"
-    },
-    {
-      "href": "/catalogue",
-      "label": "Catalogue"
     },
     {
       "href": "/about",
@@ -367,19 +236,14 @@ export const syncedSiteSettings = {
   "whatsappHref": "https://wa.me/919591167804?text=Hello%2C%20I%27m%20interested%20in%20your%20furniture%20and%20sofa%20services.%20Could%20you%20please%20assist%20me%3F"
 };
 
-
 export const syncedCategories = [
   {
     "accent": "#bf622c",
     "badge": "Best seller",
-    "cataloguePageIds": [
-      "02",
-      "03",
-      "04"
-    ],
     "code": "RC",
     "family": "hardware",
     "id": "recliners",
+    "images": [],
     "items": [
       "Push-back frame",
       "Manual recliner mechanism",
@@ -397,14 +261,10 @@ export const syncedCategories = [
   {
     "accent": "#2563eb",
     "badge": "",
-    "cataloguePageIds": [
-      "03",
-      "04",
-      "18"
-    ],
     "code": "EL",
     "family": "electrical",
     "id": "recliner-accessories",
+    "images": [],
     "items": [
       "Dual motor set",
       "Hand control keypad",
@@ -422,13 +282,10 @@ export const syncedCategories = [
   {
     "accent": "#7c3aed",
     "badge": "",
-    "cataloguePageIds": [
-      "05",
-      "06"
-    ],
     "code": "FR",
     "family": "structure",
     "id": "chairs-frames",
+    "images": [],
     "items": [
       "Swivel base plate",
       "Chair shell frame",
@@ -446,14 +303,10 @@ export const syncedCategories = [
   {
     "accent": "#ce6a2c",
     "badge": "New arrivals",
-    "cataloguePageIds": [
-      "09",
-      "10",
-      "11"
-    ],
     "code": "FL",
     "family": "hardware",
     "id": "fancy-legs",
+    "images": [],
     "items": [
       "Chrome leg set",
       "Gold finish leg",
@@ -471,14 +324,10 @@ export const syncedCategories = [
   {
     "accent": "#1f8f56",
     "badge": "",
-    "cataloguePageIds": [
-      "19",
-      "10",
-      "11"
-    ],
     "code": "SL",
     "family": "hardware",
     "id": "sofa-legs",
+    "images": [],
     "items": [
       "Y-shape sofa leg",
       "Cross base leg",
@@ -496,14 +345,10 @@ export const syncedCategories = [
   {
     "accent": "#d62e63",
     "badge": "",
-    "cataloguePageIds": [
-      "07",
-      "12",
-      "18"
-    ],
     "code": "AX",
     "family": "accessories",
     "id": "accessories",
+    "images": [],
     "items": [
       "Decorative handle",
       "Metal rosette",
@@ -521,13 +366,10 @@ export const syncedCategories = [
   {
     "accent": "#1186a0",
     "badge": "",
-    "cataloguePageIds": [
-      "08",
-      "07"
-    ],
     "code": "FI",
     "family": "accessories",
     "id": "fancy-items",
+    "images": [],
     "items": [
       "Decorative piping",
       "Welt cord roll",
@@ -545,13 +387,10 @@ export const syncedCategories = [
   {
     "accent": "#a65b24",
     "badge": "Manufactured",
-    "cataloguePageIds": [
-      "12",
-      "14"
-    ],
     "code": "SS",
     "family": "structure",
     "id": "springs-staples",
+    "images": [],
     "items": [
       "80 series staples",
       "100 series staples",
@@ -569,13 +408,10 @@ export const syncedCategories = [
   {
     "accent": "#5b3fd1",
     "badge": "",
-    "cataloguePageIds": [
-      "13",
-      "14"
-    ],
     "code": "TL",
     "family": "structure",
     "id": "tools",
+    "images": [],
     "items": [
       "Pneumatic stapler",
       "Manual tacker",
@@ -593,13 +429,10 @@ export const syncedCategories = [
   {
     "accent": "#2f9d60",
     "badge": "",
-    "cataloguePageIds": [
-      "16",
-      "17"
-    ],
     "code": "EF",
     "family": "materials",
     "id": "elastic-fabric",
+    "images": [],
     "items": [
       "Elastic webbing roll",
       "Seat ribbon",
@@ -617,13 +450,10 @@ export const syncedCategories = [
   {
     "accent": "#c83660",
     "badge": "",
-    "cataloguePageIds": [
-      "17",
-      "16"
-    ],
     "code": "TH",
     "family": "materials",
     "id": "threads",
+    "images": [],
     "items": [
       "Madura upholstery thread",
       "Vardhman A&E thread",
@@ -641,13 +471,10 @@ export const syncedCategories = [
   {
     "accent": "#137f99",
     "badge": "",
-    "cataloguePageIds": [
-      "15",
-      "17"
-    ],
     "code": "ZR",
     "family": "accessories",
     "id": "zip-runners",
+    "images": [],
     "items": [
       "Industrial zipper roll",
       "Zip runner set",
@@ -674,7 +501,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Push-back frame suited to mechanisms and frames work.",
-      "Referenced across catalogue pages 02, 03, 04.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliners-push-back-frame",
@@ -684,11 +510,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
     "name": "Push-back frame",
-    "referencePageIds": [
-      "02",
-      "03",
-      "04"
-    ],
     "slug": "recliners-push-back-frame",
     "specs": [
       {
@@ -702,10 +523,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "02, 03, 04"
       },
       {
         "label": "Application",
@@ -733,7 +550,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Manual recliner mechanism suited to mechanisms and frames work.",
-      "Referenced across catalogue pages 03, 04, 02.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliners-manual-recliner-mechanism",
@@ -743,11 +559,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
     ],
     "name": "Manual recliner mechanism",
-    "referencePageIds": [
-      "03",
-      "04",
-      "02"
-    ],
     "slug": "recliners-manual-recliner-mechanism",
     "specs": [
       {
@@ -761,10 +572,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "03, 04, 02"
       },
       {
         "label": "Application",
@@ -792,7 +599,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Wall hugger system suited to mechanisms and frames work.",
-      "Referenced across catalogue pages 04, 02, 03.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliners-wall-hugger-system",
@@ -802,11 +608,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
     "name": "Wall hugger system",
-    "referencePageIds": [
-      "04",
-      "02",
-      "03"
-    ],
     "slug": "recliners-wall-hugger-system",
     "specs": [
       {
@@ -820,10 +621,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "04, 02, 03"
       },
       {
         "label": "Application",
@@ -851,7 +648,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Cup holder insert suited to mechanisms and frames work.",
-      "Referenced across catalogue pages 02, 03, 04.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliners-cup-holder-insert",
@@ -861,11 +657,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
     "name": "Cup holder insert",
-    "referencePageIds": [
-      "02",
-      "03",
-      "04"
-    ],
     "slug": "recliners-cup-holder-insert",
     "specs": [
       {
@@ -879,10 +670,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "02, 03, 04"
       },
       {
         "label": "Application",
@@ -910,7 +697,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Headrest bracket suited to mechanisms and frames work.",
-      "Referenced across catalogue pages 03, 04, 02.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliners-headrest-bracket",
@@ -920,11 +706,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/09ac0cb53238317c7fd4c23689d640926e81253a-992x1403.jpg"
     ],
     "name": "Headrest bracket",
-    "referencePageIds": [
-      "03",
-      "04",
-      "02"
-    ],
     "slug": "recliners-headrest-bracket",
     "specs": [
       {
@@ -938,10 +719,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "03, 04, 02"
       },
       {
         "label": "Application",
@@ -969,7 +746,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Footrest assembly suited to mechanisms and frames work.",
-      "Referenced across catalogue pages 04, 02, 03.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliners-footrest-assembly",
@@ -979,11 +755,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
     "name": "Footrest assembly",
-    "referencePageIds": [
-      "04",
-      "02",
-      "03"
-    ],
     "slug": "recliners-footrest-assembly",
     "specs": [
       {
@@ -997,10 +768,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "04, 02, 03"
       },
       {
         "label": "Application",
@@ -1028,7 +795,6 @@ export const syncedProducts = [
     "family": "electrical",
     "features": [
       "Dual motor set suited to power and electronics work.",
-      "Referenced across catalogue pages 03, 04, 18.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliner-accessories-dual-motor-set",
@@ -1038,11 +804,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
     ],
     "name": "Dual motor set",
-    "referencePageIds": [
-      "03",
-      "04",
-      "18"
-    ],
     "slug": "recliner-accessories-dual-motor-set",
     "specs": [
       {
@@ -1056,10 +817,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "03, 04, 18"
       },
       {
         "label": "Application",
@@ -1087,7 +844,6 @@ export const syncedProducts = [
     "family": "electrical",
     "features": [
       "Hand control keypad suited to power and electronics work.",
-      "Referenced across catalogue pages 04, 18, 03.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliner-accessories-hand-control-keypad",
@@ -1097,11 +853,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
     "name": "Hand control keypad",
-    "referencePageIds": [
-      "04",
-      "18",
-      "03"
-    ],
     "slug": "recliner-accessories-hand-control-keypad",
     "specs": [
       {
@@ -1115,10 +866,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "04, 18, 03"
       },
       {
         "label": "Application",
@@ -1146,7 +893,6 @@ export const syncedProducts = [
     "family": "electrical",
     "features": [
       "USB charging port suited to power and electronics work.",
-      "Referenced across catalogue pages 18, 03, 04.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliner-accessories-usb-charging-port",
@@ -1156,11 +902,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
     "name": "USB charging port",
-    "referencePageIds": [
-      "18",
-      "03",
-      "04"
-    ],
     "slug": "recliner-accessories-usb-charging-port",
     "specs": [
       {
@@ -1174,10 +915,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "18, 03, 04"
       },
       {
         "label": "Application",
@@ -1205,7 +942,6 @@ export const syncedProducts = [
     "family": "electrical",
     "features": [
       "Control box unit suited to power and electronics work.",
-      "Referenced across catalogue pages 03, 04, 18.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliner-accessories-control-box-unit",
@@ -1215,11 +951,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
     ],
     "name": "Control box unit",
-    "referencePageIds": [
-      "03",
-      "04",
-      "18"
-    ],
     "slug": "recliner-accessories-control-box-unit",
     "specs": [
       {
@@ -1233,10 +964,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "03, 04, 18"
       },
       {
         "label": "Application",
@@ -1264,7 +991,6 @@ export const syncedProducts = [
     "family": "electrical",
     "features": [
       "Wireless remote receiver suited to power and electronics work.",
-      "Referenced across catalogue pages 04, 18, 03.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliner-accessories-wireless-remote-receiver",
@@ -1274,11 +1000,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/9b45504ed6be5a4c9ded0b23013d66b9cd9ee259-992x1403.jpg"
     ],
     "name": "Wireless remote receiver",
-    "referencePageIds": [
-      "04",
-      "18",
-      "03"
-    ],
     "slug": "recliner-accessories-wireless-remote-receiver",
     "specs": [
       {
@@ -1292,10 +1013,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "04, 18, 03"
       },
       {
         "label": "Application",
@@ -1323,7 +1040,6 @@ export const syncedProducts = [
     "family": "electrical",
     "features": [
       "LED cup holder light suited to power and electronics work.",
-      "Referenced across catalogue pages 18, 03, 04.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "recliner-accessories-led-cup-holder-light",
@@ -1333,11 +1049,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e9c55a98444fce6fbf958efd4cec3ede443b439b-992x1403.jpg"
     ],
     "name": "LED cup holder light",
-    "referencePageIds": [
-      "18",
-      "03",
-      "04"
-    ],
     "slug": "recliner-accessories-led-cup-holder-light",
     "specs": [
       {
@@ -1351,10 +1062,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "18, 03, 04"
       },
       {
         "label": "Application",
@@ -1382,7 +1089,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Swivel base plate suited to structural components work.",
-      "Referenced across catalogue pages 05, 06, 05.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "chairs-frames-swivel-base-plate",
@@ -1392,11 +1098,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
     "name": "Swivel base plate",
-    "referencePageIds": [
-      "05",
-      "06",
-      "05"
-    ],
     "slug": "chairs-frames-swivel-base-plate",
     "specs": [
       {
@@ -1410,10 +1111,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "05, 06, 05"
       },
       {
         "label": "Application",
@@ -1441,7 +1138,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Chair shell frame suited to structural components work.",
-      "Referenced across catalogue pages 06, 05, 06.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "chairs-frames-chair-shell-frame",
@@ -1451,11 +1147,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
     "name": "Chair shell frame",
-    "referencePageIds": [
-      "06",
-      "05",
-      "06"
-    ],
     "slug": "chairs-frames-chair-shell-frame",
     "specs": [
       {
@@ -1469,10 +1160,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "06, 05, 06"
       },
       {
         "label": "Application",
@@ -1500,7 +1187,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Ottoman base frame suited to structural components work.",
-      "Referenced across catalogue pages 05, 06, 05.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "chairs-frames-ottoman-base-frame",
@@ -1510,11 +1196,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
     "name": "Ottoman base frame",
-    "referencePageIds": [
-      "05",
-      "06",
-      "05"
-    ],
     "slug": "chairs-frames-ottoman-base-frame",
     "specs": [
       {
@@ -1528,10 +1209,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "05, 06, 05"
       },
       {
         "label": "Application",
@@ -1559,7 +1236,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Rotation disc suited to structural components work.",
-      "Referenced across catalogue pages 06, 05, 06.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "chairs-frames-rotation-disc",
@@ -1569,11 +1245,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
     "name": "Rotation disc",
-    "referencePageIds": [
-      "06",
-      "05",
-      "06"
-    ],
     "slug": "chairs-frames-rotation-disc",
     "specs": [
       {
@@ -1587,10 +1258,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "06, 05, 06"
       },
       {
         "label": "Application",
@@ -1618,7 +1285,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Frame connector set suited to structural components work.",
-      "Referenced across catalogue pages 05, 06, 05.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "chairs-frames-frame-connector-set",
@@ -1628,11 +1294,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/64016a12d4a271de2b307c3a2f269c862e32c197-992x1403.jpg"
     ],
     "name": "Frame connector set",
-    "referencePageIds": [
-      "05",
-      "06",
-      "05"
-    ],
     "slug": "chairs-frames-frame-connector-set",
     "specs": [
       {
@@ -1646,10 +1307,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "05, 06, 05"
       },
       {
         "label": "Application",
@@ -1677,7 +1334,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Back support assembly suited to structural components work.",
-      "Referenced across catalogue pages 06, 05, 06.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "chairs-frames-back-support-assembly",
@@ -1687,11 +1343,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/cfc70dda8cde55f478fd7c1ea5f13e621bd5772a-992x1364.jpg"
     ],
     "name": "Back support assembly",
-    "referencePageIds": [
-      "06",
-      "05",
-      "06"
-    ],
     "slug": "chairs-frames-back-support-assembly",
     "specs": [
       {
@@ -1705,10 +1356,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "06, 05, 06"
       },
       {
         "label": "Application",
@@ -1736,7 +1383,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Chrome leg set suited to decorative furniture legs work.",
-      "Referenced across catalogue pages 09, 10, 11.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-legs-chrome-leg-set",
@@ -1746,11 +1392,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
     "name": "Chrome leg set",
-    "referencePageIds": [
-      "09",
-      "10",
-      "11"
-    ],
     "slug": "fancy-legs-chrome-leg-set",
     "specs": [
       {
@@ -1764,10 +1405,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "09, 10, 11"
       },
       {
         "label": "Application",
@@ -1795,7 +1432,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Gold finish leg suited to decorative furniture legs work.",
-      "Referenced across catalogue pages 10, 11, 09.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-legs-gold-finish-leg",
@@ -1805,11 +1441,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
     ],
     "name": "Gold finish leg",
-    "referencePageIds": [
-      "10",
-      "11",
-      "09"
-    ],
     "slug": "fancy-legs-gold-finish-leg",
     "specs": [
       {
@@ -1823,10 +1454,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "10, 11, 09"
       },
       {
         "label": "Application",
@@ -1854,7 +1481,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Matte black leg suited to decorative furniture legs work.",
-      "Referenced across catalogue pages 11, 09, 10.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-legs-matte-black-leg",
@@ -1864,11 +1490,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
     ],
     "name": "Matte black leg",
-    "referencePageIds": [
-      "11",
-      "09",
-      "10"
-    ],
     "slug": "fancy-legs-matte-black-leg",
     "specs": [
       {
@@ -1882,10 +1503,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "11, 09, 10"
       },
       {
         "label": "Application",
@@ -1913,7 +1530,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Rose gold corner leg suited to decorative furniture legs work.",
-      "Referenced across catalogue pages 09, 10, 11.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-legs-rose-gold-corner-leg",
@@ -1923,11 +1539,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
     "name": "Rose gold corner leg",
-    "referencePageIds": [
-      "09",
-      "10",
-      "11"
-    ],
     "slug": "fancy-legs-rose-gold-corner-leg",
     "specs": [
       {
@@ -1941,10 +1552,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "09, 10, 11"
       },
       {
         "label": "Application",
@@ -1972,7 +1579,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Hairpin leg suited to decorative furniture legs work.",
-      "Referenced across catalogue pages 10, 11, 09.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-legs-hairpin-leg",
@@ -1982,11 +1588,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/c6340cc6b8de139ccb0f6089cbdc923b64e7cc6d-992x1403.jpg"
     ],
     "name": "Hairpin leg",
-    "referencePageIds": [
-      "10",
-      "11",
-      "09"
-    ],
     "slug": "fancy-legs-hairpin-leg",
     "specs": [
       {
@@ -2000,10 +1601,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "10, 11, 09"
       },
       {
         "label": "Application",
@@ -2031,7 +1628,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Sled base leg suited to decorative furniture legs work.",
-      "Referenced across catalogue pages 11, 09, 10.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-legs-sled-base-leg",
@@ -2041,11 +1637,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
     ],
     "name": "Sled base leg",
-    "referencePageIds": [
-      "11",
-      "09",
-      "10"
-    ],
     "slug": "fancy-legs-sled-base-leg",
     "specs": [
       {
@@ -2059,10 +1650,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "11, 09, 10"
       },
       {
         "label": "Application",
@@ -2090,7 +1677,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Y-shape sofa leg suited to premium metal legs work.",
-      "Referenced across catalogue pages 19, 10, 11.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "sofa-legs-y-shape-sofa-leg",
@@ -2100,11 +1686,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
     "name": "Y-shape sofa leg",
-    "referencePageIds": [
-      "19",
-      "10",
-      "11"
-    ],
     "slug": "sofa-legs-y-shape-sofa-leg",
     "specs": [
       {
@@ -2118,10 +1699,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "19, 10, 11"
       },
       {
         "label": "Application",
@@ -2149,7 +1726,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Cross base leg suited to premium metal legs work.",
-      "Referenced across catalogue pages 10, 11, 19.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "sofa-legs-cross-base-leg",
@@ -2159,11 +1735,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg"
     ],
     "name": "Cross base leg",
-    "referencePageIds": [
-      "10",
-      "11",
-      "19"
-    ],
     "slug": "sofa-legs-cross-base-leg",
     "specs": [
       {
@@ -2177,10 +1748,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "10, 11, 19"
       },
       {
         "label": "Application",
@@ -2208,7 +1775,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Tapered metal leg suited to premium metal legs work.",
-      "Referenced across catalogue pages 11, 19, 10.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "sofa-legs-tapered-metal-leg",
@@ -2218,11 +1784,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
     ],
     "name": "Tapered metal leg",
-    "referencePageIds": [
-      "11",
-      "19",
-      "10"
-    ],
     "slug": "sofa-legs-tapered-metal-leg",
     "specs": [
       {
@@ -2236,10 +1797,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "11, 19, 10"
       },
       {
         "label": "Application",
@@ -2267,7 +1824,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Trumpet leg suited to premium metal legs work.",
-      "Referenced across catalogue pages 19, 10, 11.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "sofa-legs-trumpet-leg",
@@ -2277,11 +1833,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7b53249213ed8cc94d4f92c345b6472a6be45f73-992x1403.jpg"
     ],
     "name": "Trumpet leg",
-    "referencePageIds": [
-      "19",
-      "10",
-      "11"
-    ],
     "slug": "sofa-legs-trumpet-leg",
     "specs": [
       {
@@ -2295,10 +1846,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "19, 10, 11"
       },
       {
         "label": "Application",
@@ -2326,7 +1873,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Adjustable glide leg suited to premium metal legs work.",
-      "Referenced across catalogue pages 10, 11, 19.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "sofa-legs-adjustable-glide-leg",
@@ -2336,11 +1882,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/dcaf41dccf588f3852c809b8d7449bddc4d5fd9b-992x1403.jpg"
     ],
     "name": "Adjustable glide leg",
-    "referencePageIds": [
-      "10",
-      "11",
-      "19"
-    ],
     "slug": "sofa-legs-adjustable-glide-leg",
     "specs": [
       {
@@ -2354,10 +1895,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "10, 11, 19"
       },
       {
         "label": "Application",
@@ -2385,7 +1922,6 @@ export const syncedProducts = [
     "family": "hardware",
     "features": [
       "Brushed finish leg suited to premium metal legs work.",
-      "Referenced across catalogue pages 11, 19, 10.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "sofa-legs-brushed-finish-leg",
@@ -2395,11 +1931,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/e972f300de6cd29fb1fa7167d73434c757819a96-992x1364.jpg"
     ],
     "name": "Brushed finish leg",
-    "referencePageIds": [
-      "11",
-      "19",
-      "10"
-    ],
     "slug": "sofa-legs-brushed-finish-leg",
     "specs": [
       {
@@ -2413,10 +1944,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "11, 19, 10"
       },
       {
         "label": "Application",
@@ -2444,7 +1971,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Decorative handle suited to decorative hardware work.",
-      "Referenced across catalogue pages 07, 12, 18.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "accessories-decorative-handle",
@@ -2454,11 +1980,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
     ],
     "name": "Decorative handle",
-    "referencePageIds": [
-      "07",
-      "12",
-      "18"
-    ],
     "slug": "accessories-decorative-handle",
     "specs": [
       {
@@ -2472,10 +1993,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "07, 12, 18"
       },
       {
         "label": "Application",
@@ -2503,7 +2020,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Metal rosette suited to decorative hardware work.",
-      "Referenced across catalogue pages 12, 18, 07.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "accessories-metal-rosette",
@@ -2513,11 +2029,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
     "name": "Metal rosette",
-    "referencePageIds": [
-      "12",
-      "18",
-      "07"
-    ],
     "slug": "accessories-metal-rosette",
     "specs": [
       {
@@ -2531,10 +2042,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "12, 18, 07"
       },
       {
         "label": "Application",
@@ -2562,7 +2069,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Tufting button suited to decorative hardware work.",
-      "Referenced across catalogue pages 18, 07, 12.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "accessories-tufting-button",
@@ -2572,11 +2078,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
     ],
     "name": "Tufting button",
-    "referencePageIds": [
-      "18",
-      "07",
-      "12"
-    ],
     "slug": "accessories-tufting-button",
     "specs": [
       {
@@ -2590,10 +2091,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "18, 07, 12"
       },
       {
         "label": "Application",
@@ -2621,7 +2118,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Lion head knocker suited to decorative hardware work.",
-      "Referenced across catalogue pages 07, 12, 18.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "accessories-lion-head-knocker",
@@ -2631,11 +2127,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/5a31f4f89b4a3bbfe05e2b28e5dd0997123a10ff-992x1364.jpg"
     ],
     "name": "Lion head knocker",
-    "referencePageIds": [
-      "07",
-      "12",
-      "18"
-    ],
     "slug": "accessories-lion-head-knocker",
     "specs": [
       {
@@ -2649,10 +2140,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "07, 12, 18"
       },
       {
         "label": "Application",
@@ -2680,7 +2167,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Trim clip suited to decorative hardware work.",
-      "Referenced across catalogue pages 12, 18, 07.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "accessories-trim-clip",
@@ -2690,11 +2176,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
     "name": "Trim clip",
-    "referencePageIds": [
-      "12",
-      "18",
-      "07"
-    ],
     "slug": "accessories-trim-clip",
     "specs": [
       {
@@ -2708,10 +2189,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "12, 18, 07"
       },
       {
         "label": "Application",
@@ -2739,7 +2216,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Stud strip suited to decorative hardware work.",
-      "Referenced across catalogue pages 18, 07, 12.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "accessories-stud-strip",
@@ -2749,11 +2225,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
     ],
     "name": "Stud strip",
-    "referencePageIds": [
-      "18",
-      "07",
-      "12"
-    ],
     "slug": "accessories-stud-strip",
     "specs": [
       {
@@ -2767,10 +2238,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "18, 07, 12"
       },
       {
         "label": "Application",
@@ -2798,7 +2265,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Decorative piping suited to trim and piping work.",
-      "Referenced across catalogue pages 08, 07, 08.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-items-decorative-piping",
@@ -2808,11 +2274,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
     ],
     "name": "Decorative piping",
-    "referencePageIds": [
-      "08",
-      "07",
-      "08"
-    ],
     "slug": "fancy-items-decorative-piping",
     "specs": [
       {
@@ -2826,10 +2287,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "08, 07, 08"
       },
       {
         "label": "Application",
@@ -2857,7 +2314,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Welt cord roll suited to trim and piping work.",
-      "Referenced across catalogue pages 07, 08, 07.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-items-welt-cord-roll",
@@ -2867,11 +2323,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
     "name": "Welt cord roll",
-    "referencePageIds": [
-      "07",
-      "08",
-      "07"
-    ],
     "slug": "fancy-items-welt-cord-roll",
     "specs": [
       {
@@ -2885,10 +2336,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Innfix"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "07, 08, 07"
       },
       {
         "label": "Application",
@@ -2916,7 +2363,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Gimp braid trim suited to trim and piping work.",
-      "Referenced across catalogue pages 08, 07, 08.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-items-gimp-braid-trim",
@@ -2926,11 +2372,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
     ],
     "name": "Gimp braid trim",
-    "referencePageIds": [
-      "08",
-      "07",
-      "08"
-    ],
     "slug": "fancy-items-gimp-braid-trim",
     "specs": [
       {
@@ -2944,10 +2385,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Polygrip"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "08, 07, 08"
       },
       {
         "label": "Application",
@@ -2975,7 +2412,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Metal trim strip suited to trim and piping work.",
-      "Referenced across catalogue pages 07, 08, 07.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-items-metal-trim-strip",
@@ -2985,11 +2421,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
     "name": "Metal trim strip",
-    "referencePageIds": [
-      "07",
-      "08",
-      "07"
-    ],
     "slug": "fancy-items-metal-trim-strip",
     "specs": [
       {
@@ -3003,10 +2434,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "07, 08, 07"
       },
       {
         "label": "Application",
@@ -3034,7 +2461,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Corner angle piece suited to trim and piping work.",
-      "Referenced across catalogue pages 08, 07, 08.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-items-corner-angle-piece",
@@ -3044,11 +2470,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b34a58212e61d849c4a98c8fe152351d98affe3b-992x1403.jpg"
     ],
     "name": "Corner angle piece",
-    "referencePageIds": [
-      "08",
-      "07",
-      "08"
-    ],
     "slug": "fancy-items-corner-angle-piece",
     "specs": [
       {
@@ -3062,10 +2483,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Innfix"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "08, 07, 08"
       },
       {
         "label": "Application",
@@ -3093,7 +2510,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Decorative nail set suited to trim and piping work.",
-      "Referenced across catalogue pages 07, 08, 07.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "fancy-items-decorative-nail-set",
@@ -3103,11 +2519,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/98201f82bca7ac27b5f1a2f06dd0f11081891650-992x1403.jpg"
     ],
     "name": "Decorative nail set",
-    "referencePageIds": [
-      "07",
-      "08",
-      "07"
-    ],
     "slug": "fancy-items-decorative-nail-set",
     "specs": [
       {
@@ -3121,10 +2532,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Polygrip"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "07, 08, 07"
       },
       {
         "label": "Application",
@@ -3152,7 +2559,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "80 series staples suited to structural support work.",
-      "Referenced across catalogue pages 12, 14, 12.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "springs-staples-80-series-staples",
@@ -3162,11 +2568,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
     ],
     "name": "80 series staples",
-    "referencePageIds": [
-      "12",
-      "14",
-      "12"
-    ],
     "slug": "springs-staples-80-series-staples",
     "specs": [
       {
@@ -3180,10 +2581,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "12, 14, 12"
       },
       {
         "label": "Application",
@@ -3211,7 +2608,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "100 series staples suited to structural support work.",
-      "Referenced across catalogue pages 14, 12, 14.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "springs-staples-100-series-staples",
@@ -3221,11 +2617,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "name": "100 series staples",
-    "referencePageIds": [
-      "14",
-      "12",
-      "14"
-    ],
     "slug": "springs-staples-100-series-staples",
     "specs": [
       {
@@ -3239,10 +2630,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "14, 12, 14"
       },
       {
         "label": "Application",
@@ -3270,7 +2657,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Pocket spring unit suited to structural support work.",
-      "Referenced across catalogue pages 12, 14, 12.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "springs-staples-pocket-spring-unit",
@@ -3280,11 +2666,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
     ],
     "name": "Pocket spring unit",
-    "referencePageIds": [
-      "12",
-      "14",
-      "12"
-    ],
     "slug": "springs-staples-pocket-spring-unit",
     "specs": [
       {
@@ -3298,10 +2679,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "12, 14, 12"
       },
       {
         "label": "Application",
@@ -3329,7 +2706,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Zig-zag spring suited to structural support work.",
-      "Referenced across catalogue pages 14, 12, 14.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "springs-staples-zig-zag-spring",
@@ -3339,11 +2715,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "name": "Zig-zag spring",
-    "referencePageIds": [
-      "14",
-      "12",
-      "14"
-    ],
     "slug": "springs-staples-zig-zag-spring",
     "specs": [
       {
@@ -3357,10 +2728,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "14, 12, 14"
       },
       {
         "label": "Application",
@@ -3388,7 +2755,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "C hog ring pack suited to structural support work.",
-      "Referenced across catalogue pages 12, 14, 12.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "springs-staples-c-hog-ring-pack",
@@ -3398,11 +2764,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/463ba6bd604f3e715783d0431dcd1f727ebff83f-992x1403.jpg"
     ],
     "name": "C hog ring pack",
-    "referencePageIds": [
-      "12",
-      "14",
-      "12"
-    ],
     "slug": "springs-staples-c-hog-ring-pack",
     "specs": [
       {
@@ -3416,10 +2777,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "12, 14, 12"
       },
       {
         "label": "Application",
@@ -3447,7 +2804,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "C24 pin box suited to structural support work.",
-      "Referenced across catalogue pages 14, 12, 14.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "springs-staples-c24-pin-box",
@@ -3457,11 +2813,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "name": "C24 pin box",
-    "referencePageIds": [
-      "14",
-      "12",
-      "14"
-    ],
     "slug": "springs-staples-c24-pin-box",
     "specs": [
       {
@@ -3475,10 +2826,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "14, 12, 14"
       },
       {
         "label": "Application",
@@ -3506,7 +2853,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Pneumatic stapler suited to workshop equipment work.",
-      "Referenced across catalogue pages 13, 14, 13.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "tools-pneumatic-stapler",
@@ -3516,11 +2862,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
     ],
     "name": "Pneumatic stapler",
-    "referencePageIds": [
-      "13",
-      "14",
-      "13"
-    ],
     "slug": "tools-pneumatic-stapler",
     "specs": [
       {
@@ -3534,10 +2875,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "KAYMO"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "13, 14, 13"
       },
       {
         "label": "Application",
@@ -3565,7 +2902,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Manual tacker suited to workshop equipment work.",
-      "Referenced across catalogue pages 14, 13, 14.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "tools-manual-tacker",
@@ -3575,11 +2911,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "name": "Manual tacker",
-    "referencePageIds": [
-      "14",
-      "13",
-      "14"
-    ],
     "slug": "tools-manual-tacker",
     "specs": [
       {
@@ -3593,10 +2924,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "14, 13, 14"
       },
       {
         "label": "Application",
@@ -3624,7 +2951,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Upholstery scissors suited to workshop equipment work.",
-      "Referenced across catalogue pages 13, 14, 13.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "tools-upholstery-scissors",
@@ -3634,11 +2960,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
     ],
     "name": "Upholstery scissors",
-    "referencePageIds": [
-      "13",
-      "14",
-      "13"
-    ],
     "slug": "tools-upholstery-scissors",
     "specs": [
       {
@@ -3652,10 +2973,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "13, 14, 13"
       },
       {
         "label": "Application",
@@ -3683,7 +3000,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Regulator tool suited to workshop equipment work.",
-      "Referenced across catalogue pages 14, 13, 14.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "tools-regulator-tool",
@@ -3693,11 +3009,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "name": "Regulator tool",
-    "referencePageIds": [
-      "14",
-      "13",
-      "14"
-    ],
     "slug": "tools-regulator-tool",
     "specs": [
       {
@@ -3711,10 +3022,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "KAYMO"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "14, 13, 14"
       },
       {
         "label": "Application",
@@ -3742,7 +3049,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Tack puller suited to workshop equipment work.",
-      "Referenced across catalogue pages 13, 14, 13.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "tools-tack-puller",
@@ -3752,11 +3058,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/7ba3b8f08be22894cde5c61159442b78759413a2-992x1364.jpg"
     ],
     "name": "Tack puller",
-    "referencePageIds": [
-      "13",
-      "14",
-      "13"
-    ],
     "slug": "tools-tack-puller",
     "specs": [
       {
@@ -3770,10 +3071,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Miles"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "13, 14, 13"
       },
       {
         "label": "Application",
@@ -3801,7 +3098,6 @@ export const syncedProducts = [
     "family": "structure",
     "features": [
       "Web stretcher suited to workshop equipment work.",
-      "Referenced across catalogue pages 14, 13, 14.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "tools-web-stretcher",
@@ -3811,11 +3107,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/ff00a0dbd609987bbb2b9b31be073c9bf414365c-992x1403.jpg"
     ],
     "name": "Web stretcher",
-    "referencePageIds": [
-      "14",
-      "13",
-      "14"
-    ],
     "slug": "tools-web-stretcher",
     "specs": [
       {
@@ -3829,10 +3120,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "14, 13, 14"
       },
       {
         "label": "Application",
@@ -3860,7 +3147,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Elastic webbing roll suited to upholstery materials work.",
-      "Referenced across catalogue pages 16, 17, 16.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "elastic-fabric-elastic-webbing-roll",
@@ -3870,11 +3156,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
     ],
     "name": "Elastic webbing roll",
-    "referencePageIds": [
-      "16",
-      "17",
-      "16"
-    ],
     "slug": "elastic-fabric-elastic-webbing-roll",
     "specs": [
       {
@@ -3888,10 +3169,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Polygrip"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "16, 17, 16"
       },
       {
         "label": "Application",
@@ -3919,7 +3196,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Seat ribbon suited to upholstery materials work.",
-      "Referenced across catalogue pages 17, 16, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "elastic-fabric-seat-ribbon",
@@ -3929,11 +3205,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Seat ribbon",
-    "referencePageIds": [
-      "17",
-      "16",
-      "17"
-    ],
     "slug": "elastic-fabric-seat-ribbon",
     "specs": [
       {
@@ -3947,10 +3218,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Innfix"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 16, 17"
       },
       {
         "label": "Application",
@@ -3978,7 +3245,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Polygrip adhesive suited to upholstery materials work.",
-      "Referenced across catalogue pages 16, 17, 16.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "elastic-fabric-polygrip-adhesive",
@@ -3988,11 +3254,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
     ],
     "name": "Polygrip adhesive",
-    "referencePageIds": [
-      "16",
-      "17",
-      "16"
-    ],
     "slug": "elastic-fabric-polygrip-adhesive",
     "specs": [
       {
@@ -4006,10 +3267,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Century Foam"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "16, 17, 16"
       },
       {
         "label": "Application",
@@ -4037,7 +3294,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Innfix adhesive suited to upholstery materials work.",
-      "Referenced across catalogue pages 17, 16, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "elastic-fabric-innfix-adhesive",
@@ -4047,11 +3303,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Innfix adhesive",
-    "referencePageIds": [
-      "17",
-      "16",
-      "17"
-    ],
     "slug": "elastic-fabric-innfix-adhesive",
     "specs": [
       {
@@ -4065,10 +3316,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Polygrip"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 16, 17"
       },
       {
         "label": "Application",
@@ -4096,7 +3343,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Foam bonding glue suited to upholstery materials work.",
-      "Referenced across catalogue pages 16, 17, 16.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "elastic-fabric-foam-bonding-glue",
@@ -4106,11 +3352,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
     ],
     "name": "Foam bonding glue",
-    "referencePageIds": [
-      "16",
-      "17",
-      "16"
-    ],
     "slug": "elastic-fabric-foam-bonding-glue",
     "specs": [
       {
@@ -4124,10 +3365,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Innfix"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "16, 17, 16"
       },
       {
         "label": "Application",
@@ -4155,7 +3392,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Cambric base cloth suited to upholstery materials work.",
-      "Referenced across catalogue pages 17, 16, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "elastic-fabric-cambric-base-cloth",
@@ -4165,11 +3401,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Cambric base cloth",
-    "referencePageIds": [
-      "17",
-      "16",
-      "17"
-    ],
     "slug": "elastic-fabric-cambric-base-cloth",
     "specs": [
       {
@@ -4183,10 +3414,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Century Foam"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 16, 17"
       },
       {
         "label": "Application",
@@ -4214,7 +3441,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Madura upholstery thread suited to sewing supplies work.",
-      "Referenced across catalogue pages 17, 16, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "threads-madura-upholstery-thread",
@@ -4224,11 +3450,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Madura upholstery thread",
-    "referencePageIds": [
-      "17",
-      "16",
-      "17"
-    ],
     "slug": "threads-madura-upholstery-thread",
     "specs": [
       {
@@ -4242,10 +3463,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Madura Coats"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 16, 17"
       },
       {
         "label": "Application",
@@ -4273,7 +3490,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Vardhman A&E thread suited to sewing supplies work.",
-      "Referenced across catalogue pages 16, 17, 16.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "threads-vardhman-a-e-thread",
@@ -4283,11 +3499,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
     ],
     "name": "Vardhman A&E thread",
-    "referencePageIds": [
-      "16",
-      "17",
-      "16"
-    ],
     "slug": "threads-vardhman-a-e-thread",
     "specs": [
       {
@@ -4301,10 +3512,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Vardhman A&E"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "16, 17, 16"
       },
       {
         "label": "Application",
@@ -4332,7 +3539,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Nylon Tkt 20 cone suited to sewing supplies work.",
-      "Referenced across catalogue pages 17, 16, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "threads-nylon-tkt-20-cone",
@@ -4342,11 +3548,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Nylon Tkt 20 cone",
-    "referencePageIds": [
-      "17",
-      "16",
-      "17"
-    ],
     "slug": "threads-nylon-tkt-20-cone",
     "specs": [
       {
@@ -4360,10 +3561,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Groz-Beckert"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 16, 17"
       },
       {
         "label": "Application",
@@ -4391,7 +3588,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Nylon Tkt 40 cone suited to sewing supplies work.",
-      "Referenced across catalogue pages 16, 17, 16.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "threads-nylon-tkt-40-cone",
@@ -4401,11 +3597,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
     ],
     "name": "Nylon Tkt 40 cone",
-    "referencePageIds": [
-      "16",
-      "17",
-      "16"
-    ],
     "slug": "threads-nylon-tkt-40-cone",
     "specs": [
       {
@@ -4419,10 +3610,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Madura Coats"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "16, 17, 16"
       },
       {
         "label": "Application",
@@ -4450,7 +3637,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Upholstery needle pack suited to sewing supplies work.",
-      "Referenced across catalogue pages 17, 16, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "threads-upholstery-needle-pack",
@@ -4460,11 +3646,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Upholstery needle pack",
-    "referencePageIds": [
-      "17",
-      "16",
-      "17"
-    ],
     "slug": "threads-upholstery-needle-pack",
     "specs": [
       {
@@ -4478,10 +3659,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Vardhman A&E"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 16, 17"
       },
       {
         "label": "Application",
@@ -4509,7 +3686,6 @@ export const syncedProducts = [
     "family": "materials",
     "features": [
       "Industrial bobbin set suited to sewing supplies work.",
-      "Referenced across catalogue pages 16, 17, 16.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "threads-industrial-bobbin-set",
@@ -4519,11 +3695,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/8721eb1829ace437740ac3bc6ccda3b8bff0a638-992x1403.jpg"
     ],
     "name": "Industrial bobbin set",
-    "referencePageIds": [
-      "16",
-      "17",
-      "16"
-    ],
     "slug": "threads-industrial-bobbin-set",
     "specs": [
       {
@@ -4537,10 +3708,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Groz-Beckert"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "16, 17, 16"
       },
       {
         "label": "Application",
@@ -4568,7 +3735,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Industrial zipper roll suited to closures and fasteners work.",
-      "Referenced across catalogue pages 15, 17, 15.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "zip-runners-industrial-zipper-roll",
@@ -4578,11 +3744,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
     ],
     "name": "Industrial zipper roll",
-    "referencePageIds": [
-      "15",
-      "17",
-      "15"
-    ],
     "slug": "zip-runners-industrial-zipper-roll",
     "specs": [
       {
@@ -4596,10 +3757,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Groz-Beckert"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "15, 17, 15"
       },
       {
         "label": "Application",
@@ -4627,7 +3784,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Zip runner set suited to closures and fasteners work.",
-      "Referenced across catalogue pages 17, 15, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "zip-runners-zip-runner-set",
@@ -4637,11 +3793,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Zip runner set",
-    "referencePageIds": [
-      "17",
-      "15",
-      "17"
-    ],
     "slug": "zip-runners-zip-runner-set",
     "specs": [
       {
@@ -4655,10 +3806,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 15, 17"
       },
       {
         "label": "Application",
@@ -4686,7 +3833,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Continuous zip tape suited to closures and fasteners work.",
-      "Referenced across catalogue pages 15, 17, 15.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "zip-runners-continuous-zip-tape",
@@ -4696,11 +3842,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
     ],
     "name": "Continuous zip tape",
-    "referencePageIds": [
-      "15",
-      "17",
-      "15"
-    ],
     "slug": "zip-runners-continuous-zip-tape",
     "specs": [
       {
@@ -4714,10 +3855,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "15, 17, 15"
       },
       {
         "label": "Application",
@@ -4745,7 +3882,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Hook-and-eye tape suited to closures and fasteners work.",
-      "Referenced across catalogue pages 17, 15, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "zip-runners-hook-and-eye-tape",
@@ -4755,11 +3891,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "Hook-and-eye tape",
-    "referencePageIds": [
-      "17",
-      "15",
-      "17"
-    ],
     "slug": "zip-runners-hook-and-eye-tape",
     "specs": [
       {
@@ -4773,10 +3904,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Groz-Beckert"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 15, 17"
       },
       {
         "label": "Application",
@@ -4804,7 +3931,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "Zip plier suited to closures and fasteners work.",
-      "Referenced across catalogue pages 15, 17, 15.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "zip-runners-zip-plier",
@@ -4814,11 +3940,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/515fb87adfcfd4c5d41c593e7b9dfaf110a7d4ff-992x1403.jpg"
     ],
     "name": "Zip plier",
-    "referencePageIds": [
-      "15",
-      "17",
-      "15"
-    ],
     "slug": "zip-runners-zip-plier",
     "specs": [
       {
@@ -4832,10 +3953,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Rapid"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "15, 17, 15"
       },
       {
         "label": "Application",
@@ -4863,7 +3980,6 @@ export const syncedProducts = [
     "family": "accessories",
     "features": [
       "End clip set suited to closures and fasteners work.",
-      "Referenced across catalogue pages 17, 15, 17.",
       "Available for walk-in purchase and bulk requirement planning."
     ],
     "id": "zip-runners-end-clip-set",
@@ -4873,11 +3989,6 @@ export const syncedProducts = [
       "https://cdn.sanity.io/images/nzfscoez/production/b0acd4b39600a872d82f59d8b106191860017331-992x1403.jpg"
     ],
     "name": "End clip set",
-    "referencePageIds": [
-      "17",
-      "15",
-      "17"
-    ],
     "slug": "zip-runners-end-clip-set",
     "specs": [
       {
@@ -4891,10 +4002,6 @@ export const syncedProducts = [
       {
         "label": "Brand line",
         "value": "Veer"
-      },
-      {
-        "label": "Catalogue ref",
-        "value": "17, 15, 17"
       },
       {
         "label": "Application",

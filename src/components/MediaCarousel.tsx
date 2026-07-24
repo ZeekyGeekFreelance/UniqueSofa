@@ -34,7 +34,7 @@ export function MediaCarousel({
   showCount = true,
 }: MediaCarouselProps) {
   const safeImages = useMemo(
-    () => (images.length ? images : ["/catalogue/page-000.jpg"]),
+    () => (images.length ? images : ["/placeholder.jpg"]),
     [images],
   );
   const hasLoop = safeImages.length > 1;

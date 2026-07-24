@@ -1,5 +1,4 @@
 import type {
-  CataloguePage,
   Category,
   CategoryFamily,
   Product,
@@ -26,34 +25,26 @@ function asRecord(value: unknown) {
   return typeof value === "object" && value ? value as Record<string, unknown> : {};
 }
 
-function resolveCataloguePageMap(cataloguePages: CataloguePage[]) {
-  return new Map(cataloguePages.map((page) => [page.id, page.image]));
-}
-
 function mapCategories(
   rawCategories: Array<Record<string, unknown>>,
-  pageImageMap: Map<string, string>,
 ): Category[] {
   return rawCategories.map((entry) => {
     const family = asString(entry.family) as CategoryFamily;
     const safeFamily = knownFamilies.includes(family) ? family : "hardware";
-    const cataloguePageIds = asStringArray(entry.cataloguePageIds);
     return {
-      id:               asString(entry.id),
-      slug:             asString(entry.slug),
-      code:             asString(entry.code),
-      title:            asString(entry.title),
-      subtitle:         asString(entry.subtitle),
-      summary:          asString(entry.summary),
-      badge:            asString(entry.badge),
-      accent:           asString(entry.accent, "#bf622c"),
-      tone:             asString(entry.tone,   "#f9ece3"),
-      family:           safeFamily,
-      items:            asStringArray(entry.items),
-      cataloguePageIds,
-      images:           cataloguePageIds.map((id) => pageImageMap.get(id) ?? ""),
-    } satisfies Category;
-  });
+      id:       asString(entry.id),
+      slug:     asString(entry.slug),
+      code:     asString(entry.code),
+      title:    asString(entry.title),
+      subtitle: asString(entry.subtitle),
+      summary:  asString(entry.summary),
+      badge:    asString(entry.badge),
+      accent:   asString(entry.accent, "#bf622c"),
+      tone:     asString(entry.tone,   "#f9ece3"),
+      family:   safeFamily,
+      items:    asStringArray(entry.items),
+      images:   asStringArray(entry.images),
+    } satisfies Category;  });
 }
 
 function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
@@ -72,22 +63,21 @@ function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
       ? (entry.images as unknown[]).map((img) => asString(img)).filter(Boolean)
       : [];
     return {
-      id:               asString(entry.id),
-      slug:             asString(entry.slug),
-      name:             asString(entry.name),
-      brand:            asString(entry.brand),
-      badge:            asString(entry.badge),
-      categoryId:       asString(entry.categoryId),
-      categoryTitle:    asString(entry.categoryTitle),
-      family:           safeFamily,
-      type:             asString(entry.type),
-      summary:          asString(entry.summary),
-      description:      asString(entry.description),
-      features:         asStringArray(entry.features),
+      id:            asString(entry.id),
+      slug:          asString(entry.slug),
+      name:          asString(entry.name),
+      brand:         asString(entry.brand),
+      badge:         asString(entry.badge),
+      categoryId:    asString(entry.categoryId),
+      categoryTitle: asString(entry.categoryTitle),
+      family:        safeFamily,
+      type:          asString(entry.type),
+      summary:       asString(entry.summary),
+      description:   asString(entry.description),
+      features:      asStringArray(entry.features),
       specs,
-      tags:             asStringArray(entry.tags),
-      images:           rawImages,
-      referencePageIds: asStringArray(entry.referencePageIds),
+      tags:          asStringArray(entry.tags),
+      images:        rawImages,
     } satisfies Product;
   });
 }
@@ -95,24 +85,32 @@ function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
 export function mapSiteContent(queryResult?: SiteContentQueryResult | null): SiteContent {
   const raw = asRecord(queryResult?.siteSettings);
 
-  const cataloguePages: CataloguePage[] = Array.isArray(raw.cataloguePages)
-    ? (raw.cataloguePages as Array<Record<string, unknown>>).map((item) => ({
-        id:      asString(item.id),
-        title:   asString(item.title),
-        section: asString(item.section),
-        image:   asString(item.image),
-      }))
-    : [];
-
-  const pageImageMap = resolveCataloguePageMap(cataloguePages);
-
   const categories = Array.isArray(queryResult?.categories) && queryResult!.categories!.length > 0
-    ? mapCategories(queryResult!.categories as Array<Record<string, unknown>>, pageImageMap)
+    ? mapCategories(queryResult!.categories as Array<Record<string, unknown>>)
     : [];
 
   const products = Array.isArray(queryResult?.products) && queryResult!.products!.length > 0
     ? mapProducts(queryResult!.products as Array<Record<string, unknown>>)
     : [];
+
+  // If a category has no images uploaded yet, fall back to the first image
+  // from any of its products. This keeps category cards populated while
+  // dedicated category images are being added in Sanity Studio.
+  if (categories.length > 0 && products.length > 0) {
+    // Build a map: categoryId → first product image found
+    const productImageByCategory = new Map<string, string>();
+    for (const p of products) {
+      if (p.images.length > 0 && !productImageByCategory.has(p.categoryId)) {
+        productImageByCategory.set(p.categoryId, p.images[0]);
+      }
+    }
+    for (const cat of categories) {
+      if (cat.images.length === 0) {
+        const fallback = productImageByCategory.get(cat.id);
+        if (fallback) cat.images = [fallback];
+      }
+    }
+  }
 
   const featuredCategoryIds = Array.isArray(raw.featuredCategoryIds)
     ? (raw.featuredCategoryIds as Array<Record<string, unknown>>).map((i) => asString(i.id)).filter(Boolean)
@@ -175,15 +173,13 @@ export function mapSiteContent(queryResult?: SiteContentQueryResult | null): Sit
     heroMedia,
     categories,
     products,
-    cataloguePages,
-    catalogueFile:       asString(raw.catalogueFile),
     featuredCategoryIds,
     featuredProductIds,
     copy: {
       headerNavItems: Array.isArray(raw.navItems)
         ? (raw.navItems as Array<Record<string, unknown>>)
             .map((i) => ({ href: asString(i.href), label: asString(i.label) }))
-            .filter((i) => i.href && i.label)
+            .filter((i) => i.href && i.label && i.href !== "/catalogue")
         : [],
       headerCtaLabel: asString(raw.headerCtaLabel),
       home: {
@@ -217,16 +213,6 @@ export function mapSiteContent(queryResult?: SiteContentQueryResult | null): Sit
         filterFamilyLabel:   asString(raw.productsFilterFamilyLabel),
         filterRangeLabel:    asString(raw.productsFilterRangeLabel),
         filterBrandLabel:    asString(raw.productsFilterBrandLabel),
-      },
-      catalogue: {
-        heroEyebrow:     asString(raw.catalogueHeroEyebrow),
-        heroTitle:       asString(raw.catalogueHeroTitle),
-        heroDescription: asString(raw.catalogueHeroDescription),
-        focusEyebrow:    asString(raw.catalogueFocusEyebrow),
-        browseEyebrow:   asString(raw.catalogueBrowseEyebrow),
-        downloadLabel:   asString(raw.catalogueDownloadLabel),
-        callLabel:       asString(raw.catalogueCallLabel),
-        emailLabel:      asString(raw.catalogueEmailLabel),
       },
       about: {
         heroEyebrow:       asString(raw.aboutHeroEyebrow),

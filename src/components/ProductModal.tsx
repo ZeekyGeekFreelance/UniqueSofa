@@ -1,26 +1,27 @@
 ﻿import { ChevronLeft, ChevronRight, MessageCircle, Phone, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { BRAND, type Product } from "../data/site";
+import type { Product } from "../data/site";
 import { useSwipe } from "../hooks/useSwipe";
 import { ui } from "../lib/ui";
 
 type ProductModalProps = {
   product: Product;
   relatedProducts: Product[];
+  phoneHref: string;
+  phoneRaw: string;
   onClose: () => void;
   onOpenProduct: (product: Product) => void;
 };
 
 const SWIPE_THRESHOLD = 40;
 
-function buildWhatsappUrl(product: Product) {
-  const message = `Hello, I want details about ${product.name} from the ${product.categoryTitle} range. Catalogue ref: ${product.referencePageIds.join(", ")}.`;
-  return `https://wa.me/${BRAND.phoneRaw}?text=${encodeURIComponent(message)}`;
-}
-
-export function ProductModal({ product, relatedProducts, onClose, onOpenProduct }: ProductModalProps) {
+export function ProductModal({ product, relatedProducts, phoneHref, phoneRaw, onClose, onOpenProduct }: ProductModalProps) {
+  function buildWhatsappUrl(p: Product) {
+    const message = `Hello, I want details about ${p.name} from the ${p.categoryTitle} range.`;
+    return `https://wa.me/${phoneRaw}?text=${encodeURIComponent(message)}`;
+  }
   const media = useMemo(
-    () => (product.images.length ? product.images : ["/catalogue/page-000.jpg"]),
+    () => (product.images.length ? product.images : ["/placeholder.jpg"]),
     [product.images],
   );
   const [activeImage, setActiveImage] = useState(0);
@@ -259,9 +260,6 @@ export function ProductModal({ product, relatedProducts, onClose, onOpenProduct 
 
               {/* Tags */}
               <div className="mt-5 flex flex-wrap gap-2">
-                {product.referencePageIds.map((pid) => (
-                  <span key={`mp-${pid}`} className="rounded-full bg-[color:var(--accent-pale)] px-3 py-1 text-[0.7rem] font-bold text-[color:var(--accent-dark)]">Page {pid}</span>
-                ))}
                 {product.tags.map((tag) => (
                   <span key={`mt-${tag}`} className="rounded-full bg-[rgba(92,117,86,0.1)] px-3 py-1 text-[0.7rem] font-bold text-[color:var(--sage)]">{tag}</span>
                 ))}
@@ -313,7 +311,7 @@ export function ProductModal({ product, relatedProducts, onClose, onOpenProduct 
 
             {/* CTA — fixed to bottom of the sheet on mobile */}
             <div className="fixed bottom-0 left-0 right-0 z-20 flex gap-2.5 border-t border-[rgba(80,48,22,0.1)] bg-[#faf6f1]/95 px-5 pb-[max(env(safe-area-inset-bottom),0.85rem)] pt-3 backdrop-blur-md sm:hidden">
-              <a href={BRAND.phoneHref} className={`${ui.buttonBase} ${ui.buttonSecondary} px-4`}>
+              <a href={phoneHref} className={`${ui.buttonBase} ${ui.buttonSecondary} px-4`}>
                 <Phone size={15} />
                 Call
               </a>
@@ -429,9 +427,6 @@ export function ProductModal({ product, relatedProducts, onClose, onOpenProduct 
                 </ul>
 
                 <div className="mt-5 flex flex-wrap gap-2">
-                  {product.referencePageIds.map((pid) => (
-                    <span key={`dp-${pid}`} className="rounded-full bg-[color:var(--accent-pale)] px-3 py-1 text-[0.68rem] font-bold text-[color:var(--accent-dark)]">Page {pid}</span>
-                  ))}
                   {product.tags.map((tag) => (
                     <span key={`dt-${tag}`} className="rounded-full bg-[rgba(92,117,86,0.1)] px-3 py-1 text-[0.68rem] font-bold text-[color:var(--sage)]">{tag}</span>
                   ))}
@@ -480,7 +475,7 @@ export function ProductModal({ product, relatedProducts, onClose, onOpenProduct 
 
               {/* CTA */}
               <div className="flex gap-2.5 border-t border-[rgba(80,48,22,0.08)] bg-white/70 px-8 pb-6 pt-4 backdrop-blur-sm">
-                <a href={BRAND.phoneHref} className={`${ui.buttonBase} ${ui.buttonSecondary} px-4`}>
+                <a href={phoneHref} className={`${ui.buttonBase} ${ui.buttonSecondary} px-4`}>
                   <Phone size={15} />
                   Call
                 </a>

@@ -4,7 +4,6 @@ import { SiteContentProvider } from "./cms/SiteContentProvider";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { AboutPage } from "./pages/AboutPage";
-import { CataloguePage } from "./pages/CataloguePage";
 import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
 import { ProductsPage } from "./pages/ProductsPage";
@@ -54,7 +53,6 @@ export default function App() {
           <Switch>
             <Route path="/" component={HomePage} />
             <Route path="/products" component={ProductsPage} />
-            <Route path="/catalogue" component={CataloguePage} />
             <Route path="/about" component={AboutPage} />
             <Route path="/contact" component={ContactPage} />
             <Route component={NotFoundPage} />

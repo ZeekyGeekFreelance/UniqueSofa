@@ -19,10 +19,13 @@ type SiteContentProviderProps = {
 };
 
 export function SiteContentProvider({ children }: SiteContentProviderProps) {
+  // One fetch per session. The committed snapshot (synced-content.ts) handles
+  // the instant first render. Polling is disabled — content changes rarely and
+  // the free Sanity CDN quota is preserved. Re-run `npm run cms:pull` after
+  // any CMS update to keep the snapshot in sync.
   const queryOptions = useMemo(
     () => ({
-      ttlMs: 60_000,
-      refreshIntervalMs: 90_000,
+      ttlMs: 30 * 60_000, // 30 min — survives normal browsing sessions
     }),
     [],
   );

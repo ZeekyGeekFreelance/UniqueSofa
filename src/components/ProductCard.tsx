@@ -57,7 +57,6 @@ export function ProductCard({
 
         <div className="flex min-w-0 items-center justify-between gap-3 text-[0.72rem] font-semibold uppercase tracking-[0.07em] text-[var(--text-faint)]">
           <span className="truncate">{product.type}</span>
-          <span className="truncate">Ref {product.referencePageIds.join(" / ")}</span>
         </div>
 
         <div className="flex flex-wrap items-center gap-2">

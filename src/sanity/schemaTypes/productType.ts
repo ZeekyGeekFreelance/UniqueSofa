@@ -65,15 +65,6 @@ export default defineType({
       validation: (R) => R.required().min(1),
     }),
     defineField({
-      name: "referencePageIds",
-      title: "Catalogue Page References",
-      description: "Page numbers from the printed catalogue (01–20). Shown as 'Ref 07 / 12' on the card footer and as page chips in the modal.",
-      type: "array",
-      of: [defineArrayMember({ type: "string" })],
-      group: "inventory",
-      validation: (R) => R.required().min(1),
-    }),
-    defineField({
       name: "tags",
       title: "Tags",
       description: "Shown as small grey chips on the product card and in the modal. Used for search matching on the Products page.",

@@ -10,7 +10,8 @@
     "sanity:dev": "sanity dev",
     "sanity:build": "sanity build",
     "cms:seed": "node scripts/seed-sanity-content.mjs",
-    "cms:pull": "node scripts/pull-sanity-content-to-local.mjs"
+    "cms:pull": "node scripts/pull-sanity-content-to-local.mjs",
+    "cms:cleanup": "node scripts/cleanup-sanity-orphaned-fields.mjs"
   },
   "dependencies": {
     "@sanity/client": "^7.20.0",

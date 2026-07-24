@@ -91,13 +91,20 @@ export default defineType({
       validation: (R) => R.required().min(1),
     }),
     defineField({
-      name: "cataloguePageIds",
-      title: "Catalogue Page IDs",
-      description: "Page IDs from the catalogue (01–20) used to pull images.",
+      name: "images",
+      title: "Images",
+      description: "Representative images shown on category cards.",
       type: "array",
-      of: [defineArrayMember({ type: "string" })],
+      of: [
+        defineArrayMember({
+          type: "image",
+          options: { hotspot: true },
+          fields: [
+            defineField({ name: "alt", title: "Alt Text", type: "string" }),
+          ],
+        }),
+      ],
       group: "identity",
-      validation: (R) => R.required().min(1),
     }),
     defineField({
       name: "accent",
