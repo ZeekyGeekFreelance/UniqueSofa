@@ -31,6 +31,7 @@ function mapCategories(
   return rawCategories.map((entry) => {
     const family = asString(entry.family) as CategoryFamily;
     const safeFamily = knownFamilies.includes(family) ? family : "sofas";
+    return {
       slug:     asString(entry.slug),
       code:     asString(entry.code),
       title:    asString(entry.title),
@@ -49,6 +50,7 @@ function mapProducts(rawProducts: Array<Record<string, unknown>>): Product[] {
   return rawProducts.map((entry) => {
     const family = asString(entry.family) as CategoryFamily;
     const safeFamily = knownFamilies.includes(family) ? family : "sofas";
+    const specs = Array.isArray(entry.specs)
       ? entry.specs
           .map((item) => {
             const row = asRecord(item);
